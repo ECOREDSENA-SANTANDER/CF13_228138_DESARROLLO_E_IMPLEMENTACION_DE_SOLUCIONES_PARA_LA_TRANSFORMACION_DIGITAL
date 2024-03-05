@@ -2,18 +2,445 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 65%
+    right: 5%
+    max-width: 100px
+    @media screen and (max-width: $bp-max-lg)
+      max-width: 75px
+      top: 68%
 
+  &-2
+    animation: float2 4.5s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    left: 2%
+    max-width: 100px
+    @media screen and (max-width: $bp-max-lg)
+      max-width: 75px
+      right: 10%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(30px)
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(30px)
+  100%
+    transform: translateX(0px)
+
+.banner-principal__img
+  width: 30%
+.titulo-principal.color-acento-contenido .titulo-principal__numero span, 
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  color: #12263F !important
+.titulo-principal.color-acento-contenido .titulo-principal__numero
+  background-color: $color-acento-botones;
+.tarjeta.color-acento-contenido-2
+  background-color: #FDEDE0;
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+  background-color: #FFD2CB !important
+
+
+@keyframes float1
+	0%
+		transform: rotate(0deg) translateX(10px) rotate(-20deg)
+
+
+	100%
+		transform: rotate(-180deg) translateX(10px) rotate(180deg)
+
+@keyframes float2
+	0%
+		transform: rotate(0deg) translateX(10px) rotate(-20deg)
+
+
+	100%
+		transform: rotate(180deg) translateX(10px) rotate(-180deg)
+
+.img-a
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto
+
+.bloque1
+  .bloque-texto-b
+    &.color-secundario:before 
+      background-color: #ffe5cf;
+    &::before
+      top: 20%;
+      left: 70%;
+      height: 55%;
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: white
+
+.bg1
+  background-color: #FFF3EA
+  border-radius: 20px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: 810px)
+    width: 45px
+    height: 45px
+  @media (max-width: $bp-max-sm )
+    width: 35px
+    height: 35px
+.slyder-a__bullets__item
+  @media (max-width: 810px)
+    width: 15px
+    height: 15px
+    margin: 0 3px
+  @media (max-width: $bp-max-sm)
+    width: 15px
+    height: 15px
+    margin: 0 3px
+
+.slyder-a
+  &__tipo-a
+    .slyder-a
+      &__bullets
+        position: absolute
+        bottom: 20px !important
+        left: 50%
+        transform: translateX(-50%)
+
+.slyder-a__bullets__item--active
+  background-color: #FF6148 !important
+  border: 1px solid #FF6148 !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FF6148
+.slyder-a__bullets__item
+  background-color: #AFAFAF 
+  border: 1px solid #AFAFAF
+.slyder-a__btn--sigt:hover, .slyder-a__btn--atrs:hover
+  border-color: #FF6148;
+.bg2
+  background-color: #FFC8BF
+  border-radius: 6px
+
+.bg3
+  background-color: #CCD5D8
+  border-radius: 6px
+
+
+.bloque-texto-d.color-secundario::before
+  background-color: #E1E6E8
+
+
+.bloque-texto-g.color-acento-contenido
+  box-shadow: inset 5rem 0 0 0 white
+
+.tarjeta--slyder
+  height: 100%
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+.custom
+  .horizontal-scroll__wrapper
+    padding: 0.5rem
+.img-w1
+ width: 33% !important
+ top: 15% !important
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+.bg4
+  background-color: #FFC8BF
+.bg5
+  background-color: #FFE5CF
+
+
+.img-infografica-b__modal
+  background-color: #FFE7E3
+  border-radius: 10px
+  display: flex
+  justify-content: center
+  align-items: center
+.img-infografica-b__modal__contenido div >
+  *
+    color: #12263F !important
+
+.img-infografica-b__modal__btn-cerrar i
+  color: #12263F
+.img-infografica-b__modal__btn-cerrar
+  background-color: #2EFEC7
+  padding: .5rem
+
+.img-infografica__card
+  z-index: -1
+
+.img-infografica__card--selected
+  z-index: 1
+
+.bg7
+  background-color: white
+  border-radius: 22px
+
+
+.tarjeta-flip.color-acento-contenido .tarjeta-flip__contenido
+  background-color: #FFE5CF
+
+.bloque-texto-a.color-acento-contenido
+  background-color: #FFEAD9
+.bloque-texto-a.color-acento-contenido:before 
+    background-color: #FFB476;
+    left: 30%;
+
+
+.border-y
+  border-top: solid 2px #AFAFAF !important
+  border-bottom: solid 2px #AFAFAF !important
+
+.border-bot
+  border-bottom: solid 2px #AFAFAF !important
+
+.bg8
+  background-color: #FFE7E3
+
+.slyder__btn
+  background-color: #2EFEC7
+.slyder-a.slider-a-custom
+  background-color: #E4E9EB
+  padding: 1rem 3rem !important;
+  border-radius: 15px;
+.bloque-texto-b.color-primario::before
+  background-color: #E4E9EB
+
+.cajon.color-secundario
+  background-color: #ffebda
+
+.acordion
+  .tarjeta.bg6
+    background-color: #F1F1F1
+
+.tarjeta.bg6.acordion__activo
+  background-color: #FFF3EA !important
+.ml-1-custom
+  margin-left: 1rem !important;
+.ml-4-custom
+  margin-left: 4rem !important;
+.ml-6-custom
+  margin-left: 6rem !important;
+.colorv
+  color: #FF6148
+.colorv1
+  background-color: #083142
+.vtext
+  color: #083142
+.colorv2
+  color: #FFA726
+.icon-li-ul
+    font-size: 8px;
+    top: 8px !important;
+
+.bg9
+  background-color: #FFF3EA
+
+.tabla-a thead
+  border-top: #FFF3EA  solid 5px !important
+  background-color: #FF6148
+
+.bloque-texto-c.color-secundario
+  background-color: #E1E6E8
+
+.linea-tiempo-c__header__btn--right
+  background-color: #FF6148
+.linea-tiempo-c__header__btn--right:hover
+  border-color: #FF6148
+.linea-tiempo-c__header__btn--left
+  background-color: #FF6148
+.linea-tiempo-c__header__btn--left:hover
+  border-color: #FF6148
+.linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+  color: white;
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border: 2px solid #fff;
+.tarjeta--transparent 
+    background-color: transparent;
+.bg-norepeat
+    background-repeat: no-repeat;
+.border-20-cus
+  border-radius: 20px;
+.vcolor
+  color: #FF6148
+.mt-2-cus
+    margin-top: 2rem !important;
+
+.bgw
+  background-color: white
+
+.or
+  color: #FF6148
+.en
+  text-decoration: none !important
+
+.text-center
+  text-align: center;
+.slyder-f__btn i
+    height: 48px;
+    background-color: #FF6148;
+    border-radius: 50%;
+    background-position: center;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: white;
+.he-1-cus
+  min-height: 120px
+.he-2-cus 
+    height: 120px;
+.he-3-cus
+    height: 200px;
+.he-4-cus
+  height: 430px;
+.he-5-cus
+  height: 360px;
+.ml-neg-cus
+  margin-left: -20px
+.text-left-cus
+  text-align: left;
+.w-auto-cus
+  width: fit-content;
+.w-45-cus
+  width: 45%;
+.ml-neg-cus
+  margin-left: -20px
+
+
+
+.wd-80-cus
+  width: 80%
+.bg10
+  background-color: #FFE9E6
+  border-radius: 6px
+
+.bg11
+  background-color: #FFE5CF
+  border-radius: 6px
+  &:hover
+    background-color: #FFB476
+.bg11:hover .bg12 
+  background-color: #FFF1E5;
+.bg-white
+  background-color: white;
+.color-green
+  color: #00A77A
+.color-blue
+  color: #2977D8
+.color-orange
+  color: #FF6148
+.color-black
+  color: black;
+.ulcolor
+  color: #FF6148
+
+.bg12
+  background-color: #FFB476
+  border-radius: 6px
+.bg12-r
+  background-color: #FFB476
+  border-radius: 50%
+.bg13
+  background-color:#FFECDC
+  border-radius: 6px
+
+
+.bg14
+  background-color: #E4E9EB
+  border-radius: 6px
+
+
+.cajon.color-acento-contenido
+  background-color: #FFE7E3
+
+.bg15
+  background-color: #DEE9F0
+
+.img-w2
+ width: 33% !important
+ top: 5% !important
+
+.tarjeta.color-secundario
+  background-color: #FFC8BF
+  border-radius: 5px
+
+.brad
+  border-radius: 20px
+
+.bg16
+  background-color: #FFF3EA
+  border-radius: 6px
+.bg17
+   background-color: #FFF7F0
+   border-radius: 6px
+.bg18
+  background-color: #FFE5CF
+  border-radius: 6px;
+.bg19
+  background-color: #FFECDC
+.bg20
+  background-color: #FFEEEB;
+  border-radius: 6px;
+
+.bg-white-r
+  background-color: white;
+  border-radius: 6px
+
+.img-center-cus
+  position: relative
+  top: 35%
+.linea-tiempo-b__icon::after
+  left: 90%
+.linea-tiempo-b__icon
+  padding-top: 0%
+
+.linea-tiempo-b__row:nth-child(2n+1) .linea-tiempo-b__icon::after
+  right: 89%
+
+.linea-tiempo-b__row:nth-child(2n+1) .linea-tiempo-b__content
+  text-align: left
+
+.tarjeta.color-primario
+  background: linear-gradient(190deg, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%)
+
+
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ol
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ol--cuadro
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+
+.banner-principal
+  .container.tarjeta
+    @media screen and (max-width: $bp-max-xs)
+      background-image: none !important
+      background: #093A4F
+
+@media screen and (max-width: $bp-max-xs)
+  .slyder-a__bullets__item
+    margin: 0 4px
+  .w-img-cus
+    width: 50%;
