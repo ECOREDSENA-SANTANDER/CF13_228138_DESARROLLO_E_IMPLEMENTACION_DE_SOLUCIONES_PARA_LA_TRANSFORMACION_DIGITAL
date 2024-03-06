@@ -7,45 +7,34 @@
         span 2
       h1 Preparación de datos
 
+    .bloque1
+      .bloque-texto-b.color-secundario.py-4.mb-0
+        .bloque-texto-b__texto
+          .row.justify-content-center.align-items-center.d-flex
+            .col-lg-10.col-12.mb-4.mg-lg-0
+              p Cuando el ser humano empezó a diferenciarse de las demás especies, una de las características más importantes, entre otras, es la manera de comportarse socialmente, es decir, cuando las relaciones sociales y comportamentales, entre manadas empezaron a cuidarse, a comunicarse, etc.
+            .col-lg-2.col-md-5.col-8.px-5
+              img.mb-0(alt="" src="@/assets/curso/temas/Tema2/1.svg")
 
-    .row.mt-5.mb-5
-      .col-11
-        .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
-            p Las bases de datos son esa colección de datos integrados bajo un contexto o dominio, que contienen datos estructurados que reflejan relaciones, restricciones, validaciones y semánticas que reflejan las condiciones de negocio. Esta colección usa la computación para su almacenamiento y procesamiento.
-            p.mt-3 <b>Los sistemas de base de datos están conformados por los siguientes elementos básicos:</b>
-      .col-1.px-0
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.p-4.bg20.d-flex.justify-content-center.align-items-center
+        img.mx-3.w-50(src='@/assets/curso/temas/Tema2/2.svg', alt='Texto que describa la imagen')
+        p Desde ese mismo momento, la información y la manera de configurar los datos a través del proceso comunicativo (transmisor, emisor, canal, mensaje y contexto) llevan a que aparezcan diversas formas de información y datos, incluso miles de mensajes de las primeras civilizaciones han quedado guardados por miles de años hasta nuestros días a través de pinturas, esculturas y símbolos.
+
+    .row.mb-5
+      .col-md-5.mb-4.mb-md-0
         figure
-          img(src="@/assets/curso/temas/Tema2/1.svg", alt="Texto que describa la imagen").floating
+          img(src='@/assets/curso/temas/Tema2/3.png', alt='Texto que describa la imagen')
+      .col-md-6
+        p.mt-2-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados).
+        p.fw-bold.mt-3 En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.p-4.d-flex.justify-content-center.align-items-center
+        img.mx-3(src='@/assets/curso/temas/Tema2/4.svg', alt='Texto que describa la imagen')
 
-    .tarjeta.fab.p-4.mb-5
-      
-      .row.justify-content-around.align-items-center
-
-        .col-md-2
-          figure
-            img(src='@/assets/curso/temas/Tema2/2.png', alt='Texto que describa la imagen')
-        .col-md-6.mb-4
-          p Desde ese mismo momento, la información y la manera de configurar los datos a través del proceso comunicativo (transmisor, emisor, canal, mensaje y contexto) llevan a que aparezcan diversas formas de información y datos, incluso miles de mensajes de las primeras civilizaciones han quedado guardados por miles de años hasta nuestros días a través de pinturas, esculturas y símbolos.
-        
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-secundario.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            h4.mb-4 Datos
-            figure
-              img(src='@/assets/curso/temas/Tema2/3.png', alt='Texto que describa la imagen')
-      .col-md.fad.p-5
-        .row.justify-content-around.align-items-center.mb-4
-          .col-6
-            h4.mb-4 Información
-            figure
-              img(src='@/assets/curso/temas/Tema2/4.png', alt='Texto que describa la imagen')
-
-    p.md-4 Bajo el contexto técnico, los datos en la era moderna se guardan a través de máquinas digitales a partir de la implementación de Bases de datos (BD).
-
-    p.md-4 <b>Se invita a visualizar el siguiente video donde se profundiza en la diferencia entre dato e información:</b>
+    p Bajo el contexto técnico, los datos en la era moderna se guardan a través de máquinas digitales a partir de la implementación de Bases de datos (BD).
+    h5.mb-5 Se invita a visualizar el siguiente video donde se profundiza en la diferencia entre dato e información:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -60,33 +49,30 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Entendimiento de la data
 
-    .row
+    .row.mb-5
       .col-md-6
-        p.md-3 Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
+        p.md-3.mt-2-cus Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
         p Conocer su naturaleza y características es trascendental para los proyectos BI, donde la calidad de los datos <b>(Data quality - DQ)</b>, se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/5.png', alt='Texto que describa la imagen')
 
       
-    .row
+    .row.mb-5
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/6.png', alt='Texto que describa la imagen')
       .col-md-6
-        p.md-3 El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre <b>CONFIABLES</b>; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, <b>FECHA DE NACIMIENTO</b>); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice
+        p.md-3.mt-2-cus El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre <b>CONFIABLES</b>; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, <b>FECHA DE NACIMIENTO</b>); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice
         p el registro de datos tenga aspectos como: tipo de dato según la naturaleza del registro, formato uniforme aceptado por todo el sistema, que el dato sea válido por reglas de negocio y naturaleza del proceso, entre otros.
       
 
-    p.md-4 La calidad de los datos toma aún mayor fuerza para aplicar validaciones con regularidad, cuando se habla de ecosistemas de datos, donde convergen diversas infraestructuras de datos y se interrelacionan datos compartidos.
-    p.md-4 Se puede definir, que las bases de datos presentan calidad en los datos si cumplen seis dimensiones: exactitud, completitud, consistencia, unicidad, disponibilidad y validez. Sin embargo, esta clasificación no está universalmente aceptada, por lo cual se adicionan otras dimensiones: actualizado, conformidad, integridad y precisión, que complementan las dimensiones DQ.
-    p.md-4 <b>A continuación, se presenta la descripción de cada una de estas dimensiones, que son medibles y que definen la calidad de los datos o Data Quality:</b>
+    p La calidad de los datos toma aún mayor fuerza para aplicar validaciones con regularidad, cuando se habla de ecosistemas de datos, donde convergen diversas infraestructuras de datos y se interrelacionan datos compartidos.
+    p Se puede definir, que las bases de datos presentan calidad en los datos si cumplen seis dimensiones: exactitud, completitud, consistencia, unicidad, disponibilidad y validez. Sin embargo, esta clasificación no está universalmente aceptada, por lo cual se adicionan otras dimensiones: actualizado, conformidad, integridad y precisión, que complementan las dimensiones DQ.
+    h5.mb-5 A continuación, se presenta la descripción de cada una de estas dimensiones, que son medibles y que definen la calidad de los datos o Data Quality:
     
 
-    .tarjeta.tarjeta-linea-tiempo-c.p-4.mb-5.md-5
-      //- LineaTiempoC debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- text-small se usa para que los títulos sean mas pequeños
+    .tarjeta.tarjeta-linea-tiempo-c.p-4.mb-5.bg21
       LineaTiempoC.color-acento-botones(text-small)
         .row(titulo="Exactitud")
           .col-md-8.mb-4.mb-md-0
@@ -164,7 +150,7 @@
               img(src='@/assets/curso/temas/Tema2/15.png', alt='Texto que describa la imagen')
 
 
-    p.md-4 <b>Además, es necesario reconocer la importancia de las pruebas de integridad de datos:</b>
+    h5.mb-5 Además, es necesario reconocer la importancia de las pruebas de integridad de datos:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -178,7 +164,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Detección de errores y datos faltantes
 
-    p.md-4 Uno de los mayores desafíos para la analítica es lidiar con sistemas de información que fueron diseñados por fuera de los dominios de la centralización, o estándares de calidad y validación que garanticen un óptimo resultado.
+    p Uno de los mayores desafíos para la analítica es lidiar con sistemas de información que fueron diseñados por fuera de los dominios de la centralización, o estándares de calidad y validación que garanticen un óptimo resultado.
 
     .row.mb-5
       .col-lg-6.mb-5.mb-lg-0
@@ -224,12 +210,12 @@
         h4.text-center Eliminación por pares
         p A diferencia del anterior, solo pone en Nulos aquellos valores que faltan, conservando el resto de la fina, sin embargo, para modelos BI o ML podría presentar inconvenientes, pues hay medidas u operaciones que requieren la completitud de los datos.
 
-    .row.md-4
+    .row
       .col-lg-3.mb-3
         figure
           img(src='@/assets/curso/temas/Tema2/21.png', alt='Texto que describa la imagen')
 
-    p.md-4 Esta técnica está basada en estimar los valores faltantes en relación a los datos disponibles de la misma columna, en este caso, se hace uso de la estadística inferencial (más adelante se detalla), la idea es que los datos completados no interfieran en la media ni desviación del conjunto de datos. Este tipo de completitud se aplica a datos numéricos, ya sean tipo enteros o flotantes. Hay dos maneras de aplicar la imputación o reemplazo del dato:
+    p Esta técnica está basada en estimar los valores faltantes en relación a los datos disponibles de la misma columna, en este caso, se hace uso de la estadística inferencial (más adelante se detalla), la idea es que los datos completados no interfieran en la media ni desviación del conjunto de datos. Este tipo de completitud se aplica a datos numéricos, ya sean tipo enteros o flotantes. Hay dos maneras de aplicar la imputación o reemplazo del dato:
     
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.tarjeta-container-uno.p-5.text-black
@@ -295,7 +281,7 @@
     p Se denomina al conjunto de datos, lo que traduce una colección de información en una sola tabla. donde cada campo representa una variable particular.
     p A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los Dataset contienen todo en una única tabla.
 
-    .tarjeta--container.row.mb-5.md-4
+    .tarjeta--container.row.mb-5
       .col-6
         figure
           img(src='@/assets/curso/temas/Tema2/25.png', alt='Texto que describa la imagen')
@@ -305,7 +291,7 @@
 
     p.mb-5 <b>A continuación se presentan los tipos de datos en los orígenes para los modelos analíticos:</b>
 
-    ImagenInfografica.color-secundario.mb-5.md-5
+    ImagenInfografica.color-secundario.mb-5
 
       template(v-slot:imagen)
         figure
