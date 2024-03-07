@@ -145,7 +145,7 @@
         .row.justify-content-around.align-items-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/Tema5/7.svg', alt='Texto que describa la imagen')
+              img.w-75(src='@/assets/curso/temas/Tema5/7.svg', alt='Texto que describa la imagen')
         p Son aquellas que surgen a partir de las reglas de negocio y su naturaleza surge a partir del funcionamiento de los procesos. Por lo general se programan en procedimientos o algoritmos programados que evalúan las condiciones y restricciones previas.
 
     
@@ -155,14 +155,15 @@
     #t_5_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.6 Programación transaccional
 
-    p Su característica principal en las organizaciones, son las aplicaciones que emplean bases de datos, estas pueden ser SQL o NoSQL, pero indistintamente, son datos que se asocian y presentan dependencia entre sí.
+    p.mb-5 Su característica principal en las organizaciones, son las aplicaciones que emplean bases de datos, estas pueden ser SQL o NoSQL, pero indistintamente, son datos que se asocian y presentan dependencia entre sí.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-8.p-4.fab.d-flex
-        p Los datos que surgen de estos sistemas son fuentes para los procesos analíticos, los cuales toman varios programas transaccionales.
-      
-        figure.mx-7
-          img(src='@/assets/curso/temas/Tema5/8.png', alt='Texto que describa la imagen')
+    .row.mb-5 
+      .col-10.justify-content-center.align-items-center.m-auto
+        .container-card
+          .first-card 
+            p.w-75 Los datos que surgen de estos sistemas son fuentes para los procesos analíticos, los cuales toman varios programas transaccionales.
+          .second-card
+            img(src='@/assets/curso/temas/Tema5/8.png', alt='Texto que describa la imagen')
 
     Separador
 
@@ -172,31 +173,32 @@
     p En una estructura lineal, cada elemento sólo puede ir enlazado al siguiente o al anterior. A las estructuras de datos no lineales se les llama también estructuras de datos multienlazadas y tiene las siguientes características:
 
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-md-5.col-lg.mb-5.mb-lg-0
+    .row.mb-3.justify-content-center.align-items-center
+      .col-4.mb-5.mb-lg-0.sin-espacio-right
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/Tema5/9.png' alt='AvatarTop')
-          .tarjeta.tarjeta-avatar-uno
+          img(src='@/assets/curso/temas/Tema5/9.svg' alt='AvatarTop')
+          .tarjeta.color-acento-contenido-3
             .text-black.p-4
-              h2.text-center.small Sucesores
-              p Se trata de estructuras de datos en las que cada elemento puede tener varios sucesores y/o varios predecesores.
+              h2.text-center.small.mt-4 Sucesores
+              p.he-6-cus Se trata de estructuras de datos en las que cada elemento puede tener varios sucesores y/o varios predecesores.
 
-      .col-md-5.col-lg.mb-5.mb-lg-0
+      .col-4.mb-5.mb-lg-0.sin-espacio-left
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/Tema5/10.png' alt='AvatarTop')
-          .tarjeta.tarjeta-avatar-dos
+          img(src='@/assets/curso/temas/Tema5/10.svg' alt='AvatarTop')
+          .tarjeta.color-acento-contenido-4
             .text-black.p-4
-              h2.text-center.small Estructura
-              p Su aplicación se hace en estructuras de árbol o grafos.
+              h2.text-center.small.mt-4 Estructura
+              p.he-6-cus Su aplicación se hace en estructuras de árbol o grafos.
+
 
     Separador
 
     #t_5_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.8 Álgebra relacional
 
-    .row.mb-5.justify-content-center.align-items-center
+    .row.mb-5
       .col-md-6
-        p.mb-3 Es el área del álgebra que usa métodos para crear nuevas relaciones a partir de unas ya existentes. Todas las operaciones sobre tablas relacionales a través de un lenguaje de manipulación de datos están bajo este esquema.
+        p.mb-3.mt-2-cus Es el área del álgebra que usa métodos para crear nuevas relaciones a partir de unas ya existentes. Todas las operaciones sobre tablas relacionales a través de un lenguaje de manipulación de datos están bajo este esquema.
         p.mb-3 Emplea operadores y otros elementos del álgebra, existen entre otros operadores de proyección, selección, unión, diferencias intersecciones, divisiones, etc.
         p <b>Este tipo de operaciones son muy usadas en los procesos ETL.</b>
       .col-md-5.mb-4.mb-md-0
@@ -222,21 +224,24 @@
     #t_5_9.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.9 SQL
 
-    .row.mb-5.justify-content-center.align-items-center
+    .row.mb-5
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema5/12.png', alt='Texto que describa la imagen')
       .col-md-6
-        p.mb-3 <b>SQL (por sus siglas en inglés Structured Query Language;</b> en español lenguaje de consulta estructurada) es un lenguaje que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos.
+        p.mb-3.mt-2-cus <b>SQL (por sus siglas en inglés Structured Query Language;</b> en español lenguaje de consulta estructurada) es un lenguaje que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos.
         p.mb-3 Es un lenguaje estándar consolidado por el Instituto Americano de Normas (ANSI) y por la Organización de Estándares Internacional (ISO). Está compuesto por comandos, cláusulas, operadores y funciones de agregado
       
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-8.p-4.fab.d-flex
-        p Es el lenguaje “natural” para el manejo y consulta de datos, todos los sistemas relacionales por lo general, lo emplean para la manipulación de datos complementando con otros lenguajes.
-      
-        figure.mx-7
-          img(src='@/assets/curso/temas/Tema5/13.png', alt='Texto que describa la imagen')
+ 
+    
+    .row.mb-5 
+      .col-10.justify-content-center.align-items-center.m-auto
+        .container-card
+          .first-card 
+            p.w-75 Es el lenguaje “natural” para el manejo y consulta de datos, todos los sistemas relacionales por lo general, lo emplean para la manipulación de datos complementando con otros lenguajes.
+          .second-card
+            img(src='@/assets/curso/temas/Tema5/13.png', alt='Texto que describa la imagen')
 
 
     p.mb-3 Existen varios motores de bases de datos con núcleo SQL, entre los más conocidos MySQL de uso libre y otra distribución licenciada por Oracle. <b>En el siguiente video se presenta las ventajas de Mysql:</b>
@@ -282,11 +287,11 @@
     p.mb-5 Para ello se desarrollaron diversas maneras, entre las más comunes son:
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-3.mb-4.mb-md-0
+      .col-md-6.mb-4.mb-md-0
         h4.mb-3 JSON
         p.mb-4 Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web. Ejemplo de estructura JSON:
-        figure
-          img(src='@/assets/curso/temas/Tema5/14.png', alt='Texto que describa la imagen')
+        figure.justify-content-center.align-items-center
+          img.w-50.m-auto(src='@/assets/curso/temas/Tema5/14.png', alt='Texto que describa la imagen')
       .col-md-6
         h4.mb-3 BSON
         p.mb-4 Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web. Ejemplo de estructura JSON:
@@ -295,7 +300,7 @@
         p.mb-4 Son archivos propiamente dicho, está basado en el lenguaje XML, usado para guardar e intercambiar datos estructurados a través de sistemas web.
 
         .tarjeta--container.row.mb-5
-          .col-md.tarjeta-container-ocho.p-5
+          .col-md.bg26.p-5
            p Estos lenguajes y sus archivos derivados mejoran el uso de datos y la forma en que se estructura en Internet, mientras que el HTML se encarga del aspecto visual y estilo de la información.
 
 
@@ -304,27 +309,29 @@
     #t_5_12.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.12 DDL, DML, DC
 
-    p.mb-0 Las bases de datos emplean diferentes tipos de lenguajes y también de allí se derivan archivos necesarios para que los motores de bases de datos funcionen y conserven la información física y lógicamente. Estas son:
+    p.mb-5 Las bases de datos emplean diferentes tipos de lenguajes y también de allí se derivan archivos necesarios para que los motores de bases de datos funcionen y conserven la información física y lógicamente. Estas son:
 
 
     .row
       .col-md-6
-        AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__inactivo")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="Data Definition Language (DDL)")
-            .col-md-9.mb-4.mb-md-0
-              p Lenguaje de definición de datos: es el encargado de definir estructuras de datos proporcionado por los sistemas gestores de bases de datos permitiendo a los programadores de las bases de datos enfocar y definir estructuras, las más importantes son: CREATE (crear tablas o bases de datos), ALTER (cambiar o redefinir tablas o campos), DROP (Limpiar tablas, eliminar objetos, índices, etc.).
+            .col-md-12.mb-4.mb-md-0
+              p.mx-5 Lenguaje de definición de datos: es el encargado de definir estructuras de datos proporcionado por los sistemas gestores de bases de datos permitiendo a los programadores de las bases de datos enfocar y definir estructuras, las más importantes son: CREATE (crear tablas o bases de datos), ALTER (cambiar o redefinir tablas o campos), DROP (Limpiar tablas, eliminar objetos, índices, etc.).
           .row(titulo="Data Manipulation Language (DML)")
-            .col-md-9.mb-4.mb-md-0
-              p Lenguaje de Manipulación de Datos: permite a los motores de datos instrucciones de SQL, otorga a los usuarios introducir datos para luego ejecutar tareas de consultas o modificación de los datos en las tablas especificadas. Los elementos que se utilizan para manipular los datos son: 
-              i.fas.fa-window-minimize.me-2.mb-2 SELECT. Sentencia para realizar consultas sobre los datos.
-              i.fas.fa-window-minimize.me-2.mb-2 INSERT. Permite insertar valores en una tabla.
-              i.fas.fa-window-minimize.me-2.mb-2 UPDATE. Modificar los valores de uno o varios registros.
-              i.fas.fa-window-minimize.me-2.mb-2 DELETE. Eliminar registros de una tabla.
+            .col-md-12.mb-4.mb-md-0
+              .mx-5 
+                p Lenguaje de Manipulación de Datos: permite a los motores de datos instrucciones de SQL, otorga a los usuarios introducir datos para luego ejecutar tareas de consultas o modificación de los datos en las tablas especificadas. Los elementos que se utilizan para manipular los datos son: 
+                p.ml-1-cus - SELECT. Sentencia para realizar consultas sobre los datos.
+                p.ml-1-cus - INSERT. Permite insertar valores en una tabla.
+                p.ml-1-cus - UPDATE. Modificar los valores de uno o varios registros.
+                p.ml-1-cus - DELETE. Eliminar registros de una tabla.
           .row(titulo="Data Control Language. (DCL)")
-            .col-md-9.mb-4.mb-md-0
-              p Lenguaje de Control de Datos: permiten administrar base de datos, controlar el acceso a los objetos, es decir, podemos otorgar o denegar permisos a uno o más roles para realizar determinadas tareas. Los comandos para controlar los permisos son los siguientes: 
-              i.fas.fa-window-minimize.me-2.mb-2 GRANT. Permite asignar permisos. 
-              i.fas.fa-window-minimize.me-2.mb-2 REVOKE. Elimina los permisos asignados.
+            .col-md-12.mb-4.mb-md-0
+              .mx-5 
+                p Lenguaje de Control de Datos: permiten administrar base de datos, controlar el acceso a los objetos, es decir, podemos otorgar o denegar permisos a uno o más roles para realizar determinadas tareas. Los comandos para controlar los permisos son los siguientes: 
+                p.ml-1-cus - GRANT. Permite asignar permisos. 
+                p.ml-1-cus - REVOKE. Elimina los permisos asignados.
       .col-md-6.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema5/15.png', alt='Texto que describa la imagen')

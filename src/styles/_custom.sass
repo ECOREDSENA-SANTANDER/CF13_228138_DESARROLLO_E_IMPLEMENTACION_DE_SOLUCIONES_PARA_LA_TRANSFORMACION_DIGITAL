@@ -49,6 +49,25 @@
 .linea-tiempo-d.color-secundario  .linea-tiempo-d__item__number,
 .linea-tiempo-d.color-secundario  .linea-tiempo-d__item__content 
     background-color: #E1EAF4 !important
+
+
+.tarjeta.color-acento-contenido-3
+  background-color: #FFB476;
+  border-radius: 20px  0  0 20px;
+
+.tarjeta.color-acento-contenido-4
+  background-color: #FFE5CF;
+  border-radius:   0 20px 20px 0 ;
+
+.border-radius-0
+  border-radius: 0 !important
+.sin-espacio-right
+  padding-right: 0 !important
+  margin-right: 0 !important
+.sin-espacio-left
+  padding-left: 0 !important
+  margin-left: 0 !important
+
 @keyframes float1
 	0%
 		transform: rotate(0deg) translateX(10px) rotate(-20deg)
@@ -336,6 +355,8 @@
   height: 430px;
 .he-5-cus
   height: 360px;
+.he-6-cus
+  height: 90px;
 .ml-neg-cus
   margin-left: -20px
 .text-left-cus
@@ -529,6 +550,31 @@
     @media screen and (max-width: $bp-max-xs)
       background-image: none !important
       background: #093A4F
+
+
+.container-card
+  position: relative;
+
+.second-card 
+  position: absolute;
+
+.first-card
+  z-index: 0;
+  background-color: #FFEEEB
+  border-radius: 23px;
+  padding: 20px 50px
+  height: 125px
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+
+.second-card 
+  z-index: 1;
+  top: -15px; 
+  right: 85px; 
+
+
 
 @media screen and (max-width: $bp-max-xs)
   .slyder-a__bullets__item
