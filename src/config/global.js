@@ -261,7 +261,7 @@ export default {
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Herramientas para el análisis de datos ',
+        titulo: 'Herramientas para el análisis de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -323,44 +323,65 @@ export default {
   },
   complementario: [
     {
-      tema: 'Aplicaciones web',
-      referencia: 'Ferrer, J. (2014).<i> Aplicaciones web</i>. RA-MA.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=12589',
-    },
-    {
-      tema: 'Ciclo de vida del <i>software</i>',
+      tema: '1. Modelamiento y gestión de bases de datos',
       referencia:
-        'Hernández, M. y Baquero, L. (2020). <i>Ciclo de vida de desarrollo ágil de software seguro</i>. Fundación Universitaria Los Libertadores.',
+        'Quintana, G. (2014). Aprende SQL. Universitat Jaume I. Servei de Comunicació i Publicacions. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53252',
       tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=22372',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53252',
     },
     {
-      tema: 'Requisitos',
-      referencia: 'iTunes U - UAEH. (2019). <i>Tipos de requerimientos</i>',
+      tema: '1.2 Técnicas de almacenamiento de datos y consultas',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Aplicando el MER con herramienta Día || Cardinalidad modelo entidad relación. SENA. https://youtu.be/KcORNp2A3yg',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=PUyfzEzSUSg',
+      link: 'https://youtu.be/KcORNp2A3yg',
     },
     {
-      tema: 'Requisitos',
+      tema: '2.2 Detección de errores y datos faltantes',
       referencia:
-        'CavernaTech. (2019). <i>Requisitos funcionales y no funcionales de software</i>.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Lv7XbZtnQ6A',
+        'Codificandobits. (s.f). Mapa paso a paso manejo datos faltantes. Blog. https://www.codificandobits.com/descargas/ dl_202100618_mapa_pasos_manejo_datos_faltantes.pdf',
+      tipo: 'Guía',
+      link:
+        'https://www.codificandobits.com/descargas/dl_202100618_mapa_pasos_manejo_datos_faltantes.pdf',
     },
     {
-      tema: 'Ingeniería de requisitos',
+      tema: '2.3 Identificación de variables importantes',
       referencia:
-        'Pressman, R. (2010). <i>Ingeniería del software: un enfoque práctico</i>. McGraw-Hill.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=686',
+        'Sotaquirá, M. (2021). Guía completa para el manejo de datos faltantes. Blog. https://www.codificandobits.com/blog/manejo-datos-faltantes/',
+      tipo: 'Artículo',
+      link: 'https://www.codificandobits.com/blog/manejo-datos-faltantes/',
     },
     {
-      tema: 'Ingeniería de requisitos',
+      tema: '3.7 Procedimientos almacenados y funciones',
       referencia:
-        'Sommerville, I. (2011). <i>Ingeniería de software</i>. Pearson Educación.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=3313',
+        'Calbimonte, D. (2019). Funciones frente a los procedimientos almacenados en SQL Server. https://www.sqlshack.com/es/funciones-frente-a-los-procedimientos-almacenados-en-sql-server/',
+      tipo: 'Tutorial',
+      link:
+        'https://www.sqlshack.com/es/funciones-frente-a-los-procedimientos-almacenados-en-sql-server/',
+    },
+    {
+      tema: '4. Análisis exploratorio de datos',
+      referencia:
+        'Codificandobits. (s.f). Guía paso a paso análisis exploratorio. Blog. https://www.codificandobits.com/descargas/ dl_202100611_mapa_pasos_analisis_exploratorio.pdf',
+      tipo: 'Mapa conceptual',
+      link:
+        'https://www.codificandobits.com/descargas/dl_202100611_mapa_pasos_analisis_exploratorio.pdf',
+    },
+    {
+      tema: '5.8 Algebra relacional',
+      referencia:
+        'Cidecam. (2021). Algebra Relacional. Página web. http://cidecame.uaeh.edu.mx/lcc/mapa/PROYECTO/ libro14/33_algebra_relacional.html',
+      tipo: 'Artículo',
+      link:
+        'http://cidecame.uaeh.edu.mx/lcc/mapa/PROYECTO/libro14/33_algebra_relacional.html',
+    },
+    {
+      tema: '7.3 Librerías',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Manejo de datos con Pandas. SENA. https://youtu.be/P6LmIUMJg3U',
+      tipo: 'Vídeo',
+      link: 'https://youtu.be/P6LmIUMJg3U',
     },
   ],
   glosario: [
@@ -370,108 +391,129 @@ export default {
         'se refiere a las historias que los datos cuentan, se refiere a un histórico de eventos y resultados.',
     },
     {
-      termino: 'Información Predictiva ',
+      termino: 'Información Predictiva',
       significado:
         'se refiere a los hechos probables que sucederán, esto se realiza basado en datos descriptivos, es decir, datos históricos y procesos matemáticos y/o modelación de Machine Learning.',
     },
     {
-      termino: 'Joins ',
+      termino: 'Joins',
       significado:
         'proceso de selección de datos de varias tablas y unirlos en una vista o nueva tabla. Una instrucción de “SQL JOIN” en un comando Select que combina columnas entre una o más tablas en una base de datos.',
     },
     {
-      termino: 'Lenguaje DAX ',
+      termino: 'Lenguaje DAX',
       significado:
         'lenguaje específico para gestión de datos creado por Microsoft (Data Analysis Expressions). Se emplea en colecciones de datos en aplicaciones como Excel, Analysis Services y Power BI.',
     },
     {
-      termino: 'Lenguaje R ',
+      termino: 'Lenguaje R',
       significado:
         'lenguaje de programación para la gestión de datos. Es un lenguaje interpretado que ejecuta las instrucciones directamente sin previa compilación.',
     },
     {
-      termino: 'Normalización ',
+      termino: 'Normalización',
       significado:
         'la estructura organizada en datos relacionales que cumplen unas reglas de normalización que garantizan la integridad, calidad y optimización en la base de datos.',
     },
     {
-      termino: 'Procesadores ',
+      termino: 'Procesadores',
       significado:
         'CPU (Unidad central de proceso), es el componente del computador y otros dispositivos programables, que interpreta las instrucciones contenidas en los programas y procesa los datos.',
     },
     {
-      termino: 'Procesamiento por lotes ',
+      termino: 'Procesamiento por lotes',
       significado:
         'al tener muchas cargas de datos y procesamientos, es necesario reunir recursos para que se ejecuten de manera independiente optimizando recursos, de esta manera las tareas se completan periódicamente de manera repetitiva',
     },
     {
-      termino: 'RAM ',
+      termino: 'RAM',
       significado:
         'es la memoria temporal o de corto plazo de las computadoras, es la memoria principal de trabajo, los programas y datos se cargan allí para que trabajen más rápidamente.',
     },
     {
-      termino: 'Script ',
+      termino: 'Script',
       significado:
         'se refiere a fragmentos de código de programación que pueden ejecutar una o varias funciones.',
     },
     {
-      termino: 'Sistema operativo ',
+      termino: 'Sistema operativo',
       significado:
         'es el software principal de las computadoras, se emplea como plataforma para gestionar las aplicaciones, recursos del hardware y entornos gráficos y funcionales.',
     },
     {
-      termino: 'Tabular ',
+      termino: 'Tabular',
       significado:
         'en estadística, son la recopilación y procesamiento de la información capturada de los instrumentos disponibles al momento de realizar encuestas, toma de datos y otras.',
     },
     {
-      termino: 'TI ',
+      termino: 'TI',
       significado: '(IT) Abreviatura de Tecnología de la información.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Boehm, B. (1979). A Spiral Model of Software Development and Enhancement. <i>ACM Software Engineering Notes, 11</i>(4), 22-42.',
-    },
-    {
-      referencia:
-        'Durán, A. y Bernárdez, B. (2001). <i>Metodología para el análisis de requisitos de sistemas software</i>. DOCPLAYER.',
+        'Banco de la República. (2022). Sistema de información económica de la Gerencia Técnica.',
       link:
-        'https://docplayer.es/9147696-Metodologia-para-el-analisis-de-requisitos-de-sistemas-software.html',
+        'https://totoro.banrep.gov.co/analytics/saw.dll?Portal&PortalPath=%2Fshared%2FDashboards_T%2FD_Estad%C3%ADsticas%2FEstad%C3%ADsticas&NQUser=publico&NQPassword=publico123&lang=es&page=Precios%20e%20inflaci%C3%B3n',
     },
+
     {
       referencia:
-        'Heras del Dedo, R. y Álvarez, A. (2017). <i>Métodos ágiles: Scrum, Kanban, Lean</i>. Difusora Larousse - Anaya Multimedia.',
+        'Conza, A. (15 de abril de 2018). ESTÁNDARES PARA DISEÑO E IMPLEMENTACIÓN DE BASES DE DATOS RELACIONALES. Obtenido de',
+      link: 'http://adrianconza.com/estandares-de-bases-de-datos/',
     },
+
     {
       referencia:
-        'ISO/IEC 12207. (2008). <i>Systems and software engineering - Software life cycle processes</i>. ISO.',
-      link: 'https://www.iso.org/obp/ui/#iso:std:iso-iec:12207:ed-2:v1:en',
-    },
-    {
-      referencia:
-        'Penzenstadler, B. (s.f.). <i>Requirements Engineering. CSU Long Beach</i>. California State University Long Beach',
-      link: 'https://bit.ly/3rtBKXN',
-    },
-    {
-      referencia:
-        'Pfleeger, S. (2002). <i>Ingeniería del software. Teoría y práctica</i>. Prentice Hall.',
-    },
-    {
-      referencia:
-        'Porfirio, C. (s. f.). <i>Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades. Atsistemas - Consultoría it blog</i>.',
+        'Curto Díaz, J. (2016). Introducción al Business Intelligence. Barcelona: Editorial UOC. Obtenido de',
       link:
-        'https://www.atsistemas.com/es/blog/tcnicas-de-priorizacin-el-desafo-de-conseguir-un-orden-para-las-funcionalidades',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/101030',
     },
+
     {
       referencia:
-        'Rivadeneira, M. (2014). Metodologías ágiles enfocadas al modelado de requerimientos. <i>Informes Científicos Técnicos - UNPA, 5</i>(1), 1-29.',
-      link: 'https://doi.org/10.22305/ict-unpa.v5i1.66',
+        'Díaz, J. C. (2016). Organizaciones orientadas al dato: transformando las organizaciones hacia una cultura analítica. Barcelona: Editorial UOC. Obtenido de',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/58609',
     },
+
     {
       referencia:
-        'Sommerville, I. (2011). <i>Ingeniería del software</i>. Addison-Wesley.',
+        'Domínguez, S. (1 de agosto de 2017). Definición y Ejemplos de las Escalas de Medición. Obtenido de Stella Domínguez:',
+      link: 'https://stelladominguezcom.wordpress.com/2017/08/01/escalas/',
+    },
+
+    {
+      referencia:
+        'Gawande, S. (2020). iCEDQ Torana INC. Obtenido de 6 Dimensions of Data Quality, Examples, and Measurement:',
+      link: 'https://icedq.com/6-data-quality-dimensions',
+    },
+
+    {
+      referencia:
+        'Ommi, A. K. (18 de 02 de 2018). Introduction to Data and Information. Obtenido de MyCloudWiki:',
+      link: 'https://www.mycloudwiki.com/san/data-and-information-basics/',
+    },
+
+    {
+      referencia:
+        'Pang, A., Markovski, M., & Ristik, M. (22 de septiembre de 2022). Los 10 principales proveedores de software de análisis y BI, tamaño del mercado y pronóstico del mercado 2021-2026. Obtenido de Apps Run the World:',
+      link:
+        'https://www.appsruntheworld.com/top-10-analytics-and-bi-software-vendors-and-market-forecast/',
+    },
+
+    {
+      referencia:
+        'Pulido Romero, E., Escobar Dominguez, O., & Núñez Pérez, J. (2019). Bases de datos. México DF: Grupo Editorial Patria. Obtenido de',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/121283',
+    },
+
+    {
+      referencia:
+        'Velthuis, M. P. (2019). Calidad de datos. Bogotá: Ediciones de la U. Obtenido de',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9094',
     },
   ],
   creditos: [
@@ -546,10 +588,10 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Wilson Andrés Arenales Cáceres ',
-          cargo: 'Storyboard e Ilustración ',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e Ilustración',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Camilo Bolaño',
