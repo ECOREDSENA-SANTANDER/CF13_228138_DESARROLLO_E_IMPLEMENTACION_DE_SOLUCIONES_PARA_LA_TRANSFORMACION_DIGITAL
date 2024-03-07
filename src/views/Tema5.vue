@@ -7,15 +7,15 @@
         span 5
       h1 Métodos para hacer análisis exploratorio de datos
 
-    .row.mt-5.mb-5
-      .col-11
-        .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
-            p La exploración de datos es sin duda, una de las tareas más importantes, pero también es una de las más complejas, especialmente para iniciar su exploración. La primera tarea es tener idea de la manera como están los datos, identificar las variables más importantes, la manera en cómo se relacionan o no unas con otras, tamaño de los datos, determinar si se presentan patrones, cálculos, qué calidad tienen estos datos, etc.
-      .col-1.px-0
-        figure
-          img(src="@/assets/curso/temas/Tema5/1.svg", alt="Texto que describa la imagen").floating 
-
+    .bloque1
+      .bloque-texto-b.color-secundario.py-4.mb-0
+        .bloque-texto-b__texto
+          .row.justify-content-center.align-items-center.d-flex
+            .col-lg-10.col-12.mb-4.mg-lg-0
+              p La exploración de datos es sin duda, una de las tareas más importantes, pero también es una de las más complejas, especialmente para iniciar su exploración. La primera tarea es tener idea de la manera como están los datos, identificar las variables más importantes, la manera en cómo se relacionan o no unas con otras, tamaño de los datos, determinar si se presentan patrones, cálculos, qué calidad tienen estos datos, etc.
+            .col-lg-2.col-md-5.col-8.px-5
+              img.mb-0(alt="" src="@/assets/curso/temas/Tema5/1.svg") 
+    h5.mb-5 Puede ser una tarea dispendiosa pero necesaria antes de emprender procesos técnicos de inteligencia de negocios.
     Separador
 
 
@@ -26,7 +26,7 @@
     
     .row.justify-content-around.align-items-center.mt-5
       .col-9.offset-1
-        .cajon.color-primario.p-3.mb-5
+        .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/temas/Tema5/2.svg", alt="Texto que describa la imagen")
@@ -45,7 +45,7 @@
 
     .row.justify-content-around.align-items-center.mt-5
       .col-9.offset-1
-        .cajon.color-primario.p-3.mb-5
+        .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/temas/Tema5/3.svg", alt="Texto que describa la imagen")
@@ -67,7 +67,7 @@
 
     .row.justify-content-around.align-items-center.mt-5
       .col-9.offset-1
-        .cajon.color-primario.p-3.mb-5
+        .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/temas/Tema5/4.svg", alt="Texto que describa la imagen")
@@ -87,25 +87,40 @@
 
 
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row.mb-5.bg31
       .col-md.tarjeta-container-siete.p-5
         .row.mb-4
           h4.mb-5 Las reglas de negocio se basan en las políticas de las organizaciones, en metodologías ágiles como el Scrum, las reglas de negocio se plasman en historias de usuarios.
           p.mb-4 <b>Por ejemplo:</b>
-          i.fas.fa-check.me-2.mb-1 Como cliente.
-          i.fas.fa-check.me-2.mb-1 Quiero pagar los artículos del carrito de compras.
-          i.fas.fa-check.me-2.mb-4 Para recibirlos en casa
+          ul.lista-ul--color.mx-4
+            li.mb-0.pb-0 
+              i.fa.fa-check
+              p  Como cliente.
+            li.mb-0.pb-0 
+              i.fa.fa-check
+              p  Quiero pagar los artículos del carrito de compras.
+            li.mb-0.pb-0 
+              i.fa.fa-check
+              p  Para recibirlos en casa
           p.mb-4 En medio de este requerimiento, es posible que existan políticas de la organización que restrinjan la acción solicitada, pues podrían existir otras reglas que indiquen (figura 5)
-          i.fas.fa-check.me-2.mb-1 <b>Como</b> propietario de la tienda online.
-          i.fas.fa-check.me-2.mb-1 <b>Quiero</b> rechazar compras fuera de Colombia con pedidos inferiores a $300.000 pesos.
-          i.fas.fa-check.me-2.mb-4 <b>Para</b> evitar gastos de envío que hacen la compra no rentable.
+            ul.lista-ul--color.mx-4.mt-3
+              li.mb-0.pb-0 
+                i.fa.fa-check
+                p  <b>Como</b> propietario de la tienda online.
+              li.mb-0.pb-0 
+                i.fa.fa-check
+                p  <b>Quiero</b> rechazar compras fuera de Colombia con pedidos inferiores a $300.000 pesos.
+              li.mb-0.pb-0 
+                i.fa.fa-check
+                p  <b>Para</b> evitar gastos de envío que hacen la compra no rentable.
         .row.justify-content-around.align-items-center.mb-3
           .col-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 5.
-              em Características de una muestra adecuada.
+              span
+                |   Características de una muestra adecuada.
             figure
-              img(src='@/assets/curso/temas/Tema5/5.png', alt='')
+              img(src='@/assets/curso/temas/Tema5/5.svg', alt='')
         p A estas reglas de negocio, a menudo se les denomina también Lógica de negocio.
 
 
@@ -117,22 +132,23 @@
     p.mb-4 Las restricciones limitan las acciones que el sistema o los usuarios pueden realizar. Las reglas por lo general son restrictivas, es decir, se debe o no se debe hacer algo a no ser que cumpla condiciones como roles de usuarios, valores previos, etc. Las restricciones, no deben convertirse en inconvenientes al usuario o sistema y los mensajes que se generan deben ser muy claros.
     p <b>Existen diferentes tipos, que se detallan a continuación:</b>
 
-
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta-uno.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            h4.mb-4 Validación de datos
-            figure.mb-3
-              img(src='@/assets/curso/temas/Tema5/6.png', alt='Texto que describa la imagen')
-            p Son aquellas que vienen como norma del tipo y formato de datos, esto se hace para garantizar la calidad y completitud de la información.
-      .col-md.tarjeta-dos.p-5
+      .col-md.tarjeta.bg22.p-5.text-black
+        h4.text-center Validación de datos
         .row.justify-content-around.align-items-center.mb-4
           .col-6
-            h4.mb-4 Políticas de la organización
-            figure.mb-3
-              img(src='@/assets/curso/temas/Tema5/7.png', alt='Texto que describa la imagen')
-            p Son aquellas que surgen a partir de las reglas de negocio y su naturaleza surge a partir del funcionamiento de los procesos. Por lo general se programan en procedimientos o algoritmos programados que evalúan las condiciones y restricciones previas.
+            figure
+              img(src='@/assets/curso/temas/Tema5/6.svg', alt='Texto que describa la imagen')
+        p Son aquellas que vienen como norma del tipo y formato de datos, esto se hace para garantizar la calidad y completitud de la información.
+      .col-md.tarjeta.bg5.p-5.text-black
+        h4.text-center Políticas de la organización
+        .row.justify-content-around.align-items-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/Tema5/7.svg', alt='Texto que describa la imagen')
+        p Son aquellas que surgen a partir de las reglas de negocio y su naturaleza surge a partir del funcionamiento de los procesos. Por lo general se programan en procedimientos o algoritmos programados que evalúan las condiciones y restricciones previas.
+
+    
 
     Separador
 
