@@ -7,14 +7,15 @@
         span 3
       h1 La inteligencia de negocios
 
-    .row.mt-5.mb-5
-      .col-11
-        .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
-            p Una característica en los últimos años en todo el mundo es la abundancia de datos que se generan día tras día, minuto tras minuto en diversas fuentes al mismo tiempo. En las empresas esta realidad no es ajena, y toda la información corporativa generada, debería estar más organizada, segura y disponible al tiempo que se incrementa esta información momento tras momento.
-      .col-1.px-0
-        figure
-          img(src="@/assets/curso/temas/Tema3/1.svg", alt="Texto que describa la imagen").floating
+    .bloque1
+      .bloque-texto-b.color-secundario.py-4.mb-0
+        .bloque-texto-b__texto
+          .row.justify-content-center.align-items-center.d-flex
+            .col-lg-10.col-12.mb-4.mg-lg-0
+              p Cuando el ser humano empezó a diferenciarse de las demás especies, una de las características más importantes, entre otras, es la manera de comportarse socialmente, es decir, cuando las relaciones sociales y comportamentales, entre manadas empezaron a cuidarse, a comunicarse, etc.
+            .col-lg-2.col-md-5.col-8.px-5
+              img.mb-0(alt="" src="@/assets/curso/temas/Tema3/1.svg")
+
 
 
 
@@ -30,7 +31,7 @@
             p.mb-0 Los avances tecnológicos y nuevas posibilidades de la cuarta revolución industrial hacen que este fenómeno se acentúe aún más y las empresas tengan dentro de sus retos la adopción de tecnologías y nuevas maneras de darle valor a los negocios a partir de recursos que generados por sí mismo y otros disponibles de manera pública, todo lo cual puede traducirse en oportunidades y posibilidades gigantes que bien estructuradas podría significar las mejores decisiones y valor a la organización que adopta la tecnología y las nuevas tendencias comerciales.
 
 
-    p <b>En forma simple, la inteligencia de negocios es una serie de técnicas, metodologías y herramientas que se integran para convertir los datos en información, luego en conocimiento para al final tomar las mejores decisiones.</b> 
+    p.mb-5 En forma simple, la inteligencia de negocios es una serie de técnicas, metodologías y herramientas que se integran para convertir los datos en información, luego en conocimiento para al final tomar las mejores decisiones.
 
 
     Separador
@@ -38,16 +39,13 @@
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Identificación de las preguntas básicas
 
-    p.mb-3 En ocasiones, los proyectos de BI se inician con la motivación de entrar en una ola digital, o estar en la moda de la tecnología, incluso sin tener requisitos o necesidades visibles o al menos conscientes. En caso de que las empresas, especialmente las pymes, no tengan claridad sobre el uso del BI en el negocio, es necesario concienciar a los directivos de que muchos problemas de la organización se deben a la falta de datos instantáneos, actualizados y que reflejan una realidad.
+    p.mb-5 En ocasiones, los proyectos de BI se inician con la motivación de entrar en una ola digital, o estar en la moda de la tecnología, incluso sin tener requisitos o necesidades visibles o al menos conscientes. En caso de que las empresas, especialmente las pymes, no tengan claridad sobre el uso del BI en el negocio, es necesario concienciar a los directivos de que muchos problemas de la organización se deben a la falta de datos instantáneos, actualizados y que reflejan una realidad.
 
-    .tarjeta.fab.p-4.mb-5      
-      .row.justify-content-around.align-items-center
-        .col-md-6.mb-4
-          p Una de las condiciones iniciales más importantes son las preguntas, es decir, qué se necesita saber del negocio, qué decisiones se planea tomar y qué insumos se requieren para la toma de estas decisiones.
-        
-        .col-md-2
-          figure
-            img(src='@/assets/curso/temas/Tema3/3.png', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-8.p-4.bg20.d-flex.justify-content-center.align-items-center
+        p Una de las condiciones iniciales más importantes son las preguntas, es decir, qué se necesita saber del negocio, qué decisiones se planea tomar y qué insumos se requieren para la toma de estas decisiones.
+        img.px-4.w-75(src='@/assets/curso/temas/Tema3/3.svg', alt='Texto que describa la imagen')
+
 
     .row.justify-content-around.align-items-center
 
@@ -55,7 +53,7 @@
         figure
           img(src='@/assets/curso/temas/Tema3/4.png', alt='Texto que describa la imagen')
       .col-md-6.mb-4
-        p.mb-4 Otro concepto errado frecuente, en especial en las pymes, es que el indicador más importante y en algunos casos el único, es el dinero que ingresa a la empresa, si bien en los negocios se trata de ganar, existen muchas variables e indicadores adicionales a los ingresos que permiten a las organizaciones avanzar mejor, aumentar su valor a partir de técnicas y conocimiento, y tras todos estos indicadores claves de negocio, deberían reflejarse en el cumplimiento de metas de ingresos y crecimiento del negocio en el tiempo.
+        p.mb-4.mt-2-cus Otro concepto errado frecuente, en especial en las pymes, es que el indicador más importante y en algunos casos el único, es el dinero que ingresa a la empresa, si bien en los negocios se trata de ganar, existen muchas variables e indicadores adicionales a los ingresos que permiten a las organizaciones avanzar mejor, aumentar su valor a partir de técnicas y conocimiento, y tras todos estos indicadores claves de negocio, deberían reflejarse en el cumplimiento de metas de ingresos y crecimiento del negocio en el tiempo.
         p Los indicadores y la aplicabilidad de la analítica de datos en las organizaciones deben manejarse bajo necesidades reales, preguntas fundamentales y la identificación de qué respuestas requiere el negocio para optimizar los tiempos y asertividad de la toma de decisiones.
       
     Separador
@@ -66,13 +64,12 @@
     p.mb-4 La inteligencia de negocios en sí es una integración de toda la información de la organización, o al menos la más relevante. Tomar diversas fuentes (variabilidad), con información acumulada (volumen) y que además se procesen de manera óptima y rápida (velocidad).
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.tarjeta-container-cinco.p-5.text-black
+      .col-md.tarjeta.p-5.text-black
         .row.justify-content-center.mb-4
           .col-6
-            figure
               img(src='@/assets/curso/temas/Tema3/5.png', alt='Texto que describa la imagen')
-        p Si bien en los libros de consulta y de manera estándar, estas tres V pertenecen al Big Data de manera estricta, también es aplicable a la inteligencia de negocios.
-      .col-md.tarjeta-container-cuatro.p-5.text-black
+        p.bg21.pt-3.pb-3.px-3 Si bien en los libros de consulta y de manera estándar, estas tres V pertenecen al Big Data de manera estricta, también es aplicable a la inteligencia de negocios.
+      .col-md.bg24.p-5.text-black
         .row.mb-4
           .col-3
             figure
@@ -81,8 +78,7 @@
         p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. <b>El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general.</b>
 
     p.mb-5 <b>En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio:</b>
-    figure
-      img(src='@/assets/curso/temas/Tema3/7.png', alt='Texto que describa la imagen')
+    img(src='@/assets/curso/temas/Tema3/7.svg', alt='Texto que describa la imagen')
 
 
     Separador
@@ -92,53 +88,59 @@
 
     p.mb-4 Las herramientas disponibles para la implementación de la inteligencia de negocio en las organizaciones, son amplias y cada vez nuevas marcas y técnicas se disputan el mercado.
     .tarjeta--container.mb-5
-      .col-md.tarjeta-container-cuatro.p-5.text-black
-        h3.mb-5.md-5 Elegir la herramienta adecuada es una variable crítica de éxito, existen múltiples aspectos qué evaluar al momento de decidirse por cuál herramienta emplear. Entre otras razones, se debe hacer análisis de:
-          .row.mb-4.md-5
-            .col-6.md-5.mb-5
-                p
-                i.fas.fa-check Conexión a todas las fuentes de datos que la organización tiene.
+      .col-md.bg25.p-5.text-black
+        h4 Elegir la herramienta adecuada es una variable crítica de éxito, existen múltiples aspectos qué evaluar al momento de decidirse por cuál herramienta emplear. Entre otras razones, se debe hacer análisis de:
+          .row
+            .col-9.mt-5
+              ul.lista-ul--color.mx-4
+                li.mb-0.pb-0 
+                  i.fa.fa-check
+                  p Conexión a todas las fuentes de datos que la organización tiene.
 
-                p 
-                i.fas.fa-check Capacidad de almacenamiento y proceso según el tamaño de los datos y la proyección.
+                li.mb-0.pb-0 
+                  i.fa.fa-check
+                  p  Capacidad de almacenamiento y proceso según el tamaño de los datos y la proyección.
 
-                p 
-                i.fas.fa-check Relación costo-beneficio.
+                li.mb-0.pb-0 
+                  i.fa.fa-check
+                  p  Relación costo-beneficio.
 
-                p 
-                i.fas.fa-check Versatilidad: qué soporta diversas plataformas tanto como sistemas operativos como hardware.
+                li.mb-0.pb-0 
+                  i.fa.fa-check
+                  p  Versatilidad: qué soporta diversas plataformas tanto como sistemas operativos como hardware.
 
-                p 
-                i.fas.fa-check Tendencias y nuevas herramientas empleadas.
-            .col-4
+                li.mb-0.pb-0 
+                  i.fa.fa-check
+                  p  Tendencias y nuevas herramientas empleadas.
+            .col-3.mt-5
               figure
-                img(src='@/assets/curso/temas/Tema3/8.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/Tema3/8.svg', alt='Texto que describa la imagen')
 
-    p <b>A continuación, algunas alternativas disponibles para que las organizaciones puedan emplear con eficiencia proyectos de estas características:</b>
+    h5.mb-5 A continuación, algunas alternativas disponibles para que las organizaciones puedan emplear con eficiencia proyectos de estas características:
 
     .row
       .col-md-5
-        AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__inactivo")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="SAS INSTITUT")
-            .col-md-9.mb-4.mb-md-0
-              p Empresa multinacional con sede en Carolina del Norte, Estados Unidos. Es uno de los principales fabricantes de software de apoyo empresarial. Fundación 1976.
-              p <b>https://www.sas.com/es_co/home.html</b>
+            .col-md-12.mb-4
+              p.mx-5  Empresa multinacional con sede en Carolina del Norte, Estados Unidos. Es uno de los principales fabricantes de software de apoyo empresarial. Fundación 1976.
+              p.mx-5 <b>https://www.sas.com/es_co/home.html</b>
           .row(titulo="MICROSOFT")
-            .col-md-9.mb-4.mb-md-0
-              p Con sus herramientas de infraestructura en la nube representada por Azure y la introducción de visualizaciones de Power BI dentro de Power Apps y Dynamics 365 aumenta las capacidades analíticas integradas de Microsoft Power Platform.
-              p <b>https://www.microsoft.com/es-mx/microsoft-cloud</b>
+            .col-md-12.mb-4
+              p.mx-5  Con sus herramientas de infraestructura en la nube representada por Azure y la introducción de visualizaciones de Power BI dentro de Power Apps y Dynamics 365 aumenta las capacidades analíticas integradas de Microsoft Power Platform.
+              p.mx-5 <b>https://www.microsoft.com/es-mx/microsoft-cloud</b>
           .row(titulo="ORACLE")
-            .col-md-9.mb-4.mb-md-0
-              p Oracle Analytics Cloud se ha convertido en la herramienta analítica y de informes imprescindible para las pequeñas empresas, más allá de las grandes empresas a las que suele servir.
-              p <b>https://www.oracle.com/lad/business-analytics/analytics-services</b>
+            .col-md-12.mb-4
+              p.mx-5  Oracle Analytics Cloud se ha convertido en la herramienta analítica y de informes imprescindible para las pequeñas empresas, más allá de las grandes empresas a las que suele servir.
+              p.mx-5 <b>https://www.oracle.com/lad/business-analytics/analytics-services</b>
           .row(titulo="INFORMÁTICA")
-            .col-md-9.mb-4.mb-md-0
-              p Integrada con Azure, cuenta con su herramienta Cloud Data Marketplace, diseñada para aumentar de forma intuitiva el intercambio de datos, mejorar la productividad y permitir que las organizaciones tomen decisiones más informadas.
-              p <b>https://www.informatica.com/products/cloud-data-integration.html</b>
+            .col-md-12.mb-4
+              p.mx-5  Integrada con Azure, cuenta con su herramienta Cloud Data Marketplace, diseñada para aumentar de forma intuitiva el intercambio de datos, mejorar la productividad y permitir que las organizaciones tomen decisiones más informadas.
+              p.mx-5 <b>https://www.informatica.com/products/cloud-data-integration.html</b>
           .row(titulo="QLIK")
-            .col-md-9.mb-4.mb-md-0
-              p Empresa especializada en analítica y procesos ETL, Herramientas especializadas de desde punto inicial al punto final.
-              p <b>https://www.qlik.com/es-es/products</b>
+            .col-md-12.mb-4
+              p.mx-5  Empresa especializada en analítica y procesos ETL, Herramientas especializadas de desde punto inicial al punto final.
+              p.mx-5 <b>https://www.qlik.com/es-es/products</b>
   
       .col-md-6.mb-4.mb-md-0
         figure
@@ -154,42 +156,50 @@
     p.mb-3 Si bien existen varias metodologías, todas coinciden en una manera genérica para la solución de un proyecto analítico propuesto por Davenport, con algunas variables
     p.mb-3 <b>Esta metodología tiene tres grandes etapas:</b>
 
-    .tarjeta.tarjeta-container-cuatro.p-4.mb-5      
-      .row
-        .col-2
-          figure
-            img(src='@/assets/curso/temas/Tema3/10.png', alt='Texto que describa la imagen')
-        .col-md-6.mb-4
-          h5.md-2 Elegir la herramienta adecuada es una variable crítica de éxito, existen múltiples aspectos qué evaluar al momento de decidirse por cuál herramienta emplear. Entre otras razones, se debe hacer análisis de:
-          p.md-3 Para reconocer el problema, se debe partir de las necesidades surgidas a partir de la experiencia para tomar una decisión o acción; es decir, qué necesidades o inconvenientes se han tenido cuando la información, reportes o conocimiento de algún dato importante no está disponible en el momento y exactitud para tomar decisiones o ejecutar acciones. Es importante gestionar las expectativas y documentar las necesidades o problemas puntuales.
-          p En esta fase, una clave es identificar objetivos que no se cumplen por la falta de un proyecto analítico.
+    .row.align-items-center.justify-content-start
+      .col-lg-11
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.w-60(src='@/assets/curso/temas/Tema3/10.svg', alt='Texto que describa la imagen')
+          .tarjeta.bg26
+            .p-4
+              h5.mb-4 Definición del problema
+              p Para reconocer el problema, se debe partir de las necesidades surgidas a partir de la experiencia para tomar una decisión o acción; es decir, qué necesidades o inconvenientes se han tenido cuando la información, reportes o conocimiento de algún dato importante no está disponible en el momento y exactitud para tomar decisiones o ejecutar acciones. Es importante gestionar las expectativas y documentar las necesidades o problemas puntuales.
+              p <b>En esta fase, una clave es identificar objetivos que no se cumplen por la falta de un proyecto analítico.</b>
 
-    .tarjeta.tarjeta-container-cuatro.p-4.mb-5      
-      .row
-        .col-2
-          figure
-            img(src='@/assets/curso/temas/Tema3/11.png', alt='Texto que describa la imagen')
-        .col-md-6.mb-4
-          h5.md-2 Resolviendo el problema
-          p.md-3 Después de la primera etapa, donde se tiene claridad de los problemas, el paso siguiente es buscar solución. Por lo general está compuesta de cuatro etapas:
-          p 
-            i.fas.fa-check Modelar y seleccionar variables que representan el problema y determinar las variables que forman parte de él.
-          p 
-            i.fas.fa-check Recopilar datos para identificar dónde se consiguen datos para las variables del modelo.
-          p 
-           i.fas.fa-check Análisis de datos. Determinar naturaleza, fuentes y gestión para el acceso técnico de la información.
-          p 
-           i.fas.fa-check Desarrollar componentes técnicos y generación de reportes con información de valor y conocimiento del negocio.
+    .row.align-items-center.justify-content-start
+      .col-lg-11
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.w-60(src='@/assets/curso/temas/Tema3/11.svg', alt='Texto que describa la imagen')
+          .tarjeta.bg26
+            .p-4
+              h5.mb-4 Resolviendo el problema
+              p.md-3 Después de la primera etapa, donde se tiene claridad de los problemas, el paso siguiente es buscar solución. Por lo general está compuesta de cuatro etapas:
+               ul.lista-ul--color.mx-2.mt-4
+                li.mb-0.pb-0 
+                  i.fa.fa-check
+                  p Modelar y seleccionar variables que representan el problema y determinar las variables que forman parte de él.
+                li.mb-0.pb-0 
+                  i.fa.fa-check
+                  p Recopilar datos para identificar dónde se consiguen datos para las variables del modelo.
+                li.mb-0.pb-0 
+                  i.fa.fa-check
+                  p Análisis de datos. Determinar naturaleza, fuentes y gestión para el acceso técnico de la información.
+                li.mb-0.pb-0 
+                  i.fa.fa-check
+                  p Desarrollar componentes técnicos y generación de reportes con información de valor y conocimiento del negocio.
 
         
-    .tarjeta.tarjeta-container-cuatro.p-4.mb-5      
-      .row
-        .col-2
-          figure
-            img(src='@/assets/curso/temas/Tema3/12.png', alt='Texto que describa la imagen')
-        .col-md-6.mb-4
-          h5.md-2 Comunicación y actuación en función de los datos
-          p.md-3 Cuando se generan procesos de analítica, es tan importante, la comunicación y uso de los datos para el negocio como su desarrollo; el paso final de estos proyectos es comunicar y accionar los resultados, es necesario contar una historia a partir de los datos y a partir de ello generar conocimiento para actuar mejor.
+    .row.align-items-center.justify-content-start
+      .col-lg-11
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.w-60(src='@/assets/curso/temas/Tema3/12.svg', alt='Texto que describa la imagen')
+          .tarjeta.bg26
+            .p-4
+              h5.mb-4 Comunicación y actuación en función de los datos
+              p.md-3 Cuando se generan procesos de analítica, es tan importante, la comunicación y uso de los datos para el negocio como su desarrollo; el paso final de estos proyectos es comunicar y accionar los resultados, es necesario contar una historia a partir de los datos y a partir de ello generar conocimiento para actuar mejor.
 
   
 
@@ -202,43 +212,49 @@
 
     p En lo relacionado a la planeación y diseño de las bodegas de datos (DWH), se plantean dos arquitecturas:
 
-    .row.md-4
-      .col-lg-3.mb-3
-        figure
-          img(src='@/assets/curso/temas/Tema3/13.png', alt='Texto que describa la imagen')
+    .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+      .d-flex.flex-wrap.align-items-center.pe-4
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 300px; padding:7px;') Modelo Kimball
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
+
 
     .row.mb-5
-      .col-md-10
-        .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4
+      .col-md-12
+        .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
             p.mb-3 La metodología para el diseño de DWH propuesta por Ralph Kimball se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean data marts, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
+            br
             br
             p <b>Kimball propone que estos Data Mart</b> deben crearse primero para proporcionar capacidades analíticas; en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los Data Mart se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios Data Mart. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (ver figura).
             
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 1.
-        em Modelo Kimball
+        span
+          |   Modelo Kimball
       figure
         img(src='@/assets/curso/temas/Tema3/14.png', alt='')
 
-    .row.md-4
-      .col-lg-3.mb-3
-        figure
-          img(src='@/assets/curso/temas/Tema3/15.png', alt='Texto que describa la imagen')
+    .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+      .d-flex.flex-wrap.align-items-center.pe-4
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 300px; padding:7px;') Modelo Inmon
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
+
 
     .row.mb-5
       .col-md-12
-        .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4
+        .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
             p.mb-5 No es muy diferente a Kimball, los principios de transformación y carga a los DWH contienen los mismos elementos en su arquitectura, sin embargo, la metodología de Bill Inmon plantea que los data marts deben ir después del almacenamiento de DWH.
             br
-            p.md-5 La metodología Inmon comienza por generar un arreglo de todos los datos corporativos en el DWH, para luego identificar y dividir áreas para la generación de los Data Mart. En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los data marts y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (ver figura).
+            br
+            p La metodología Inmon comienza por generar un arreglo de todos los datos corporativos en el DWH, para luego identificar y dividir áreas para la generación de los Data Mart. En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los data marts y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (ver figura).
 
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 2.
-        em Modelo Inmon.
+        span
+          |  Modelo Inmon.
       figure
         img(src='@/assets/curso/temas/Tema3/16.png', alt='')
 
@@ -252,9 +268,7 @@
     p.mb-4 <b>Entre los elementos más importantes de los cuadros de mando, su tipo de valor y escalas se pueden mencionar:</b>
 
     .row.mb-5
-      .col-md-6.mb-5.mb-md-0
-        //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+      .col-md-8.mb-5.mb-md-0
         LineaTiempoD.color-secundario
           p.text-small(numero="1" titulo="Tablas") se conforma de matriz, presenta múltiples datos, puede ser estática o dinámica según las reglas del negocio y características de la información que representa. Presenta datos estructurados por dimensiones (tipo OLAP) en algunos casos, y su escalabilidad se limita al redondeo de cifras configurando la cantidad de decimales de los datos numéricos flotantes.
           
@@ -274,8 +288,8 @@
         figure
           img(src='@/assets/curso/temas/Tema3/17.png', alt='Texto que describa la imagen')
 
-        .tarjeta.tarjeta-container-seis.p-4.mb-5      
-          p.md-3 Ejemplo de componentes de un cuadro de mando o Dashboard:
+        .tarjeta.bg12.p-4.my-5      
+          p.mb-0 Ejemplo de componentes de un cuadro de mando o Dashboard:
 
 
     Separador
@@ -306,19 +320,20 @@
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Tabla 1.
-        em Ejemplo de Triggers
+        span
+          |  Ejemplo de Triggers
 
     .tabla-a.color-acento-contenido.mb-5 
       table
         thead
           tr
-            th.text-white Disparador
-            th.text-white Acción
+            th.text-white.text-left-cus Disparador
+            th.text-white.text-left-cus Acción
         tbody
-          tr.primer-tr
+          tr.bg27
             td Cuando en la tabla clientes se realiza un insert (cliente nuevo).
             td Enviar correo electrónico con plantilla de bienvenida y resumen de los datos registrados.
-          tr.segundo-tr
+          tr.bg28
             td Todos los días cuando el sean las 3:00 A.M.
             td Ejecutar carga de la base de datos transaccional a los almacenamientos para el proceso ETL
         

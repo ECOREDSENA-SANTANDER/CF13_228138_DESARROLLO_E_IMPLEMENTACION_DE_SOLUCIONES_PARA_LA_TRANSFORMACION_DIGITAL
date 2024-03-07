@@ -42,8 +42,13 @@
   background-color: #FDEDE0;
 .linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
   background-color: #FFD2CB !important
-
-
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+  background-color: #FFE7E3 !important
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #FFE7E3 !important
+.linea-tiempo-d.color-secundario  .linea-tiempo-d__item__number,
+.linea-tiempo-d.color-secundario  .linea-tiempo-d__item__content 
+    background-color: #E1EAF4 !important
 @keyframes float1
 	0%
 		transform: rotate(0deg) translateX(10px) rotate(-20deg)
@@ -76,6 +81,15 @@
       top: 20%;
       left: 70%;
       height: 55%;
+
+
+.bloque-texto-b
+  &.color-der:before 
+    background-color: #FFEAE6;
+  &::before
+    top: 0;
+    left: 0;
+    right: 80%
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white
@@ -325,13 +339,15 @@
 .ml-neg-cus
   margin-left: -20px
 .text-left-cus
-  text-align: left;
+  text-align: left !important
 .w-auto-cus
   width: fit-content;
 .w-45-cus
   width: 45%;
 .ml-neg-cus
   margin-left: -20px
+.w-60
+  width: 60%;
 
 
 
@@ -406,6 +422,8 @@
 .bg19
   background-color: #FFECDC
 .bg20
+  background-color: #FFEEEB
+  border-radius: 23px;
   
 .bg21
   background-color: #F3F9FF;
@@ -414,10 +432,32 @@
   background-color: #FF8E7C
 .bg23
   background-color: #FFEAE6
+.bg24
+  background-color: #D9F2EC
 .bg-white-r
   background-color: white;
   border-radius: 6px
+.bg25
+  background-color: #DCF7F0
+.bg26
+  background-color: #C9E8E0
+  border-radius: 12px
+.bg27
+  background-color: #F6F6F6
+.bg28
+  background-color: #E8E8E8
 
+
+
+.z-1-cus
+  z-index: 1
+.z-0-cus
+  z-index: 0
+.div-due
+  position: absolute;
+.pos-center-abs
+  top: 50%;
+  left: 50%;
 .img-center-cus
   position: relative
   top: 35%
@@ -450,7 +490,8 @@
 .img-infografica__item__numero, .img-infografica-b__item__numero 
     left: 100%;
     top: 100%;
-
+.tarjeta-avatar-b__img
+  justify-content: center
 .lista-ul
   li
     display: flex !important
