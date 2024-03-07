@@ -7,16 +7,17 @@
         span 6
       h1 Estructuras y componentes de analítica de datos
 
-    .row.mt-5.mb-5
-      .col-4.px-0
-        figure
-          img(src="@/assets/curso/temas/Tema6/1.svg", alt="Texto que describa la imagen").floating
-      .col-6
-        .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
+    
+    .cajon-b.color-primario-2.p-3.mb-5.arriba-izquierda
+      .row.mt-5.mb-5
+        .col-4.px-0
+            img(src="@/assets/curso/temas/Tema6/1.svg", alt="Texto que describa la imagen").floating
+        .col-8
             p.mb-3 A continuación, este apartado se emplea para dar una breve introducción a elementos muy importantes a hora de aplicar inteligencia de negocios. Se describe a modo conceptual, algunos elementos de las bodegas de datos y sus topologías.
             p La estructura completa de la analítica tiene dos extremos donde fluyen y se transforman los datos, desde los orígenes, pasando por un proceso de carga al sistema analítico, limpieza de datos, optimización de datos para ser guardados de forma consolidada y completa en un arreglo de bases de datos denominado Bodega de datos, pero acá no acaba el flujo, el final es la explotación de datos traducidos en reportes, cubos de datos u otros usos como minería de datos.
+
       
+
     p.mb-4 <b>Con el siguiente video, se comprenderá mejor lo que hace referencia mediante la analítica de datos:</b>
 
     .row.justify-content-center.align-items-center.mb-5
@@ -31,22 +32,26 @@
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.1. Bodega de datos
 
-    p.mb-4 La información de las organizaciones proviene de fuentes de datos heterogéneas, muchas veces sin estar integradas, por lo cual tener reportes e información dispersa por áreas de la organización es un asunto que en la actualidad no debería presentarse, pues el fin de la inteligencia de negocios es facilitar el proceso y la disponibilidad de la información más relevante del negocio; para lograr esto se hace necesario centralizar los datos a través de bodegas de datos o Data Warehouse (DWH).
+    p.mb-5 La información de las organizaciones proviene de fuentes de datos heterogéneas, muchas veces sin estar integradas, por lo cual tener reportes e información dispersa por áreas de la organización es un asunto que en la actualidad no debería presentarse, pues el fin de la inteligencia de negocios es facilitar el proceso y la disponibilidad de la información más relevante del negocio; para lograr esto se hace necesario centralizar los datos a través de bodegas de datos o Data Warehouse (DWH).
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-8.p-4.fab.d-flex
-        p La bodega de datos es entonces una estructura diseñada y desarrollada para almacenar y procesar datos de múltiples fuentes y centralizarlas para la elaboración de reportes y datos analíticos.
+    .row.mb-5 
+      .col-10.justify-content-center.align-items-center.m-auto
+        .container-card
+          .first-card 
+            p.w-75 La bodega de datos es entonces una estructura diseñada y desarrollada para almacenar y procesar datos de múltiples fuentes y centralizarlas para la elaboración de reportes y datos analíticos.
       
-        figure.mx-7
-          img(src='@/assets/curso/temas/Tema6/2.png', alt='Texto que describa la imagen')
+          .second-card
+            img(src='@/assets/curso/temas/Tema6/2.png', alt='Texto que describa la imagen')
 
 
     .row.mb-5.justify-content-center.align-items-center
       .col-md-5.col-lg.mb-5.mb-lg-0
         img(src='@/assets/curso/temas/Tema6/3.png' alt='AvatarTop')
       .col-md-5.col-lg.mb-5.mb-lg-0
-        p.mb-4 Las bodegas de datos son el corazón de la inteligencia de negocios, allí se almacena de manera incremental toda la información producida por la organización, cuando se establecen desarrollos completos de analítica de datos, se hace necesario contar con infraestructura y gestión de almacenamiento igual de robustas que den respuesta a las exigencias de la cantidad y variedad de datos que se presentan. Para grandes empresas, es posible que se cuente con especialistas para cada proceso del flujo de datos, así mismo el almacenamiento de las bodegas de datos requiere especialistas en gestión de bases de datos y manejar muy bien las arquitecturas y disposición de la información en los diversos clústeres de datos que se puedan emplear. 
+        p.mb-4.mt-4 Las bodegas de datos son el corazón de la inteligencia de negocios, allí se almacena de manera incremental toda la información producida por la organización, cuando se establecen desarrollos completos de analítica de datos, se hace necesario contar con infraestructura y gestión de almacenamiento igual de robustas que den respuesta a las exigencias de la cantidad y variedad de datos que se presentan. Para grandes empresas, es posible que se cuente con especialistas para cada proceso del flujo de datos, así mismo el almacenamiento de las bodegas de datos requiere especialistas en gestión de bases de datos y manejar muy bien las arquitecturas y disposición de la información en los diversos clústeres de datos que se puedan emplear. 
         p Esta estructura contiene diversas tablas de hechos y dimensiones, que permiten estructurar la información de tal manera que se pueda visualizar de una mejor manera, las tablas que componen la bodega de datos se pueden presentar en diversos diseños, como tipo estrella, copo de nieve, constelaciones, etc.
+
+   
 
 
     Separador
@@ -60,7 +65,8 @@
       .col-6
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 6.
-          em DWH Tipo Estrella
+          span
+                |   DWH Tipo Estrella
         figure
           img(src='@/assets/curso/temas/Tema6/4.png', alt='')
 
@@ -78,7 +84,8 @@
       .col-6
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 7.
-          em DWH Snowflake
+          span
+                |   DWH Snowflake
         figure
           img(src='@/assets/curso/temas/Tema6/5.png', alt='')
 
