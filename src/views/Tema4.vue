@@ -6,15 +6,15 @@
       .titulo-principal__numero
         span 4
       h1 Análisis exploratorio de datos
-
-    .row.mt-5.mb-5
-      .col-11
-        .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
-            p Una característica en los últimos años en todo el mundo es la abundancia de datos que se generan día tras día, minuto tras minuto en diversas fuentes al mismo tiempo. En las empresas esta realidad no es ajena, y toda la información corporativa generada, debería estar más organizada, segura y disponible al tiempo que se incrementa esta información momento tras momento.
-      .col-1.px-0
-        figure
-          img(src="@/assets/curso/temas/Tema4/1.svg", alt="Texto que describa la imagen").floating
+    
+    .bloque1
+      .bloque-texto-b.color-secundario.py-4.mb-0
+        .bloque-texto-b__texto
+          .row.justify-content-center.align-items-center.d-flex
+            .col-lg-10.col-12.mb-4.mg-lg-0
+              p La analítica basa sus procesos en conceptos estadísticos apoyados de herramientas tecnológicas, tanto para el procesamiento de los datos (muchos datos de entrada, procesados en el menor tiempo posible) como para la presentación o visualización de los mismos, en este apartado se señalan algunos conceptos teóricos, fundamentados en la matemática para luego aplicar analítica de datos.
+            .col-lg-2.col-md-5.col-8.px-5
+              img.mb-0(alt="" src="@/assets/curso/temas/Tema4/1.svg") 
 
 
     Separador
@@ -26,27 +26,29 @@
 
 
 
-    .tarjeta.tarjeta-container-cuatro.p-4.mb-5      
-      .row
-        .col-2
-          figure
-            img(src='@/assets/curso/temas/Tema4/2.png', alt='Texto que describa la imagen')
-        .col-md-6.mb-4
-          h5.md-2 Estadística descriptiva:
-          p.md-3 son los datos que se pueden representar a partir de tablas, gráficos y otros recursos. Describe fenómenos, por ejemplo cuando se pregunta la edad a un grupo de personas, se podría realizar tabla o gráfico con estos resultados y definir medidas descriptivas como edad promedio, edades más frecuentes, etc.
-          p La analítica usa principalmente este tipo de estadística, pues parte de que no se tienen conocimientos previos ni supuestos verdaderos, describe fenómenos que pasan en el negocio, además, por lo general se tienen todos los datos disponibles para los reportes, por lo que pocas veces se emplean muestras poblacionales.
+    .row.align-items-center.justify-content-start
+      .col-lg-11
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.w-60(src='@/assets/curso/temas/Tema4/2.svg', alt='Texto que describa la imagen')
+          .tarjeta.bg26
+            .p-4
+              h5.md-2 Estadística descriptiva:
+              p.md-3 son los datos que se pueden representar a partir de tablas, gráficos y otros recursos. Describe fenómenos, por ejemplo cuando se pregunta la edad a un grupo de personas, se podría realizar tabla o gráfico con estos resultados y definir medidas descriptivas como edad promedio, edades más frecuentes, etc.
+              p La analítica usa principalmente este tipo de estadística, pues parte de que no se tienen conocimientos previos ni supuestos verdaderos, describe fenómenos que pasan en el negocio, además, por lo general se tienen todos los datos disponibles para los reportes, por lo que pocas veces se emplean muestras poblacionales.
 
 
 
 
-    .tarjeta.tarjeta-container-cuatro.p-4.mb-5      
-      .row
-        .col-2
-          figure
-            img(src='@/assets/curso/temas/Tema4/3.png', alt='Texto que describa la imagen')
-        .col-md-6.mb-4
-          h5.md-2 Inferencia estadística:
-          p.md-3 a partir de métodos, se pueden realizar conclusiones, tomar decisiones, estimaciones o predicciones sobre una población o universo, con base a datos de una muestra. Para la aplicación de estadística inferencial, se tratarán algunos parámetros matemáticos para la aplicación de este modelo estadístico.
+    .row.align-items-center.justify-content-start
+      .col-lg-11
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.w-60(src='@/assets/curso/temas/Tema4/3.svg', alt='Texto que describa la imagen')
+          .tarjeta.bg26
+            .p-4
+              h5.md-2 Inferencia estadística:
+              p.md-3 a partir de métodos, se pueden realizar conclusiones, tomar decisiones, estimaciones o predicciones sobre una población o universo, con base a datos de una muestra. Para la aplicación de estadística inferencial, se tratarán algunos parámetros matemáticos para la aplicación de este modelo estadístico.
 
 
     Separador
@@ -60,18 +62,19 @@
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 3.
-        em Características de una muestra adecuada.
+        span
+          |  Características de una muestra adecuada.
       figure
-        img(src='@/assets/curso/temas/Tema4/4.png', alt='')
+        img(src='@/assets/curso/temas/Tema4/4.svg', alt='')
 
     p.mb-5 Este tipo de estadística se aplica cuando, la posblación o el universo objeto de estudio es muy grande e imposible de aplicar estadística descriptiva o aplicar instrumento a todo, o cuando no hay exactitud del número de población o universo. Para estos casos, se deberá aplicar la estadística inferencial donde se pueden realizar afirmaciones sobre una población basado en los resultados de una muestra.
 
-    .tarjeta.fab.p-4.mb-5      
-      .row.justify-content-around.align-items-center
+    .tarjeta.bg29.p-4.mb-5      
+      .row.justify-content-center.align-items-center
         .col-md-2
           figure.mx-7
             img(src='@/assets/curso/temas/Tema4/5.png', alt='Texto que describa la imagen')
-        .col-md-6.mb-4
+        .col-md-8
           p <b>Es importante</b> no establecer divorcios entre la estadística descriptiva y la inferencial, ambas son necesarias, pues la inferencial usa los datos descriptivos para llevar a conclusiones generales.
 
 
@@ -88,39 +91,57 @@
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Tabla 2.
-        em  Variables y escalas
+        span
+          |   Variables y escalas
 
     .tabla-a.color-acento-contenido.mb-5 
       table
         thead
           tr
-            th.text-white Variables
-            th.text-white Escala
-            th.text-white Descripción
+            th.text-white.text-left-cus Variables
+            th.text-white.text-left-cus Escala
+            th.text-white.text-left-cus Descripción
         tbody
-          tr.primer-tr
+          tr.bg27
             td Categoria
             td Nominal 
             td Clasifica los elementos del conjunto para distribuirlos en grupos.
-          tr.segundo-tr
+          tr.bg28
             td 
             td Ordinal
             td También clasifica elementos, pero además permite hacer escalas de medición comparativa.
-          tr.primer-tr
+          tr.bg27
             td Metrica
             td Intervalo 
             td Cuantifica y califica numéricamente los objetos de la categoría. 
-              i.fas.fa-circle.cad.me-2.text-smallPermite hacer mediciones simples. 
-              i.fas.fa-circle.cad.me-2.text-smallPermite Utiliza escalas continuas. 
-              i.fas.fa-circle.cad.me-2.text-smallPermite No tiene cero por lo que usualmente aplica escalas pares; la más común es de 1 a 10. Cuando la escala no tiene un punto neutral, como si lo tiene una escala impar, el investigador estaría forzando una respuesta negativa o positiva del participante. De 1 a 5 es negativa y de 6 a 10 es positiva.
-          tr.segundo-tr
+              ul.lista-ul.mx-4.mt-3 
+                li.mb-0.pb-0
+                  i.fas.fa-circle.icon-li-ul 
+                  p Permite hacer mediciones simples. 
+                li.mb-0.pb-0
+                  i.fas.fa-circle.icon-li-ul   
+                  p Utiliza escalas continuas. 
+                li.mb-0.pb-0
+                  i.fas.fa-circle.icon-li-ul   
+                  p No tiene cero por lo que usualmente aplica escalas pares; la más común es de 1 a 10. Cuando la escala no tiene un punto neutral, como si lo tiene una escala impar, el investigador estaría forzando una respuesta negativa o positiva del participante. De 1 a 5 es negativa y de 6 a 10 es positiva.
+          tr.bg28
             td 
             td Radio
             td Cuantifica y califica numéricamente los objetos de la categoría.  
-              i.fas.fa-circle.cad.me-2.text-smallPermite Permite hacer mediciones simples.  
-              i.fas.fa-circle.cad.me-2.text-smallPermite Utiliza escalas discontinuas.
-              i.fas.fa-circle.cad.me-2.text-smallPermite Resuelve el problema del cero por lo que usualmente aplica escalas impares; las más comunes son de 1 a 5 o de 1 a 7.
+              ul.lista-ul.mx-4.mt-3 
+                li.mb-0.pb-0
+                  i.fas.fa-circle.icon-li-ul 
+                  p Permite Permite hacer mediciones simples.  
+                li.mb-0.pb-0
+                  i.fas.fa-circle.icon-li-ul 
+                  p Utiliza escalas discontinuas.
+                li.mb-0.pb-0
+                  i.fas.fa-circle.icon-li-ul 
+                  p Resuelve el problema del cero por lo que usualmente aplica escalas impares; las más comunes son de 1 a 5 o de 1 a 7.
 
+      ul.lista-ul.mx-4 
+        li.mb-0.pb-0.ml-4-custom 
+            i.fas.fa-circle.icon-li-ul
     Separador
 
     #t_4_4.titulo-segundo.color-acento-contenido
@@ -128,20 +149,21 @@
 
     .row.mb-5
       .col-md-6
-        p.md-3 Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del Big data y la inteligencia de negocios.
+        p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del Big data y la inteligencia de negocios.
         p.md-3 Pero desde el enfoque propiamente, la utilidad estadística está inmersa como fundamento en el conocimiento de las áreas y en todas las decisiones incluso las decisiones no técnicas y simples, de manera implícita se trae a la mente procesos estadísticos (ejemplo: al pasar una calle, debes verificar variables como flujo de carros, velocidad, estado de la vía, distancia del punto A al punto B, etc.).
         p <b>Para todo negocio, es importante tener en cuenta datos financieros y de consumo (ver figura).</b>
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema4/6.png', alt='Texto que describa la imagen')
-
-    .col-md-12.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 4.
-        em Índice de precios del consumidor
-      figure
-        img(src='@/assets/curso/temas/Tema4/7.png', alt='')
-        figcaption Nota. Banco de la República (2022).
+    .row.mb-5.align-items-center.justify-content-center
+      .col-10
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 4.
+          span
+            |  Índice de precios del consumidor
+        figure
+          img(src='@/assets/curso/temas/Tema4/7.png', alt='')
+          figcaption Nota. Banco de la República (2022).
 
     p.mb-5 En la imagen anterior se presentan los índices de precios, en los que se nota la inflación y consumo de la población en Colombia. Se nota que las bebidas alcohólicas y tabaco tuvieron estabilidad de precios a lo largo del mes de julio. Siendo el calzado y prendas de vestir las que más tuvieron variación en sus precios, seguido de los alimentos.
 
@@ -154,7 +176,7 @@
 
     p.mb-4 <b>Como principio fundamental la estadística contiene los siguientes componentes:</b>
       
-    .tarjeta.tarjeta-rosa.p-4.mb-5
+    .tarjeta.bg16.p-4.mb-5
       SlyderA
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0

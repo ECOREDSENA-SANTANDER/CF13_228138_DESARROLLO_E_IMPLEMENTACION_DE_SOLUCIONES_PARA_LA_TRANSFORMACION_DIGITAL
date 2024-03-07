@@ -219,7 +219,7 @@
 
 
     .row.mb-5
-      .col-md-12
+      .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
             p.mb-3 La metodología para el diseño de DWH propuesta por Ralph Kimball se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean data marts, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
@@ -242,7 +242,7 @@
 
 
     .row.mb-5
-      .col-md-12
+      .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
             p.mb-5 No es muy diferente a Kimball, los principios de transformación y carga a los DWH contienen los mismos elementos en su arquitectura, sin embargo, la metodología de Bill Inmon plantea que los data marts deben ir después del almacenamiento de DWH.
