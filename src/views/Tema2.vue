@@ -7,7 +7,7 @@
         span 2
       h1 Preparación de datos
 
-    .bloque1
+    .bloque1(data-aos="zoom-in-left")
       .bloque-texto-b.color-secundario.py-4.mb-0
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
@@ -16,12 +16,12 @@
             .col-lg-2.col-md-5.col-8.px-5
               img.mb-0(alt="" src="@/assets/curso/temas/Tema2/1.svg")
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-10.p-4.bg20.d-flex.justify-content-center.align-items-center
         img.mx-3.w-50(src='@/assets/curso/temas/Tema2/2.svg', alt='Texto que describa la imagen')
         p Desde ese mismo momento, la información y la manera de configurar los datos a través del proceso comunicativo (transmisor, emisor, canal, mensaje y contexto) llevan a que aparezcan diversas formas de información y datos, incluso miles de mensajes de las primeras civilizaciones han quedado guardados por miles de años hasta nuestros días a través de pinturas, esculturas y símbolos.
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/3.png', alt='Texto que describa la imagen')
@@ -29,15 +29,15 @@
         p.mt-2-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados).
         p.fw-bold.mt-3 En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-10.p-4.d-flex.justify-content-center.align-items-center
         img.mx-3(src='@/assets/curso/temas/Tema2/4.svg', alt='Texto que describa la imagen')
 
-    p Bajo el contexto técnico, los datos en la era moderna se guardan a través de máquinas digitales a partir de la implementación de Bases de datos (BD).
-    h5.mb-5 Se invita a visualizar el siguiente video donde se profundiza en la diferencia entre dato e información:
+    p(data-aos="zoom-in-left") Bajo el contexto técnico, los datos en la era moderna se guardan a través de máquinas digitales a partir de la implementación de Bases de datos (BD).
+    h5.mb-5(data-aos="zoom-in-left") Se invita a visualizar el siguiente video donde se profundiza en la diferencia entre dato e información:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-12
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -49,7 +49,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Entendimiento de la data
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-md-6
         p.md-3.mt-2-cus Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
         p Conocer su naturaleza y características es trascendental para los proyectos BI, donde la calidad de los datos <b>(Data quality - DQ)</b>, se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
@@ -58,7 +58,7 @@
           img(src='@/assets/curso/temas/Tema2/5.png', alt='Texto que describa la imagen')
 
       
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/6.png', alt='Texto que describa la imagen')
@@ -67,12 +67,12 @@
         p el registro de datos tenga aspectos como: tipo de dato según la naturaleza del registro, formato uniforme aceptado por todo el sistema, que el dato sea válido por reglas de negocio y naturaleza del proceso, entre otros.
       
 
-    p La calidad de los datos toma aún mayor fuerza para aplicar validaciones con regularidad, cuando se habla de ecosistemas de datos, donde convergen diversas infraestructuras de datos y se interrelacionan datos compartidos.
-    p Se puede definir, que las bases de datos presentan calidad en los datos si cumplen seis dimensiones: exactitud, completitud, consistencia, unicidad, disponibilidad y validez. Sin embargo, esta clasificación no está universalmente aceptada, por lo cual se adicionan otras dimensiones: actualizado, conformidad, integridad y precisión, que complementan las dimensiones DQ.
-    h5.mb-5 A continuación, se presenta la descripción de cada una de estas dimensiones, que son medibles y que definen la calidad de los datos o Data Quality:
+    p(data-aos="zoom-in-left") La calidad de los datos toma aún mayor fuerza para aplicar validaciones con regularidad, cuando se habla de ecosistemas de datos, donde convergen diversas infraestructuras de datos y se interrelacionan datos compartidos.
+    p(data-aos="zoom-in-left") Se puede definir, que las bases de datos presentan calidad en los datos si cumplen seis dimensiones: exactitud, completitud, consistencia, unicidad, disponibilidad y validez. Sin embargo, esta clasificación no está universalmente aceptada, por lo cual se adicionan otras dimensiones: actualizado, conformidad, integridad y precisión, que complementan las dimensiones DQ.
+    h5.mb-5(data-aos="zoom-in-left") A continuación, se presenta la descripción de cada una de estas dimensiones, que son medibles y que definen la calidad de los datos o Data Quality:
     
 
-    .tarjeta.tarjeta-linea-tiempo-c.p-4.mb-5.bg21
+    .tarjeta.tarjeta-linea-tiempo-c.p-4.mb-5.bg21(data-aos="zoom-in-left")
       LineaTiempoC.color-acento-botones(text-small)
         .row(titulo="Exactitud").mx-5.py-3.bg-white-r.justify-content-center.align-items-center
           .col-md-8.mb-4.mb-md-0
@@ -150,10 +150,10 @@
               img(src='@/assets/curso/temas/Tema2/15.png', alt='Texto que describa la imagen')
 
 
-    h5.mb-5 Además, es necesario reconocer la importancia de las pruebas de integridad de datos:
+    h5.mb-5(data-aos="zoom-in-left") Además, es necesario reconocer la importancia de las pruebas de integridad de datos:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-12
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -164,20 +164,20 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Detección de errores y datos faltantes
 
-    p Uno de los mayores desafíos para la analítica es lidiar con sistemas de información que fueron diseñados por fuera de los dominios de la centralización, o estándares de calidad y validación que garanticen un óptimo resultado.
+    p(data-aos="zoom-in-left") Uno de los mayores desafíos para la analítica es lidiar con sistemas de información que fueron diseñados por fuera de los dominios de la centralización, o estándares de calidad y validación que garanticen un óptimo resultado.
 
-    .row.mb-4
+    .row.mb-4(data-aos="zoom-in-left")
       .col-lg-7.my-3
         .bloque-texto-b.color-terciario.py-4.mb-5
           .bloque-texto-b__texto.d-flex
             i.fas.fa-quote-left
-            p.mb-2.flex-column Cuando los sistemas de información no son capaces de digitalizar eficaz y eficientemente la realidad del negocio, y capturan el nivel adecuado de detalle necesario, no almacenan dichos datos garantizando que no se producen pérdidas sintácticas ni semánticas, no procesan los datos de acuerdo con las reglas de negocio, o no muestran los resultados de los análisis a los usuarios, entonces se producen “no-conformidades” en el ciclo de vida de los datos 
-              h5.d-flex.justify-content-end <br>(Velthuis, 2019). 
+            p.mb-2.flex-column.d-block Cuando los sistemas de información no son capaces de digitalizar eficaz y eficientemente la realidad del negocio, y capturan el nivel adecuado de detalle necesario, no almacenan dichos datos garantizando que no se producen pérdidas sintácticas ni semánticas, no procesan los datos de acuerdo con las reglas de negocio, o no muestran los resultados de los análisis a los usuarios, entonces se producen “no-conformidades” en el ciclo de vida de los datos 
+            h5.d-flex.justify-content-end.d-block <br>(Velthuis, 2019). 
                 i.fas.fa-quote-right
       .col-lg-3
           img.w-75.mt-5(src='@/assets/curso/temas/Tema2/16.svg', alt='Texto que describa la imagen')
       
-    .row
+    .row(data-aos="zoom-in-left")
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/17.png', alt='Texto que describa la imagen')
@@ -191,9 +191,9 @@
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
 
 
-    h5.mb-5 Es la más sencilla, se puede tomar de dos maneras:
+    h5.mb-5(data-aos="zoom-in-left") Es la más sencilla, se puede tomar de dos maneras:
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-md.tarjeta.bg22.p-5.text-black
         .row.justify-content-center.mb-4
           .col-6
@@ -209,15 +209,15 @@
         h4.text-center Eliminación por pares
         p A diferencia del anterior, solo pone en Nulos aquellos valores que faltan, conservando el resto de la fina, sin embargo, para modelos BI o ML podría presentar inconvenientes, pues hay medidas u operaciones que requieren la completitud de los datos.
 
-    .mb-4.d-flex.bg-img-title
+    .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 200px; padding:7px;') Imputación
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
 
 
-    p Esta técnica está basada en estimar los valores faltantes en relación a los datos disponibles de la misma columna, en este caso, se hace uso de la estadística inferencial (más adelante se detalla), la idea es que los datos completados no interfieran en la media ni desviación del conjunto de datos. Este tipo de completitud se aplica a datos numéricos, ya sean tipo enteros o flotantes. Hay dos maneras de aplicar la imputación o reemplazo del dato:
+    p(data-aos="zoom-in-left") Esta técnica está basada en estimar los valores faltantes en relación a los datos disponibles de la misma columna, en este caso, se hace uso de la estadística inferencial (más adelante se detalla), la idea es que los datos completados no interfieran en la media ni desviación del conjunto de datos. Este tipo de completitud se aplica a datos numéricos, ya sean tipo enteros o flotantes. Hay dos maneras de aplicar la imputación o reemplazo del dato:
     
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-md.tarjeta.bg22.p-5.text-black
         .row.justify-content-around.align-items-center.mb-4
           .col-6
@@ -240,11 +240,11 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.3 Identificación de variables importantes
 
-    p.mb-3 Para iniciar la toma de requerimientos para proyectos BI, se debe tener en cuenta que la inteligencia de negocios (Business Intelligence) no es una tecnología; podría denominarse más como una técnica o metodología que podría emplear una o varias herramientas tecnológicas integradas.
-    h5.mb-5 Por lo cual es importante, aplicar las siguientes técnicas para la identificación de las variables:
+    p.mb-3(data-aos="zoom-in-left") Para iniciar la toma de requerimientos para proyectos BI, se debe tener en cuenta que la inteligencia de negocios (Business Intelligence) no es una tecnología; podría denominarse más como una técnica o metodología que podría emplear una o varias herramientas tecnológicas integradas.
+    h5.mb-5(data-aos="zoom-in-left") Por lo cual es importante, aplicar las siguientes técnicas para la identificación de las variables:
 
 
-    .row
+    .row(data-aos="zoom-in-left")
       .col-md-5
         AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="Conocer la organización (observación y lectura)")
@@ -278,10 +278,10 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.4 Dataset
     
-    p.mb-0 Se denomina al conjunto de datos, lo que traduce una colección de información en una sola tabla. donde cada campo representa una variable particular.
-    p A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los Dataset contienen todo en una única tabla.
+    p.mb-0(data-aos="zoom-in-left") Se denomina al conjunto de datos, lo que traduce una colección de información en una sola tabla. donde cada campo representa una variable particular.
+    p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los Dataset contienen todo en una única tabla.
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-6
         figure
           img(src='@/assets/curso/temas/Tema2/25.png', alt='Texto que describa la imagen')
@@ -289,9 +289,9 @@
         p.mb-3 Algunas soluciones analíticas están basadas en Datasets, es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
         p Una de las definiciones y análisis iniciales más importantes a la hora de identificar las fuentes de datos es la manera o arquitectura en que se almacena la información. Según como se almacenan y gestionan los datos digitales, estos pueden clasificarse en términos generales como datos estructurados o semiestructurados (Ommi, 2018).
 
-    p.mb-5 <b>A continuación se presentan los tipos de datos en los orígenes para los modelos analíticos:</b>
+    p.mb-5(data-aos="zoom-in-left") <b>A continuación se presentan los tipos de datos en los orígenes para los modelos analíticos:</b>
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-6
         ImagenInfografica.color-acento-botones.mb-5 
           template(v-slot:imagen)
@@ -310,7 +310,7 @@
             p.mb-2 Datos que se almacenan en bases de datos relacionales como SQL, Oracle etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. Ejemplo: 
             p <b>- Base de datos gestión de facturación.</b>
     
-    p La mayoría de los datos generados por todos los usuarios están clasificados como no estructurados, esto indica que se componen de información difícil de clasificar y ordenar, conformada por archivos sueltos o producidos de manera general como documentos, videos y audios.
+    p(data-aos="zoom-in-left") La mayoría de los datos generados por todos los usuarios están clasificados como no estructurados, esto indica que se componen de información difícil de clasificar y ordenar, conformada por archivos sueltos o producidos de manera general como documentos, videos y audios.
 
 </template>
 

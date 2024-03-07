@@ -7,7 +7,7 @@
         span 3
       h1 La inteligencia de negocios
 
-    .bloque1
+    .bloque1(data-aos="zoom-in-left")
       .bloque-texto-b.color-secundario.py-4.mb-0
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
@@ -31,23 +31,23 @@
             p.mb-0 Los avances tecnológicos y nuevas posibilidades de la cuarta revolución industrial hacen que este fenómeno se acentúe aún más y las empresas tengan dentro de sus retos la adopción de tecnologías y nuevas maneras de darle valor a los negocios a partir de recursos que generados por sí mismo y otros disponibles de manera pública, todo lo cual puede traducirse en oportunidades y posibilidades gigantes que bien estructuradas podría significar las mejores decisiones y valor a la organización que adopta la tecnología y las nuevas tendencias comerciales.
 
 
-    p.mb-5 En forma simple, la inteligencia de negocios es una serie de técnicas, metodologías y herramientas que se integran para convertir los datos en información, luego en conocimiento para al final tomar las mejores decisiones.
+    p.mb-5(data-aos="zoom-in-left") En forma simple, la inteligencia de negocios es una serie de técnicas, metodologías y herramientas que se integran para convertir los datos en información, luego en conocimiento para al final tomar las mejores decisiones.
 
 
     Separador
 
-    #t_3_1.titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.1 Identificación de las preguntas básicas
 
-    p.mb-5 En ocasiones, los proyectos de BI se inician con la motivación de entrar en una ola digital, o estar en la moda de la tecnología, incluso sin tener requisitos o necesidades visibles o al menos conscientes. En caso de que las empresas, especialmente las pymes, no tengan claridad sobre el uso del BI en el negocio, es necesario concienciar a los directivos de que muchos problemas de la organización se deben a la falta de datos instantáneos, actualizados y que reflejan una realidad.
+    p.mb-5(data-aos="zoom-in-left") En ocasiones, los proyectos de BI se inician con la motivación de entrar en una ola digital, o estar en la moda de la tecnología, incluso sin tener requisitos o necesidades visibles o al menos conscientes. En caso de que las empresas, especialmente las pymes, no tengan claridad sobre el uso del BI en el negocio, es necesario concienciar a los directivos de que muchos problemas de la organización se deben a la falta de datos instantáneos, actualizados y que reflejan una realidad.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-8.p-4.bg20.d-flex.justify-content-center.align-items-center
         p Una de las condiciones iniciales más importantes son las preguntas, es decir, qué se necesita saber del negocio, qué decisiones se planea tomar y qué insumos se requieren para la toma de estas decisiones.
         img.px-4.w-75(src='@/assets/curso/temas/Tema3/3.svg', alt='Texto que describa la imagen')
 
 
-    .row.justify-content-around.align-items-center
+    .row.justify-content-around.align-items-center(data-aos="zoom-in-left")
 
       .col-md-5
         figure
@@ -58,12 +58,12 @@
       
     Separador
 
-    #t_3_2.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.2 Metodología de integración
     
-    p.mb-4 La inteligencia de negocios en sí es una integración de toda la información de la organización, o al menos la más relevante. Tomar diversas fuentes (variabilidad), con información acumulada (volumen) y que además se procesen de manera óptima y rápida (velocidad).
+    p.mb-4(data-aos="zoom-in-left") La inteligencia de negocios en sí es una integración de toda la información de la organización, o al menos la más relevante. Tomar diversas fuentes (variabilidad), con información acumulada (volumen) y que además se procesen de manera óptima y rápida (velocidad).
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-md.tarjeta.p-5.text-black
         .row.justify-content-center.mb-4
           .col-6
@@ -77,16 +77,16 @@
         p.mb-3 Lo primero que se debe evaluar es la integración entre las estrategias de la organización con la implementación de la inteligencia de negocio, como referencia estratégica, cada vez es más importante como apoyo a la gestión y toma de decisiones.
         p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. <b>El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general.</b>
 
-    p.mb-5 <b>En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio:</b>
-    img(src='@/assets/curso/temas/Tema3/7.svg', alt='Texto que describa la imagen')
+    p.mb-5(data-aos="zoom-in-left") <b>En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio:</b>
+    img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='Texto que describa la imagen')
 
 
     Separador
 
-    #t_3_3.titulo-segundo.color-acento-contenido
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.3 Herramientas de administración
 
-    p.mb-4 Las herramientas disponibles para la implementación de la inteligencia de negocio en las organizaciones, son amplias y cada vez nuevas marcas y técnicas se disputan el mercado.
+    p.mb-4(data-aos="zoom-in-left") Las herramientas disponibles para la implementación de la inteligencia de negocio en las organizaciones, son amplias y cada vez nuevas marcas y técnicas se disputan el mercado.
     .tarjeta--container.mb-5
       .col-md.bg25.p-5.text-black
         h4 Elegir la herramienta adecuada es una variable crítica de éxito, existen múltiples aspectos qué evaluar al momento de decidirse por cuál herramienta emplear. Entre otras razones, se debe hacer análisis de:
@@ -116,9 +116,9 @@
               figure
                 img(src='@/assets/curso/temas/Tema3/8.svg', alt='Texto que describa la imagen')
 
-    h5.mb-5 A continuación, algunas alternativas disponibles para que las organizaciones puedan emplear con eficiencia proyectos de estas características:
+    h5.mb-5(data-aos="zoom-in-left") A continuación, algunas alternativas disponibles para que las organizaciones puedan emplear con eficiencia proyectos de estas características:
 
-    .row
+    .row(data-aos="zoom-in-left")
       .col-md-5
         AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="SAS INSTITUT")
@@ -146,17 +146,17 @@
         figure
           img(src='@/assets/curso/temas/Tema3/9.png', alt='Texto que describa la imagen')
       
-    p.mb-5 Existen otras más, soportadas con grandes marcas como IBM, Google, Teradata, SAP y otras que si bien no son tan mencionadas en el mercado, son igual de poderosas y confiables.
+    p.mb-5(data-aos="zoom-in-left") Existen otras más, soportadas con grandes marcas como IBM, Google, Teradata, SAP y otras que si bien no son tan mencionadas en el mercado, son igual de poderosas y confiables.
 
     Separador
 
-    #t_3_4.titulo-segundo.color-acento-contenido
+    #t_3_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.4 Técnicas de solución de problemas (modelación de datos)
 
-    p.mb-3 Si bien existen varias metodologías, todas coinciden en una manera genérica para la solución de un proyecto analítico propuesto por Davenport, con algunas variables
-    p.mb-3 <b>Esta metodología tiene tres grandes etapas:</b>
+    p.mb-3(data-aos="zoom-in-left") Si bien existen varias metodologías, todas coinciden en una manera genérica para la solución de un proyecto analítico propuesto por Davenport, con algunas variables
+    p.mb-3(data-aos="zoom-in-left") <b>Esta metodología tiene tres grandes etapas:</b>
 
-    .row.align-items-center.justify-content-start
+    .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
       .col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -167,7 +167,7 @@
               p Para reconocer el problema, se debe partir de las necesidades surgidas a partir de la experiencia para tomar una decisión o acción; es decir, qué necesidades o inconvenientes se han tenido cuando la información, reportes o conocimiento de algún dato importante no está disponible en el momento y exactitud para tomar decisiones o ejecutar acciones. Es importante gestionar las expectativas y documentar las necesidades o problemas puntuales.
               p <b>En esta fase, una clave es identificar objetivos que no se cumplen por la falta de un proyecto analítico.</b>
 
-    .row.align-items-center.justify-content-start
+    .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
       .col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -191,7 +191,7 @@
                   p Desarrollar componentes técnicos y generación de reportes con información de valor y conocimiento del negocio.
 
         
-    .row.align-items-center.justify-content-start
+    .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
       .col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -203,14 +203,14 @@
 
   
 
-    p La modelación de las soluciones BI, depende de las reglas de negocio y los requisitos o problemas a resolver. En los apartados siguientes se detallan las arquitecturas disponibles y el proceso del tratamiento de datos a partir de una mirada de análisis e inteligencia de negocio.                
+    p(data-aos="zoom-in-left") La modelación de las soluciones BI, depende de las reglas de negocio y los requisitos o problemas a resolver. En los apartados siguientes se detallan las arquitecturas disponibles y el proceso del tratamiento de datos a partir de una mirada de análisis e inteligencia de negocio.                
         
     Separador
 
-    #t_3_5.titulo-segundo.color-acento-contenido
+    #t_3_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.5 Metodologías de análisis (Kimball, Inmon)
 
-    p En lo relacionado a la planeación y diseño de las bodegas de datos (DWH), se plantean dos arquitecturas:
+    p(data-aos="zoom-in-left") En lo relacionado a la planeación y diseño de las bodegas de datos (DWH), se plantean dos arquitecturas:
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
@@ -218,7 +218,7 @@
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
 
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
@@ -228,7 +228,7 @@
             p <b>Kimball propone que estos Data Mart</b> deben crearse primero para proporcionar capacidades analíticas; en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los Data Mart se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios Data Mart. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (ver figura).
             
     .col-md-12.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      .titulo-sexto.color-acento-contenido
         h5 Figura 1.
         span
           |   Modelo Kimball
@@ -241,7 +241,7 @@
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
 
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
@@ -249,25 +249,25 @@
             br
             br
             p La metodología Inmon comienza por generar un arreglo de todos los datos corporativos en el DWH, para luego identificar y dividir áreas para la generación de los Data Mart. En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los data marts y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (ver figura).
-
-    .col-md-12.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 2.
-        span
-          |  Modelo Inmon.
-      figure
-        img(src='@/assets/curso/temas/Tema3/16.png', alt='')
+    .row(data-aos="zoom-in-left")
+      .col-md-12.mx-auto.mb-5
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2.
+          span
+            |  Modelo Inmon.
+        figure
+          img(src='@/assets/curso/temas/Tema3/16.png', alt='')
 
     Separador
 
-    #t_3_6.titulo-segundo.color-acento-contenido
+    #t_3_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.6 Verificación de valores y escalas
 
-    p.mb-4 Los cuadros de mando o Dashboard, permiten hacer monitoreo de los procesos mostrando información importante a través de elementos gráficos de fácil entendimiento y con actualizaciones periódicas.
-    p.mb-4 Los valores que presentan deben ser indicadores de procesos, tareas o situaciones importantes para el negocio, su escalabilidad y visualización deben aparecer claramente. Para algunos valores podrían presentarse escalas (ejemplo, valores de ventas), para otros no (ejemplo, comparaciones porcentuales).
-    p.mb-4 <b>Entre los elementos más importantes de los cuadros de mando, su tipo de valor y escalas se pueden mencionar:</b>
+    p.mb-4(data-aos="zoom-in-left") Los cuadros de mando o Dashboard, permiten hacer monitoreo de los procesos mostrando información importante a través de elementos gráficos de fácil entendimiento y con actualizaciones periódicas.
+    p.mb-4(data-aos="zoom-in-left") Los valores que presentan deben ser indicadores de procesos, tareas o situaciones importantes para el negocio, su escalabilidad y visualización deben aparecer claramente. Para algunos valores podrían presentarse escalas (ejemplo, valores de ventas), para otros no (ejemplo, comparaciones porcentuales).
+    p.mb-4(data-aos="zoom-in-left") <b>Entre los elementos más importantes de los cuadros de mando, su tipo de valor y escalas se pueden mencionar:</b>
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-md-8.mb-5.mb-md-0
         LineaTiempoD.color-secundario
           p.text-small(numero="1" titulo="Tablas") se conforma de matriz, presenta múltiples datos, puede ser estática o dinámica según las reglas del negocio y características de la información que representa. Presenta datos estructurados por dimensiones (tipo OLAP) en algunos casos, y su escalabilidad se limita al redondeo de cifras configurando la cantidad de decimales de los datos numéricos flotantes.
@@ -294,12 +294,12 @@
 
     Separador
 
-    #t_3_7.titulo-segundo.color-acento-contenido
+    #t_3_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.7 Procedimientos almacenados y funciones
     
-    p.mb-5 Desde los motores de bases de datos, se pueden aplicar funciones nativas a los datos, es decir, no todas las condiciones y reglas de negocio se programan en los procesos de programación, pues los motores de bases de datos pueden adaptar además de las consultas estándar SQL, script con lenguajes como: R, Phyton, etc.
+    p.mb-5(data-aos="zoom-in-left") Desde los motores de bases de datos, se pueden aplicar funciones nativas a los datos, es decir, no todas las condiciones y reglas de negocio se programan en los procesos de programación, pues los motores de bases de datos pueden adaptar además de las consultas estándar SQL, script con lenguajes como: R, Phyton, etc.
 
-    .row.align-items-center.justify-content-center(data-aos="fade-down")
+    .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
@@ -310,20 +310,20 @@
           
     Separador
 
-    #t_3_8.titulo-segundo.color-acento-contenido
+    #t_3_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.8 Disparadores
 
-    p.mb-5 Llamados comúnmente Triggers, son sentencias o funciones que se ejecutan cuando se presentan ciertos eventos. Estos eventos pueden ser una condición en el tiempo, una actualización, inserción o borrado de una tabla en un dato específico.
-    p.mb-5 Los disparadores son elementos muy importantes a la hora de automatizar acciones en los datos. La tendencia en los sistemas de información es la automatización y dejar todo lo posible para que las máquinas funcionen de manera autónoma, de esta manera se tendrán acciones en los datos en el momento mismo de realizar una operación que sea el disparador de otras tareas (ver tabla).
+    p.mb-5(data-aos="zoom-in-left") Llamados comúnmente Triggers, son sentencias o funciones que se ejecutan cuando se presentan ciertos eventos. Estos eventos pueden ser una condición en el tiempo, una actualización, inserción o borrado de una tabla en un dato específico.
+    p.mb-5(data-aos="zoom-in-left") Los disparadores son elementos muy importantes a la hora de automatizar acciones en los datos. La tendencia en los sistemas de información es la automatización y dejar todo lo posible para que las máquinas funcionen de manera autónoma, de esta manera se tendrán acciones en los datos en el momento mismo de realizar una operación que sea el disparador de otras tareas (ver tabla).
     
     
-    .col-md-12.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    .col-md-12.mx-auto.mb-5(data-aos="zoom-in-left")
+      .titulo-sexto.color-acento-contenido
         h5 Tabla 1.
         span
           |  Ejemplo de Triggers
 
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-left")
       table
         thead
           tr
@@ -337,7 +337,7 @@
             td Todos los días cuando el sean las 3:00 A.M.
             td Ejecutar carga de la base de datos transaccional a los almacenamientos para el proceso ETL
         
-    p En esta tabla se presentan ejemplos de disparadores, para una mejor comprensión.
+    p(data-aos="zoom-in-left") En esta tabla se presentan ejemplos de disparadores, para una mejor comprensión.
 
 
     

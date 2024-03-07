@@ -7,7 +7,7 @@
         span 4
       h1 Análisis exploratorio de datos
     
-    .bloque1
+    .bloque1(data-aos="zoom-in-left")
       .bloque-texto-b.color-secundario.py-4.mb-0
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
@@ -19,14 +19,14 @@
 
     Separador
 
-    #t_4_1.titulo-segundo.color-acento-contenido
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.1 Estadística descriptiva y estadística inferencial
 
     p.mb-5 Son los métodos mediante los cuales se presenta la información y pueden clasificarse en:
 
 
 
-    .row.align-items-center.justify-content-start
+    .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
       .col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -40,7 +40,7 @@
 
 
 
-    .row.align-items-center.justify-content-start
+    .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
       .col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -53,23 +53,23 @@
 
     Separador
 
-    #t_4_2.titulo-segundo.color-acento-contenido
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.2 Población y muestra
 
     p Para la aplicación de estadística inferencial, se tratarán algunos parámetros matemáticos para la aplicación de este modelo estadístico que se ilustran a continuación (ver figura).
 
 
-    .col-md-12.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    .col-md-12.mx-auto.mb-5(data-aos="zoom-in-left")
+      .titulo-sexto.color-acento-contenido
         h5 Figura 3.
         span
           |  Características de una muestra adecuada.
       figure
         img(src='@/assets/curso/temas/Tema4/4.svg', alt='')
 
-    p.mb-5 Este tipo de estadística se aplica cuando, la posblación o el universo objeto de estudio es muy grande e imposible de aplicar estadística descriptiva o aplicar instrumento a todo, o cuando no hay exactitud del número de población o universo. Para estos casos, se deberá aplicar la estadística inferencial donde se pueden realizar afirmaciones sobre una población basado en los resultados de una muestra.
+    p.mb-5(data-aos="zoom-in-left") Este tipo de estadística se aplica cuando, la posblación o el universo objeto de estudio es muy grande e imposible de aplicar estadística descriptiva o aplicar instrumento a todo, o cuando no hay exactitud del número de población o universo. Para estos casos, se deberá aplicar la estadística inferencial donde se pueden realizar afirmaciones sobre una población basado en los resultados de una muestra.
 
-    .tarjeta.bg29.p-4.mb-5      
+    .tarjeta.bg29.p-4.mb-5(data-aos="zoom-in-left")     
       .row.justify-content-center.align-items-center
         .col-md-2
           figure.mx-7
@@ -80,7 +80,7 @@
 
     Separador
 
-    #t_4_3.titulo-segundo.color-acento-contenido
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.3 Escalas de medida y clasificación de variable
     
     p.mb-4 Las escalas de medición son procesos de comparación y dimensionalidad, que da cuenta de un valor que signifique sus proporciones. Una variable, es un elemento que cambia y que al hacer parte de un conjunto puede afectar.
@@ -88,13 +88,13 @@
 
     
 
-    .col-md-12.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    .col-md-12.mx-auto.mb-5(data-aos="zoom-in-left")
+      .titulo-sexto.color-acento-contenido
         h5 Tabla 2.
         span
           |   Variables y escalas
 
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-left")
       table
         thead
           tr
@@ -144,10 +144,10 @@
             i.fas.fa-circle.icon-li-ul
     Separador
 
-    #t_4_4.titulo-segundo.color-acento-contenido
+    #t_4_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.4 Técnicas de análisis estadístico
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-md-6
         p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del Big data y la inteligencia de negocios.
         p.md-3 Pero desde el enfoque propiamente, la utilidad estadística está inmersa como fundamento en el conocimiento de las áreas y en todas las decisiones incluso las decisiones no técnicas y simples, de manera implícita se trae a la mente procesos estadísticos (ejemplo: al pasar una calle, debes verificar variables como flujo de carros, velocidad, estado de la vía, distancia del punto A al punto B, etc.).
@@ -157,7 +157,7 @@
           img(src='@/assets/curso/temas/Tema4/6.png', alt='Texto que describa la imagen')
     .row.mb-5.align-items-center.justify-content-center
       .col-10
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           span
             |  Índice de precios del consumidor
@@ -165,18 +165,18 @@
           img(src='@/assets/curso/temas/Tema4/7.png', alt='')
           figcaption Nota. Banco de la República (2022).
 
-    p.mb-5 En la imagen anterior se presentan los índices de precios, en los que se nota la inflación y consumo de la población en Colombia. Se nota que las bebidas alcohólicas y tabaco tuvieron estabilidad de precios a lo largo del mes de julio. Siendo el calzado y prendas de vestir las que más tuvieron variación en sus precios, seguido de los alimentos.
+    p.mb-5(data-aos="zoom-in-left") En la imagen anterior se presentan los índices de precios, en los que se nota la inflación y consumo de la población en Colombia. Se nota que las bebidas alcohólicas y tabaco tuvieron estabilidad de precios a lo largo del mes de julio. Siendo el calzado y prendas de vestir las que más tuvieron variación en sus precios, seguido de los alimentos.
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-md-2.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema4/8.png', alt='Texto que describa la imagen')
       .col-md-9
         p.md-3 Con esta información, el negocio podría ir tomando decisiones y estableciendo enfoques comerciales, mirar cómo está su sector en el país y de esa manera ir orientando su análisis de negocio. Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validar los datos financieros, los tiempos de procesos, comparar sedes, definir conocimiento específico y general del negocio.<b> Por lo que la estadística toma un papel muy importante, para ello se mencionarán las principales características de la estadística:</b>
 
-    p.mb-4 <b>Como principio fundamental la estadística contiene los siguientes componentes:</b>
+    p.mb-4(data-aos="zoom-in-left") <b>Como principio fundamental la estadística contiene los siguientes componentes:</b>
       
-    .tarjeta.bg16.p-4.mb-5
+    .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
       SlyderA
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -224,7 +224,7 @@
               img(src='@/assets/curso/temas/Tema4/13.png', alt='Texto que describa la imagen')
 
 
-    p La estadística es entonces, un conjunto de métodos y teorías aplicadas a la recolección, descripción y análisis de datos, los cuales constituyen evidencia numérica para la toma de decisiones en condiciones de incertidumbre.
+    p(data-aos="zoom-in-left") La estadística es entonces, un conjunto de métodos y teorías aplicadas a la recolección, descripción y análisis de datos, los cuales constituyen evidencia numérica para la toma de decisiones en condiciones de incertidumbre.
 
 </template>
 

@@ -8,7 +8,7 @@
       h1 Herramientas para el análisis de datos
 
 
-    .bloque1
+    .bloque1(data-aos="zoom-in-left")
       .bloque-texto-b.color-secundario.py-4.mb-0
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
@@ -18,12 +18,12 @@
               img.mb-0(alt="" src="@/assets/curso/temas/Tema7/1.svg") 
 
 
-    .col-md-12.mx-auto.mb-5
+    .col-md-12.mx-auto.mb-5(data-aos="zoom-in-left")
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Tabla 3.
         span
                 |   Variables y escalas
-    .row 
+    .row(data-aos="zoom-in-left")
       .col-10.m-auto
         .tabla-a.color-acento-contenido.mb-5 
           table
@@ -67,7 +67,7 @@
       h2 7.1 Entornos de desarrollo - IDE
 
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in-left")
       .col-md-6
         p.mt-2-cus En este apartado, se mencionan los Entornos de Desarrollo Integrado (IDE), los cuales ahorran mucho tiempo y esfuerzo a quienes programan en la preparación de las plataformas e instalación de complementos extras que requieren, de esa manera, solo se dedican a programar y dejar todos los recursos necesarios a que se incluyan en estos entornos. Para la gestión de datos se emplean muchos lenguajes de programación, y lenguajes de consulta, lo que implica prácticamente construir códigos enteros para los procesos de datos.
         p <b>Los entornos más eficientes son:</b>
@@ -75,7 +75,7 @@
         figure
           img(src='@/assets/curso/temas/Tema7/2.png', alt='Texto que describa la imagen')
     
-    .tarjeta--container.row.mb-5.bg16
+    .tarjeta--container.row.mb-5.bg16(data-aos="zoom-in-left")
       .col-md.tarjeta-container-nueve.p-5
         .row
           .col-md-4
@@ -145,13 +145,13 @@
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 7.3 Librerías
 
-    p.mb-4 Las librerías en los lenguajes de programación son un conjunto de archivos que contienen códigos de programas o funcionalidades que hacen tareas concretas y repetitivas para facilitar la programación. Las librerías se categorizan por el tipo de funcionalidades que presentan, algunas son de tipo estadístico, otras para la visualización de datos, otras para operaciones matemáticas especializadas, etc.
+    p.mb-4(data-aos="zoom-in-left") Las librerías en los lenguajes de programación son un conjunto de archivos que contienen códigos de programas o funcionalidades que hacen tareas concretas y repetitivas para facilitar la programación. Las librerías se categorizan por el tipo de funcionalidades que presentan, algunas son de tipo estadístico, otras para la visualización de datos, otras para operaciones matemáticas especializadas, etc.
 
 
 
 
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-md.bg25.p-5
         .row.mb-4
           .col-md-6.mb-5.mb-md-0

@@ -8,7 +8,7 @@
       h1 Estructuras y componentes de analítica de datos
 
     
-    .cajon-b.color-primario-2.p-3.mb-5.arriba-izquierda
+    .cajon-b.color-primario-2.p-3.mb-5.arriba-izquierda(data-aos="zoom-in-left")
       .row.mt-5.mb-5
         .col-4.px-0
             img(src="@/assets/curso/temas/Tema6/1.svg", alt="Texto que describa la imagen").floating
@@ -18,10 +18,10 @@
 
       
 
-    p.mb-4 <b>Con el siguiente video, se comprenderá mejor lo que hace referencia mediante la analítica de datos:</b>
+    p.mb-4(data-aos="zoom-in-left") <b>Con el siguiente video, se comprenderá mejor lo que hace referencia mediante la analítica de datos:</b>
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-12
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -32,9 +32,9 @@
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.1. Bodega de datos
 
-    p.mb-5 La información de las organizaciones proviene de fuentes de datos heterogéneas, muchas veces sin estar integradas, por lo cual tener reportes e información dispersa por áreas de la organización es un asunto que en la actualidad no debería presentarse, pues el fin de la inteligencia de negocios es facilitar el proceso y la disponibilidad de la información más relevante del negocio; para lograr esto se hace necesario centralizar los datos a través de bodegas de datos o Data Warehouse (DWH).
+    p.mb-5(data-aos="zoom-in-left") La información de las organizaciones proviene de fuentes de datos heterogéneas, muchas veces sin estar integradas, por lo cual tener reportes e información dispersa por áreas de la organización es un asunto que en la actualidad no debería presentarse, pues el fin de la inteligencia de negocios es facilitar el proceso y la disponibilidad de la información más relevante del negocio; para lograr esto se hace necesario centralizar los datos a través de bodegas de datos o Data Warehouse (DWH).
 
-    .row.mb-5 
+    .row.mb-5(data-aos="zoom-in-left") 
       .col-10.justify-content-center.align-items-center.m-auto
         .container-card
           .first-card 
@@ -44,7 +44,7 @@
             img(src='@/assets/curso/temas/Tema6/2.png', alt='Texto que describa la imagen')
 
 
-    .row.mb-5.justify-content-center.align-items-center
+    .row.mb-5.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-md-5.col-lg.mb-5.mb-lg-0
         img(src='@/assets/curso/temas/Tema6/3.png' alt='AvatarTop')
       .col-md-5.col-lg.mb-5.mb-lg-0
@@ -59,18 +59,18 @@
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.2 Tipos estrella
 
-    p.mb-4 Es aquella que cuyas dimensiones se relacionan directamente con la tabla de hechos, se representa de la siguiente manera (ver figura): 
+    p.mb-4(data-aos="zoom-in-left") Es aquella que cuyas dimensiones se relacionan directamente con la tabla de hechos, se representa de la siguiente manera (ver figura): 
 
-    .row.justify-content-around.align-items-center.mb-3
+    .row.justify-content-around.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-6
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        .titulo-sexto.color-acento-contenido
           h5 Figura 6.
           span
                 |   DWH Tipo Estrella
         figure
           img(src='@/assets/curso/temas/Tema6/4.png', alt='')
 
-    p.mb-4 Como se visualiza en la gráfica, muchas tablas giran alrededor de la tabla principal que es la tabla de hechos, que por lo general, contiene las claves primarias de las dimensiones que se asocian, así como las cifras o medidas realizadas previas en el proceso ETL.
+    p.mb-4(data-aos="zoom-in-left") Como se visualiza en la gráfica, muchas tablas giran alrededor de la tabla principal que es la tabla de hechos, que por lo general, contiene las claves primarias de las dimensiones que se asocian, así como las cifras o medidas realizadas previas en el proceso ETL.
 
 
     Separador
@@ -78,26 +78,26 @@
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.3 Copo de nieve
 
-    p.mb-4 La topología copo de nieve o Snowflake se presenta frecuentemente, cuando las dimensiones cuentan con otras familias o categorías que obligan a incluir subdimensiones para completar la información. Ejemplo de esto es cuando existe una dimensión Productos, es muy frecuente que exista la dimensión Categorías. Esta última se conecta a la tabla de hechos a través de Productos que está en medio. Se representa de la siguiente manera (ver figura):
+    p.mb-4(data-aos="zoom-in-left") La topología copo de nieve o Snowflake se presenta frecuentemente, cuando las dimensiones cuentan con otras familias o categorías que obligan a incluir subdimensiones para completar la información. Ejemplo de esto es cuando existe una dimensión Productos, es muy frecuente que exista la dimensión Categorías. Esta última se conecta a la tabla de hechos a través de Productos que está en medio. Se representa de la siguiente manera (ver figura):
 
-    .row.justify-content-around.align-items-center.mb-3
+    .row.justify-content-around.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-6
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        .titulo-sexto.color-acento-contenido
           h5 Figura 7.
           span
                 |   DWH Snowflake
         figure
           img(src='@/assets/curso/temas/Tema6/5.png', alt='')
 
-    p.mb-4 En este caso, al igual que con la topología de estrella, los hechos se relacionan con las dimensiones a partir de las claves de las tablas que lo circundan, sin embargo, en este caso se pueden presentar más niveles donde una dimensión pueda contener una clave foránea de otra tabla. En ese sentido, como se ve en el ejemplo, la dimensión_categoria se asocia a los hechos a través de una tabla en medio llamada dimension_producto.
+    p.mb-4(data-aos="zoom-in-left") En este caso, al igual que con la topología de estrella, los hechos se relacionan con las dimensiones a partir de las claves de las tablas que lo circundan, sin embargo, en este caso se pueden presentar más niveles donde una dimensión pueda contener una clave foránea de otra tabla. En ese sentido, como se ve en el ejemplo, la dimensión_categoria se asocia a los hechos a través de una tabla en medio llamada dimension_producto.
 
     Separador
 
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.4 Constelación
 
-    p.mb-4 Similar a la topología copo de nieve, sin embargo, se presenta cuando hay más de dos niveles de relación. Es decir, hay más de una tabla en medio entre una dimensión y la tabla de hechos. Esta arquitectura no es muy común y es poco eficiente, pues ya los diseños dimensionales se van desdibujando un poco y comienzan más a parecerse a estructuras transaccionales que multidimensionales.
-    p Al sumar muchos datos en tablas de hechos y dimensiones, más el procesamiento que implica la lectura y escritura de datos con muchas relaciones de tablas y todo de manera masiva, no hace muy veloz estas arquitecturas, ocasionalmente algunas soluciones traen las tablas del sistema transaccional a las bodegas de datos sin procesos ETL, implicando mucha carga para los sistemas de reportes ocasionando su colapso en algunas herramientas de visualización de datos.
+    p.mb-4(data-aos="zoom-in-left") Similar a la topología copo de nieve, sin embargo, se presenta cuando hay más de dos niveles de relación. Es decir, hay más de una tabla en medio entre una dimensión y la tabla de hechos. Esta arquitectura no es muy común y es poco eficiente, pues ya los diseños dimensionales se van desdibujando un poco y comienzan más a parecerse a estructuras transaccionales que multidimensionales.
+    p(data-aos="zoom-in-left") Al sumar muchos datos en tablas de hechos y dimensiones, más el procesamiento que implica la lectura y escritura de datos con muchas relaciones de tablas y todo de manera masiva, no hace muy veloz estas arquitecturas, ocasionalmente algunas soluciones traen las tablas del sistema transaccional a las bodegas de datos sin procesos ETL, implicando mucha carga para los sistemas de reportes ocasionando su colapso en algunas herramientas de visualización de datos.
      
 </template>
 

@@ -7,7 +7,7 @@
         span 1
       h1 Tecnologías de información 
 
-    .bloque1
+    .bloque1(data-aos="zoom-in-left")
       .bloque-texto-b.color-secundario.py-4.mb-0
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
@@ -15,9 +15,9 @@
               p Las bases de datos son esa colección de datos integrados bajo un contexto o dominio, que contienen datos estructurados que reflejan relaciones, restricciones, validaciones y semánticas que reflejan las condiciones de negocio. Esta colección usa la computación para su almacenamiento y procesamiento.
             .col-lg-2.col-md-5.col-8.px-5
               img.mb-0(alt="" src="@/assets/curso/temas/Tema1/1.svg")
-    h5.mb-5 Los sistemas de base de datos están conformados por los siguientes elementos básicos:
+    h5.mb-5(data-aos="zoom-in-left") Los sistemas de base de datos están conformados por los siguientes elementos básicos:
 
-    .row.align-items-center.justify-content-center.mb-4.bg1.p-4
+    .row.align-items-center.justify-content-center.mb-4.bg1.p-4(data-aos="zoom-in-left")
       .col-4.p-5
               img(src="@/assets/curso/temas/Tema1/2.png", alt="Texto que describa la imagen")
       .col-8
@@ -33,18 +33,18 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.1 Metodologías de diseño y normalización Principios de ACID
     
-    p Antes de existir las bases de datos como se conocen hoy, las primeras gestiones en datos se basaban en procesar archivos, es decir, los registros se traducen en archivos que eran procesados por lotes gestionados por un sistema operativo. Incluso los datos andaban mezclados con los archivos de las aplicaciones, lo que suponía un gran inconveniente pues existía dependencia funcional de los archivos de las aplicaciones, con los archivos del sistema operativo y los datos a guardar. Ello significaba que, si un dato se dañaba, era posible también que se estropeara la aplicación y viceversa.
+    p(data-aos="zoom-in-left") Antes de existir las bases de datos como se conocen hoy, las primeras gestiones en datos se basaban en procesar archivos, es decir, los registros se traducen en archivos que eran procesados por lotes gestionados por un sistema operativo. Incluso los datos andaban mezclados con los archivos de las aplicaciones, lo que suponía un gran inconveniente pues existía dependencia funcional de los archivos de las aplicaciones, con los archivos del sistema operativo y los datos a guardar. Ello significaba que, si un dato se dañaba, era posible también que se estropeara la aplicación y viceversa.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-8.p-4.bg20.d-flex
         p A mediados de la década de 1970, se propone arquitecturas de diversos niveles para separar las capas según su funcionalidad, así que los Sistemas de Gestión de Bases de Datos (DBMS Data Base Management System) tienen sus capas según el contexto y su funcionamiento es independiente de los sistemas de gestión, de relación de datos, de la conservación de los datos, la interfaz gráfica, etc.
       
         figure.mx-3
           img(src='@/assets/curso/temas/Tema1/3.png', alt='Texto que describa la imagen')
 
-    p Todas las bases de datos deben tener unos atributos mínimos que garanticen que las transacciones se ejecuten de manera confiable. Entiéndase transacción como una unidad compuesta por varias tareas, cuyo resultado final debe exigir que se ejecuten todas o ninguna de ellas (Pulido Romero, Escobar Domínguez, & Núñez Pérez, 2019).
+    p(data-aos="zoom-in-left") Todas las bases de datos deben tener unos atributos mínimos que garanticen que las transacciones se ejecuten de manera confiable. Entiéndase transacción como una unidad compuesta por varias tareas, cuyo resultado final debe exigir que se ejecuten todas o ninguna de ellas (Pulido Romero, Escobar Domínguez, & Núñez Pérez, 2019).
 
-    .row
+    .row(data-aos="zoom-in-left")
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema1/4.png', alt='Texto que describa la imagen')
@@ -52,7 +52,7 @@
         p.mt-2-cus Un ejemplo frecuente es una App bancaria, la cual se usa para realizar compras, esta acción encarna una cantidad de tareas internas, de manera básica deberá restar de mi cuenta el valor del producto a pagar y a su vez se deberá sumar a la cuenta del vendedor; sería un gran problema si en la acción se debita de la cuenta del comprador y existe una falla del sistema que evita se sume al saldo del vendedor. Para que las transacciones sean confiables, en caso de presentarse fallas en medio de las tareas internas, los datos deberán quedar tal y como estaban antes de iniciar la transacción.
         p Por lo cual, las <b>Propiedades ACID</b> (acrónimo en inglés de cada una de las propiedades que deben tener las bases de datos) son:
 
-    .row.mb-5.justify-content-center.align-items-center
+    .row.mb-5.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-5.mb-5.he-5-cus
         .tarjeta-avatar
           img(src='@/assets/curso/temas/Tema1/5.svg' alt='AvatarTop')
@@ -90,32 +90,32 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.2  Técnicas de almacenamiento de datos y consultas
 
-    p En la actualidad, se presentan diferentes modelos para la organización y de datos; en esta perspectiva se tomarán las bases de datos desde dos puntos de vista, la arquitectura en relación a la estructura de los datos y el enfoque del diseño.
+    p(data-aos="zoom-in-left") En la actualidad, se presentan diferentes modelos para la organización y de datos; en esta perspectiva se tomarán las bases de datos desde dos puntos de vista, la arquitectura en relación a la estructura de los datos y el enfoque del diseño.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-8.p-4.bg20.d-flex.justify-content-center.align-items-center
         p Desde el enfoque de la arquitectura y estructura de datos, se refiere a las bases de datos que se pueden diferenciar entre SQL, quienes están basados en tablas relacionadas y NoSQL, cuyo arreglo no se establece por tablas propiamente hablando.
         img.px-3.w-75(src='@/assets/curso/temas/Tema1/9.svg', alt='Texto que describa la imagen')
 
 
-    p Desde el enfoque de la base de datos, se refiere al uso al que se le va a dar a los datos que se almacenan, en este sentido se pueden mencionar principalmente dos:
+    p(data-aos="zoom-in-left") Desde el enfoque de la base de datos, se refiere al uso al que se le va a dar a los datos que se almacenan, en este sentido se pueden mencionar principalmente dos:
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
         h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 410px; padding:7px;') Bases de datos relacionales (OLTP)
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -10%; position: relative;') 
 
-    p.mb-4 Se componen de diversas tablas que se asocian entre ellas, según las condiciones del negocio, en este sentido se determina qué entidad, mediante la definición de las cosas y actores que intervienen en el sistema, ejemplo: empleado, cliente, sede, producto, categorías, etc. Las entidades son las tablas, y cada entidad tiene atributos tales como nombre, edad, fecha de nacimiento, nombre de producto, presentación, precio, etc. Los atributos serán entonces los campos que tendrán las tablas.
-    p.mb-5 Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de software donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, OLTP a lo que en español se nombra como Procesamiento de Transacciones En Línea.
+    p.mb-4(data-aos="zoom-in-left") Se componen de diversas tablas que se asocian entre ellas, según las condiciones del negocio, en este sentido se determina qué entidad, mediante la definición de las cosas y actores que intervienen en el sistema, ejemplo: empleado, cliente, sede, producto, categorías, etc. Las entidades son las tablas, y cada entidad tiene atributos tales como nombre, edad, fecha de nacimiento, nombre de producto, presentación, precio, etc. Los atributos serán entonces los campos que tendrán las tablas.
+    p.mb-5(data-aos="zoom-in-left") Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de software donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, OLTP a lo que en español se nombra como Procesamiento de Transacciones En Línea.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-8.p-4.bg20.d-flex.justify-content-center.align-items-center
         p Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas OLTP, y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
         img.px-3.w-75(src='@/assets/curso/temas/Tema1/26.svg', alt='Texto que describa la imagen')
    
-    h5.mb-5 En el siguiente video se presenta un ejemplo de creación de un modelo entidad relación:
+    h5.mb-5(data-aos="zoom-in-left") En el siguiente video se presenta un ejemplo de creación de un modelo entidad relación:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         figure
           .video
@@ -131,10 +131,10 @@
 
 
     
-    p.mb-5 Son los diseños de datos, que están enfocados a los reportes y el conocimiento que está inmerso en los datos, este diseño permite mejorar el desempeño a los motores de bases de datos para el almacenamiento de grandes cantidades de datos. Se usan principalmente para la consolidación de bodegas de datos (Data Warehouse - DWH), que luego serán insumo para crear aplicaciones OLAP (Procesamiento Analítico en Línea) o cubos de datos.
-    p.mb-5 Los cubos de datos son tablas o arreglos de datos que se componen de múltiples dimensiones, están basados en hechos, dimensiones y métricas, estos conceptos se definen a continuación:
+    p.mb-5(data-aos="zoom-in-left") Son los diseños de datos, que están enfocados a los reportes y el conocimiento que está inmerso en los datos, este diseño permite mejorar el desempeño a los motores de bases de datos para el almacenamiento de grandes cantidades de datos. Se usan principalmente para la consolidación de bodegas de datos (Data Warehouse - DWH), que luego serán insumo para crear aplicaciones OLAP (Procesamiento Analítico en Línea) o cubos de datos.
+    p.mb-5(data-aos="zoom-in-left") Los cubos de datos son tablas o arreglos de datos que se componen de múltiples dimensiones, están basados en hechos, dimensiones y métricas, estos conceptos se definen a continuación:
 
-    .tarjeta.bg16.p-4.mb-5
+    .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
       SlyderA
         .row.mx-5.px-4.mt-4
           .col-md-7
@@ -171,9 +171,9 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.3  Estándares técnicos
 
-    p.mb-5 Tanto para el desarrollo de software como para el diseño de bases de datos, se sugieren unos estándares o convenciones que, si bien no es una norma, se recomienda seguir estas buenas prácticas, en especial porque los proyectos no deben depender de personas, lo que significa que otro profesional que llegue, pueda sentirse familiarizado con los estándares y documentación.
+    p.mb-5(data-aos="zoom-in-left") Tanto para el desarrollo de software como para el diseño de bases de datos, se sugieren unos estándares o convenciones que, si bien no es una norma, se recomienda seguir estas buenas prácticas, en especial porque los proyectos no deben depender de personas, lo que significa que otro profesional que llegue, pueda sentirse familiarizado con los estándares y documentación.
 
-    .bloque-texto-f.bg16.p-5.mb-5
+    .bloque-texto-f.bg16.p-5.mb-5(data-aos="zoom-in-left")
       .bloque-texto-f__comillas
       h4.mb-5 Algunos ejemplos de estas convenciones para bases de datos son:
 
@@ -222,17 +222,17 @@
             i.fas.fa-circle.icon-li-ul
             p.fw-bold   tgr_productos_actualizar_productos
 
-    P Opcionalmente, los nombres pueden estar en inglés, pues la globalización y los trabajos remotos son una realidad y el inglés es el estándar mundial para la programación y desarrollo de bases de datos y aplicaciones.
+    P(data-aos="zoom-in-left") Opcionalmente, los nombres pueden estar en inglés, pues la globalización y los trabajos remotos son una realidad y el inglés es el estándar mundial para la programación y desarrollo de bases de datos y aplicaciones.
 
     Separador
 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.4  Ordenamiento de datos, indexación y recuperación
 
-    p La información se almacena físicamente en tablas y estas a su vez en archivos de datos que, dependiendo del diseño y motor de bases de datos, pueden influir en el desempeño y velocidad de la mismas.
+    p(data-aos="zoom-in-left") La información se almacena físicamente en tablas y estas a su vez en archivos de datos que, dependiendo del diseño y motor de bases de datos, pueden influir en el desempeño y velocidad de la mismas.
 
 
-    .row.justify-content-around.align-items-center
+    .row.justify-content-around.align-items-center(data-aos="zoom-in-left")
       .col-md-4
         figure
           img(src='@/assets/curso/temas/Tema1/15.png', alt='Texto que describa la imagen')
@@ -240,17 +240,17 @@
         p.mt-2-cus Por eso es importante comprender el concepto de <b>“INDEXACIÓN”</b>. Al imagina tomar un libro, del cual se quiere leer un tema específico, ¿cuánto se tardaría buscarlo página por página?, esto sería tedioso e ineficiente. Además se demoraría mucho tiempo, y más aún si el tema está en las últimas páginas. Lo más fácil y obvio es ir al índice, donde se relacionan los temas y se indica el número de hoja, así se llegará más rápido. El principio de indexación de bases de datos parte, más o menos, del mismo principio del índice que se acaba de ilustrar y los administradores de bases de datos pueden gestionar estos índices en las tablas.
       
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-8.p-4.bg20.d-flex.justify-content-center.align-items-center
         p Un índice es un puntero o marca a una fila de una determinada tabla, es una referencia que relaciona el valor que se encuentra en una tabla con el valor determinado en el puntero. Los punteros se emplean para realizar búsquedas; en otras palabras, se pueden elegir qué columnas se hacen merecedoras de que sean buscadas para incluirles el puntero de indexación.
         img.px-4.w-75(src='@/assets/curso/temas/Tema1/16.png', alt='Texto que describa la imagen')
 
       
-    p.mb-4 Esta técnica ayuda a recuperar o encontrar rápidamente los registros que se tengan de un determinado valor en alguna de las columnas. Por ejemplo, en una tabla de cliente, uno de los valores a buscar sería cédula y nombre, por lo que se le debería aplicar índices a estos campos; sino se aplican índices el valor de la cédula, por ejemplo, se le buscaría en toda la tabla, mientas si se usan los punteros se busca el registro en la columna determinada encontrando más rápidamente el valor buscado.
-    h5.mb-5 Sin embargo, una tabla con muchos índices podría ser contraproducente por el tiempo de procesamiento, y además es importante usar el tipo de índice adecuado, entre los cuales se encuentran:
+    p.mb-4(data-aos="zoom-in-left") Esta técnica ayuda a recuperar o encontrar rápidamente los registros que se tengan de un determinado valor en alguna de las columnas. Por ejemplo, en una tabla de cliente, uno de los valores a buscar sería cédula y nombre, por lo que se le debería aplicar índices a estos campos; sino se aplican índices el valor de la cédula, por ejemplo, se le buscaría en toda la tabla, mientas si se usan los punteros se busca el registro en la columna determinada encontrando más rápidamente el valor buscado.
+    h5.mb-5(data-aos="zoom-in-left") Sin embargo, una tabla con muchos índices podría ser contraproducente por el tiempo de procesamiento, y además es importante usar el tipo de índice adecuado, entre los cuales se encuentran:
 
 
-    .bg16.p-5.mb-5
+    .bg16.p-5.mb-5(data-aos="zoom-in-left")
         ul.lista-ul.mx-4
           li.mb-0.pb-0 
             i.fa.fa-check
@@ -293,15 +293,15 @@
               span.color-black (nombres,apellidos);
       
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-9.p-4.bg20.d-flex.justify-content-center.align-items-center
         img.px-4.w-75(src='@/assets/curso/temas/Tema1/17.png', alt='Texto que describa la imagen')
         p <b>El comando SQL “EXPLAIN”</b>, es muy usado, pues permite adelantarse a la consulta, listando las tablas en el orden que serían leídas. Es decir, muestra cómo se realizará la consulta y permite visualizar la manera en realizar la consulta, esto permite a los diseñadores de bases de datos realizar optimizaciones de ser necesario.
         
-    h5.mb-5 Si se desea saber la manera en cómo el motor de base de datos recupera y obtiene los datos que muestra, se puede realizar el siguiente ejercicio:
+    h5.mb-5(data-aos="zoom-in-left") Si se desea saber la manera en cómo el motor de base de datos recupera y obtiene los datos que muestra, se puede realizar el siguiente ejercicio:
 
 
-    .tarjeta.bg16.p-4.mb-5
+    .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
       SlyderA
         .row.mx-5.px-4.mt-4.justify-content-center.align-items-center.mb-5
           .col-md-6.bg-white-r.p-3
@@ -366,9 +366,9 @@
             figure
               img(src='@/assets/curso/temas/Tema1/25.png', alt='Texto que describa la imagen')
 
-    p Para la manipulación y consulta de datos, es primordial conocer el lenguaje estándar de consulta de las bases de datos relacionales, se invita para que se amplíe el conocimiento sobre este tema visualizando el siguiente video:
+    p(data-aos="zoom-in-left") Para la manipulación y consulta de datos, es primordial conocer el lenguaje estándar de consulta de las bases de datos relacionales, se invita para que se amplíe el conocimiento sobre este tema visualizando el siguiente video:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         figure
           .video
