@@ -21,7 +21,7 @@
       .col-4.p-5
               img(src="@/assets/curso/temas/Tema1/2.png", alt="Texto que describa la imagen")
       .col-8
-          LineaTiempoD.color-acento-contenido
+          LineaTiempoD.color-secundario-2
             p.text-small(numero="1" titulo="Software") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el hardware. Para las bases de datos existen los gestores de datos, ya sea SQL o NoSQL y las aplicaciones que usan los datos.
                     
             p.text-small(numero="2" titulo="Los datos") Son el objetivo principal, al ser información, se podría indicar que hace parte también del software. Su guardado lógico podría ser relacionales (SQL) y NO relacionales (NoSQL). De esto depende la manera en cómo funciona, cómo se procesa y su organización.
