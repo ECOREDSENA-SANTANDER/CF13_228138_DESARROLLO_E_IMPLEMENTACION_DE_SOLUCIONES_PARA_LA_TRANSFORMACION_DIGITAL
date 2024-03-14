@@ -13,7 +13,7 @@
           .row.justify-content-center.align-items-center.d-flex
             .col-lg-10.col-12.mb-4.mg-lg-0
               p La analítica basa sus procesos en conceptos estadísticos apoyados de herramientas tecnológicas, tanto para el procesamiento de los datos (muchos datos de entrada, procesados en el menor tiempo posible) como para la presentación o visualización de los mismos, en este apartado se señalan algunos conceptos teóricos, fundamentados en la matemática para luego aplicar analítica de datos.
-            .col-lg-2.col-md-5.col-8.px-5
+            .col-lg-2.col-md-5.col-8.px-5.d-none.d-lg-block
               img.mb-0(alt="" src="@/assets/curso/temas/Tema4/1.svg") 
 
 
@@ -27,10 +27,10 @@
 
 
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
-      .col-lg-11
+      .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img.w-60(src='@/assets/curso/temas/Tema4/2.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema4/2.svg', alt='Texto que describa la imagen')
           .tarjeta.bg26
             .p-4
               h5.md-2 Estadística descriptiva:
@@ -41,10 +41,10 @@
 
 
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
-      .col-lg-11
+      .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img.w-60(src='@/assets/curso/temas/Tema4/3.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema4/3.svg', alt='Texto que describa la imagen')
           .tarjeta.bg26
             .p-4
               h5.md-2 Inferencia estadística:
@@ -74,11 +74,11 @@
     .row(data-aos="zoom-in-left") 
       .col-sm-12.col-lg-10.bg29.p-4.mb-5.m-auto    
           .row.justify-content-center.align-items-center
-            .col-md-2
+            .col-md-2.d-none.d-lg-block
               figure.mx-7
                 img(src='@/assets/curso/temas/Tema4/5.png', alt='Texto que describa la imagen')
-            .col-md-8
-              p [#b Es importante ] no establecer divorcios entre la estadística descriptiva y la inferencial, ambas son necesarias, pues la inferencial usa los datos descriptivos para llevar a conclusiones generales.
+            .col-sm-12.col-lg-8
+              p #[b Es importante ] no establecer divorcios entre la estadística descriptiva y la inferencial, ambas son necesarias, pues la inferencial usa los datos descriptivos para llevar a conclusiones generales.
 
 
     Separador
@@ -153,12 +153,12 @@
       .col-sm-12.col-lg-7
         p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del Big data y la inteligencia de negocios.
         p.md-3 Pero desde el enfoque propiamente, la utilidad estadística está inmersa como fundamento en el conocimiento de las áreas y en todas las decisiones incluso las decisiones no técnicas y simples, de manera implícita se trae a la mente procesos estadísticos (ejemplo: al pasar una calle, debes verificar variables como flujo de carros, velocidad, estado de la vía, distancia del punto A al punto B, etc.).
-        p [#b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (ver figura). ]
+        p #[b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (ver figura). ]
       .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema4/6.png', alt='Texto que describa la imagen')
     .row.mb-5.align-items-center.justify-content-center
-      .col-10
+      .col-sm-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           span
@@ -170,13 +170,13 @@
     p.mb-5(data-aos="zoom-in-left") En la imagen anterior se presentan los índices de precios, en los que se nota la inflación y consumo de la población en Colombia. Se nota que las bebidas alcohólicas y tabaco tuvieron estabilidad de precios a lo largo del mes de julio. Siendo el calzado y prendas de vestir las que más tuvieron variación en sus precios, seguido de los alimentos.
 
     .row.mb-5(data-aos="zoom-in-left")
-      .col-md-2.mb-4.mb-md-0
+      .col-md-2.mb-4.mb-md-0.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/Tema4/8.png', alt='Texto que describa la imagen')
-      .col-md-9
-        p.md-3 Con esta información, el negocio podría ir tomando decisiones y estableciendo enfoques comerciales, mirar cómo está su sector en el país y de esa manera ir orientando su análisis de negocio. Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validar los datos financieros, los tiempos de procesos, comparar sedes, definir conocimiento específico y general del negocio.[#b  Por lo que la estadística toma un papel muy importante, para ello se mencionarán las principales características de la estadística: ]
+      .col-sm-12.col-lg-9
+        p.md-3 Con esta información, el negocio podría ir tomando decisiones y estableciendo enfoques comerciales, mirar cómo está su sector en el país y de esa manera ir orientando su análisis de negocio. Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validar los datos financieros, los tiempos de procesos, comparar sedes, definir conocimiento específico y general del negocio.#[b  Por lo que la estadística toma un papel muy importante, para ello se mencionarán las principales características de la estadística: ]
 
-    p.mb-4(data-aos="zoom-in-left") [#b Como principio fundamental la estadística contiene los siguientes componentes: ]
+    p.mb-4(data-aos="zoom-in-left") #[b Como principio fundamental la estadística contiene los siguientes componentes: ]
       
     .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
       SlyderA

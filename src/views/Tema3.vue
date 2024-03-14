@@ -13,7 +13,7 @@
           .row.justify-content-center.align-items-center.d-flex
             .col-lg-10.col-12.mb-4.mg-lg-0
               p Cuando el ser humano empezó a diferenciarse de las demás especies, una de las características más importantes, entre otras, es la manera de comportarse socialmente, es decir, cuando las relaciones sociales y comportamentales, entre manadas empezaron a cuidarse, a comunicarse, etc.
-            .col-lg-2.col-md-5.col-8.px-5
+            .col-lg-2.col-md-5.col-8.px-5.d-none.d-lg-block
               img.mb-0(alt="" src="@/assets/curso/temas/Tema3/1.svg")
 
 
@@ -42,9 +42,9 @@
     p.mb-5(data-aos="zoom-in-left") En ocasiones, los proyectos de BI se inician con la motivación de entrar en una ola digital, o estar en la moda de la tecnología, incluso sin tener requisitos o necesidades visibles o al menos conscientes. En caso de que las empresas, especialmente las pymes, no tengan claridad sobre el uso del BI en el negocio, es necesario concienciar a los directivos de que muchos problemas de la organización se deben a la falta de datos instantáneos, actualizados y que reflejan una realidad.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-8.p-4.bg20.d-flex.justify-content-center.align-items-center
+      .col-sm-12.col-lg-8.p-4.bg20.d-flex.justify-content-center.align-items-center
         p Una de las condiciones iniciales más importantes son las preguntas, es decir, qué se necesita saber del negocio, qué decisiones se planea tomar y qué insumos se requieren para la toma de estas decisiones.
-        img.px-4.w-75(src='@/assets/curso/temas/Tema3/3.svg', alt='Texto que describa la imagen')
+        img.px-4.w-75.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/3.svg', alt='Texto que describa la imagen')
 
 
     .row.justify-content-around.align-items-center(data-aos="zoom-in-left")
@@ -64,20 +64,20 @@
     p.mb-4(data-aos="zoom-in-left") La inteligencia de negocios en sí es una integración de toda la información de la organización, o al menos la más relevante. Tomar diversas fuentes (variabilidad), con información acumulada (volumen) y que además se procesen de manera óptima y rápida (velocidad).
 
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
-      .col-md.tarjeta.p-5.text-black
+      .col-sm-12.col-md-12.col-lg-6.tarjeta.p-5.text-black
         .row.justify-content-center.mb-4
-          .col-6
+          .col-sm-12.col-md-12.col-lg-6
               img(src='@/assets/curso/temas/Tema3/5.png', alt='Texto que describa la imagen')
         p.bg21.pt-3.pb-3.px-3 Si bien en los libros de consulta y de manera estándar, estas tres V pertenecen al Big Data de manera estricta, también es aplicable a la inteligencia de negocios.
-      .col-md.bg24.p-5.text-black
+      .col-sm-12.col-md-12.col-lg-6.bg24.p-5.text-black
         .row.mb-4
-          .col-3
+          .col-sm-12.col-md-12.col-lg-3
             figure
-              img(src='@/assets/curso/temas/Tema3/6.png', alt='Texto que describa la imagen')
+              img.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/6.png', alt='Texto que describa la imagen')
         p.mb-3 Lo primero que se debe evaluar es la integración entre las estrategias de la organización con la implementación de la inteligencia de negocio, como referencia estratégica, cada vez es más importante como apoyo a la gestión y toma de decisiones.
-        p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. [#b El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general. ]
+        p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. #[b El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general. ]
 
-    p.mb-5(data-aos="zoom-in-left") [#b En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio: ]
+    p.mb-5(data-aos="zoom-in-left") #[b En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio: ]
     .row
       .col-sm-12.col-lg-10.m-auto 
         img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='Texto que describa la imagen')
@@ -93,7 +93,7 @@
       .col-md.bg25.p-5.text-black
         h4 Elegir la herramienta adecuada es una variable crítica de éxito, existen múltiples aspectos qué evaluar al momento de decidirse por cuál herramienta emplear. Entre otras razones, se debe hacer análisis de:
           .row
-            .col-9.mt-5
+            .col-sm-12.col-lg-9.mt-5
               ul.lista-ul--color.mx-4
                 li.mb-0.pb-0 
                   i.fa.fa-check
@@ -109,12 +109,12 @@
 
                 li.mb-0.pb-0 
                   i.fa.fa-check
-                  p  Versatilidad: qué soporta diversas plataformas tanto como sistemas operativos como hardware.
+                  p  #[b  Versatilidad ]: qué soporta diversas plataformas tanto como sistemas operativos como hardware.
 
                 li.mb-0.pb-0 
                   i.fa.fa-check
                   p  Tendencias y nuevas herramientas empleadas.
-            .col-3.mt-5
+            .col-3.mt-5.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/Tema3/8.svg', alt='Texto que describa la imagen')
 
@@ -126,23 +126,23 @@
           .row(titulo="SAS INSTITUT")
             .col-md-12.mb-4
               p.mx-5  Empresa multinacional con sede en Carolina del Norte, Estados Unidos. Es uno de los principales fabricantes de software de apoyo empresarial. Fundación 1976.
-              p.mx-5 [#b https://www.sas.com/es_co/home.html ]
+              p.mx-5 #[b https://www.sas.com/es_co/home.html ]
           .row(titulo="MICROSOFT")
             .col-md-12.mb-4
               p.mx-5  Con sus herramientas de infraestructura en la nube representada por Azure y la introducción de visualizaciones de Power BI dentro de Power Apps y Dynamics 365 aumenta las capacidades analíticas integradas de Microsoft Power Platform.
-              p.mx-5 [#b https://www.microsoft.com/es-mx/microsoft-cloud ]
+              p.mx-5 #[b https://www.microsoft.com/es-mx/microsoft-cloud ]
           .row(titulo="ORACLE")
             .col-md-12.mb-4
               p.mx-5  Oracle Analytics Cloud se ha convertido en la herramienta analítica y de informes imprescindible para las pequeñas empresas, más allá de las grandes empresas a las que suele servir.
-              p.mx-5 [#b https://www.oracle.com/lad/business-analytics/analytics-services ]
+              p.mx-5 #[b https://www.oracle.com/lad/business-analytics/analytics-services ]
           .row(titulo="INFORMÁTICA")
             .col-md-12.mb-4
               p.mx-5  Integrada con Azure, cuenta con su herramienta Cloud Data Marketplace, diseñada para aumentar de forma intuitiva el intercambio de datos, mejorar la productividad y permitir que las organizaciones tomen decisiones más informadas.
-              p.mx-5 [#b https://www.informatica.com/products/cloud-data-integration.html ]
+              p.mx-5 #[b https://www.informatica.com/products/cloud-data-integration.html ]
           .row(titulo="QLIK")
             .col-md-12.mb-4
               p.mx-5  Empresa especializada en analítica y procesos ETL, Herramientas especializadas de desde punto inicial al punto final.
-              p.mx-5 [#b https://www.qlik.com/es-es/products ]
+              p.mx-5 #[b https://www.qlik.com/es-es/products ]
   
       .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
@@ -156,24 +156,24 @@
       h2 3.4 Técnicas de solución de problemas (modelación de datos)
 
     p.mb-3(data-aos="zoom-in-left") Si bien existen varias metodologías, todas coinciden en una manera genérica para la solución de un proyecto analítico propuesto por Davenport, con algunas variables
-    p.mb-3(data-aos="zoom-in-left") [#b Esta metodología tiene tres grandes etapas: ]
+    p.mb-3(data-aos="zoom-in-left") #[b Esta metodología tiene tres grandes etapas: ]
 
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
-      .col-lg-11
+      .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img.w-60(src='@/assets/curso/temas/Tema3/10.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/10.svg', alt='Texto que describa la imagen')
           .tarjeta.bg26
             .p-4
               h5.mb-4 Definición del problema
               p Para reconocer el problema, se debe partir de las necesidades surgidas a partir de la experiencia para tomar una decisión o acción; es decir, qué necesidades o inconvenientes se han tenido cuando la información, reportes o conocimiento de algún dato importante no está disponible en el momento y exactitud para tomar decisiones o ejecutar acciones. Es importante gestionar las expectativas y documentar las necesidades o problemas puntuales.
-              p [#b En esta fase, una clave es identificar objetivos que no se cumplen por la falta de un proyecto analítico. ]
+              p #[b En esta fase, una clave es identificar objetivos que no se cumplen por la falta de un proyecto analítico. ]
 
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
-      .col-lg-11
+      .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img.w-60(src='@/assets/curso/temas/Tema3/11.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/11.svg', alt='Texto que describa la imagen')
           .tarjeta.bg26
             .p-4
               h5.mb-4 Resolviendo el problema
@@ -194,10 +194,10 @@
 
         
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
-      .col-lg-11
+      .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img.w-60(src='@/assets/curso/temas/Tema3/12.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/12.svg', alt='Texto que describa la imagen')
           .tarjeta.bg26
             .p-4
               h5.mb-4 Comunicación y actuación en función de los datos
@@ -227,7 +227,7 @@
             p.mb-3 La metodología para el diseño de DWH propuesta por Ralph Kimball se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean data marts, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
             br
             br
-            p [#b Kimball propone que estos Data Mart ] deben crearse primero para proporcionar capacidades analíticas; en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los Data Mart se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios Data Mart. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (ver figura).
+            p #[b Kimball propone que estos Data Mart ] deben crearse primero para proporcionar capacidades analíticas; en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los Data Mart se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios Data Mart. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (ver figura).
             
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
@@ -267,10 +267,10 @@
 
     p.mb-4(data-aos="zoom-in-left") Los cuadros de mando o Dashboard, permiten hacer monitoreo de los procesos mostrando información importante a través de elementos gráficos de fácil entendimiento y con actualizaciones periódicas.
     p.mb-4(data-aos="zoom-in-left") Los valores que presentan deben ser indicadores de procesos, tareas o situaciones importantes para el negocio, su escalabilidad y visualización deben aparecer claramente. Para algunos valores podrían presentarse escalas (ejemplo, valores de ventas), para otros no (ejemplo, comparaciones porcentuales).
-    p.mb-4(data-aos="zoom-in-left") [#b Entre los elementos más importantes de los cuadros de mando, su tipo de valor y escalas se pueden mencionar: ]
+    p.mb-4(data-aos="zoom-in-left") #[b Entre los elementos más importantes de los cuadros de mando, su tipo de valor y escalas se pueden mencionar: ]
 
     .row.mb-5(data-aos="zoom-in-left")
-      .col-md-8.mb-5.mb-md-0
+      .col-sm-12.col-md-12.col-lg-8.mb-5.mb-md-0
         LineaTiempoD.color-secundario
           p.text-content-cus(numero="1" titulo="Tablas") se conforma de matriz, presenta múltiples datos, puede ser estática o dinámica según las reglas del negocio y características de la información que representa. Presenta datos estructurados por dimensiones (tipo OLAP) en algunos casos, y su escalabilidad se limita al redondeo de cifras configurando la cantidad de decimales de los datos numéricos flotantes.
           
@@ -286,12 +286,14 @@
 
           p.text-content-cus(numero="7" titulo="Menús de navegación") estos elementos visuales, ya sean en texto o botones, facilitan al usuario navegar y realizar operaciones interactivas en los elementos del cuadro de mando.
 
-      .col-md-4
+      .col-sm-12.col-md-12.col-lg-4
+        
+        .tarjeta.bg12.p-4.my-5      
+          p.mb-0 Ejemplo de componentes de un cuadro de mando o Dashboard:
+
         figure
           img(src='@/assets/curso/temas/Tema3/17.png', alt='Texto que describa la imagen')
 
-        .tarjeta.bg12.p-4.my-5      
-          p.mb-0 Ejemplo de componentes de un cuadro de mando o Dashboard:
 
 
     Separador

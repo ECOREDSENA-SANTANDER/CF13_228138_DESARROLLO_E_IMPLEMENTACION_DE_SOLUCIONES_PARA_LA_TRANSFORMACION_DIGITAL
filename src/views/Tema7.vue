@@ -14,7 +14,7 @@
           .row.justify-content-center.align-items-center.d-flex
             .col-lg-10.col-12.mb-4.mg-lg-0
               p Para el proceso de analizar los datos se utiliza una serie de herramientas que se comparten en la siguiente tabla con su función principal:
-            .col-lg-2.col-md-5.col-8.px-5
+            .col-lg-2.col-md-5.col-8.px-5.d-none.d-lg-block
               img.mb-0(alt="" src="@/assets/curso/temas/Tema7/1.svg") 
 
 
@@ -24,7 +24,7 @@
         span
                 |   Variables y escalas
     .row(data-aos="zoom-in-left")
-      .col-10.m-auto
+      .col-sm-12.col-lg-10.m-auto
         .tabla-a.color-acento-contenido.mb-5 
           table
             thead.banner-tabla.text-white
@@ -35,28 +35,28 @@
                 th.text-white.text-left-cus Función
             tbody
               tr.bg27
-                td [#b Microsoft Power BI ]
+                td #[b Microsoft Power BI ]
                 td Es una herramienta de análisis segura que proporciona una vista interactiva de la información, dando acceso a más de 60 fuentes y compatible con otras aplicaciones.
               tr.bg28
-                td [#b Programación en R ]
+                td #[b Programación en R ]
                 td Esta herramienta de análisis permite la estadística y su modelación, se adapta a varias plataformas por medio de más de 11.000 paquetes que se instalan acorde a cada necesidad de forma automática.
               tr.bg27
-                td [#b SAS ]
+                td #[b SAS ]
                 td Esta herramienta de análisis actúa como lenguaje en la programación, permitiendo que la información sea procesada de forma separada, siendo útil en la gestión de perfilamiento de los clientes, predicción de compras y demás.
               tr.bg28
-                td [#b Python ]
+                td #[b Python ]
                 td Es una herramienta diseñada para trabajar sobre objetos y procesar datos de forma funcional y estructurada.
               tr.bg27
-                td [#b Excel ]
+                td #[b Excel ]
                 td Esta herramienta utilizada por la gran mayoría de empresas es básica; pero muy útil para analizar los datos de los clientes y se puede ajustar gracias a que cuenta con fórmulas internas que permiten generar frecuencias, filtros, combinaciones y demás.
               tr.bg28
-                td [#b Rapid Miner ]
+                td #[b Rapid Miner ]
                 td Es una herramienta para realizar análisis predictivos.
               tr.bg27
-                td [#b Apache Spark ]
+                td #[b Apache Spark ]
                 td Es una herramienta que procesa los datos de forma rápida, con algoritmos que le permiten clasificar la información.
               tr.bg28
-                td [#b Qlik View ]
+                td #[b Qlik View ]
                 td Esta herramienta procesa la información comprimiéndola, ahorrando espacio en el disco duro y la asocia relacionando la información por colores según se requiera.
         figcaption Nota: las herramientas vistas en la tabla anterior son buenas opciones para la gestión del análisis de los datos; pero su uso depende de las necesidades de cada entidad.
 
@@ -70,7 +70,7 @@
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         p.mt-2-cus En este apartado, se mencionan los Entornos de Desarrollo Integrado (IDE), los cuales ahorran mucho tiempo y esfuerzo a quienes programan en la preparación de las plataformas e instalación de complementos extras que requieren, de esa manera, solo se dedican a programar y dejar todos los recursos necesarios a que se incluyan en estos entornos. Para la gestión de datos se emplean muchos lenguajes de programación, y lenguajes de consulta, lo que implica prácticamente construir códigos enteros para los procesos de datos.
-        p [#b Los entornos más eficientes son: ]
+        p #[b Los entornos más eficientes son: ]
       .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema7/2.png', alt='Texto que describa la imagen')
@@ -126,18 +126,18 @@
       h2 7.2 Python
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-2
+      .col-sm-12.col-lg-2
           img(src='@/assets/curso/temas/Tema7/9.png', alt='Texto que describa la imagen')
-      .col-md-10
+      .col-sm-12.col-lg-10
         p.mb-3 Actualmente, es el lenguaje de programación que lidera los desarrollos basados en gestión de datos. En relación con otros lenguajes presenta curva de aprendizaje rápido, cuenta con múltiples librerías que expanden su capacidad y muchos sistemas de manejo de datos e inteligencia artificial lo emplean para codificar sus funcionalidades.
       
     .row.mb-5
-      .col-md-8.mb-4.mb-md-0
+      .col-sm-12.col-lg-8.mb-4.mb-md-0.m-auto
         a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
           .anexo__icono
             img(src="@/assets/curso/temas/Tema7/11.svg")
           .anexo__texto
-            p [#b Para desarrollar aplicaciones y realizar minería de datos basado en inteligencia artificial puede emplear alguno de los IDE anteriormente conocido u otros como Code Skulpor ]
+            p #[b Para desarrollar aplicaciones y realizar minería de datos basado en inteligencia artificial puede emplear alguno de los IDE anteriormente conocido u otros como Code Skulpor ]
 
 
     Separador
@@ -154,20 +154,20 @@
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-md.bg25.p-5
         .row.mb-4
-          .col-md-6.mb-5.mb-md-0
+          .col-sm-12.col-lg-7.mb-5.mb-md-0
             h4.mb-5 En Phyton, las más comunes y útiles son:
             ul.lista-ul--color
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  [#b Pandas: ] para la ciencia de datos es una librería muy usada, pues facilita la manipulación y consulta de datos.
+                p  #[b Pandas: ] para la ciencia de datos es una librería muy usada, pues facilita la manipulación y consulta de datos.
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  [#b Numpy:  ] permite generar una estructura de datos universal, lo que se traduce un mejor análisis de datos, y emplea algoritmos muy poderosos para el intercambio de estos datos. Tiene bien desempeño en datos masivos (dependiendo también del hardware).
+                p  #[b Numpy:  ] permite generar una estructura de datos universal, lo que se traduce un mejor análisis de datos, y emplea algoritmos muy poderosos para el intercambio de estos datos. Tiene bien desempeño en datos masivos (dependiendo también del hardware).
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  [#b Matplotlib: ] con esta librería se generan gráficos de calidad para publicar en línea o en archivos como PDF y sin emplear muchas líneas de código. Se pueden generar gráficos de barras, histogramas, series temporales, espectros de potencia, entre muchas más visualizaciones.
+                p  #[b Matplotlib: ] con esta librería se generan gráficos de calidad para publicar en línea o en archivos como PDF y sin emplear muchas líneas de código. Se pueden generar gráficos de barras, histogramas, series temporales, espectros de potencia, entre muchas más visualizaciones.
             
-          .col-md-4
+          .col-sm-12.col-lg-3
             figure
               img.mt-5-cus(src='@/assets/curso/temas/Tema7/10.png', alt='Texto que describa la imagen')
           
