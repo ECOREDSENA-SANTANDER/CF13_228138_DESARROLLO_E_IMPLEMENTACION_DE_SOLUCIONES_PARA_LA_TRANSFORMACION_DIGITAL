@@ -64,9 +64,9 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '2.2',
+            numero: '2.1',
             titulo: 'Entendimiento de la data',
-            hash: 't_2_2',
+            hash: 't_2_1',
           },
           {
             numero: '2.2',

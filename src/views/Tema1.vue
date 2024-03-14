@@ -22,11 +22,11 @@
               img(src="@/assets/curso/temas/Tema1/2.png", alt="Texto que describa la imagen")
       .col-8
           LineaTiempoD.color-secundario-2
-            p.text-small(numero="1" titulo="Software") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el hardware. Para las bases de datos existen los gestores de datos, ya sea SQL o NoSQL y las aplicaciones que usan los datos.
+            p.text-content-cus(numero="1" titulo="Software") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el hardware. Para las bases de datos existen los gestores de datos, ya sea SQL o NoSQL y las aplicaciones que usan los datos.
                     
-            p.text-small(numero="2" titulo="Los datos") Son el objetivo principal, al ser información, se podría indicar que hace parte también del software. Su guardado lógico podría ser relacionales (SQL) y NO relacionales (NoSQL). De esto depende la manera en cómo funciona, cómo se procesa y su organización.
+            p.text-content-cus(numero="2" titulo="Los datos") Son el objetivo principal, al ser información, se podría indicar que hace parte también del software. Su guardado lógico podría ser relacionales (SQL) y NO relacionales (NoSQL). De esto depende la manera en cómo funciona, cómo se procesa y su organización.
                     
-            p.text-small(numero="3" titulo="Personal") Son los usuarios que están involucrados en el manejo y aprovechamiento de los datos, si bien hay varios niveles de usuarios, se podría dividir en dos principalmente en: no informáticos (que requieren la información para ejecutar tareas) y los Informáticos (los responsables del diseño y mantenimiento del sistema de bases de datos).        
+            p.text-content-cus(numero="3" titulo="Personal") Son los usuarios que están involucrados en el manejo y aprovechamiento de los datos, si bien hay varios niveles de usuarios, se podría dividir en dos principalmente en: no informáticos (que requieren la información para ejecutar tareas) y los Informáticos (los responsables del diseño y mantenimiento del sistema de bases de datos).        
    
     Separador
 
@@ -48,7 +48,7 @@
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema1/4.png', alt='Texto que describa la imagen')
-      .col-md-6
+      .col-md-7
         p.mt-2-cus Un ejemplo frecuente es una App bancaria, la cual se usa para realizar compras, esta acción encarna una cantidad de tareas internas, de manera básica deberá restar de mi cuenta el valor del producto a pagar y a su vez se deberá sumar a la cuenta del vendedor; sería un gran problema si en la acción se debita de la cuenta del comprador y existe una falla del sistema que evita se sume al saldo del vendedor. Para que las transacciones sean confiables, en caso de presentarse fallas en medio de las tareas internas, los datos deberán quedar tal y como estaban antes de iniciar la transacción.
         p Por lo cual, las <b>Propiedades ACID</b> (acrónimo en inglés de cada una de las propiedades que deben tener las bases de datos) son:
 
@@ -107,11 +107,13 @@
 
     p.mb-4(data-aos="zoom-in-left") Se componen de diversas tablas que se asocian entre ellas, según las condiciones del negocio, en este sentido se determina qué entidad, mediante la definición de las cosas y actores que intervienen en el sistema, ejemplo: empleado, cliente, sede, producto, categorías, etc. Las entidades son las tablas, y cada entidad tiene atributos tales como nombre, edad, fecha de nacimiento, nombre de producto, presentación, precio, etc. Los atributos serán entonces los campos que tendrán las tablas.
     p.mb-5(data-aos="zoom-in-left") Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de software donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, OLTP a lo que en español se nombra como Procesamiento de Transacciones En Línea.
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-8.p-4.bg20.d-flex.justify-content-center.align-items-center
-        p Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas OLTP, y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
-        img.px-3.w-75(src='@/assets/curso/temas/Tema1/26.svg', alt='Texto que describa la imagen')
+    .row
+      .col-sm-12.col-md-8.m-auto 
+        .row.bg20.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+          .col-2.p-4.d-flex.justify-content-center.align-items-center
+            img(src='@/assets/curso/temas/Tema1/26.svg', alt='Texto que describa la imagen')
+          .col-10.p-4.d-flex.justify-content-center.align-items-center 
+            p Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas OLTP, y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
    
     h5.mb-5(data-aos="zoom-in-left") En el siguiente video se presenta un ejemplo de creación de un modelo entidad relación:
 
@@ -232,11 +234,11 @@
     p(data-aos="zoom-in-left") La información se almacena físicamente en tablas y estas a su vez en archivos de datos que, dependiendo del diseño y motor de bases de datos, pueden influir en el desempeño y velocidad de la mismas.
 
 
-    .row.justify-content-around.align-items-center(data-aos="zoom-in-left")
-      .col-md-4
+    .row(data-aos="zoom-in-left")
+      .col-sm-12.col-md-5
         figure
           img(src='@/assets/curso/temas/Tema1/15.png', alt='Texto que describa la imagen')
-      .col-md-6.mb-4
+      .col-sm-12.col-md-7.mb-4
         p.mt-2-cus Por eso es importante comprender el concepto de <b>“INDEXACIÓN”</b>. Al imagina tomar un libro, del cual se quiere leer un tema específico, ¿cuánto se tardaría buscarlo página por página?, esto sería tedioso e ineficiente. Además se demoraría mucho tiempo, y más aún si el tema está en las últimas páginas. Lo más fácil y obvio es ir al índice, donde se relacionan los temas y se indica el número de hoja, así se llegará más rápido. El principio de indexación de bases de datos parte, más o menos, del mismo principio del índice que se acaba de ilustrar y los administradores de bases de datos pueden gestionar estos índices en las tablas.
       
 

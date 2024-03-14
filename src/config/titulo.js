@@ -1,1 +1,1 @@
-module.exports = 'Despliegue de servicios de infraestructura y capacidades'
+module.exports = 'Modelamiento, análisis y preparación de datos'

@@ -22,10 +22,10 @@
         p Desde ese mismo momento, la información y la manera de configurar los datos a través del proceso comunicativo (transmisor, emisor, canal, mensaje y contexto) llevan a que aparezcan diversas formas de información y datos, incluso miles de mensajes de las primeras civilizaciones han quedado guardados por miles de años hasta nuestros días a través de pinturas, esculturas y símbolos.
 
     .row.mb-5(data-aos="zoom-in-left")
-      .col-md-5.mb-4.mb-md-0
+      .col-sm-12.col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/3.png', alt='Texto que describa la imagen')
-      .col-md-6
+      .col-sm-12.col-md-7
         p.mt-2-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados).
         p.fw-bold.mt-3 En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
 

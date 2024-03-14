@@ -10,7 +10,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="La documentación técnica se da bajo el contexto técnico y sus requisitos, que a su vez responden a la orientación web y/o de software, teniendo en cuenta los estándares y las buenas prácticas documentales.")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
