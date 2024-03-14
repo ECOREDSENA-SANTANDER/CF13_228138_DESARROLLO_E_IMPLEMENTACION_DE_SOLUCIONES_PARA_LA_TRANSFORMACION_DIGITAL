@@ -22,9 +22,9 @@
 
 
     .row.align-items-center.justify-content-center(data-aos="fade-down")
-      .col-lg-12
+      .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
-          .bloque-texto-g__img(
+          .bloque-texto-g__img.br-tl-cus(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/2.png')})`}"
           )
           .bloque-texto-g__texto.p-5
@@ -49,10 +49,10 @@
 
     .row.justify-content-around.align-items-center(data-aos="zoom-in-left")
 
-      .col-md-5
+      .col-sm-12.col-lg-5
         figure
           img(src='@/assets/curso/temas/Tema3/4.png', alt='Texto que describa la imagen')
-      .col-md-6.mb-4
+      .col-sm-12.col-lg-6.mb-4
         p.mb-4.mt-2-cus Otro concepto errado frecuente, en especial en las pymes, es que el indicador más importante y en algunos casos el único, es el dinero que ingresa a la empresa, si bien en los negocios se trata de ganar, existen muchas variables e indicadores adicionales a los ingresos que permiten a las organizaciones avanzar mejor, aumentar su valor a partir de técnicas y conocimiento, y tras todos estos indicadores claves de negocio, deberían reflejarse en el cumplimiento de metas de ingresos y crecimiento del negocio en el tiempo.
         p Los indicadores y la aplicabilidad de la analítica de datos en las organizaciones deben manejarse bajo necesidades reales, preguntas fundamentales y la identificación de qué respuestas requiere el negocio para optimizar los tiempos y asertividad de la toma de decisiones.
       
@@ -78,7 +78,9 @@
         p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. <b>El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general.</b>
 
     p.mb-5(data-aos="zoom-in-left") <b>En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio:</b>
-    img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='Texto que describa la imagen')
+    .row
+      .col-sm-12.col-lg-10.m-auto 
+        img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='Texto que describa la imagen')
 
 
     Separador
@@ -119,7 +121,7 @@
     h5.mb-5(data-aos="zoom-in-left") A continuación, algunas alternativas disponibles para que las organizaciones puedan emplear con eficiencia proyectos de estas características:
 
     .row(data-aos="zoom-in-left")
-      .col-md-5
+      .col-sm-12.col-lg-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="SAS INSTITUT")
             .col-md-12.mb-4
@@ -142,7 +144,7 @@
               p.mx-5  Empresa especializada en analítica y procesos ETL, Herramientas especializadas de desde punto inicial al punto final.
               p.mx-5 <b>https://www.qlik.com/es-es/products</b>
   
-      .col-md-6.mb-4.mb-md-0
+      .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema3/9.png', alt='Texto que describa la imagen')
       

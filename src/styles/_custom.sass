@@ -290,6 +290,8 @@
   margin-left: 6rem !important;
 .mt-6
   margin-top: 6rem !important;
+.mt-7
+  margin-top: 5.2rem !important;
 .mt-5-cus
   margin-top: 5rem !important;
 .colorv
@@ -386,8 +388,10 @@
   margin-left: -20px
 .w-60
   width: 60%;
-
-
+.h-img-card-cus
+  height: 250px
+.br-tl-cus
+  border-radius: 55px 0 74px 15px;
 
 .wd-80-cus
   width: 80%
@@ -591,7 +595,23 @@
   top: -15px; 
   right: 85px; 
 
-
+.vs-card
+  &::before
+    transform: translate(-60%, 0%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 85px;
+    height: 85px;
+    background-color: #FF6148;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px
+    content: 'VS';
 
 @media screen and (max-width: $bp-max-xs)
   .slyder-a__bullets__item

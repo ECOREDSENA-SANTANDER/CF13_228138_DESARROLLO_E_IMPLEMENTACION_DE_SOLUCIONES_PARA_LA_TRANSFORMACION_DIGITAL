@@ -28,10 +28,18 @@
       .col-sm-12.col-md-7
         p.mt-2-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados).
         p.fw-bold.mt-3 En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
+  
+    .row.mb-5.justify-content-center.align-items-center.m-0.p-0.vs-card
+      .col-sm-12.col-lg-5.bg18.text-center.p-5
+        h4.mb-5 Datos
+        img.w-50.m-auto(src='@/assets/curso/temas/Tema2/27.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-10.p-4.d-flex.justify-content-center.align-items-center
-        img.mx-3(src='@/assets/curso/temas/Tema2/4.svg', alt='Texto que describa la imagen')
+      .col-sm-12.col-lg-5.bg12.text-center.p-5.ml-1-custom
+        h4.mb-5 Información
+        img.w-50.m-auto(src='@/assets/curso/temas/Tema2/28.svg', alt='Texto que describa la imagen')
+
+
+
 
     p(data-aos="zoom-in-left") Bajo el contexto técnico, los datos en la era moderna se guardan a través de máquinas digitales a partir de la implementación de Bases de datos (BD).
     h5.mb-5(data-aos="zoom-in-left") Se invita a visualizar el siguiente video donde se profundiza en la diferencia entre dato e información:
@@ -165,23 +173,24 @@
       h2 2.2 Detección de errores y datos faltantes
 
     p(data-aos="zoom-in-left") Uno de los mayores desafíos para la analítica es lidiar con sistemas de información que fueron diseñados por fuera de los dominios de la centralización, o estándares de calidad y validación que garanticen un óptimo resultado.
-
+    
     .row.mb-4(data-aos="zoom-in-left")
-      .col-lg-7.my-3
+      .col-sm-12.col-lg-10.my-3
         .bloque-texto-b.color-terciario.py-4.mb-5
           .bloque-texto-b__texto.d-flex
             i.fas.fa-quote-left
-            p.mb-2.flex-column.d-block Cuando los sistemas de información no son capaces de digitalizar eficaz y eficientemente la realidad del negocio, y capturan el nivel adecuado de detalle necesario, no almacenan dichos datos garantizando que no se producen pérdidas sintácticas ni semánticas, no procesan los datos de acuerdo con las reglas de negocio, o no muestran los resultados de los análisis a los usuarios, entonces se producen “no-conformidades” en el ciclo de vida de los datos 
-            h5.d-flex.justify-content-end.d-block <br>(Velthuis, 2019). 
-                i.fas.fa-quote-right
-      .col-lg-3
-          img.w-75.mt-5(src='@/assets/curso/temas/Tema2/16.svg', alt='Texto que describa la imagen')
+            .flex-column
+              p.mb-2.d-block Cuando los sistemas de información no son capaces de digitalizar eficaz y eficientemente la realidad del negocio, y capturan el nivel adecuado de detalle necesario, no almacenan dichos datos garantizando que no se producen pérdidas sintácticas ni semánticas, no procesan los datos de acuerdo con las reglas de negocio, o no muestran los resultados de los análisis a los usuarios, entonces se producen “no-conformidades” en el ciclo de vida de los datos.
+              h5.d-flex.justify-content-end.d-block <br>(Velthuis, 2019). 
+                  i.fas.fa-quote-right
+      .col-sm-12.col-lg-2.align-items-end
+          img.w-75.mt-7(src='@/assets/curso/temas/Tema2/16.svg', alt='Texto que describa la imagen')
       
     .row(data-aos="zoom-in-left")
-      .col-md-5.mb-4.mb-md-0
+      .col-sm-12.col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/17.png', alt='Texto que describa la imagen')
-      .col-md-6
+      .col-sm-12.col-lg-7
         p.md-3.mt-2-cus Para la exploración y la determinación de datos faltantes se debe tener presente que en gran parte del tiempo que se invierte en los procesos de analítica tiene la relación con la limpieza, depuración y mejora de la calidad de los datos y las dos maneras más comunes de gestionar los datos faltantes son: la eliminación y la imputación.
         p El objetivo es que los sistemas de uso analítico tengan los datos completos independiente del tipo de faltantes, y después de los análisis realizados para determinar los faltantes, y en vista de que no existe manera de calcularlos o sacarlos de otras fuentes, los datos que faltan en medio del conjunto se pueden gestionar, principalmente con las dos siguientes opciones:
 
@@ -196,16 +205,16 @@
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-md.tarjeta.bg22.p-5.text-black
         .row.justify-content-center.mb-4
-          .col-6
+          .col-12
             figure
-              img(src='@/assets/curso/temas/Tema2/19.png', alt='Texto que describa la imagen')
+              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/19.png', alt='Texto que describa la imagen')
         h4.text-center Eliminación de la lista
         p Se remueve todo el registro de datos a los que le falta algún dato, esto tiene la desventaja que perdería otro tipo de datos, de otras columnas que sí están los datos, lo que llevaría a mayor margen de error en los reportes y dependiendo de la cantidad de datos faltantes, puede generar pérdida significativa de información.
       .col-md.tarjeta.bg5.p-5.text-black
         .row.justify-content-around.align-items-center.mb-4
-          .col-6
+          .col-12
             figure
-              img(src='@/assets/curso/temas/Tema2/20.png', alt='Texto que describa la imagen')
+              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/20.png', alt='Texto que describa la imagen')
         h4.text-center Eliminación por pares
         p A diferencia del anterior, solo pone en Nulos aquellos valores que faltan, conservando el resto de la fina, sin embargo, para modelos BI o ML podría presentar inconvenientes, pues hay medidas u operaciones que requieren la completitud de los datos.
 
@@ -220,16 +229,16 @@
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-md.tarjeta.bg22.p-5.text-black
         .row.justify-content-around.align-items-center.mb-4
-          .col-6
+          .col-12
             figure
-              img(src='@/assets/curso/temas/Tema2/22.png', alt='Texto que describa la imagen')
+              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/22.png', alt='Texto que describa la imagen')
         h4.text-center Imputación por media
         p Consiste simplemente en crear un cálculo entre los valores conocidos de la columna y ponerlo en el faltante. La desventaja es que se podrían reemplazar muchos valores faltantes con un único valor, lo que afecta la distribución de los datos.
       .col-md.tarjeta.bg5.p-5.text-black
         .row.justify-content-around.align-items-center.mb-4
-          .col-6
+          .col-12
             figure
-              img(src='@/assets/curso/temas/Tema2/23.png', alt='Texto que describa la imagen')
+              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/23.png', alt='Texto que describa la imagen')
         h4.text-center Imputación por regresión
         p El dato que falta se reemplaza con un valor calculado a partir de modelos de regresión, los cuales calculan el dato a imputar tomando el registro completo (todos los campos) de los datos faltantes con otros registros con datos completos, de esa manera se predicen los datos desconocidos.
 
@@ -282,10 +291,10 @@
     p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los Dataset contienen todo en una única tabla.
 
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
-      .col-6
+      .col-sm-12.col-lg-5
         figure
           img(src='@/assets/curso/temas/Tema2/25.png', alt='Texto que describa la imagen')
-      .col-md.bg23.p-4.text-black
+      .col-sm-12.col-lg-7.bg23.p-4.text-black
         p.mb-3 Algunas soluciones analíticas están basadas en Datasets, es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
         p Una de las definiciones y análisis iniciales más importantes a la hora de identificar las fuentes de datos es la manera o arquitectura en que se almacena la información. Según como se almacenan y gestionan los datos digitales, estos pueden clasificarse en términos generales como datos estructurados o semiestructurados (Ommi, 2018).
 
