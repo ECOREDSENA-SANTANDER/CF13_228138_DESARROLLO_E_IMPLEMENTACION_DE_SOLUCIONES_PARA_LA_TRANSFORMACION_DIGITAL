@@ -60,7 +60,7 @@
     .row.mb-5(data-aos="zoom-in-left")
       .col-md-6
         p.md-3.mt-2-cus Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
-        p Conocer su naturaleza y características es trascendental para los proyectos BI, donde la calidad de los datos <b>(Data quality - DQ)</b>, se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
+        p Conocer su naturaleza y características es trascendental para los proyectos BI, donde la calidad de los datos [#b (Data quality - DQ) ], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/5.png', alt='Texto que describa la imagen')
@@ -71,7 +71,7 @@
         figure
           img(src='@/assets/curso/temas/Tema2/6.png', alt='Texto que describa la imagen')
       .col-md-6
-        p.md-3.mt-2-cus El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre <b>CONFIABLES</b>; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, <b>FECHA DE NACIMIENTO</b>); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice
+        p.md-3.mt-2-cus El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre [#b CONFIABLES ]; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, [#b FECHA DE NACIMIENTO ]); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice
         p el registro de datos tenga aspectos como: tipo de dato según la naturaleza del registro, formato uniforme aceptado por todo el sistema, que el dato sea válido por reglas de negocio y naturaleza del proceso, entre otros.
       
 
@@ -196,8 +196,8 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 160px; padding:7px;') Descarte
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 160px;').bg-img-blue Descarte
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue 
 
 
     h5.mb-5(data-aos="zoom-in-left") Es la más sencilla, se puede tomar de dos maneras:
@@ -220,8 +220,8 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 200px; padding:7px;') Imputación
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 200px;').bg-img-blue Imputación
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
 
     p(data-aos="zoom-in-left") Esta técnica está basada en estimar los valores faltantes en relación a los datos disponibles de la misma columna, en este caso, se hace uso de la estadística inferencial (más adelante se detalla), la idea es que los datos completados no interfieran en la media ni desviación del conjunto de datos. Este tipo de completitud se aplica a datos numéricos, ya sean tipo enteros o flotantes. Hay dos maneras de aplicar la imputación o reemplazo del dato:
@@ -298,7 +298,7 @@
         p.mb-3 Algunas soluciones analíticas están basadas en Datasets, es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
         p Una de las definiciones y análisis iniciales más importantes a la hora de identificar las fuentes de datos es la manera o arquitectura en que se almacena la información. Según como se almacenan y gestionan los datos digitales, estos pueden clasificarse en términos generales como datos estructurados o semiestructurados (Ommi, 2018).
 
-    p.mb-5(data-aos="zoom-in-left") <b>A continuación se presentan los tipos de datos en los orígenes para los modelos analíticos:</b>
+    p.mb-5(data-aos="zoom-in-left") [#b A continuación se presentan los tipos de datos en los orígenes para los modelos analíticos: ]
 
     .row.mb-5(data-aos="zoom-in-left")
       .col-6
@@ -309,15 +309,15 @@
 
           .tarjeta.tarjeta-infografica.py-3.px-5(x="91%" y="16%" numero="1")
             p.mb-2 No tiene un modelo de información y no está organizado en ningún formato específico. Se almacena como archivos y datos sueltos. Ejemplos: - Archivos de texto y videos. - El cuerpo del mensaje de un correo electrónico. 
-            p <b>Más del 90% de la información disponible está en este tipo.</b>
+            p [#b Más del 90% de la información disponible está en este tipo. ]
           .tarjeta.tarjeta-infografica.py-3.px-5(x="81%" y="42%" numero="2")
             p.mb-2 No presentan una estructura definida como en los datos estructurados, pero sí presentan una organización definida en sus metadatos donde describen los objetos y sus relaciones, y que en algunos casos están aceptados por convención. Ejemplos: - 
-            p <b>Formatos HTML, XML o JSON. -</b>
-            p <b>Correos electrónicos.</b>
+            p [#b Formatos HTML, XML o JSON. - ]
+            p [#b Correos electrónicos. ]
 
           .tarjeta.tarjeta-infografica.py-3.px-5(x="67%" y="75%" numero="3")
             p.mb-2 Datos que se almacenan en bases de datos relacionales como SQL, Oracle etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. Ejemplo: 
-            p <b>- Base de datos gestión de facturación.</b>
+            p [#b - Base de datos gestión de facturación. ]
     
     p(data-aos="zoom-in-left") La mayoría de los datos generados por todos los usuarios están clasificados como no estructurados, esto indica que se componen de información difícil de clasificar y ordenar, conformada por archivos sueltos o producidos de manera general como documentos, videos y audios.
 
@@ -337,10 +337,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.slyder-f
-  .slyder-f__main
-    .horizontal-scroll__wrapper
-      padding-top: 4rem
-</style>

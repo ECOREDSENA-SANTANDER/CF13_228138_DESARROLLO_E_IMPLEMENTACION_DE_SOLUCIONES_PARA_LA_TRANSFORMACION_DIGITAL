@@ -25,7 +25,7 @@
     p Son los datos que solo se ocupan de una sola variable, por lo tanto, este tipo de datos son la forma más sencilla de analizar, pues la información se ocupa de una sola cantidad que cambia de registro a registro. Describe los datos y encuentra los patrones que se puedan presentar.
     
     .row.justify-content-around.align-items-center.mt-5
-      .col-9.offset-1
+      .col-sm-12.col-lg-10
         .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -33,7 +33,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p <b>Por ejemplo:</b> la altura de las personas. En este caso la única variable es la altura y su análisis se centra en determinar la media, el máximo, mínimo, moda, etc.
+                  p [#b Por ejemplo: ] la altura de las personas. En este caso la única variable es la altura y su análisis se centra en determinar la media, el máximo, mínimo, moda, etc.
 
     Separador
 
@@ -44,7 +44,7 @@
     p.mb-5 Son aquellos datos que involucran dos variables. Su análisis toma causas y resultados asociados para conocer la relación entre las dos variables.
 
     .row.justify-content-around.align-items-center.mt-5
-      .col-9.offset-1
+      .col-sm-12.col-lg-10
         .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -52,7 +52,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p <b>Un ejemplo</b> de datos bivariados puede ser la temperatura del ambiente en un día y las ventas de helados.
+                  p [#b Un ejemplo ] de datos bivariados puede ser la temperatura del ambiente en un día y las ventas de helados.
 
 
 
@@ -66,7 +66,7 @@
     p.mb-5 Similar al anterior (bivariado) pero contiene más de dos variables dependientes.
 
     .row.justify-content-around.align-items-center.mt-5
-      .col-9.offset-1
+      .col-sm-12.col-lg-10
         .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -91,7 +91,7 @@
       .col-md.tarjeta-container-siete.p-5
         .row.mb-4
           h4.mb-5 Las reglas de negocio se basan en las políticas de las organizaciones, en metodologías ágiles como el Scrum, las reglas de negocio se plasman en historias de usuarios.
-          p.mb-4 <b>Por ejemplo:</b>
+          p.mb-4 [#b Por ejemplo: ]
           ul.lista-ul--color.mx-4
             li.mb-0.pb-0 
               i.fa.fa-check
@@ -106,13 +106,13 @@
             ul.lista-ul--color.mx-4.mt-3
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  <b>Como</b> propietario de la tienda online.
+                p  [#b Como ] propietario de la tienda online.
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  <b>Quiero</b> rechazar compras fuera de Colombia con pedidos inferiores a $300.000 pesos.
+                p  [#b Quiero ] rechazar compras fuera de Colombia con pedidos inferiores a $300.000 pesos.
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  <b>Para</b> evitar gastos de envío que hacen la compra no rentable.
+                p  [#b Para ] evitar gastos de envío que hacen la compra no rentable.
         .row.justify-content-around.align-items-center.mb-3
           .col-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -130,7 +130,7 @@
       h2 5.5 Tipo de restricciones
 
     p.mb-4 Las restricciones limitan las acciones que el sistema o los usuarios pueden realizar. Las reglas por lo general son restrictivas, es decir, se debe o no se debe hacer algo a no ser que cumpla condiciones como roles de usuarios, valores previos, etc. Las restricciones, no deben convertirse en inconvenientes al usuario o sistema y los mensajes que se generan deben ser muy claros.
-    p <b>Existen diferentes tipos, que se detallan a continuación:</b>
+    p [#b Existen diferentes tipos, que se detallan a continuación: ]
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.bg22.p-5.text-black
@@ -179,7 +179,7 @@
           img(src='@/assets/curso/temas/Tema5/9.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido-3
             .text-black.p-4
-              h2.text-center.small.mt-4 Sucesores
+              h4.text-center.mt-4 Sucesores
               p.he-6-cus Se trata de estructuras de datos en las que cada elemento puede tener varios sucesores y/o varios predecesores.
 
       .col-4.mb-5.mb-lg-0.sin-espacio-left
@@ -187,7 +187,7 @@
           img(src='@/assets/curso/temas/Tema5/10.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido-4
             .text-black.p-4
-              h2.text-center.small.mt-4 Estructura
+              h4.text-center.mt-4 Estructura
               p.he-6-cus Su aplicación se hace en estructuras de árbol o grafos.
 
 
@@ -200,12 +200,12 @@
       .col-md-6
         p.mb-3.mt-2-cus Es el área del álgebra que usa métodos para crear nuevas relaciones a partir de unas ya existentes. Todas las operaciones sobre tablas relacionales a través de un lenguaje de manipulación de datos están bajo este esquema.
         p.mb-3 Emplea operadores y otros elementos del álgebra, existen entre otros operadores de proyección, selección, unión, diferencias intersecciones, divisiones, etc.
-        p <b>Este tipo de operaciones son muy usadas en los procesos ETL.</b>
+        p [#b Este tipo de operaciones son muy usadas en los procesos ETL. ]
       .col-md-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema5/11.png', alt='Texto que describa la imagen')
 
-    p.mb-3 <b>Por eso es importante tener presente las siguientes recomendaciones entregadas en el video:</b>
+    p.mb-3 [#b Por eso es importante tener presente las siguientes recomendaciones entregadas en el video: ]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -225,11 +225,11 @@
       h2 5.9 SQL
 
     .row.mb-5
-      .col-md-5.mb-4.mb-md-0
+      .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema5/12.png', alt='Texto que describa la imagen')
-      .col-md-6
-        p.mb-3.mt-2-cus <b>SQL (por sus siglas en inglés Structured Query Language;</b> en español lenguaje de consulta estructurada) es un lenguaje que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos.
+      .col-sm-12.col-lg-7
+        p.mb-3.mt-2-cus [#b SQL (por sus siglas en inglés Structured Query Language; ] en español lenguaje de consulta estructurada) es un lenguaje que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos.
         p.mb-3 Es un lenguaje estándar consolidado por el Instituto Americano de Normas (ANSI) y por la Organización de Estándares Internacional (ISO). Está compuesto por comandos, cláusulas, operadores y funciones de agregado
       
 
@@ -244,7 +244,7 @@
             img(src='@/assets/curso/temas/Tema5/13.png', alt='Texto que describa la imagen')
 
 
-    p.mb-3 Existen varios motores de bases de datos con núcleo SQL, entre los más conocidos MySQL de uso libre y otra distribución licenciada por Oracle. <b>En el siguiente video se presenta las ventajas de Mysql:</b>
+    p.mb-3 Existen varios motores de bases de datos con núcleo SQL, entre los más conocidos MySQL de uso libre y otra distribución licenciada por Oracle. [#b En el siguiente video se presenta las ventajas de Mysql: ]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -254,7 +254,7 @@
           figcaption Video. Description
 
     p.mb-0 SQL server pertenece a la casa de Microsoft, con sus herramientas integradas que dan mucho poder para el almacenamiento y proceso de datos. 
-    p.mb-4 <b>En el siguiente video se presentan los comandos de SQL para la creación de una base de datos y para la realización de consultas en esta:</b>
+    p.mb-4 [#b En el siguiente video se presentan los comandos de SQL para la creación de una base de datos y para la realización de consultas en esta: ]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -269,7 +269,7 @@
       h2 5.10 No SQL
 
     p.mb-3 Son un tipo de bases de datos cuyo almacenamiento de datos no se realiza en tablas propiamente dicha. Presentan una estructura particular tipo JSON o BSON, que consiste en un arreglo de datos por jerarquías, tiene la ventaja sobre las bases de datos relacionales que su desempeño de búsquedas y cargue de datos son más veloces, además, se podría definir que son más flexibles es sus datos y cambios de estructuras que se puedan presentar. Para el manejo de Big Data y grandes cantidades de datos son muy empleadas
-    p.mb-4 <b>En siguiente video se explican las ventajas de las bases de datos no relacionales o No SQL:</b>
+    p.mb-4 [#b En siguiente video se explican las ventajas de las bases de datos no relacionales o No SQL: ]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -313,7 +313,7 @@
 
 
     .row
-      .col-md-6
+      .col-sm-12.col-lg-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="Data Definition Language (DDL)")
             .col-md-12.mb-4.mb-md-0
@@ -332,7 +332,7 @@
                 p Lenguaje de Control de Datos: permiten administrar base de datos, controlar el acceso a los objetos, es decir, podemos otorgar o denegar permisos a uno o más roles para realizar determinadas tareas. Los comandos para controlar los permisos son los siguientes: 
                 p.ml-1-cus - GRANT. Permite asignar permisos. 
                 p.ml-1-cus - REVOKE. Elimina los permisos asignados.
-      .col-md-6.mb-4.mb-md-0
+      .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema5/15.png', alt='Texto que describa la imagen')
 
@@ -357,10 +357,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.slyder-f
-  .slyder-f__main
-    .horizontal-scroll__wrapper
-      padding-top: 4rem
-</style>

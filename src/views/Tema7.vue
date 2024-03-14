@@ -35,28 +35,28 @@
                 th.text-white.text-left-cus Función
             tbody
               tr.bg27
-                td <b>Microsoft Power BI</b>
+                td [#b Microsoft Power BI ]
                 td Es una herramienta de análisis segura que proporciona una vista interactiva de la información, dando acceso a más de 60 fuentes y compatible con otras aplicaciones.
               tr.bg28
-                td <b>Programación en R</b>
+                td [#b Programación en R ]
                 td Esta herramienta de análisis permite la estadística y su modelación, se adapta a varias plataformas por medio de más de 11.000 paquetes que se instalan acorde a cada necesidad de forma automática.
               tr.bg27
-                td <b>SAS</b>
+                td [#b SAS ]
                 td Esta herramienta de análisis actúa como lenguaje en la programación, permitiendo que la información sea procesada de forma separada, siendo útil en la gestión de perfilamiento de los clientes, predicción de compras y demás.
               tr.bg28
-                td <b>Python</b>
+                td [#b Python ]
                 td Es una herramienta diseñada para trabajar sobre objetos y procesar datos de forma funcional y estructurada.
               tr.bg27
-                td <b>Excel</b>
+                td [#b Excel ]
                 td Esta herramienta utilizada por la gran mayoría de empresas es básica; pero muy útil para analizar los datos de los clientes y se puede ajustar gracias a que cuenta con fórmulas internas que permiten generar frecuencias, filtros, combinaciones y demás.
               tr.bg28
-                td <b>Rapid Miner</b>
+                td [#b Rapid Miner ]
                 td Es una herramienta para realizar análisis predictivos.
               tr.bg27
-                td <b>Apache Spark</b>
+                td [#b Apache Spark ]
                 td Es una herramienta que procesa los datos de forma rápida, con algoritmos que le permiten clasificar la información.
               tr.bg28
-                td <b>Qlik View</b>
+                td [#b Qlik View ]
                 td Esta herramienta procesa la información comprimiéndola, ahorrando espacio en el disco duro y la asocia relacionando la información por colores según se requiera.
         figcaption Nota: las herramientas vistas en la tabla anterior son buenas opciones para la gestión del análisis de los datos; pero su uso depende de las necesidades de cada entidad.
 
@@ -68,20 +68,20 @@
 
 
     .row.mb-5(data-aos="zoom-in-left")
-      .col-md-6
+      .col-sm-12.col-lg-7
         p.mt-2-cus En este apartado, se mencionan los Entornos de Desarrollo Integrado (IDE), los cuales ahorran mucho tiempo y esfuerzo a quienes programan en la preparación de las plataformas e instalación de complementos extras que requieren, de esa manera, solo se dedican a programar y dejar todos los recursos necesarios a que se incluyan en estos entornos. Para la gestión de datos se emplean muchos lenguajes de programación, y lenguajes de consulta, lo que implica prácticamente construir códigos enteros para los procesos de datos.
-        p <b>Los entornos más eficientes son:</b>
-      .col-md-5.mb-4.mb-md-0
+        p [#b Los entornos más eficientes son: ]
+      .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema7/2.png', alt='Texto que describa la imagen')
     
     .tarjeta--container.row.mb-5.bg16(data-aos="zoom-in-left")
       .col-md.tarjeta-container-nueve.p-5
         .row
-          .col-md-4
+          .col-sm-12.col-lg-4.m-auto
             figure
               img(src='@/assets/curso/temas/Tema7/3.png', alt='Texto que describa la imagen')
-          .col-md-6
+          .col-sm-12.col-lg-6.m-auto
             LineaTiempoD.color-secundario-2
               .row(numero="1" titulo="Google collaborate")
                 .col-md-8.mb-4.mb-md-0
@@ -137,7 +137,7 @@
           .anexo__icono
             img(src="@/assets/curso/temas/Tema7/11.svg")
           .anexo__texto
-            p <b>Para desarrollar aplicaciones y realizar minería de datos basado en inteligencia artificial puede emplear alguno de los IDE anteriormente conocido u otros como Code Skulpor</b>
+            p [#b Para desarrollar aplicaciones y realizar minería de datos basado en inteligencia artificial puede emplear alguno de los IDE anteriormente conocido u otros como Code Skulpor ]
 
 
     Separador
@@ -159,13 +159,13 @@
             ul.lista-ul--color
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  <b>Pandas:</b> para la ciencia de datos es una librería muy usada, pues facilita la manipulación y consulta de datos.
+                p  [#b Pandas: ] para la ciencia de datos es una librería muy usada, pues facilita la manipulación y consulta de datos.
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  <b>Numpy: </b> permite generar una estructura de datos universal, lo que se traduce un mejor análisis de datos, y emplea algoritmos muy poderosos para el intercambio de estos datos. Tiene bien desempeño en datos masivos (dependiendo también del hardware).
+                p  [#b Numpy:  ] permite generar una estructura de datos universal, lo que se traduce un mejor análisis de datos, y emplea algoritmos muy poderosos para el intercambio de estos datos. Tiene bien desempeño en datos masivos (dependiendo también del hardware).
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  <b>Matplotlib:</b> con esta librería se generan gráficos de calidad para publicar en línea o en archivos como PDF y sin emplear muchas líneas de código. Se pueden generar gráficos de barras, histogramas, series temporales, espectros de potencia, entre muchas más visualizaciones.
+                p  [#b Matplotlib: ] con esta librería se generan gráficos de calidad para publicar en línea o en archivos como PDF y sin emplear muchas líneas de código. Se pueden generar gráficos de barras, histogramas, series temporales, espectros de potencia, entre muchas más visualizaciones.
             
           .col-md-4
             figure
@@ -188,10 +188,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.slyder-f
-  .slyder-f__main
-    .horizontal-scroll__wrapper
-      padding-top: 4rem
-</style>

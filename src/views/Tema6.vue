@@ -18,7 +18,7 @@
 
       
 
-    p.mb-4(data-aos="zoom-in-left") <b>Con el siguiente video, se comprenderá mejor lo que hace referencia mediante la analítica de datos:</b>
+    p.mb-4(data-aos="zoom-in-left") [#b Con el siguiente video, se comprenderá mejor lo que hace referencia mediante la analítica de datos: ]
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12

@@ -58,24 +58,27 @@
 
     p Para la aplicación de estadística inferencial, se tratarán algunos parámetros matemáticos para la aplicación de este modelo estadístico que se ilustran a continuación (ver figura).
 
-
-    .col-md-12.mx-auto.mb-5(data-aos="zoom-in-left")
-      .titulo-sexto.color-acento-contenido
-        h5 Figura 3.
-        span
-          |  Características de una muestra adecuada.
-      figure
-        img(src='@/assets/curso/temas/Tema4/4.svg', alt='')
+    .row
+      .col-md-12.mx-auto.mb-5(data-aos="zoom-in-left")
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 3.
+          span
+            |  Características de una muestra adecuada.
+    .row.mb-5
+      .col-sm-12.col-lg-10.m-auto
+        figure
+          img(src='@/assets/curso/temas/Tema4/4.svg', alt='')
 
     p.mb-5(data-aos="zoom-in-left") Este tipo de estadística se aplica cuando, la posblación o el universo objeto de estudio es muy grande e imposible de aplicar estadística descriptiva o aplicar instrumento a todo, o cuando no hay exactitud del número de población o universo. Para estos casos, se deberá aplicar la estadística inferencial donde se pueden realizar afirmaciones sobre una población basado en los resultados de una muestra.
 
-    .tarjeta.bg29.p-4.mb-5(data-aos="zoom-in-left")     
-      .row.justify-content-center.align-items-center
-        .col-md-2
-          figure.mx-7
-            img(src='@/assets/curso/temas/Tema4/5.png', alt='Texto que describa la imagen')
-        .col-md-8
-          p <b>Es importante</b> no establecer divorcios entre la estadística descriptiva y la inferencial, ambas son necesarias, pues la inferencial usa los datos descriptivos para llevar a conclusiones generales.
+    .row(data-aos="zoom-in-left") 
+      .col-sm-12.col-lg-10.bg29.p-4.mb-5.m-auto    
+          .row.justify-content-center.align-items-center
+            .col-md-2
+              figure.mx-7
+                img(src='@/assets/curso/temas/Tema4/5.png', alt='Texto que describa la imagen')
+            .col-md-8
+              p [#b Es importante ] no establecer divorcios entre la estadística descriptiva y la inferencial, ambas son necesarias, pues la inferencial usa los datos descriptivos para llevar a conclusiones generales.
 
 
     Separador
@@ -87,72 +90,71 @@
     p.mb-5 Las escalas se convierten en algo real a través de las preguntas que se utilizan para recolectar la información aplicando la escala. (Domínguez, 2017). Existen cuatro escalas primarias de medición: nominal, ordinal, intervalo y radio; algunas escalas más sofisticadas como las escalas multicontenido o multipropósito, en la siguiente tabla se describen las categorías.
 
     
+    .row
+      .col-sm-12.col-lg-10.m-auto
+        .mx-auto.mb-5(data-aos="zoom-in-left")
+          .titulo-sexto.color-acento-contenido
+            h5 Tabla 2.
+            span
+              |   Variables y escalas
 
-    .col-md-12.mx-auto.mb-5(data-aos="zoom-in-left")
-      .titulo-sexto.color-acento-contenido
-        h5 Tabla 2.
-        span
-          |   Variables y escalas
+        .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-left")
+          table
+            thead
+              tr
+                th.text-white.text-left-cus Variables
+                th.text-white.text-left-cus Escala
+                th.text-white.text-left-cus Descripción
+            tbody
+              tr.bg27
+                td Categoria
+                td Nominal 
+                td Clasifica los elementos del conjunto para distribuirlos en grupos.
+              tr.bg28
+                td 
+                td Ordinal
+                td También clasifica elementos, pero además permite hacer escalas de medición comparativa.
+              tr.bg27
+                td Metrica
+                td Intervalo 
+                td Cuantifica y califica numéricamente los objetos de la categoría. 
+                  ul.lista-ul.mx-4.mt-3 
+                    li.mb-0.pb-0
+                      i.fas.fa-circle.icon-li-ul 
+                      p Permite hacer mediciones simples. 
+                    li.mb-0.pb-0
+                      i.fas.fa-circle.icon-li-ul   
+                      p Utiliza escalas continuas. 
+                    li.mb-0.pb-0
+                      i.fas.fa-circle.icon-li-ul   
+                      p No tiene cero por lo que usualmente aplica escalas pares; la más común es de 1 a 10. Cuando la escala no tiene un punto neutral, como si lo tiene una escala impar, el investigador estaría forzando una respuesta negativa o positiva del participante. De 1 a 5 es negativa y de 6 a 10 es positiva.
+              tr.bg28
+                td 
+                td Radio
+                td Cuantifica y califica numéricamente los objetos de la categoría.  
+                  ul.lista-ul.mx-4.mt-3 
+                    li.mb-0.pb-0
+                      i.fas.fa-circle.icon-li-ul 
+                      p Permite Permite hacer mediciones simples.  
+                    li.mb-0.pb-0
+                      i.fas.fa-circle.icon-li-ul 
+                      p Utiliza escalas discontinuas.
+                    li.mb-0.pb-0
+                      i.fas.fa-circle.icon-li-ul 
+                      p Resuelve el problema del cero por lo que usualmente aplica escalas impares; las más comunes son de 1 a 5 o de 1 a 7.
 
-    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-left")
-      table
-        thead
-          tr
-            th.text-white.text-left-cus Variables
-            th.text-white.text-left-cus Escala
-            th.text-white.text-left-cus Descripción
-        tbody
-          tr.bg27
-            td Categoria
-            td Nominal 
-            td Clasifica los elementos del conjunto para distribuirlos en grupos.
-          tr.bg28
-            td 
-            td Ordinal
-            td También clasifica elementos, pero además permite hacer escalas de medición comparativa.
-          tr.bg27
-            td Metrica
-            td Intervalo 
-            td Cuantifica y califica numéricamente los objetos de la categoría. 
-              ul.lista-ul.mx-4.mt-3 
-                li.mb-0.pb-0
-                  i.fas.fa-circle.icon-li-ul 
-                  p Permite hacer mediciones simples. 
-                li.mb-0.pb-0
-                  i.fas.fa-circle.icon-li-ul   
-                  p Utiliza escalas continuas. 
-                li.mb-0.pb-0
-                  i.fas.fa-circle.icon-li-ul   
-                  p No tiene cero por lo que usualmente aplica escalas pares; la más común es de 1 a 10. Cuando la escala no tiene un punto neutral, como si lo tiene una escala impar, el investigador estaría forzando una respuesta negativa o positiva del participante. De 1 a 5 es negativa y de 6 a 10 es positiva.
-          tr.bg28
-            td 
-            td Radio
-            td Cuantifica y califica numéricamente los objetos de la categoría.  
-              ul.lista-ul.mx-4.mt-3 
-                li.mb-0.pb-0
-                  i.fas.fa-circle.icon-li-ul 
-                  p Permite Permite hacer mediciones simples.  
-                li.mb-0.pb-0
-                  i.fas.fa-circle.icon-li-ul 
-                  p Utiliza escalas discontinuas.
-                li.mb-0.pb-0
-                  i.fas.fa-circle.icon-li-ul 
-                  p Resuelve el problema del cero por lo que usualmente aplica escalas impares; las más comunes son de 1 a 5 o de 1 a 7.
-
-      ul.lista-ul.mx-4 
-        li.mb-0.pb-0.ml-4-custom 
-            i.fas.fa-circle.icon-li-ul
+     
     Separador
 
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.4 Técnicas de análisis estadístico
 
     .row.mb-5(data-aos="zoom-in-left")
-      .col-md-6
+      .col-sm-12.col-lg-7
         p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del Big data y la inteligencia de negocios.
         p.md-3 Pero desde el enfoque propiamente, la utilidad estadística está inmersa como fundamento en el conocimiento de las áreas y en todas las decisiones incluso las decisiones no técnicas y simples, de manera implícita se trae a la mente procesos estadísticos (ejemplo: al pasar una calle, debes verificar variables como flujo de carros, velocidad, estado de la vía, distancia del punto A al punto B, etc.).
-        p <b>Para todo negocio, es importante tener en cuenta datos financieros y de consumo (ver figura).</b>
-      .col-md-5.mb-4.mb-md-0
+        p [#b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (ver figura). ]
+      .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema4/6.png', alt='Texto que describa la imagen')
     .row.mb-5.align-items-center.justify-content-center
@@ -172,9 +174,9 @@
         figure
           img(src='@/assets/curso/temas/Tema4/8.png', alt='Texto que describa la imagen')
       .col-md-9
-        p.md-3 Con esta información, el negocio podría ir tomando decisiones y estableciendo enfoques comerciales, mirar cómo está su sector en el país y de esa manera ir orientando su análisis de negocio. Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validar los datos financieros, los tiempos de procesos, comparar sedes, definir conocimiento específico y general del negocio.<b> Por lo que la estadística toma un papel muy importante, para ello se mencionarán las principales características de la estadística:</b>
+        p.md-3 Con esta información, el negocio podría ir tomando decisiones y estableciendo enfoques comerciales, mirar cómo está su sector en el país y de esa manera ir orientando su análisis de negocio. Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validar los datos financieros, los tiempos de procesos, comparar sedes, definir conocimiento específico y general del negocio.[#b  Por lo que la estadística toma un papel muy importante, para ello se mencionarán las principales características de la estadística: ]
 
-    p.mb-4(data-aos="zoom-in-left") <b>Como principio fundamental la estadística contiene los siguientes componentes:</b>
+    p.mb-4(data-aos="zoom-in-left") [#b Como principio fundamental la estadística contiene los siguientes componentes: ]
       
     .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
       SlyderA

@@ -50,7 +50,7 @@
           img(src='@/assets/curso/temas/Tema1/4.png', alt='Texto que describa la imagen')
       .col-md-7
         p.mt-2-cus Un ejemplo frecuente es una App bancaria, la cual se usa para realizar compras, esta acción encarna una cantidad de tareas internas, de manera básica deberá restar de mi cuenta el valor del producto a pagar y a su vez se deberá sumar a la cuenta del vendedor; sería un gran problema si en la acción se debita de la cuenta del comprador y existe una falla del sistema que evita se sume al saldo del vendedor. Para que las transacciones sean confiables, en caso de presentarse fallas en medio de las tareas internas, los datos deberán quedar tal y como estaban antes de iniciar la transacción.
-        p Por lo cual, las <b>Propiedades ACID</b> (acrónimo en inglés de cada una de las propiedades que deben tener las bases de datos) son:
+        p Por lo cual, las [#b Propiedades ACID ] (acrónimo en inglés de cada una de las propiedades que deben tener las bases de datos) son:
 
     .row.mb-5.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-5.mb-5.he-5-cus
@@ -58,7 +58,7 @@
           img(src='@/assets/curso/temas/Tema1/5.svg' alt='AvatarTop')
           .tarjeta.bg18
             .text-black.p-4
-              h2.text-center.small A (Atomicidad)
+              h2.text-center A (Atomicidad)
               p Las transacciones deben considerarse atómicas, es decir, se deben considerar como una sola. Esto previene que las actualizaciones de la base de datos se hagan de manera parcial o incompleta, esto supondría grandes dificultades, por lo que si no se completa la acción, la transacción completa se rechaza.
 
       .col-5.mb-5.he-5-cus
@@ -66,7 +66,7 @@
           img(src='@/assets/curso/temas/Tema1/6.svg' alt='AvatarTop')
           .tarjeta.bg18
             .text-black.p-4
-              h2.text-center.small C (Consistencia)
+              h2.text-center C (Consistencia)
               p Consiste en que una operación no dejará datos incoherentes o incompletos o con problemas que puedan dar resultados ilógicos o ambigüedades
     .row.mb-5.justify-content-center.align-items-center
       .col-5.mb-5.he-5-cus
@@ -74,7 +74,7 @@
           img(src='@/assets/curso/temas/Tema1/7.svg' alt='AvatarTop')
           .tarjeta.bg18
             .text-black.p-4
-              h2.text-center.small I (Aislamiento)
+              h2.text-center I (Aislamiento)
               p Su funcionalidad radica en aislar los datos que hacen parte de la transacción pero que no están confirmados o aún no validados. Funcionan como una especie de datos temporales mientras se ejecuta toda la transacción. Los DBMS ofrecen varios niveles de aislamiento de transacciones según sus tipos
 
       .col-5.mb-5.he-5-cus
@@ -82,7 +82,7 @@
           img(src='@/assets/curso/temas/Tema1/8.svg' alt='AvatarTop')
           .tarjeta.bg18
             .text-black.p-4
-              h2.text-center.small D (Durabilidad)
+              h2.text-center D (Durabilidad)
               p Es la propiedad para garantizar que una vez se complete la transacción, los datos se actualizan y sean permanentes y confiables.
 
     Separador
@@ -102,8 +102,8 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 410px; padding:7px;') Bases de datos relacionales (OLTP)
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -10%; position: relative;') 
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 410px;').bg-img-blue Bases de datos relacionales (OLTP)
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue 
 
     p.mb-4(data-aos="zoom-in-left") Se componen de diversas tablas que se asocian entre ellas, según las condiciones del negocio, en este sentido se determina qué entidad, mediante la definición de las cosas y actores que intervienen en el sistema, ejemplo: empleado, cliente, sede, producto, categorías, etc. Las entidades son las tablas, y cada entidad tiene atributos tales como nombre, edad, fecha de nacimiento, nombre de producto, presentación, precio, etc. Los atributos serán entonces los campos que tendrán las tablas.
     p.mb-5(data-aos="zoom-in-left") Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de software donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, OLTP a lo que en español se nombra como Procesamiento de Transacciones En Línea.
@@ -128,8 +128,8 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 430px; padding:7px;') Bases de datos Dimensionales  (OLAP)
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -10%; position: relative;') 
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 430px;').bg-img-blue Bases de datos Dimensionales  (OLAP)
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
 
     
@@ -239,7 +239,7 @@
         figure
           img(src='@/assets/curso/temas/Tema1/15.png', alt='Texto que describa la imagen')
       .col-sm-12.col-md-7.mb-4
-        p.mt-2-cus Por eso es importante comprender el concepto de <b>“INDEXACIÓN”</b>. Al imagina tomar un libro, del cual se quiere leer un tema específico, ¿cuánto se tardaría buscarlo página por página?, esto sería tedioso e ineficiente. Además se demoraría mucho tiempo, y más aún si el tema está en las últimas páginas. Lo más fácil y obvio es ir al índice, donde se relacionan los temas y se indica el número de hoja, así se llegará más rápido. El principio de indexación de bases de datos parte, más o menos, del mismo principio del índice que se acaba de ilustrar y los administradores de bases de datos pueden gestionar estos índices en las tablas.
+        p.mt-2-cus Por eso es importante comprender el concepto de [#b “INDEXACIÓN” ]. Al imagina tomar un libro, del cual se quiere leer un tema específico, ¿cuánto se tardaría buscarlo página por página?, esto sería tedioso e ineficiente. Además se demoraría mucho tiempo, y más aún si el tema está en las últimas páginas. Lo más fácil y obvio es ir al índice, donde se relacionan los temas y se indica el número de hoja, así se llegará más rápido. El principio de indexación de bases de datos parte, más o menos, del mismo principio del índice que se acaba de ilustrar y los administradores de bases de datos pueden gestionar estos índices en las tablas.
       
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
@@ -256,16 +256,16 @@
         ul.lista-ul.mx-4
           li.mb-0.pb-0 
             i.fa.fa-check
-            p <b>Llave primaria (Primary key): </b> Company_nombreaplicacion 
+            p [#b Llave primaria (Primary key):  ] Company_nombreaplicacion 
           li.mb-0.pb-0 
             i.fa.fa-check
-            p <b>Campos (UNIQUE): </b> aquellas columnas que se configuran como únicas, por lo general los motores de bases de datos les asignan también índice.
+            p [#b Campos (UNIQUE):  ] aquellas columnas que se configuran como únicas, por lo general los motores de bases de datos les asignan también índice.
           li.mb-0.pb-0 
             i.fa.fa-check
-            p <b>Texto completo (Full Text): </b> hay índices que se asignan a textos completos, son usados si se tiene bases de datos en los que su búsqueda es por temáticas o en los que el usuario tiene idea de qué buscar.
+            p [#b Texto completo (Full Text):  ] hay índices que se asignan a textos completos, son usados si se tiene bases de datos en los que su búsqueda es por temáticas o en los que el usuario tiene idea de qué buscar.
           li.mb-0.pb-0 
             i.fa.fa-check
-            p <b>Ordinarios: </b> son aquellos que se puedan asignar manualmente según los criterios del diseñador de la base de datos. .   
+            p [#b Ordinarios:  ] son aquellos que se puedan asignar manualmente según los criterios del diseñador de la base de datos. .   
           li.mb-0.pb-0.ml-4-custom  
             i.fas.fa-circle.icon-li-ul
             p Para crear índice ordinario através de SQL se emplean estos comando:
@@ -283,7 +283,7 @@
               span.color-black (apellidos);
           li.mb-0.pb-0 
             i.fa.fa-check
-            p <b>Compuestos:</b> Aquellos índices que referencian a dos o más campos.
+            p [#b Compuestos: ] Aquellos índices que referencian a dos o más campos.
           li.mb-0.pb-0.ml-4-custom  
             i.fas.fa-circle.icon-li-ul
             p Para crear índice compuesto a través de SQL se emplea estos comandos.
@@ -298,7 +298,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-9.p-4.bg20.d-flex.justify-content-center.align-items-center
         img.px-4.w-75(src='@/assets/curso/temas/Tema1/17.png', alt='Texto que describa la imagen')
-        p <b>El comando SQL “EXPLAIN”</b>, es muy usado, pues permite adelantarse a la consulta, listando las tablas en el orden que serían leídas. Es decir, muestra cómo se realizará la consulta y permite visualizar la manera en realizar la consulta, esto permite a los diseñadores de bases de datos realizar optimizaciones de ser necesario.
+        p [#b El comando SQL “EXPLAIN” ], es muy usado, pues permite adelantarse a la consulta, listando las tablas en el orden que serían leídas. Es decir, muestra cómo se realizará la consulta y permite visualizar la manera en realizar la consulta, esto permite a los diseñadores de bases de datos realizar optimizaciones de ser necesario.
         
     h5.mb-5(data-aos="zoom-in-left") Si se desea saber la manera en cómo el motor de base de datos recupera y obtiene los datos que muestra, se puede realizar el siguiente ejercicio:
 
@@ -330,7 +330,7 @@
                 span.color-blue WHERE 
                 span.color-black precio 
                 span.color-black > 
-                span.color-orange  <b> 300000</b>
+                span.color-orange  [#b  300000 ]
               h5.mt-2 Muestra todos los campos que cumplen con la condición.
           .col-md-4
             figure
@@ -359,7 +359,7 @@
                 span.color-blue WHERE 
                 span.color-black precio 
                 span.color-black > 
-                span.color-orange  <b> 300000</b>
+                span.color-orange  [#b  300000 ]
               .mt-2.color-blue.ml-4-custom.fw-bold order by 
                 span.color-black precio 
                 span.color-blue desc 
@@ -398,10 +398,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.slyder-f
-  .slyder-f__main
-    .horizontal-scroll__wrapper
-      padding-top: 4rem
-</style>

@@ -75,9 +75,9 @@
             figure
               img(src='@/assets/curso/temas/Tema3/6.png', alt='Texto que describa la imagen')
         p.mb-3 Lo primero que se debe evaluar es la integración entre las estrategias de la organización con la implementación de la inteligencia de negocio, como referencia estratégica, cada vez es más importante como apoyo a la gestión y toma de decisiones.
-        p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. <b>El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general.</b>
+        p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. [#b El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general. ]
 
-    p.mb-5(data-aos="zoom-in-left") <b>En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio:</b>
+    p.mb-5(data-aos="zoom-in-left") [#b En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio: ]
     .row
       .col-sm-12.col-lg-10.m-auto 
         img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='Texto que describa la imagen')
@@ -126,23 +126,23 @@
           .row(titulo="SAS INSTITUT")
             .col-md-12.mb-4
               p.mx-5  Empresa multinacional con sede en Carolina del Norte, Estados Unidos. Es uno de los principales fabricantes de software de apoyo empresarial. Fundación 1976.
-              p.mx-5 <b>https://www.sas.com/es_co/home.html</b>
+              p.mx-5 [#b https://www.sas.com/es_co/home.html ]
           .row(titulo="MICROSOFT")
             .col-md-12.mb-4
               p.mx-5  Con sus herramientas de infraestructura en la nube representada por Azure y la introducción de visualizaciones de Power BI dentro de Power Apps y Dynamics 365 aumenta las capacidades analíticas integradas de Microsoft Power Platform.
-              p.mx-5 <b>https://www.microsoft.com/es-mx/microsoft-cloud</b>
+              p.mx-5 [#b https://www.microsoft.com/es-mx/microsoft-cloud ]
           .row(titulo="ORACLE")
             .col-md-12.mb-4
               p.mx-5  Oracle Analytics Cloud se ha convertido en la herramienta analítica y de informes imprescindible para las pequeñas empresas, más allá de las grandes empresas a las que suele servir.
-              p.mx-5 <b>https://www.oracle.com/lad/business-analytics/analytics-services</b>
+              p.mx-5 [#b https://www.oracle.com/lad/business-analytics/analytics-services ]
           .row(titulo="INFORMÁTICA")
             .col-md-12.mb-4
               p.mx-5  Integrada con Azure, cuenta con su herramienta Cloud Data Marketplace, diseñada para aumentar de forma intuitiva el intercambio de datos, mejorar la productividad y permitir que las organizaciones tomen decisiones más informadas.
-              p.mx-5 <b>https://www.informatica.com/products/cloud-data-integration.html</b>
+              p.mx-5 [#b https://www.informatica.com/products/cloud-data-integration.html ]
           .row(titulo="QLIK")
             .col-md-12.mb-4
               p.mx-5  Empresa especializada en analítica y procesos ETL, Herramientas especializadas de desde punto inicial al punto final.
-              p.mx-5 <b>https://www.qlik.com/es-es/products</b>
+              p.mx-5 [#b https://www.qlik.com/es-es/products ]
   
       .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
@@ -156,7 +156,7 @@
       h2 3.4 Técnicas de solución de problemas (modelación de datos)
 
     p.mb-3(data-aos="zoom-in-left") Si bien existen varias metodologías, todas coinciden en una manera genérica para la solución de un proyecto analítico propuesto por Davenport, con algunas variables
-    p.mb-3(data-aos="zoom-in-left") <b>Esta metodología tiene tres grandes etapas:</b>
+    p.mb-3(data-aos="zoom-in-left") [#b Esta metodología tiene tres grandes etapas: ]
 
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
       .col-lg-11
@@ -167,7 +167,7 @@
             .p-4
               h5.mb-4 Definición del problema
               p Para reconocer el problema, se debe partir de las necesidades surgidas a partir de la experiencia para tomar una decisión o acción; es decir, qué necesidades o inconvenientes se han tenido cuando la información, reportes o conocimiento de algún dato importante no está disponible en el momento y exactitud para tomar decisiones o ejecutar acciones. Es importante gestionar las expectativas y documentar las necesidades o problemas puntuales.
-              p <b>En esta fase, una clave es identificar objetivos que no se cumplen por la falta de un proyecto analítico.</b>
+              p [#b En esta fase, una clave es identificar objetivos que no se cumplen por la falta de un proyecto analítico. ]
 
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
       .col-lg-11
@@ -216,8 +216,8 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 300px; padding:7px;') Modelo Kimball
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Modelo Kimball
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
 
     .row.mb-5(data-aos="zoom-in-left")
@@ -227,7 +227,7 @@
             p.mb-3 La metodología para el diseño de DWH propuesta por Ralph Kimball se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean data marts, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
             br
             br
-            p <b>Kimball propone que estos Data Mart</b> deben crearse primero para proporcionar capacidades analíticas; en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los Data Mart se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios Data Mart. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (ver figura).
+            p [#b Kimball propone que estos Data Mart ] deben crearse primero para proporcionar capacidades analíticas; en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los Data Mart se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios Data Mart. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (ver figura).
             
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
@@ -239,8 +239,8 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='background-color: rgb(8, 49, 66); border-radius: 25px; width: 300px; padding:7px;') Modelo Inmon
-        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg' style='max-width: 55px; left: -18%; position: relative;') 
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Modelo Inmon
+        img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
 
     .row.mb-5(data-aos="zoom-in-left")
@@ -267,7 +267,7 @@
 
     p.mb-4(data-aos="zoom-in-left") Los cuadros de mando o Dashboard, permiten hacer monitoreo de los procesos mostrando información importante a través de elementos gráficos de fácil entendimiento y con actualizaciones periódicas.
     p.mb-4(data-aos="zoom-in-left") Los valores que presentan deben ser indicadores de procesos, tareas o situaciones importantes para el negocio, su escalabilidad y visualización deben aparecer claramente. Para algunos valores podrían presentarse escalas (ejemplo, valores de ventas), para otros no (ejemplo, comparaciones porcentuales).
-    p.mb-4(data-aos="zoom-in-left") <b>Entre los elementos más importantes de los cuadros de mando, su tipo de valor y escalas se pueden mencionar:</b>
+    p.mb-4(data-aos="zoom-in-left") [#b Entre los elementos más importantes de los cuadros de mando, su tipo de valor y escalas se pueden mencionar: ]
 
     .row.mb-5(data-aos="zoom-in-left")
       .col-md-8.mb-5.mb-md-0
@@ -302,9 +302,9 @@
     p.mb-5(data-aos="zoom-in-left") Desde los motores de bases de datos, se pueden aplicar funciones nativas a los datos, es decir, no todas las condiciones y reglas de negocio se programan en los procesos de programación, pues los motores de bases de datos pueden adaptar además de las consultas estándar SQL, script con lenguajes como: R, Phyton, etc.
 
     .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
-      .col-lg-12
+      .col-sm-12.col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
-          .bloque-texto-g__img(
+          .bloque-texto-g__img.br-tl-cus(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/18.png')})`}"
           )
           .bloque-texto-g__texto.p-5
@@ -318,26 +318,26 @@
     p.mb-5(data-aos="zoom-in-left") Llamados comúnmente Triggers, son sentencias o funciones que se ejecutan cuando se presentan ciertos eventos. Estos eventos pueden ser una condición en el tiempo, una actualización, inserción o borrado de una tabla en un dato específico.
     p.mb-5(data-aos="zoom-in-left") Los disparadores son elementos muy importantes a la hora de automatizar acciones en los datos. La tendencia en los sistemas de información es la automatización y dejar todo lo posible para que las máquinas funcionen de manera autónoma, de esta manera se tendrán acciones en los datos en el momento mismo de realizar una operación que sea el disparador de otras tareas (ver tabla).
     
-    
-    .col-md-12.mx-auto.mb-5(data-aos="zoom-in-left")
-      .titulo-sexto.color-acento-contenido
-        h5 Tabla 1.
-        span
-          |  Ejemplo de Triggers
+    .row
+      .col-sm-12.col-lg-10.mx-auto.mb-5(data-aos="zoom-in-left")
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 1.
+          span
+            |  Ejemplo de Triggers
 
-    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-left")
-      table
-        thead
-          tr
-            th.text-white.text-left-cus Disparador
-            th.text-white.text-left-cus Acción
-        tbody
-          tr.bg27
-            td Cuando en la tabla clientes se realiza un insert (cliente nuevo).
-            td Enviar correo electrónico con plantilla de bienvenida y resumen de los datos registrados.
-          tr.bg28
-            td Todos los días cuando el sean las 3:00 A.M.
-            td Ejecutar carga de la base de datos transaccional a los almacenamientos para el proceso ETL
+        .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-left")
+          table
+            thead
+              tr
+                th.text-white.text-left-cus Disparador
+                th.text-white.text-left-cus Acción
+            tbody
+              tr.bg27
+                td Cuando en la tabla clientes se realiza un insert (cliente nuevo).
+                td Enviar correo electrónico con plantilla de bienvenida y resumen de los datos registrados.
+              tr.bg28
+                td Todos los días cuando el sean las 3:00 A.M.
+                td Ejecutar carga de la base de datos transaccional a los almacenamientos para el proceso ETL
         
     p(data-aos="zoom-in-left") En esta tabla se presentan ejemplos de disparadores, para una mejor comprensión.
 
@@ -363,10 +363,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.slyder-f
-  .slyder-f__main
-    .horizontal-scroll__wrapper
-      padding-top: 4rem
-</style>
