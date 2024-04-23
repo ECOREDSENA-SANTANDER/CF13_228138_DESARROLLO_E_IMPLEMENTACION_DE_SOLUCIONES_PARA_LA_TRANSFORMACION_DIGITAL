@@ -148,7 +148,7 @@
         
           .col-sm-12.col-lg-4
             figure
-              img.w-75(src='@/assets/curso/temas/Tema1/12.svg', alt='Texto que describa la imagen')
+              img.w-75.mb-5(src='@/assets/curso/temas/Tema1/12.svg', alt='Texto que describa la imagen')
 
         .row.mx-5-cus.px-4-cus.mt-4
           .col-sm-12.col-lg-7
@@ -157,7 +157,7 @@
         
           .col-sm-12.col-lg-4
             figure
-              img(src='@/assets/curso/temas/Tema1/13.png', alt='Texto que describa la imagen')
+              img.mb-3(src='@/assets/curso/temas/Tema1/13.png', alt='Texto que describa la imagen')
 
         .row.mx-5-cus.px-4-cus.mt-4
           .col-sm-12.col-lg-7
@@ -166,7 +166,7 @@
         
           .col-sm-12.col-lg-4
             figure
-              img(src='@/assets/curso/temas/Tema1/14.png', alt='Texto que describa la imagen')
+              img.mb-3(src='@/assets/curso/temas/Tema1/14.png', alt='Texto que describa la imagen')
 
 
 
@@ -184,14 +184,14 @@
 
       ul.lista-ul.mx-4
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p  Los nombres de las bases de datos deben contener el nombre de la empresa seguido del nombre de la aplicación.   
           li.mb-0.pb-0.ml-4-custom 
             i.fas.fa-circle.icon-li-ul
             p.fw-bold Company_nombreaplicacion 
 
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p Las tablas se deben nombrar en plural, y debe estar asociado a los datos que se almacenarán   
          
           li.mb-0.pb-0.ml-4-custom  
@@ -200,7 +200,7 @@
 
          
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p  Por normalización, todas las tablas deben tener una llave primaria la cual debe ser id.   
          
           li.mb-0.pb-0.ml-4-custom  
@@ -211,7 +211,7 @@
 
          
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p  Los campos de la tabla deben estar en singular y deben describir los datos almacenados. 
          
           li.mb-0.pb-0.ml-4-custom  
@@ -220,7 +220,7 @@
 
          
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p  Los campos con funciones trigger (disparadores) deben estar formadas por el prefijo tgr_ seguida del nombre de la tabla y el nombre del trigger.
          
           li.mb-0.pb-0.ml-4-custom  
@@ -260,16 +260,16 @@
     .bg16.p-5.mb-5(data-aos="zoom-in-left")
         ul.lista-ul.mx-4
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p #[b Llave primaria (Primary key):  ] Company_nombreaplicacion 
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p #[b Campos (UNIQUE):  ] aquellas columnas que se configuran como únicas, por lo general los motores de bases de datos les asignan también índice.
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p #[b Texto completo (Full Text):  ] hay índices que se asignan a textos completos, son usados si se tiene bases de datos en los que su búsqueda es por temáticas o en los que el usuario tiene idea de qué buscar.
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p #[b Ordinarios:  ] son aquellos que se puedan asignar manualmente según los criterios del diseñador de la base de datos. .   
           li.mb-0.pb-0.ml-4-custom  
             i.fas.fa-circle.icon-li-ul
@@ -287,7 +287,7 @@
               span.color-green usuarios 
               span.color-black (apellidos);
           li.mb-0.pb-0 
-            i.fa.fa-check
+            i.fa.fa-check.ul-li-color
             p #[b Compuestos: ] Aquellos índices que referencian a dos o más campos.
           li.mb-0.pb-0.ml-4-custom  
             i.fas.fa-circle.icon-li-ul

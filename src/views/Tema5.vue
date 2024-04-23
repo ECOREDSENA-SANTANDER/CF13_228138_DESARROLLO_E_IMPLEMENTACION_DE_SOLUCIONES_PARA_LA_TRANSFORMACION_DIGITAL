@@ -134,26 +134,26 @@
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.bg22.p-5.text-black
-        h4.text-center Validación de datos
+        h4.text-center.mb-5 Validación de datos
         .row.justify-content-around.align-items-center.mb-4
-          .col-6
+          .col-8
             figure
-              img(src='@/assets/curso/temas/Tema5/6.svg', alt='Texto que describa la imagen')
-        p Son aquellas que vienen como norma del tipo y formato de datos, esto se hace para garantizar la calidad y completitud de la información.
+              img.m-auto(src='@/assets/curso/temas/Tema5/6.svg', alt='Texto que describa la imagen')
+        p.text-center Son aquellas que vienen como norma del tipo y formato de datos, esto se hace para garantizar la calidad y completitud de la información.
       .col-md.tarjeta.bg5.p-5.text-black
-        h4.text-center Políticas de la organización
+        h4.text-center.mb-5  Políticas de la organización
         .row.justify-content-around.align-items-center.mb-4
-          .col-6
+          .col-8
             figure
-              img.w-75(src='@/assets/curso/temas/Tema5/7.svg', alt='Texto que describa la imagen')
-        p Son aquellas que surgen a partir de las reglas de negocio y su naturaleza surge a partir del funcionamiento de los procesos. Por lo general se programan en procedimientos o algoritmos programados que evalúan las condiciones y restricciones previas.
+              img.w-75.m-auto(src='@/assets/curso/temas/Tema5/7.svg', alt='Texto que describa la imagen')
+        p.text-center Son aquellas que surgen a partir de las reglas de negocio y su naturaleza surge a partir del funcionamiento de los procesos. Por lo general se programan en procedimientos o algoritmos programados que evalúan las condiciones y restricciones previas.
       .col-md.tarjeta.bg22.p-5.text-black
-        h4.text-center Normatividad regulatoria
+        h4.text-center.mb-5  Normatividad regulatoria
         .row.justify-content-around.align-items-center.mb-4
-          .col-6
+          .col-8
             figure
-              img.w-75(src='@/assets/curso/temas/Tema5/104.svg', alt='Texto que describa la imagen')
-        p Muchas condiciones provienen de regulaciones del gobierno, según el sector del negocio y las regulaciones que por ley existen. Un ejemplo podrían ser los sistemas de formación y certificación de los centros de entrenamiento para certificar trabajo seguro en alturas a trabajadores, entre otras restricciones un instructor no podrá tener más de 35 alumnos por cada grupo.
+              img.w-75.m-auto(src='@/assets/curso/temas/Tema5/104.svg', alt='Texto que describa la imagen')
+        p.text-center Muchas condiciones provienen de regulaciones del gobierno, según el sector del negocio y las regulaciones que por ley existen. Un ejemplo podrían ser los sistemas de formación y certificación de los centros de entrenamiento para certificar trabajo seguro en alturas a trabajadores, entre otras restricciones un instructor no podrá tener más de 35 alumnos por cada grupo.
 
     
 
@@ -303,24 +303,24 @@
 
     TabsC.color-acento-contenido
       .py-3.py-md-4(titulo="JSON")
-        .row
-          .col-sm-12.col-lg-7.mb-4.mb-md-0
+        .row.justify-content-center.align-items-center
+          .col-sm-12.col-lg-7.mb-4.mb-md-0.justify-content-center.align-items-center
             p Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web.
             p.mt-3.fw-bold Ejemplo de estructura JSON:
             p.mt-3.p-4.bg26 De esta manera, se almacenan los datos en Bases de datos NoSQL y se intercambian datos entre sistemas de información.
-          .col-sm-12.col-lg-5
+          .col-sm-12.col-lg-3
             figure
-              img.w-50(src='@/assets/curso/temas/Tema5/14.png')
+              img(src='@/assets/curso/temas/Tema5/14.png')
       
       .py-3.py-md-4(titulo="BSON")
-        .row
-          .col-sm-12.col-lg-12.mb-4
+        .row.justify-content-center.align-items-center
+          .col-sm-12.col-lg-10.mb-4
             p.mb-4 Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web. Ejemplo de estructura JSON:
 
 
       .py-3.py-md-4(titulo="XML")
-        .row
-          .col-sm-12.col-lg-12.mb-4.mb-md-0
+        .row.justify-content-center.align-items-center
+          .col-sm-12.col-lg-10.mb-4.mb-md-0
             p.mb-4 Son archivos propiamente dicho, está basado en el lenguaje XML, usado para guardar e intercambiar datos estructurados a través de sistemas web.
 
     .row.justify-content-around.align-items-center.mt-5

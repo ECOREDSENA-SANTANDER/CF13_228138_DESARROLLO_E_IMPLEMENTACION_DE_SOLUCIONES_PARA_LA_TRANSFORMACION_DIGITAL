@@ -26,10 +26,10 @@
         figure
           img(src='@/assets/curso/temas/Tema2/3.png', alt='Texto que describa la imagen')
       .col-sm-12.col-md-12.col-lg-7
-        p.mt-2-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados).
-        p.fw-bold.mt-3 En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
+        p.mt-3-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados)
+        p.fw-bold.mt-5 En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
   
-    .row.mb-5.justify-content-center.align-items-center.m-0.p-0.vs-card
+    .row.mb-5.justify-content-center.align-items-center.vs-card.pos-fix-card
       .col-sm-12.col-lg-5.bg18.text-center.p-5
         h4.mb-5 Datos
         img.w-50.m-auto(src='@/assets/curso/temas/Tema2/27.svg', alt='Texto que describa la imagen')
@@ -38,10 +38,9 @@
         h4.mb-5 Información
         img.w-50.m-auto(src='@/assets/curso/temas/Tema2/28.svg', alt='Texto que describa la imagen')
 
-    .row.mb-5 
-      .col-sm-12.col-lg-10.bg32.m-auto
-        p.p-4 Por lo que bajo el contexto digital y tecnológico actual los datos se convierten en un asunto de estudio profundo y técnico, pues el desarrollo humano y productivo tiene como plataforma principal, el uso de los datos para volverse en información, así mismo, la información deberá convertirse en conocimiento y este conocimiento es el componente principal para tomar acciones sobre la realidad.
-
+    .row.mb-5.justify-content-center.align-items-center.m-auto
+      .col-sm-12.col-lg-10.bg32.justify-content-center.align-items-center
+        p.p-4.fw-bold Por lo que bajo el contexto digital y tecnológico actual los datos se convierten en un asunto de estudio profundo y técnico, pues el desarrollo humano y productivo tiene como plataforma principal, el uso de los datos para volverse en información, así mismo, la información deberá convertirse en conocimiento y este conocimiento es el componente principal para tomar acciones sobre la realidad.
 
     p(data-aos="zoom-in-left") Bajo el contexto técnico, los datos en la era moderna se guardan a través de máquinas digitales a partir de la implementación de Bases de datos (BD).
     h5.mb-5(data-aos="zoom-in-left") Se invita a visualizar el siguiente video donde se profundiza en la diferencia entre dato e información:
@@ -59,9 +58,9 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Entendimiento de la data
 
-    .row.mb-5(data-aos="zoom-in-left")
+    .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-6
-        p.md-3.mt-2-cus Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
+        p.md-3.mt-3-cus Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
         p Conocer su naturaleza y características es trascendental para los proyectos BI, donde la calidad de los datos #[b (Data quality - DQ) ], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
       .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0
         figure
@@ -69,11 +68,11 @@
 
       
     .row.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0
+      .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/6.png', alt='Texto que describa la imagen')
       .col-sm-12.col-md-12.col-lg-6
-        p.md-3.mt-2-cus El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre #[b CONFIABLES ]; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO ]); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice
+        p.md-3.mt-3-cus El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre #[b CONFIABLES ]; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO ]); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice
         p el registro de datos tenga aspectos como: tipo de dato según la naturaleza del registro, formato uniforme aceptado por todo el sistema, que el dato sea válido por reglas de negocio y naturaleza del proceso, entre otros.
       
 
@@ -183,10 +182,10 @@
             i.fas.fa-quote-left
             .flex-column
               p.mb-2.d-block Cuando los sistemas de información no son capaces de digitalizar eficaz y eficientemente la realidad del negocio, y capturan el nivel adecuado de detalle necesario, no almacenan dichos datos garantizando que no se producen pérdidas sintácticas ni semánticas, no procesan los datos de acuerdo con las reglas de negocio, o no muestran los resultados de los análisis a los usuarios, entonces se producen “no-conformidades” en el ciclo de vida de los datos.
-              h5.d-flex.justify-content-end.d-block <br>(Velthuis, 2019). 
+              h5.d-flex.justify-content-end.d-block.mb-0 <br>(Velthuis, 2019). 
                   i.fas.fa-quote-right
-      .col-sm-12.col-lg-2.align-items-end.d-none.d-lg-block
-          img.w-75.mt-7(src='@/assets/curso/temas/Tema2/16.svg', alt='Texto que describa la imagen')
+      .col-sm-12.col-lg-2.align-items-end.d-none.d-lg-block.mr-0
+          img.w-75.mt-5(src='@/assets/curso/temas/Tema2/16.svg', alt='Texto que describa la imagen')
       
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0
@@ -293,18 +292,17 @@
     p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los Dataset contienen todo en una única tabla.
 
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-5
+      .col-sm-12.col-lg-5.mt-4
         figure
           img(src='@/assets/curso/temas/Tema2/25.png', alt='Texto que describa la imagen')
       .col-sm-12.col-lg-7.p-4.text-black
-        p.mb-5 Algunas soluciones analíticas están basadas en Datasets, es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
+        p.mb-4 Algunas soluciones analíticas están basadas en Datasets, es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
         .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mt-4 Una de las definiciones y análisis iniciales más importantes a la hora de identificar las fuentes de datos es la manera o arquitectura en que se almacena la información. Según como se almacenan y gestionan los datos digitales, estos pueden clasificarse en términos generales como datos estructurados o semiestructurados (Ommi, 2018).
-
+                  p.mt-4.px-3 Una de las definiciones y análisis iniciales más importantes a la hora de identificar las fuentes de datos es la manera o arquitectura en que se almacena la información. Según como se almacenan y gestionan los datos digitales, estos pueden clasificarse en términos generales como datos estructurados o semiestructurados (Ommi, 2018).
     p.mb-5(data-aos="zoom-in-left") #[b A continuación se presentan los tipos de datos en los orígenes para los modelos analíticos: ]
 
     .row.mb-5(data-aos="zoom-in-left")
