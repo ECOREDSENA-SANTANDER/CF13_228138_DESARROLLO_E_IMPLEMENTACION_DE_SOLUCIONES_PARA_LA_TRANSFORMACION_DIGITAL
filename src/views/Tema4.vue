@@ -56,8 +56,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.2 Población y muestra
 
-    p Para la aplicación de estadística inferencial, se tratarán algunos parámetros matemáticos para la aplicación de este modelo estadístico que se ilustran a continuación (ver figura).
-
+    p Para  la aplicación de estadística inferencial, se tratarán algunos parámetros matemáticos para la aplicación de este modelo estadístico que se ilustran a continuación: 
     .row
       .col-md-12.mx-auto.mb-5(data-aos="zoom-in-left")
         .titulo-sexto.color-acento-contenido
@@ -67,7 +66,7 @@
     .row.mb-5
       .col-sm-12.col-lg-10.m-auto
         figure
-          img(src='@/assets/curso/temas/Tema4/4.svg', alt='')
+          img(src='@/assets/curso/temas/Tema4/4.svg', alt='La ilustración destaca que una muestra adecuada debe ser tanto representativa, reflejando las características de la población y el tipo de muestra, como adecuada, asegurando que el tamaño de la muestra sea suficientemente significativo para el análisis.')
 
     p.mb-5(data-aos="zoom-in-left") Este tipo de estadística se aplica cuando, la posblación o el universo objeto de estudio es muy grande e imposible de aplicar estadística descriptiva o aplicar instrumento a todo, o cuando no hay exactitud del número de población o universo. Para estos casos, se deberá aplicar la estadística inferencial donde se pueden realizar afirmaciones sobre una población basado en los resultados de una muestra.
 
@@ -99,7 +98,7 @@
               |   Variables y escalas
 
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-left")
-          table
+          table(alt='La tabla describe las diferentes escalas de variables y sus características. Las variables categóricas pueden ser nominales, que clasifican los elementos del conjunto para distribuirlos en grupos, u ordinales, que también clasifican elementos, pero permiten mediciones comparativas. Las variables métricas pueden ser de intervalo, que cuantifican y califican numéricamente los objetos y permiten mediciones simples con escalas continuas, y de razón, que también cuantifican y califican numéricamente pero utilizan escalas discontinuas y resuelven el problema del cero absoluto. ')
             thead
               tr
                 th.text-white.text-left-cus Variables
@@ -151,7 +150,7 @@
 
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
-        p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del Big data y la inteligencia de negocios.
+        p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del <i>Big data</i> y la inteligencia de negocios.
         p.md-3 Pero desde el enfoque propiamente, la utilidad estadística está inmersa como fundamento en el conocimiento de las áreas y en todas las decisiones incluso las decisiones no técnicas y simples, de manera implícita se trae a la mente procesos estadísticos (ejemplo: al pasar una calle, debes verificar variables como flujo de carros, velocidad, estado de la vía, distancia del punto A al punto B, etc.).
         p #[b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (ver figura). ]
       .col-sm-12.col-lg-5.mb-4.mb-md-0
@@ -164,7 +163,7 @@
           span
             |  Índice de precios del consumidor
         figure
-          img(src='@/assets/curso/temas/Tema4/7.png', alt='')
+          img(src='@/assets/curso/temas/Tema4/7.png', alt='La ilustración presenta el índice de precios al consumidor (IPC) total y por división para junio de 2023. El gráfico de barras destaca las variaciones porcentuales en diferentes categorías, como alimentos y bebidas no alcohólicas, bebidas alcohólicas y tabaco, prendas de vestir y calzado, y transporte, entre otros. Se observa que el transporte tiene la mayor variación positiva, mientras que las prendas de vestir y calzado presentan una variación negativa. La línea roja horizontal indica el promedio general de las variaciones en el IPC. La fuente de la información es el Banco de la República. ')
           figcaption Nota. Banco de la República (2022).
 
     p.mb-5(data-aos="zoom-in-left") En la imagen anterior se presentan los índices de precios, en los que se nota la inflación y consumo de la población en Colombia. Se nota que las bebidas alcohólicas y tabaco tuvieron estabilidad de precios a lo largo del mes de julio. Siendo el calzado y prendas de vestir las que más tuvieron variación en sus precios, seguido de los alimentos.

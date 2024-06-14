@@ -43,8 +43,7 @@
         p.p-4.fw-bold Por lo que bajo el contexto digital y tecnológico actual los datos se convierten en un asunto de estudio profundo y técnico, pues el desarrollo humano y productivo tiene como plataforma principal, el uso de los datos para volverse en información, así mismo, la información deberá convertirse en conocimiento y este conocimiento es el componente principal para tomar acciones sobre la realidad.
 
     p(data-aos="zoom-in-left") Bajo el contexto técnico, los datos en la era moderna se guardan a través de máquinas digitales a partir de la implementación de Bases de datos (BD).
-    h5.mb-5(data-aos="zoom-in-left") Se invita a visualizar el siguiente video donde se profundiza en la diferencia entre dato e información:
-
+    h5.mb-5(data-aos="zoom-in-left") Para ampliar información se recomienda ir al siguiente video donde se profundiza en la diferencia entre dato e información:
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         figure
@@ -61,24 +60,22 @@
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-6
         p.md-3.mt-3-cus Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
-        p Conocer su naturaleza y características es trascendental para los proyectos BI, donde la calidad de los datos #[b (Data quality - DQ) ], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
+        p Conocer su naturaleza y características es trascendental para los proyectos BI, donde la calidad de los datos #[b #[i (Data quality - DQ) ]], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
       .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema2/5.png', alt='Texto que describa la imagen')
 
       
-    .row.mb-5(data-aos="zoom-in-left")
+    .row.mb-5.align-items-center
       .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0
-        figure
           img(src='@/assets/curso/temas/Tema2/6.png', alt='Texto que describa la imagen')
       .col-sm-12.col-md-12.col-lg-6
-        p.md-3.mt-3-cus El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre #[b CONFIABLES ]; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO ]); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice
-        p el registro de datos tenga aspectos como: tipo de dato según la naturaleza del registro, formato uniforme aceptado por todo el sistema, que el dato sea válido por reglas de negocio y naturaleza del proceso, entre otros.
+        p.my-0 El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre #[b CONFIABLES ]; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO ]); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice el registro de datos tenga aspectos como: tipo de dato según la naturaleza del registro, formato uniforme aceptado por todo el sistema, que el dato sea válido por reglas de negocio y naturaleza del proceso, entre otros.
       
 
     p(data-aos="zoom-in-left") La calidad de los datos toma aún mayor fuerza para aplicar validaciones con regularidad, cuando se habla de ecosistemas de datos, donde convergen diversas infraestructuras de datos y se interrelacionan datos compartidos.
     p(data-aos="zoom-in-left") Se puede definir, que las bases de datos presentan calidad en los datos si cumplen seis dimensiones: exactitud, completitud, consistencia, unicidad, disponibilidad y validez. Sin embargo, esta clasificación no está universalmente aceptada, por lo cual se adicionan otras dimensiones: actualizado, conformidad, integridad y precisión, que complementan las dimensiones DQ.
-    h5.mb-5(data-aos="zoom-in-left") A continuación, se presenta la descripción de cada una de estas dimensiones, que son medibles y que definen la calidad de los datos o Data Quality:
+    h5.mb-5(data-aos="zoom-in-left") A continuación, se presenta la descripción de cada una de estas dimensiones, que son medibles y que definen la calidad de los datos o <i>Data Quality</i>:
     
 
     .tarjeta.tarjeta-linea-tiempo-c.p-4.mb-5.bg21(data-aos="zoom-in-left")
@@ -181,7 +178,7 @@
           .bloque-texto-b__texto.d-flex
             i.fas.fa-quote-left
             .flex-column
-              p.mb-2.d-block Cuando los sistemas de información no son capaces de digitalizar eficaz y eficientemente la realidad del negocio, y capturan el nivel adecuado de detalle necesario, no almacenan dichos datos garantizando que no se producen pérdidas sintácticas ni semánticas, no procesan los datos de acuerdo con las reglas de negocio, o no muestran los resultados de los análisis a los usuarios, entonces se producen “no-conformidades” en el ciclo de vida de los datos.
+              p.mb-2.d-block Cuando los sistemas de información no son capaces de digitalizar eficaz y eficientemente la realidad del negocio, y capturan el nivel adecuado de detalle necesario, no almacenan dichos datos garantizando que no se producen pérdidas sintácticas ni semánticas, no procesan los datos de acuerdo con las reglas de negocio, o no listan los resultados de los análisis a los usuarios, entonces se producen “no-conformidades” en el ciclo de vida de los datos.
               h5.d-flex.justify-content-end.d-block.mb-0 <br>(Velthuis, 2019). 
                   i.fas.fa-quote-right
       .col-sm-12.col-lg-2.align-items-end.d-none.d-lg-block.mr-0
@@ -286,17 +283,17 @@
     Separador
 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.4 Dataset
+      h2 2.4 <i>Dataset</i>
     
     p.mb-0(data-aos="zoom-in-left") Se denomina al conjunto de datos, lo que traduce una colección de información en una sola tabla. donde cada campo representa una variable particular.
-    p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los Dataset contienen todo en una única tabla.
+    p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los <i>Dataset</i> contienen todo en una única tabla.
 
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-5.mt-4
         figure
           img(src='@/assets/curso/temas/Tema2/25.png', alt='Texto que describa la imagen')
       .col-sm-12.col-lg-7.p-4.text-black
-        p.mb-4 Algunas soluciones analíticas están basadas en Datasets, es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
+        p.mb-4 Algunas soluciones analíticas están basadas en <i>Datasets</i>, es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
         .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col
@@ -310,25 +307,25 @@
         ImagenInfografica.color-acento-botones.mb-5 
           template(v-slot:imagen)
             figure
-              img.imagen-punto-2(src='@/assets/curso/temas/Tema2/26.svg', alt='Texto que describa la imagen')
+              img.imagen-punto-2(src='@/assets/curso/temas/Tema2/26.svg', alt='La imagen presenta una pirámide invertida que clasifica los tipos de datos utilizados en modelos analíticos en tres categorías: no estructurados (sin estructura definida, como textos y multimedia), semi estructurados (con una organización parcial, como <i>HTML, XML, JSON</i> y correos electrónicos), y estructurados (con una estructura clara y rígida, como en bases de datos relacionales y hojas de cálculo). Los datos estructurados se encuentran en la base por su alta organización, mientras que los no estructurados están en la cima debido a su falta de estructura, con los semi estructurados en el medio. ')
 
           .tarjeta.tarjeta-infografica.py-3.px-5(x="91%" y="16%" numero="1")
             p.mb-2 No tiene un modelo de información y no está organizado en ningún formato específico. Se almacena como archivos y datos sueltos. Ejemplos: - Archivos de texto y videos. - El cuerpo del mensaje de un correo electrónico. 
             p #[b Más del 90% de la información disponible está en este tipo. ]
           .tarjeta.tarjeta-infografica.py-3.px-5(x="81%" y="42%" numero="2")
             p.mb-2 No presentan una estructura definida como en los datos estructurados, pero sí presentan una organización definida en sus metadatos donde describen los objetos y sus relaciones, y que en algunos casos están aceptados por convención. Ejemplos: - 
-            p #[b Formatos HTML, XML o JSON. - ]
+            p.fw-bold Formatos <i>HTML, XML o JSON.</i> -
             p #[b Correos electrónicos. ]
 
           .tarjeta.tarjeta-infografica.py-3.px-5(x="67%" y="75%" numero="3")
-            p.mb-2 Datos que se almacenan en bases de datos relacionales como SQL, Oracle etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. Ejemplo: 
+            p.mb-2 Datos que se almacenan en bases de datos relacionales como <i>SQL</i>, <i>Oracle</i> etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. Ejemplo: 
             p #[b - Base de datos gestión de facturación. ]
       .col-sm-12.col-lg-6.justify-content-between.align-items-center.my-auto
         p.p-5.tarjeta-infografica.justify-content-between.align-items-center 
           span No presentan una estructura definida como en los datos estructurados, pero sí presentan una organización definida en sus metadatos donde describen los objetos y sus relaciones, y que en algunos casos están aceptados por convención. 
 
           span <br><br> Ejemplos:
-          span <br> #[b Formatos HTML, XML o JSON. - ]
+          span.fw-bold <br>  Formatos <i>HTML, XML o JSON</i>. - 
           span <br> #[b Correos electrónicos. ]
     p(data-aos="zoom-in-left") La mayoría de los datos generados por todos los usuarios están clasificados como no estructurados, esto indica que se componen de información difícil de clasificar y ordenar, conformada por archivos sueltos o producidos de manera general como documentos, videos y audios.
 

@@ -33,7 +33,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p #[b Por ejemplo: ] la altura de las personas. En este caso la única variable es la altura y su análisis se centra en determinar la media, el máximo, mínimo, moda, etc.
+                  p.mb-0 #[b Por ejemplo: ] la altura de las personas. En este caso la única variable es la altura y su análisis se centra en determinar la media, el máximo, mínimo, moda, etc.
 
     Separador
 
@@ -74,7 +74,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p Su análisis suele ser más robusto según los objetivos planteados del análisis de este tipo de datos, se puede emplear análisis de regresión, el análisis de ruta, el análisis factorial, etc.
+                  p.mb-0.fw-bold Su análisis suele ser más robusto según los objetivos planteados del análisis de este tipo de datos, se puede emplear análisis de regresión, el análisis de ruta, el análisis factorial, etc.
 
 
     Separador
@@ -95,13 +95,13 @@
           ul.lista-ul--color.mx-4
             li.mb-0.pb-0 
               i.fa.fa-check
-              p  Como cliente.
+              p  #[b Como] cliente.
             li.mb-0.pb-0 
               i.fa.fa-check
-              p  Quiero pagar los artículos del carrito de compras.
+              p  #[b Quiero] pagar los artículos del carrito de compras.
             li.mb-0.pb-0 
               i.fa.fa-check
-              p  Para recibirlos en casa
+              p  #[b Para] recibirlos en casa
           p.mb-4 En medio de este requerimiento, es posible que existan políticas de la organización que restrinjan la acción solicitada, pues podrían existir otras reglas que indiquen (figura 5)
             ul.lista-ul--color.mx-4.mt-3
               li.mb-0.pb-0 
@@ -120,7 +120,7 @@
               span
                 |   Características de una muestra adecuada.
             figure
-              img(src='@/assets/curso/temas/Tema5/5.svg', alt='')
+              img(src='@/assets/curso/temas/Tema5/5.svg', alt='La ilustración presenta una política de segmentación de clientes basada en sus compras anuales, clasificándolos en tres categorías: "Golden" para aquellos cuyas compras superan los $2,000,000 al año, "Premium" para compras superiores a $1,000,000, y "Plata" para compras que exceden los $500,000. ')
         p A estas reglas de negocio, a menudo se les denomina también Lógica de negocio.
 
 
@@ -162,7 +162,7 @@
     #t_5_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.6 Programación transaccional
 
-    p.mb-5 Su característica principal en las organizaciones, son las aplicaciones que emplean bases de datos, estas pueden ser SQL o NoSQL, pero indistintamente, son datos que se asocian y presentan dependencia entre sí.
+    p.mb-5 Su característica principal en las organizaciones, son las aplicaciones que emplean bases de datos, estas pueden ser #[i SQL o NoSQL], pero indistintamente, son datos que se asocian y presentan dependencia entre sí.
 
     .row.mb-5 
       .col-sm-12.col-lg-10.justify-content-center.align-items-center.m-auto
@@ -175,7 +175,7 @@
     Separador
 
     #t_5_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.7 Programación de estructuras no lineales, desnormalización, series y dataframes
+      h2 5.7 Programación de estructuras no lineales, desnormalización, series y #[i dataframes]
 
     p En una estructura lineal, cada elemento sólo puede ir enlazado al siguiente o al anterior. A las estructuras de datos no lineales se les llama también estructuras de datos multienlazadas y tiene las siguientes características:
 
@@ -220,7 +220,7 @@
         figure
           img(src='@/assets/curso/temas/Tema5/11.png', alt='Texto que describa la imagen')
 
-    p.mb-3 #[b Por eso es importante tener presente las siguientes recomendaciones entregadas en el video: ]
+    p.mb-3 #[b Por eso es importante tener presente las siguientes recomendaciones entregadas en el video Manipular los datos:  ]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -237,14 +237,14 @@
     Separador
 
     #t_5_9.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.9 SQL
+      h2 5.9 #[i SQL]
 
     .row.mb-5
       .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema5/12.png', alt='Texto que describa la imagen')
       .col-sm-12.col-lg-7
-        p.mb-3.mt-2-cus #[b SQL (por sus siglas en inglés Structured Query Language; ] en español lenguaje de consulta estructurada) es un lenguaje que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos.
+        p.mb-3.mt-2-cus #[b #[i SQL ](por sus siglas en inglés #[i Structured Query Language; ]] en español lenguaje de consulta estructurada) es un lenguaje que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos.
         p.mb-3 Es un lenguaje estándar consolidado por el Instituto Americano de Normas (ANSI) y por la Organización de Estándares Internacional (ISO). Está compuesto por comandos, cláusulas, operadores y funciones de agregado
       
 
@@ -259,7 +259,7 @@
             img(src='@/assets/curso/temas/Tema5/13.png', alt='Texto que describa la imagen')
 
 
-    p.mb-3 Existen varios motores de bases de datos con núcleo SQL, entre los más conocidos MySQL de uso libre y otra distribución licenciada por Oracle. #[b En el siguiente video se presenta las ventajas de Mysql: ]
+    p.mb-3 Existen varios motores de bases de datos con núcleo #[i SQL], entre los más conocidos #[i MySQL] de uso libre y otra distribución licenciada por #[i Oracle]. #[b En el siguiente video se presenta las ventajas de #[i Mysql:] ]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -268,8 +268,8 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video. Description
 
-    p.mb-0 SQL server pertenece a la casa de Microsoft, con sus herramientas integradas que dan mucho poder para el almacenamiento y proceso de datos. 
-    p.mb-4 #[b En el siguiente video se presentan los comandos de SQL para la creación de una base de datos y para la realización de consultas en esta: ]
+    p.mb-0 #[i SQL server] pertenece a la casa de Microsoft, con sus herramientas integradas que dan mucho poder para el almacenamiento y proceso de datos. 
+    p.mb-4 #[b En el siguiente video se presentan los comandos de #[i SQL] para la creación de una base de datos y para la realización de consultas en esta: ]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -281,10 +281,10 @@
     Separador
 
     #t_5_10.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.10 No SQL
+      h2 5.10 #[i No SQL]
 
-    p.mb-3 Son un tipo de bases de datos cuyo almacenamiento de datos no se realiza en tablas propiamente dicha. Presentan una estructura particular tipo JSON o BSON, que consiste en un arreglo de datos por jerarquías, tiene la ventaja sobre las bases de datos relacionales que su desempeño de búsquedas y cargue de datos son más veloces, además, se podría definir que son más flexibles es sus datos y cambios de estructuras que se puedan presentar. Para el manejo de Big Data y grandes cantidades de datos son muy empleadas
-    p.mb-4 #[b En siguiente video se explican las ventajas de las bases de datos no relacionales o No SQL: ]
+    p.mb-3 Son un tipo de bases de datos cuyo almacenamiento de datos no se realiza en tablas propiamente dicha. Presentan una estructura particular tipo <i>SON o BSON</i>, que consiste en un arreglo de datos por jerarquías, tiene la ventaja sobre las bases de datos relacionales que su desempeño de búsquedas y cargue de datos son más veloces, además, se podría definir que son más flexibles es sus datos y cambios de estructuras que se puedan presentar. Para el manejo de <i>Big data</i> y grandes cantidades de datos son muy empleadas
+    p.mb-4 #[b En siguiente video se explican las ventajas de las bases de datos no relacionales o #[i No SQL:] ]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -296,32 +296,32 @@
     Separador
 
     #t_5_11.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.11 JSON, BSON y XML
+      h2 5.11 <i>JSON, BSON y XML</i>
 
     p.mb-0 Uno de los desafíos técnicos es la integración entre sistemas de información y la manera en cómo enviar y recibir datos de otras aplicaciones.
     p.mb-5 Para ello se desarrollaron diversas maneras, entre las más comunes son:
 
     TabsC.color-acento-contenido
-      .py-3.py-md-4(titulo="JSON")
+      .py-3.py-md-4(titulo="<i>JSON</i>")
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-7.mb-4.mb-md-0.justify-content-center.align-items-center
             p Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web.
-            p.mt-3.fw-bold Ejemplo de estructura JSON:
-            p.mt-3.p-4.bg26 De esta manera, se almacenan los datos en Bases de datos NoSQL y se intercambian datos entre sistemas de información.
+            p.mt-3.fw-bold Ejemplo de estructura <i>JSON</i>:
+            p.mt-3.p-4.bg26 De esta manera, se almacenan los datos en Bases de datos #[i NoSQL] y se intercambian datos entre sistemas de información.
           .col-sm-12.col-lg-3
             figure
               img(src='@/assets/curso/temas/Tema5/14.png')
       
-      .py-3.py-md-4(titulo="BSON")
+      .py-3.py-md-4(titulo="<i>BSON</i>")
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-10.mb-4
-            p.mb-4 Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web. Ejemplo de estructura JSON:
+            p.mb-4 Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web. Ejemplo de estructura <i>JSON</i>:
 
 
-      .py-3.py-md-4(titulo="XML")
+      .py-3.py-md-4(titulo="<i>XML</i>")
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-10.mb-4.mb-md-0
-            p.mb-4 Son archivos propiamente dicho, está basado en el lenguaje XML, usado para guardar e intercambiar datos estructurados a través de sistemas web.
+            p.mb-4 Son archivos propiamente dicho, está basado en el lenguaje <i>XML</i>, usado para guardar e intercambiar datos estructurados a través de sistemas web.
 
     .row.justify-content-around.align-items-center.mt-5
       .col-sm-12.col-lg-8
@@ -329,13 +329,13 @@
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.text-center Estos lenguajes y sus archivos derivados mejoran el uso de datos y la forma en que se estructura en Internet, mientras que el HTML se encarga del aspecto visual y estilo de la información.
+                .col.mb-3.mb-sm-0.text-center Estos lenguajes y sus archivos derivados mejoran el uso de datos y la forma en que se estructura en Internet, mientras que el <i>HTML</i> se encarga del aspecto visual y estilo de la información.
     
 
     Separador
 
     #t_5_12.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.12 DDL, DML, DC
+      h2 5.12 <i>DDL, DML, DC</i>
 
     p.mb-5 Las bases de datos emplean diferentes tipos de lenguajes y también de allí se derivan archivos necesarios para que los motores de bases de datos funcionen y conserven la información física y lógicamente. Estas son:
 
@@ -343,18 +343,18 @@
     .row
       .col-sm-12.col-lg-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
-          .row(titulo="Data Definition Language (DDL)")
+          .row(titulo="<i>Data Definition Language</i> (<i>DDL</i>)")
             .col-md-12.mb-4.mb-md-0
               p.mx-5 Lenguaje de definición de datos: es el encargado de definir estructuras de datos proporcionado por los sistemas gestores de bases de datos permitiendo a los programadores de las bases de datos enfocar y definir estructuras, las más importantes son: CREATE (crear tablas o bases de datos), ALTER (cambiar o redefinir tablas o campos), DROP (Limpiar tablas, eliminar objetos, índices, etc.).
-          .row(titulo="Data Manipulation Language (DML)")
+          .row(titulo="<i>Data Manipulation Language</i> (<i>DML</i>)")
             .col-md-12.mb-4.mb-md-0
               .mx-5 
-                p Lenguaje de Manipulación de Datos: permite a los motores de datos instrucciones de SQL, otorga a los usuarios introducir datos para luego ejecutar tareas de consultas o modificación de los datos en las tablas especificadas. Los elementos que se utilizan para manipular los datos son: 
+                p Lenguaje de Manipulación de Datos: permite a los motores de datos instrucciones de #[i SQL], otorga a los usuarios introducir datos para luego ejecutar tareas de consultas o modificación de los datos en las tablas especificadas. Los elementos que se utilizan para manipular los datos son: 
                 p.ml-1-cus - SELECT. Sentencia para realizar consultas sobre los datos.
                 p.ml-1-cus - INSERT. Permite insertar valores en una tabla.
                 p.ml-1-cus - UPDATE. Modificar los valores de uno o varios registros.
                 p.ml-1-cus - DELETE. Eliminar registros de una tabla.
-          .row(titulo="Data Control Language. (DCL)")
+          .row(titulo="<i>Data Control Language</i> (<i>DCL</i>)")
             .col-md-12.mb-4.mb-md-0
               .mx-5 
                 p Lenguaje de Control de Datos: permiten administrar base de datos, controlar el acceso a los objetos, es decir, podemos otorgar o denegar permisos a uno o más roles para realizar determinadas tareas. Los comandos para controlar los permisos son los siguientes: 

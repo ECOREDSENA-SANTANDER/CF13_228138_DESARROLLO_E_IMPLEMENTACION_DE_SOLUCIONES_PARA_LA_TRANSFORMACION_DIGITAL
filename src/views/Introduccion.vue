@@ -13,9 +13,8 @@
       .col-lg-4
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/1.png', alt='')
       .col-lg-8
-        .cajon.color-secundario.p-4.mb-4.mt-2-cus
-          p En este componente se abordarán los conceptos y fundamentos de la inteligencia de negocios, con el fin de realizar el modelamiento, análisis y preparación de los datos. A continuación se puede ver un video que contextualiza al respecto:
-
+        .cajon.color-secundario.p-5.mb-4.mt-2-cus
+          p.my-3 En este componente se abordarán los conceptos y fundamentos de la inteligencia de negocios, con el fin de realizar el modelamiento, análisis y preparación de los datos. A continuación se puede ver un video que contextualiza al respecto:
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-12(data-aos="fade-left")
         figure

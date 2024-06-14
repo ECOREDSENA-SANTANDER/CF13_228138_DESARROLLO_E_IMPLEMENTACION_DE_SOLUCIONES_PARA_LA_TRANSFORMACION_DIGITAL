@@ -12,7 +12,7 @@
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
             .col-lg-10.col-12.mb-4.mg-lg-0
-              p Cuando el ser humano empezó a diferenciarse de las demás especies, una de las características más importantes, entre otras, es la manera de comportarse socialmente, es decir, cuando las relaciones sociales y comportamentales, entre manadas empezaron a cuidarse, a comunicarse, etc.
+              p.mb-0 Una característica en los últimos años en todo el mundo es la abundancia de datos que se generan día tras día, minuto tras minuto en diversas fuentes al mismo tiempo. En las empresas esta realidad no es ajena, y toda la información corporativa generada, debería estar más organizada, segura y disponible al tiempo que se incrementa esta información momento tras momento.
             .col-lg-2.col-md-5.col-8.px-5.d-none.d-lg-block
               img.mb-0(alt="" src="@/assets/curso/temas/Tema3/1.svg")
 
@@ -29,7 +29,6 @@
           )
           .bloque-texto-g__texto.p-5
             p.mb-0 Los avances tecnológicos y nuevas posibilidades de la cuarta revolución industrial hacen que este fenómeno se acentúe aún más y las empresas tengan dentro de sus retos la adopción de tecnologías y nuevas maneras de darle valor a los negocios a partir de recursos que generados por sí mismo y otros disponibles de manera pública, todo lo cual puede traducirse en oportunidades y posibilidades gigantes que bien estructuradas podría significar las mejores decisiones y valor a la organización que adopta la tecnología y las nuevas tendencias comerciales.
-
 
     p.mb-5(data-aos="zoom-in-left") En forma simple, la inteligencia de negocios es una serie de técnicas, metodologías y herramientas que se integran para convertir los datos en información, luego en conocimiento para al final tomar las mejores decisiones.
 
@@ -68,7 +67,7 @@
         .row.justify-content-center.mb-4
           .col-sm-12.col-md-12.col-lg-6
               img(src='@/assets/curso/temas/Tema3/5.png', alt='Texto que describa la imagen')
-        p.bg21.pt-3.pb-3.px-3 Si bien en los libros de consulta y de manera estándar, estas tres V pertenecen al Big Data de manera estricta, también es aplicable a la inteligencia de negocios.
+        p.bg21.pt-3.pb-3.px-3 Si bien en los libros de consulta y de manera estándar, estas tres V pertenecen al <i>Big Data</i> de manera estricta, también es aplicable a la inteligencia de negocios.
       .col-sm-12.col-md-12.col-lg-6.bg24.p-5.text-black
         .row.mb-4
           .col-sm-12.col-md-12.col-lg-3
@@ -80,7 +79,7 @@
     p.mb-5(data-aos="zoom-in-left") #[b En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio: ]
     .row
       .col-sm-12.col-lg-10.m-auto 
-        img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='Texto que describa la imagen')
+        img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='La ilustración presenta cómo la Inteligencia de Negocios (BI) integra diversas áreas del negocio: Financiero, que abarca contabilidad y aspectos tributarios; Ventas, que incluye marketing, clientes y CRM; Compras, que cubre gastos, proveedores y nómina; Talento, enfocado en el personal; y Producción, que considera tiempos, metas y KPI. Este enfoque integral permite una gestión y análisis de datos cohesivos a través de todas las áreas mencionadas.')
 
 
     Separador
@@ -109,7 +108,7 @@
 
                 li.mb-0.pb-0 
                   i.fa.fa-check
-                  p  #[b  Versatilidad ]: qué soporta diversas plataformas tanto como sistemas operativos como hardware.
+                  p  #[b  Versatilidad: ] qué soporta diversas plataformas tanto como sistemas operativos como hardware.
 
                 li.mb-0.pb-0 
                   i.fa.fa-check
@@ -123,23 +122,23 @@
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
-          .row(titulo="SAS INSTITUT")
+          .row(titulo="<i>SAS INSTITUT</i>")
             .col-md-12.mb-4
-              p.mx-5  Empresa multinacional con sede en Carolina del Norte, Estados Unidos. Es uno de los principales fabricantes de software de apoyo empresarial. Fundación 1976.
+              p.mx-5  Empresa multinacional con sede en Carolina del Norte, Estados Unidos. Es uno de los principales fabricantes de <i>software</i> de apoyo empresarial. Fundación 1976.
               p.mx-5 #[b https://www.sas.com/es_co/home.html ]
-          .row(titulo="MICROSOFT")
+          .row(titulo="<i>MICROSOFT</i>")
             .col-md-12.mb-4
-              p.mx-5  Con sus herramientas de infraestructura en la nube representada por Azure y la introducción de visualizaciones de Power BI dentro de Power Apps y Dynamics 365 aumenta las capacidades analíticas integradas de Microsoft Power Platform.
+              p.mx-5  Con sus herramientas de infraestructura en la nube representada por <i>Azure</i> y la introducción de visualizaciones de <i>Power BI</i> dentro de <i>Power Apps y Dynamics 365</i> aumenta las capacidades analíticas integradas de <i>Microsoft Power Platform</i>.
               p.mx-5 #[b https://www.microsoft.com/es-mx/microsoft-cloud ]
-          .row(titulo="ORACLE")
+          .row(titulo="<i>ORACLE</i>")
             .col-md-12.mb-4
-              p.mx-5  Oracle Analytics Cloud se ha convertido en la herramienta analítica y de informes imprescindible para las pequeñas empresas, más allá de las grandes empresas a las que suele servir.
+              p.mx-5  <i>Oracle Analytics Cloud</i> se ha convertido en la herramienta analítica y de informes imprescindible para las pequeñas empresas, más allá de las grandes empresas a las que suele servir.
               p.mx-5 #[b https://www.oracle.com/lad/business-analytics/analytics-services ]
           .row(titulo="INFORMÁTICA")
             .col-md-12.mb-4
-              p.mx-5  Integrada con Azure, cuenta con su herramienta Cloud Data Marketplace, diseñada para aumentar de forma intuitiva el intercambio de datos, mejorar la productividad y permitir que las organizaciones tomen decisiones más informadas.
+              p.mx-5  Integrada con <i>Azure</i>, cuenta con su herramienta <i>Cloud Data Marketplace</i>, diseñada para aumentar de forma intuitiva el intercambio de datos, mejorar la productividad y permitir que las organizaciones tomen decisiones más informadas.
               p.mx-5 #[b https://www.informatica.com/products/cloud-data-integration.html ]
-          .row(titulo="QLIK")
+          .row(titulo="<i>QLIK</i>")
             .col-md-12.mb-4
               p.mx-5  Empresa especializada en analítica y procesos ETL, Herramientas especializadas de desde punto inicial al punto final.
               p.mx-5 #[b https://www.qlik.com/es-es/products ]
@@ -148,14 +147,14 @@
         figure
           img(src='@/assets/curso/temas/Tema3/9.png', alt='Texto que describa la imagen')
       
-    p.mb-5(data-aos="zoom-in-left") Existen otras más, soportadas con grandes marcas como IBM, Google, Teradata, SAP y otras que si bien no son tan mencionadas en el mercado, son igual de poderosas y confiables.
+    p.mb-5(data-aos="zoom-in-left") Existen otras más, soportadas con grandes marcas como <i>IBM, Google, Teradata, SAP</i> y otras que si bien no son tan mencionadas en el mercado, son igual de poderosas y confiables.
 
     Separador
 
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.4 Técnicas de solución de problemas (modelación de datos)
 
-    p.mb-3(data-aos="zoom-in-left") Si bien existen varias metodologías, todas coinciden en una manera genérica para la solución de un proyecto analítico propuesto por Davenport, con algunas variables
+    p.mb-3(data-aos="zoom-in-left") Si bien existen varias metodologías, todas coinciden en una manera genérica para la solución de un proyecto analítico propuesto por <i>Davenport</i>, con algunas variables
     p.mb-3(data-aos="zoom-in-left") #[b Esta metodología tiene tres grandes etapas: ]
 
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
@@ -181,16 +180,16 @@
                ul.lista-ul--color.mx-2.mt-4
                 li.mb-0.pb-0 
                   i.fa.fa-check
-                  p Modelar y seleccionar variables que representan el problema y determinar las variables que forman parte de él.
+                  p #[b Modelar y seleccionar variables] que representan el problema y determinar las variables que forman parte de él.
                 li.mb-0.pb-0 
                   i.fa.fa-check
-                  p Recopilar datos para identificar dónde se consiguen datos para las variables del modelo.
+                  p #[b Recopilar datos] para identificar dónde se consiguen datos para las variables del modelo.
                 li.mb-0.pb-0 
                   i.fa.fa-check
-                  p Análisis de datos. Determinar naturaleza, fuentes y gestión para el acceso técnico de la información.
+                  p #[b Análisis de datos.] Determinar naturaleza, fuentes y gestión para el acceso técnico de la información.
                 li.mb-0.pb-0 
                   i.fa.fa-check
-                  p Desarrollar componentes técnicos y generación de reportes con información de valor y conocimiento del negocio.
+                  p #[b Desarrollar componentes técnicos] y generación de reportes con información de valor y conocimiento del negocio.
 
         
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
@@ -210,13 +209,13 @@
     Separador
 
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 3.5 Metodologías de análisis (Kimball, Inmon)
+      h2 3.5 Metodologías de análisis (#[i Kimball, Inmon])
 
     p(data-aos="zoom-in-left") En lo relacionado a la planeación y diseño de las bodegas de datos (DWH), se plantean dos arquitecturas:
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Modelo Kimball
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Modelo <i>Kimball</i>
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
 
@@ -224,22 +223,22 @@
       .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
-            p.mb-3 La metodología para el diseño de DWH propuesta por Ralph Kimball se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean data marts, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
+            p.mb-3 La metodología para el diseño de DWH propuesta por  Ralph Kimball se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean data marts, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
             br
             br
-            p #[b Kimball propone que estos Data Mart ] deben crearse primero para proporcionar capacidades analíticas; en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los Data Mart se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios Data Mart. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (ver figura).
+            p #[b Kimball propone que estos  Data Mart  deben crearse primero para proporcionar capacidades analíticas;] en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los Data Marts se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios Data Mart. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (ver figura).
             
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
         h5 Figura 1.
         span
-          |   Modelo Kimball
+          |   Modelo <i>Kimball</i>
       figure
-        img(src='@/assets/curso/temas/Tema3/14.png', alt='')
+        img(src='@/assets/curso/temas/Tema3/14.png', alt='La ilustración presenta el modelo Kimball, que es un enfoque de diseño para almacenes de datos. El proceso comienza con la recopilación de datos de diferentes fuentes de datos mediante OLTP (procesamiento de transacciones en línea). Estos datos se transforman y cargan en datamarts a través del proceso ETL (extracción, transformación y carga). Los datamarts se consolidan en un almacén de datos (data warehouse), que luego se organiza en un cubo de datos OLAP (procesamiento analítico en línea). Finalmente, los datos estructurados en el cubo de datos se utilizan para generar informes en la capa de reportes. ')
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Modelo Inmon
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Modelo #[i Inmon]
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
 
@@ -247,25 +246,25 @@
       .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
-            p.mb-5 No es muy diferente a Kimball, los principios de transformación y carga a los DWH contienen los mismos elementos en su arquitectura, sin embargo, la metodología de Bill Inmon plantea que los data marts deben ir después del almacenamiento de DWH.
+            p.mb-5 No es muy diferente a Kimball, los principios de transformación y carga a los DWH contienen los mismos elementos en su arquitectura, sin embargo, la metodología de  Bill Inmon  plantea que los data marts deben ir después del almacenamiento de DWH.
             br
             br
-            p La metodología Inmon comienza por generar un arreglo de todos los datos corporativos en el DWH, para luego identificar y dividir áreas para la generación de los Data Mart. En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los data marts y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (ver figura).
+            p #[b La metodología Inmon comienza por generar un arreglo de todos los datos corporativos en el DWH], para luego identificar y dividir áreas para la generación de los Data Mart. En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los data marts y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (ver figura).
     .row(data-aos="zoom-in-left")
       .col-md-12.mx-auto.mb-5
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
           span
-            |  Modelo Inmon.
+            |  Modelo #[i Inmon].
         figure
-          img(src='@/assets/curso/temas/Tema3/16.png', alt='')
+          img(src='@/assets/curso/temas/Tema3/16.png', alt='La ilustración presenta el modelo Inmon, otro enfoque de diseño para almacenes de datos. En este modelo, los datos se recopilan de diferentes fuentes de datos mediante OLTP (procesamiento de transacciones en línea) y se transforman y cargan en un almacén de datos (<i>data warehouse</i>) a través del proceso ETL (extracción, transformación y carga). A partir del almacén de datos, se crean datamarts específicos para diferentes áreas de análisis. Estos datamarts se estructuran en cubos de datos OLAP (procesamiento analítico en línea), que se utilizan para generar informes en la capa de reportes. ')
 
     Separador
 
     #t_3_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.6 Verificación de valores y escalas
 
-    p.mb-4(data-aos="zoom-in-left") Los cuadros de mando o Dashboard, permiten hacer monitoreo de los procesos mostrando información importante a través de elementos gráficos de fácil entendimiento y con actualizaciones periódicas.
+    p.mb-4(data-aos="zoom-in-left") Los cuadros de mando o <i>Dashboard</i>, permiten hacer monitoreo de los procesos mostrando información importante a través de elementos gráficos de fácil entendimiento y con actualizaciones periódicas.
     p.mb-4(data-aos="zoom-in-left") Los valores que presentan deben ser indicadores de procesos, tareas o situaciones importantes para el negocio, su escalabilidad y visualización deben aparecer claramente. Para algunos valores podrían presentarse escalas (ejemplo, valores de ventas), para otros no (ejemplo, comparaciones porcentuales).
     p.mb-4(data-aos="zoom-in-left") #[b Entre los elementos más importantes de los cuadros de mando, su tipo de valor y escalas se pueden mencionar: ]
 
@@ -278,7 +277,7 @@
           
           p.text-content-cus(numero="3" titulo="Listas") comúnmente formadas por KPI. En caso de que el cuadro de mando solo esté formado por este tipo de elemento, se denomina Scorecard.
           
-          p.text-content-cus(numero="4" titulo="Gráficos") el fin es mostrar datos con alto impacto visual, que sirva para obtener información acumulativa o calculada. Al igual que las tablas pueden tener múltiples dimensiones, pero se verán con mejor presentación y dimensión los datos. Se debe poner especial atención en el aspecto de la escalabilidad, pues hay datos que por su tamaño deben ser escalados para que se compare y se note las diferencias; sin embargo, ocasionalmente no es siempre recomendable, por ejemplo: un gráfico de barras si muestra la cantidad de dinero vendido, es factible escalar, para que el valor no empiece en 0 (cero), sino por ejemplo en 10 millones (según el tamaño de las cifras), pero si estas barras muestran porcentajes, es necesario que la gráfica siempre empiece desde el 0%, para que se note bien la dimensionalidad de los datos. <br> Este es el elemento más común y de mayor variabilidad, existen múltiples opciones de visualizadores gráficos en diferentes segmentos (barras, circulares, mayas, etc.).
+          p.text-content-cus(numero="4" titulo="Gráficos") el fin es mostrar datos con alto impacto visual, que sirva para obtener información acumulativa o calculada. Al igual que las tablas pueden tener múltiples dimensiones, pero se verán con mejor presentación y dimensión los datos. Se debe poner especial atención en el aspecto de la escalabilidad, pues hay datos que por su tamaño deben ser escalados para que se compare y se note las diferencias; sin embargo, ocasionalmente no es siempre recomendable, por ejemplo: un gráfico de barras si presenta la cantidad de dinero vendido, es factible escalar, para que el valor no empiece en 0 (cero), sino por ejemplo en 10 millones (según el tamaño de las cifras), pero si estas barras presentan porcentajes, es necesario que la gráfica siempre empiece desde el 0%, para que se note bien la dimensionalidad de los datos. <br> Este es el elemento más común y de mayor variabilidad, existen múltiples opciones de visualizadores gráficos en diferentes segmentos (barras, circulares, mayas, etc.).
 
           p.text-content-cus(numero="5" titulo="Mapas") este elemento permite mostrar información geolocalizada. Aplica a los datos de ubicación, de esta manera se dimensiona la ubicación de las cifras que se estén representando
 
@@ -289,7 +288,7 @@
       .col-sm-12.col-md-12.col-lg-4
         
         .tarjeta.bg12.p-4.my-5      
-          p.mb-0 Ejemplo de componentes de un cuadro de mando o Dashboard:
+          p.mb-0 Ejemplo de componentes de un cuadro de mando o <i>Dashboard</i>:
 
         figure
           img(src='@/assets/curso/temas/Tema3/17.png', alt='Texto que describa la imagen')
@@ -301,7 +300,7 @@
     #t_3_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.7 Procedimientos almacenados y funciones
     
-    p.mb-5(data-aos="zoom-in-left") Desde los motores de bases de datos, se pueden aplicar funciones nativas a los datos, es decir, no todas las condiciones y reglas de negocio se programan en los procesos de programación, pues los motores de bases de datos pueden adaptar además de las consultas estándar SQL, script con lenguajes como: R, Phyton, etc.
+    p.mb-5(data-aos="zoom-in-left") Desde los motores de bases de datos, se pueden aplicar funciones nativas a los datos, es decir, no todas las condiciones y reglas de negocio se programan en los procesos de programación, pues los motores de bases de datos pueden adaptar además de las consultas estándar <i>SQL</i>, script con lenguajes como: R, <i>Python</i>, etc.
 
     .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
@@ -317,7 +316,7 @@
     #t_3_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.8 Disparadores
 
-    p.mb-5(data-aos="zoom-in-left") Llamados comúnmente Triggers, son sentencias o funciones que se ejecutan cuando se presentan ciertos eventos. Estos eventos pueden ser una condición en el tiempo, una actualización, inserción o borrado de una tabla en un dato específico.
+    p.mb-5(data-aos="zoom-in-left") Llamados comúnmente #[i Triggers], son sentencias o funciones que se ejecutan cuando se presentan ciertos eventos. Estos eventos pueden ser una condición en el tiempo, una actualización, inserción o borrado de una tabla en un dato específico.
     p.mb-5(data-aos="zoom-in-left") Los disparadores son elementos muy importantes a la hora de automatizar acciones en los datos. La tendencia en los sistemas de información es la automatización y dejar todo lo posible para que las máquinas funcionen de manera autónoma, de esta manera se tendrán acciones en los datos en el momento mismo de realizar una operación que sea el disparador de otras tareas (ver tabla).
     
     .row
@@ -325,10 +324,10 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
           span
-            |  Ejemplo de Triggers
+            |  Ejemplo de #[i Triggers]
 
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-left")
-          table
+          table(alt='La tabla presenta ejemplos de "triggers" en una base de datos: cuando se realiza un insert en la tabla "clientes" (nuevo cliente), se envía un correo electrónico con una plantilla de bienvenida y un resumen de los datos registrados; y todos los días a las 3:00 A.M., se ejecuta la carga de la base de datos transaccional a los almacenamientos para el proceso ETL. Estos disparadores automatizan acciones específicas en respuesta a ciertos eventos en la base de datos. ')
             thead
               tr
                 th.text-white.text-left-cus Disparador

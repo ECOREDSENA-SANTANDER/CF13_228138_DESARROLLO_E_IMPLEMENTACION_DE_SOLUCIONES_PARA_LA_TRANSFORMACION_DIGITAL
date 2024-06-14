@@ -18,8 +18,7 @@
 
       
 
-    p.mb-4(data-aos="zoom-in-left") #[b Con el siguiente video, se comprenderá mejor lo que hace referencia mediante la analítica de datos: ]
-
+    p.mb-4(data-aos="zoom-in-left") #[b Con el siguiente video, se amplia información sobre analítica de datos, con lo cual puede despejar algunas dudas: ]
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         figure
@@ -32,7 +31,7 @@
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.1. Bodega de datos
 
-    p.mb-5(data-aos="zoom-in-left") La información de las organizaciones proviene de fuentes de datos heterogéneas, muchas veces sin estar integradas, por lo cual tener reportes e información dispersa por áreas de la organización es un asunto que en la actualidad no debería presentarse, pues el fin de la inteligencia de negocios es facilitar el proceso y la disponibilidad de la información más relevante del negocio; para lograr esto se hace necesario centralizar los datos a través de bodegas de datos o Data Warehouse (DWH).
+    p.mb-5(data-aos="zoom-in-left") La información de las organizaciones proviene de fuentes de datos heterogéneas, muchas veces sin estar integradas, por lo cual tener reportes e información dispersa por áreas de la organización es un asunto que en la actualidad no debería presentarse, pues el fin de la inteligencia de negocios es facilitar el proceso y la disponibilidad de la información más relevante del negocio; para lograr esto se hace necesario centralizar los datos a través de bodegas de datos o <i>Data Warehouse (DWH).</i>
 
     .row.mb-5(data-aos="zoom-in-left") 
       .col-sm-12.col-lg-10.justify-content-center.align-items-center.m-auto
@@ -66,12 +65,11 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 6.
           span
-                |   DWH Tipo Estrella
+                |   #[i DWH ] Tipo Estrella
         figure
-          img(src='@/assets/curso/temas/Tema6/4.png', alt='')
+          img(src='@/assets/curso/temas/Tema6/4.png', alt='La imagen presenta un diagrama de un Data Warehouse (DWH) de tipo estrella, donde la tabla de hechos "FactResellerSales" está en el centro y está conectada a varias tablas de dimensiones: "DimSalesTerritory," "DimEmployee," "DimReseller," "DimDate," y "DimProduct." Este diseño en estrella facilita consultas eficientes, al permitir la fácil combinación de datos en la tabla de hechos con las dimensiones relacionadas, optimizando así el rendimiento y la simplicidad en el análisis de datos. ')
 
-    p.mb-4(data-aos="zoom-in-left") Como se visualiza en la gráfica, muchas tablas giran alrededor de la tabla principal que es la tabla de hechos, que por lo general, contiene las claves primarias de las dimensiones que se asocian, así como las cifras o medidas realizadas previas en el proceso ETL.
-
+    p.mb-4(data-aos="zoom-in-left") Vale la pena señalar que muchas tablas giran en torno a la tabla principal, conocida como la tabla de hechos, la cual generalmente contiene las claves primarias de las dimensiones asociadas, así como las cifras o medidas obtenidas previamente en el proceso ETL. 
 
     Separador
 
@@ -85,9 +83,9 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 7.
           span
-                |   DWH Snowflake
+                |   #[i DWH Snowflake ]
         figure
-          img(src='@/assets/curso/temas/Tema6/5.png', alt='')
+          img(src='@/assets/curso/temas/Tema6/5.png', alt='La imagen presenta un esquema de Data Warehouse de tipo copo de nieve. En el centro se encuentra la tabla de hechos "Hechos_ventas", que contiene las claves primarias de varias dimensiones, tales como Producto_id, Fecha_id, Almacen_id, Cliente_id y Promocion_id. Las tablas de dimensiones incluyen "Dimension_producto," "Dimension_tiempo," "Dimension_cliente," "Dimension_promocion," "Dimension_almacen," y "Dimension_categoria." Este diseño normaliza las tablas de dimensiones al dividirlas en subdimensiones, reduciendo la redundancia y mejorando la integridad de los datos.')
 
     p.mb-4(data-aos="zoom-in-left") En este caso, al igual que con la topología de estrella, los hechos se relacionan con las dimensiones a partir de las claves de las tablas que lo circundan, sin embargo, en este caso se pueden presentar más niveles donde una dimensión pueda contener una clave foránea de otra tabla. En ese sentido, como se ve en el ejemplo, la dimensión_categoria se asocia a los hechos a través de una tabla en medio llamada dimension_producto.
 

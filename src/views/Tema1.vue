@@ -12,34 +12,32 @@
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
             .col-sm-12.col-lg-10.mb-4
-              p Las bases de datos son esa colección de datos integrados bajo un contexto o dominio, que contienen datos estructurados que reflejan relaciones, restricciones, validaciones y semánticas que reflejan las condiciones de negocio. Esta colección usa la computación para su almacenamiento y procesamiento.
+              p.mb-0 Las bases de datos son esa colección de datos integrados bajo un contexto o dominio, que contienen datos estructurados que reflejan relaciones, restricciones, validaciones y semánticas que reflejan las condiciones de negocio. Esta colección usa la computación para su almacenamiento y procesamiento.
             .col-sm-12.col-lg-2.px-5.d-none.d-lg-block 
               img.mb-0(alt="" src="@/assets/curso/temas/Tema1/1.svg")
     h5.mb-5(data-aos="zoom-in-left") Los sistemas de base de datos están conformados por los siguientes elementos básicos:
-
     .row.align-items-center.justify-content-center.mb-4.bg1.p-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-4.p-5
               img(src="@/assets/curso/temas/Tema1/2.png", alt="Texto que describa la imagen")
       .col-sm-12.col-lg-8
           LineaTiempoD.color-secundario-2
-            p.text-content-cus(numero="1" titulo="Hardware") Consiste en los dispositivos y componentes electrónicos y mecánicos en los que se almacena, viaja y se conservan los datos (unidades de almacenamiento, red, procesadores, RAM, servidores, etc.).
-            p.text-content-cus(numero="2" titulo="Software") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el hardware. Para las bases de datos existen los gestores de datos, ya sea SQL o NoSQL y las aplicaciones que usan los datos.
+            p.text-content-cus(numero="1" titulo="<i>Hardware</i>") Consiste en los dispositivos y componentes electrónicos y mecánicos en los que se almacena, viaja y se conservan los datos (unidades de almacenamiento, red, procesadores, <i>RAM</i>, servidores, etc.).
+            p.text-content-cus(numero="2" titulo="<i>Software</i>") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el hardware. Para las bases de datos existen los gestores de datos, ya sea <i>SQL</i> o NoSQL y las aplicaciones que usan los datos.
                     
-            p.text-content-cus(numero="3" titulo="Los datos") Son el objetivo principal, al ser información, se podría indicar que hace parte también del software. Su guardado lógico podría ser relacionales (SQL) y NO relacionales (NoSQL). De esto depende la manera en cómo funciona, cómo se procesa y su organización.
+            p.text-content-cus(numero="3" titulo="Los datos") Son el objetivo principal, al ser información, se podría indicar que hace parte también del <i>software</i>. Su guardado lógico podría ser relacionales (<i>SQL</i>) y NO relacionales (<i>NoSQL</i>). De esto depende la manera en cómo funciona, cómo se procesa y su organización.
                     
             p.text-content-cus(numero="4" titulo="Personal") Son los usuarios que están involucrados en el manejo y aprovechamiento de los datos, si bien hay varios niveles de usuarios, se podría dividir en dos principalmente en: no informáticos (que requieren la información para ejecutar tareas) y los Informáticos (los responsables del diseño y mantenimiento del sistema de bases de datos).        
    
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.1 Metodologías de diseño y normalización Principios de ACID
+      h2 1.1 Metodologías de diseño y normalización Principios de <i>ACID</i>
     
     p(data-aos="zoom-in-left") Antes de existir las bases de datos como se conocen hoy, las primeras gestiones en datos se basaban en procesar archivos, es decir, los registros se traducen en archivos que eran procesados por lotes gestionados por un sistema operativo. Incluso los datos andaban mezclados con los archivos de las aplicaciones, lo que suponía un gran inconveniente pues existía dependencia funcional de los archivos de las aplicaciones, con los archivos del sistema operativo y los datos a guardar. Ello significaba que, si un dato se dañaba, era posible también que se estropeara la aplicación y viceversa.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-10.p-4.bg20.d-flex
-        p #[b A mediados de la década de 1970 ], se propone arquitecturas de diversos niveles para separar las capas según su funcionalidad, así que los Sistemas de Gestión de Bases de Datos (DBMS Data Base Management System) tienen sus capas según el contexto y su funcionamiento es independiente de los sistemas de gestión, de relación de datos, de la conservación de los datos, la interfaz gráfica, etc.
-    
+    .row.justify-content-around.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10.p-5.bg20.d-flex.align-items-center
+        p.mb-0.mx-4 #[b A mediados de la década de 1970, ] se propone arquitecturas de diversos niveles para separar las capas según su funcionalidad, así que los Sistemas de Gestión de Bases de Datos (#[i DBMS Data Base Management System]) tienen sus capas según el contexto y su funcionamiento es independiente de los sistemas de gestión, de relación de datos, de la conservación de los datos, la interfaz gráfica, etc.
         figure.mx-3.d-none.d-lg-block
           img.w-75(src='@/assets/curso/temas/Tema1/3.png', alt='Texto que describa la imagen')
 
@@ -51,7 +49,7 @@
           img(src='@/assets/curso/temas/Tema1/4.png', alt='Texto que describa la imagen')
       .col-sm-12.col-md-12.col-lg-7
         p.mt-2-cus Un ejemplo frecuente es una App bancaria, la cual se usa para realizar compras, esta acción encarna una cantidad de tareas internas, de manera básica deberá restar de mi cuenta el valor del producto a pagar y a su vez se deberá sumar a la cuenta del vendedor; sería un gran problema si en la acción se debita de la cuenta del comprador y existe una falla del sistema que evita se sume al saldo del vendedor. Para que las transacciones sean confiables, en caso de presentarse fallas en medio de las tareas internas, los datos deberán quedar tal y como estaban antes de iniciar la transacción.
-        p Por lo cual, las #[b Propiedades ACID ] (acrónimo en inglés de cada una de las propiedades que deben tener las bases de datos) son:
+        p Por lo cual, las #[b Propiedades #[i ACID ]] (acrónimo en inglés de cada una de las propiedades que deben tener las bases de datos) son:
 
     .row.mb-5.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-sm-12.col-md-6.col-lg-5.mb-5.he-5-cus
@@ -95,10 +93,10 @@
     .row 
       .col-sm-12.col-md-12.col-lg-10.m-auto
         .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left").bg20
-          .col-sm-12.col-lg-10.p-4.d-flex.justify-content-center.align-items-center
-            p Desde el enfoque de la arquitectura y estructura de datos, se refiere a las bases de datos que se pueden diferenciar entre SQL, quienes están basados en tablas relacionadas y NoSQL, cuyo arreglo no se establece por tablas propiamente hablando.
-          .col-sm-12.col-lg-2.d-none.d-lg-block 
-            img.px-3.w-75(src='@/assets/curso/temas/Tema1/9.svg', alt='Texto que describa la imagen')
+          .col-sm-12.col-lg-9.p-5.d-flex.justify-content-center.align-items-center
+            p.mb- Desde el enfoque de la arquitectura y estructura de datos, se refiere a las bases de datos que se pueden diferenciar entre <i>SQL</i>, quienes están basados en tablas relacionadas y <i>NoSQL</i>, cuyo arreglo no se establece por tablas propiamente hablando.
+          .col-sm-12.col-lg-3.d-none.d-lg-block.my-3
+            img.w-75(src='@/assets/curso/temas/Tema1/9.svg', alt='Texto que describa la imagen')
 
     
     p(data-aos="zoom-in-left") Desde el enfoque de la base de datos, se refiere al uso al que se le va a dar a los datos que se almacenan, en este sentido se pueden mencionar principalmente dos:
@@ -109,14 +107,14 @@
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue 
 
     p.mb-4(data-aos="zoom-in-left") Se componen de diversas tablas que se asocian entre ellas, según las condiciones del negocio, en este sentido se determina qué entidad, mediante la definición de las cosas y actores que intervienen en el sistema, ejemplo: empleado, cliente, sede, producto, categorías, etc. Las entidades son las tablas, y cada entidad tiene atributos tales como nombre, edad, fecha de nacimiento, nombre de producto, presentación, precio, etc. Los atributos serán entonces los campos que tendrán las tablas.
-    p.mb-5(data-aos="zoom-in-left") Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de software donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, OLTP a lo que en español se nombra como Procesamiento de Transacciones En Línea.
+    p.mb-5(data-aos="zoom-in-left") Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de <i>software</i> donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, OLTP a lo que en español se nombra como Procesamiento de Transacciones En Línea.
     .row
       .col-sm-12.col-md-12.col-lg-10.m-auto 
         .row.bg20.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
           .col-sm-12.col-lg-2.p-4.d-flex.justify-content-center.align-items-center.d-none.d-lg-block
             img(src='@/assets/curso/temas/Tema1/26.svg', alt='Texto que describa la imagen')
           .col-sm-12.col-lg-10.p-4.d-flex.justify-content-center.align-items-center 
-            p Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas OLTP, y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
+            p.mb-0 Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas OLTP, y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
    
     h5.mb-5(data-aos="zoom-in-left") En el siguiente video se presenta un ejemplo de creación de un modelo entidad relación:
 
@@ -136,7 +134,7 @@
 
 
     
-    p.mb-5(data-aos="zoom-in-left") Son los diseños de datos, que están enfocados a los reportes y el conocimiento que está inmerso en los datos, este diseño permite mejorar el desempeño a los motores de bases de datos para el almacenamiento de grandes cantidades de datos. Se usan principalmente para la consolidación de bodegas de datos (Data Warehouse - DWH), que luego serán insumo para crear aplicaciones OLAP (Procesamiento Analítico en Línea) o cubos de datos.
+    p.mb-5(data-aos="zoom-in-left") Son los diseños de datos, que están enfocados a los reportes y el conocimiento que está inmerso en los datos, este diseño permite mejorar el desempeño a los motores de bases de datos para el almacenamiento de grandes cantidades de datos. Se usan principalmente para la consolidación de bodegas de datos (<i>Data Warehouse - DWH</i>), que luego serán insumo para crear aplicaciones OLAP (Procesamiento Analítico en Línea) o cubos de datos.
     p.mb-5(data-aos="zoom-in-left") Los cubos de datos son tablas o arreglos de datos que se componen de múltiples dimensiones, están basados en hechos, dimensiones y métricas, estos conceptos se definen a continuación:
 
     .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
@@ -148,16 +146,16 @@
         
           .col-sm-12.col-lg-4
             figure
-              img.w-75.mb-5(src='@/assets/curso/temas/Tema1/12.svg', alt='Texto que describa la imagen')
+              img.w-75.mb-5(src='@/assets/curso/temas/Tema1/12.svg', alt='La tabla de hechos mostrada en la imagen contiene identificadores clave (IDs) que se utilizan para vincular datos en un esquema de almacenamiento de datos. Los campos incluyen Producto_id, Fecha_id, Almacen_id, Cliente_id y Promoción_id, entre otros, los cuales permiten la asociación de hechos específicos con dimensiones relevantes como producto, fecha, almacén, cliente y promociones. Esta estructura facilita el análisis detallado y la agregación de datos en un entorno de inteligencia de negocios. ')
 
         .row.mx-5-cus.px-4-cus.mt-4
           .col-sm-12.col-lg-7
             h5 Métricas
-            p Estas medidas pueden ser conteos, por ejemplo, la participación de una persona en un evento, también se usa en las operaciones aritméticas para sumar totales, descontar impuestos, sacar medias o promedios, etc., se utilizan para determinar contexto, es decir qué tipo de filtros aplicar o no. Suelen ser la parte más compleja, pues además de ser necesario tener el contexto de los datos y tener la modelación de lo que se desea, se debe tener manejo de lenguajes de consulta (SQL, Phyton, R, Dax, etc.).
+            p Estas medidas pueden ser conteos, por ejemplo, la participación de una persona en un evento, también se usa en las operaciones aritméticas para sumar totales, descontar impuestos, sacar medias o promedios, etc., se utilizan para determinar contexto, es decir qué tipo de filtros aplicar o no. Suelen ser la parte más compleja, pues además de ser necesario tener el contexto de los datos y tener la modelación de lo que se desea, se debe tener manejo de lenguajes de consulta (<i>SQL, Python, R, Dax</i>, etc.).
         
           .col-sm-12.col-lg-4
             figure
-              img.mb-3(src='@/assets/curso/temas/Tema1/13.png', alt='Texto que describa la imagen')
+              img.mb-3(src='@/assets/curso/temas/Tema1/13.png', alt='La imagen presenta una tabla tridimensional de las ventas de seis productos en tres países (Argentina, Brasil, Chile) a lo largo de tres meses (junio, abril, mayo). Cada celda contiene el número de unidades vendidas de un producto específico en un país y mes determinado. Las cifras varían, destacando mayores ventas en Brasil para varios productos, especialmente en mayo.')
 
         .row.mx-5-cus.px-4-cus.mt-4
           .col-sm-12.col-lg-7
@@ -166,7 +164,7 @@
         
           .col-sm-12.col-lg-4
             figure
-              img.mb-3(src='@/assets/curso/temas/Tema1/14.png', alt='Texto que describa la imagen')
+              img.mb-3(src='@/assets/curso/temas/Tema1/14.png', alt='La imagen presenta un diagrama entidad-relación (ERD) de un esquema de base de datos, el cual parece estar diseñado para un sistema de pedidos.')
 
 
 
@@ -176,8 +174,8 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.3  Estándares técnicos
 
-    p.mb-5(data-aos="zoom-in-left") Tanto para el desarrollo de software como para el diseño de bases de datos, se sugieren unos estándares o convenciones que, si bien no es una norma, se recomienda seguir estas buenas prácticas, en especial porque los proyectos no deben depender de personas, lo que significa que otro profesional que llegue, pueda sentirse familiarizado con los estándares y documentación.
-
+    p.mb-5(data-aos="zoom-in-left") Tanto para el desarrollo de <i>software</i> como para el diseño de bases de datos, se sugieren unos estándares o convenciones que, si bien no es una norma, se recomienda seguir estas buenas prácticas, en especial porque los proyectos no deben depender de personas, lo que significa que otro profesional que llegue, pueda sentirse familiarizado con los estándares y documentación.
+    
     .bloque-texto-f.bg16.p-5.mb-5(data-aos="zoom-in-left")
       .bloque-texto-f__comillas
       h4.mb-5 Algunos ejemplos de estas convenciones para bases de datos son:
@@ -221,7 +219,7 @@
          
           li.mb-0.pb-0 
             i.fa.fa-check.ul-li-color
-            p  Los campos con funciones trigger (disparadores) deben estar formadas por el prefijo tgr_ seguida del nombre de la tabla y el nombre del trigger.
+            p  Los campos con funciones #[i trigger] (disparadores) deben estar formadas por el prefijo tgr_ seguida del nombre de la tabla y el nombre del #[i trigger].
          
           li.mb-0.pb-0.ml-4-custom  
             i.fas.fa-circle.icon-li-ul
@@ -246,9 +244,9 @@
       
     .row 
       .col-sm-12.col-lg-10.m-auto
-        .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left").bg20
-          .col-sm-12.col-lg-9.p-4.d-flex.justify-content-center.align-items-center
-            p Un índice es un puntero o marca a una fila de una determinada tabla, es una referencia que relaciona el valor que se encuentra en una tabla con el valor determinado en el puntero. Los punteros se emplean para realizar búsquedas; en otras palabras, se pueden elegir qué columnas se hacen merecedoras de que sean buscadas para incluirles el puntero de indexación.
+        .row.justify-content-center.align-items-center.mb-5.bg20.p-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-9.d-flex.justify-content-center.align-items-center
+            p.mb-0 Un índice es un puntero o marca a una fila de una determinada tabla, es una referencia que relaciona el valor que se encuentra en una tabla con el valor determinado en el puntero. Los punteros se emplean para realizar búsquedas; en otras palabras, se pueden elegir qué columnas se hacen merecedoras de que sean buscadas para incluirles el puntero de indexación.
           .col-sm-12.col-lg-3.p-4.d-flex.justify-content-center.align-items-center
               img.px-4.w-75.d-none.d-md-block(src='@/assets/curso/temas/Tema1/16.png', alt='Texto que describa la imagen')
 
@@ -261,16 +259,16 @@
         ul.lista-ul.mx-4
           li.mb-0.pb-0 
             i.fa.fa-check.ul-li-color
-            p #[b Llave primaria (Primary key):  ] Company_nombreaplicacion 
+            p #[b Llave primaria (#[i Primary key): ] ] cuando se configura un campo como campo clave, automáticamente se genera un índice. 
           li.mb-0.pb-0 
             i.fa.fa-check.ul-li-color
-            p #[b Campos (UNIQUE):  ] aquellas columnas que se configuran como únicas, por lo general los motores de bases de datos les asignan también índice.
+            p #[b Campos (#[i UNIQUE): ] ] aquellas columnas que se configuran como únicas, por lo general los motores de bases de datos les asignan también índice.
           li.mb-0.pb-0 
             i.fa.fa-check.ul-li-color
-            p #[b Texto completo (Full Text):  ] hay índices que se asignan a textos completos, son usados si se tiene bases de datos en los que su búsqueda es por temáticas o en los que el usuario tiene idea de qué buscar.
+            p #[b Texto completo (#[i Full Text): ] ] hay índices que se asignan a textos completos, son usados si se tiene bases de datos en los que su búsqueda es por temáticas o en los que el usuario tiene idea de qué buscar.
           li.mb-0.pb-0 
             i.fa.fa-check.ul-li-color
-            p #[b Ordinarios:  ] son aquellos que se puedan asignar manualmente según los criterios del diseñador de la base de datos. .   
+            p #[b Ordinarios:  ] son aquellos que se puedan asignar manualmente según los criterios del diseñador de la base de datos. 
           li.mb-0.pb-0.ml-4-custom  
             i.fas.fa-circle.icon-li-ul
             p Para crear índice ordinario através de SQL se emplean estos comando:
@@ -291,7 +289,7 @@
             p #[b Compuestos: ] Aquellos índices que referencian a dos o más campos.
           li.mb-0.pb-0.ml-4-custom  
             i.fas.fa-circle.icon-li-ul
-            p Para crear índice compuesto a través de SQL se emplea estos comandos.
+            p Para crear índice compuesto a través de <i>SQL</i> se emplea estos comandos.
           li.mb-0.pb-0.ml-6-custom  
             i.far.fa-circle.icon-li-ul
             p.color-blue CREATE INDEX 
@@ -301,13 +299,13 @@
       
     .row 
       .col-sm-12.col-lg-10.m-auto
-        .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left").bg20
-          .col-sm-12.col-lg-3.p-4.d-flex.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mb-5.bg20.p-5
+          .col-sm-12.col-lg-3.d-flex.justify-content-center.align-items-center
             img.px-4.w-75(src='@/assets/curso/temas/Tema1/17.png', alt='Texto que describa la imagen')
-          .col-sm-12.col-lg-9.p-4.d-flex.justify-content-center.align-items-center
-            p #[b El comando SQL “EXPLAIN” ], es muy usado, pues permite adelantarse a la consulta, listando las tablas en el orden que serían leídas. Es decir, muestra cómo se realizará la consulta y permite visualizar la manera en realizar la consulta, esto permite a los diseñadores de bases de datos realizar optimizaciones de ser necesario.
+          .col-sm-12.col-lg-9.d-flex.justify-content-center.align-items-center
+            p #[b El comando SQL “#[i EXPLAIN ]” ], es muy usado, pues permite adelantarse a la consulta, listando las tablas en el orden que serían leídas. Es decir, presenta cómo se realizará la consulta y permite visualizar la manera en realizar la consulta, esto permite a los diseñadores de bases de datos realizar optimizaciones de ser necesario.
         
-    h5.mb-5(data-aos="zoom-in-left") Si se desea saber la manera en cómo el motor de base de datos recupera y obtiene los datos que muestra, se puede realizar el siguiente ejercicio:
+    h5.mb-5(data-aos="zoom-in-left") Si se desea saber la manera en cómo el motor de base de datos recupera y obtiene los datos que lista, se puede realizar el siguiente ejercicio:
 
 
     .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
@@ -319,7 +317,7 @@
               span.color-black * 
               span.color-blue FROM 
               span.color-black productos 
-            h5.mt-2 Muestra todos los campos y datos de la tabla productos.
+            h5.mt-2 Lista todos los campos y datos de la tabla productos.
         
           .col-sm-12.col-lg-4 
             figure
@@ -338,7 +336,7 @@
                 span.color-black precio 
                 span.color-black > 
                 span.color-orange  #[b  300000 ]
-              h5.mt-2 Muestra todos los campos que cumplen con la condición.
+              h5.mt-2 Lista todos los campos que cumplen con la condición.
           .col-sm-12.col-lg-4
             figure
               img(src='@/assets/curso/temas/Tema1/21.png', alt='Texto que describa la imagen')
@@ -348,7 +346,7 @@
             h5 A la consulta anterior, al adicionarle EXPLAIN al inicio, se dará un reporte de cómo se realizará la consulta:
             .bg-white-r.p-3.mt-5
               h5.color-blue Ejecución del comando Explain: 
-              h5.mt-5 Muestra que se usa un select sencillo, que no tiene particiones de tabla, la búsqueda se realizó entre 10 campos, y que usa el extratipo where.
+              h5.mt-5 Lista que se usa un select sencillo, que no tiene particiones de tabla, la búsqueda se realizó entre 10 campos, y que usa el extratipo where.
           .col-sm-12.col-lg-4
             figure
               img(src='@/assets/curso/temas/Tema1/23.png', alt='Texto que describa la imagen')
@@ -356,7 +354,7 @@
         
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
-            h5 Además de consultas y condiciones, los datos pueden ordenarse a través del comando SQL order by, su aplicación es muy sencilla, a la consulta anterior se le puede dar un orden, en este caso se podría tomar como elemento de orden el mismo precio. Adicional se puede definir si es ascendente ASC o descendente DESC.
+            h5 Además de consultas y condiciones, los datos pueden ordenarse a través del comando <i>SQL order by</i>, su aplicación es muy sencilla, a la consulta anterior se le puede dar un orden, en este caso se podría tomar como elemento de orden el mismo precio. Adicional se puede definir si es ascendente ASC o descendente DESC.
             .bg-white-r.p-3.mt-5
               h5 Con la sentencia: 
               .mt-2.color-blue.ml-4-custom.fw-bold SELECT 
@@ -370,7 +368,7 @@
               .mt-2.color-blue.ml-4-custom.fw-bold order by 
                 span.color-black precio 
                 span.color-blue desc 
-              h5.mt-3 Muestra que se ordenan los datos de manera descendente.
+              h5.mt-3 Lista que se ordenan los datos de manera descendente.
           .col-sm-12.col-lg-4
             figure
               img(src='@/assets/curso/temas/Tema1/25.png', alt='Texto que describa la imagen')

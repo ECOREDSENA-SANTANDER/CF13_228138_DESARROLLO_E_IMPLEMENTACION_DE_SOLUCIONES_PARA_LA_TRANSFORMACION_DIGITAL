@@ -37,7 +37,8 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Metodologías de diseño y normalización Principios de ACID',
+            titulo:
+              'Metodologías de diseño y normalización Principios de <i>ACID</i>',
             hash: 't_1_1',
           },
           {
@@ -80,7 +81,7 @@ export default {
           },
           {
             numero: '2.4',
-            titulo: 'Dataset',
+            titulo: '<i>Dataset</i>',
             hash: 't_2_4',
           },
         ],
@@ -113,7 +114,7 @@ export default {
           },
           {
             numero: '3.5',
-            titulo: 'Metodologías de análisis (Kimball, Inmon)',
+            titulo: 'Metodologías de análisis (<i>Kimball, Inmon</i>)',
             hash: 't_3_5',
           },
           {
@@ -210,22 +211,22 @@ export default {
           },
           {
             numero: '5.9',
-            titulo: 'SQL',
+            titulo: '<i>SQL</i>',
             hash: 't_5_9',
           },
           {
             numero: '5.10',
-            titulo: 'No SQL',
+            titulo: '<i>No SQL</i>',
             hash: 't_5_10',
           },
           {
             numero: '5.11',
-            titulo: 'JSON, BSON y XML',
+            titulo: '<i>JSON, BSON y XML</i>',
             hash: 't_5_11',
           },
           {
             numero: '5.12',
-            titulo: 'DDL, DML, DCL',
+            titulo: '<i>DDL, DML, DCL</i>',
             hash: 't_5_12',
           },
         ],
@@ -266,12 +267,12 @@ export default {
         subMenu: [
           {
             numero: '7.1',
-            titulo: 'Entornos de desarrollo - IDE',
+            titulo: 'Entornos de desarrollo - <i>IDE</i>',
             hash: 't_7_1',
           },
           {
             numero: '7.2',
-            titulo: 'Python',
+            titulo: '<i>Python</i>',
             hash: 't_7_2',
           },
           {
@@ -332,7 +333,7 @@ export default {
     {
       tema: '1. Modelamiento y gestión de bases de datos',
       referencia:
-        'Quintana, G. (2014). Aprende SQL. Universitat Jaume I. Servei de Comunicació i Publicacions. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53252',
+        'Quintana, G. (2014). Aprende <i>SQL</i>. Universitat Jaume I. Servei de Comunicació i Publicacions. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53252',
       tipo: 'Libro',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53252',
@@ -362,7 +363,7 @@ export default {
     {
       tema: '3.7 Procedimientos almacenados y funciones',
       referencia:
-        'Calbimonte, D. (2019). Funciones frente a los procedimientos almacenados en SQL Server. https://www.sqlshack.com/es/funciones-frente-a-los-procedimientos-almacenados-en-sql-server/',
+        'Calbimonte, D. (2019). Funciones frente a los procedimientos almacenados en <i>SQL Server</i>. https://www.sqlshack.com/es/funciones-frente-a-los-procedimientos-almacenados-en-sql-server/',
       tipo: 'Tutorial',
       link:
         'https://www.sqlshack.com/es/funciones-frente-a-los-procedimientos-almacenados-en-sql-server/',
@@ -403,17 +404,17 @@ export default {
         'se refiere a los hechos probables que sucederán, esto se realiza basado en datos descriptivos, es decir, datos históricos y procesos matemáticos y/o modelación de Machine Learning.',
     },
     {
-      termino: 'Joins',
+      termino: '<i>Joins</i>',
       significado:
         'proceso de selección de datos de varias tablas y unirlos en una vista o nueva tabla. Una instrucción de “SQL JOIN” en un comando Select que combina columnas entre una o más tablas en una base de datos.',
     },
     {
-      termino: 'Lenguaje DAX',
+      termino: 'Lenguaje <i>DAX</i>',
       significado:
-        'lenguaje específico para gestión de datos creado por Microsoft (Data Analysis Expressions). Se emplea en colecciones de datos en aplicaciones como Excel, Analysis Services y Power BI.',
+        'lenguaje específico para gestión de datos creado por Microsoft (Data Analysis Expressions). Se emplea en colecciones de datos en aplicaciones como Excel, <i>Analysis Services y Power BI.</i>',
     },
     {
-      termino: 'Lenguaje R',
+      termino: 'Lenguaje <i>R</i>',
       significado:
         'lenguaje de programación para la gestión de datos. Es un lenguaje interpretado que ejecuta las instrucciones directamente sin previa compilación.',
     },
@@ -433,19 +434,19 @@ export default {
         'al tener muchas cargas de datos y procesamientos, es necesario reunir recursos para que se ejecuten de manera independiente optimizando recursos, de esta manera las tareas se completan periódicamente de manera repetitiva',
     },
     {
-      termino: 'RAM',
+      termino: '<i>RAM</i>',
       significado:
         'es la memoria temporal o de corto plazo de las computadoras, es la memoria principal de trabajo, los programas y datos se cargan allí para que trabajen más rápidamente.',
     },
     {
-      termino: 'Script',
+      termino: '<i>Script</i>',
       significado:
         'se refiere a fragmentos de código de programación que pueden ejecutar una o varias funciones.',
     },
     {
       termino: 'Sistema operativo',
       significado:
-        'es el software principal de las computadoras, se emplea como plataforma para gestionar las aplicaciones, recursos del hardware y entornos gráficos y funcionales.',
+        'es el <i>software</i> principal de las computadoras, se emplea como plataforma para gestionar las aplicaciones, recursos del hardware y entornos gráficos y funcionales.',
     },
     {
       termino: 'Tabular',
@@ -453,7 +454,7 @@ export default {
         'en estadística, son la recopilación y procesamiento de la información capturada de los instrumentos disponibles al momento de realizar encuestas, toma de datos y otras.',
     },
     {
-      termino: 'TI',
+      termino: '<i>TI</i>',
       significado: '(IT) Abreviatura de Tecnología de la información.',
     },
   ],
@@ -487,8 +488,8 @@ export default {
 
     {
       referencia:
-        'Domínguez, S. (1 de agosto de 2017). Definición y Ejemplos de las Escalas de Medición. Obtenido de Stella Domínguez:',
-      link: 'https://stelladominguezcom.wordpress.com/2017/08/01/escalas/',
+        'Fernández, J. (2021). Escalas de medición de las variables: nominal, ordinal, intervalo y razón.',
+      link: 'https://youtu.be/XNuIqSfCskQ',
     },
 
     {
@@ -505,7 +506,7 @@ export default {
 
     {
       referencia:
-        'Pang, A., Markovski, M., & Ristik, M. (22 de septiembre de 2022). Los 10 principales proveedores de software de análisis y BI, tamaño del mercado y pronóstico del mercado 2021-2026. Obtenido de Apps Run the World:',
+        'Pang, A., Markovski, M., & Ristik, M. (22 de septiembre de 2022). Los 10 principales proveedores de <i>software</i> de análisis y BI, tamaño del mercado y pronóstico del mercado 2021-2026. Obtenido de Apps Run the World:',
       link:
         'https://www.appsruntheworld.com/top-10-analytics-and-bi-software-vendors-and-market-forecast/',
     },
@@ -528,15 +529,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -547,23 +547,28 @@ export default {
           nombre: 'Jaime Hernán Tejada',
           cargo: 'Experto Temático',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios  CIES - Norte de Santander',
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios  CIES ',
         },
         {
           nombre: 'Giovanna Andrea Escobar Ospina',
           cargo: 'Diseñadora Instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios  CIES - Norte de Santander',
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios  CIES',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
           cargo: 'Asesora Metodológica y Pedagógica',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Julia Isabel Roberto',
           cargo: 'Corrección de Estilo',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -571,40 +576,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñadora de Contenidos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
           nombre: 'Lizeth Karina Manchego Suarez',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          cargo: 'Desarrolladora <i>Full-Stack</i>',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'María Carolina Tamayo López',
-          cargo: 'Locución',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Oleg Litvin',
-          cargo: 'Animador y Productor Multimedia',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e Ilustración',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Camilo Bolaño',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -612,22 +596,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora Para Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -638,25 +619,4 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }
