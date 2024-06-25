@@ -26,7 +26,7 @@
         figure
           img(src='@/assets/curso/temas/Tema2/3.png', alt='Texto que describa la imagen')
       .col-sm-12.col-md-12.col-lg-7
-        p.mt-3-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados)
+        p.mt-3-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados).
         p.fw-bold.mt-5 En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
   
     .row.mb-5.justify-content-center.align-items-center.vs-card.pos-fix-card
@@ -43,8 +43,8 @@
         p.p-4.fw-bold Por lo que bajo el contexto digital y tecnológico actual los datos se convierten en un asunto de estudio profundo y técnico, pues el desarrollo humano y productivo tiene como plataforma principal, el uso de los datos para volverse en información, así mismo, la información deberá convertirse en conocimiento y este conocimiento es el componente principal para tomar acciones sobre la realidad.
 
     p(data-aos="zoom-in-left") Bajo el contexto técnico, los datos en la era moderna se guardan a través de máquinas digitales a partir de la implementación de Bases de datos (BD).
-    h5.mb-5(data-aos="zoom-in-left") Para ampliar información se recomienda ir al siguiente video donde se profundiza en la diferencia entre dato e información:
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+    h5.mb-5(data-aos="zoom-in-left") Para ampliar información se recomienda ir al siguiente video donde se profundiza en la diferencia entre dato e información: 
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-12
         figure
           .video
@@ -55,7 +55,7 @@
     Separador
 
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Entendimiento de la data
+      h2 2.1 Entendimiento de la #[i data]
 
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-6
@@ -91,7 +91,7 @@
           
         .row(titulo="Complenitud").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
           .col-sm-12.col-md-12.col-lg-8.mb-4.mb-md-0
-            p Se establece como el porcentaje de datos poblados frente a la posibilidad de cumplimiento del 100%. Con frecuencia, se escucha, “el dato no se encuentra”. Por ejemplo, el departamento de marketing quiere enviar email a clientes, pero el funcionario de entrada de datos no completó la dirección de correo.
+            p Se establece como el porcentaje de datos poblados frente a la posibilidad de cumplimiento del 100%. Con frecuencia, se escucha, “el dato no se encuentra”. Por ejemplo, el departamento de #[i marketing] quiere enviar email a clientes, pero el funcionario de entrada de datos no completó la dirección de correo.
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
@@ -100,7 +100,7 @@
 
         .row(titulo="Consistencia").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
           .col-sm-12.col-md-12.col-lg-8.mb-4.mb-md-0
-            p Es la cercanía y uniformidad de los datos con otras tablas o un conjunto de datos de referencia. Por ejemplo cuando en el campo “SEXO”, se espera hombre, mujer y desconocido, en algunas tablas aparece como M, F. o Masculino, Femenino, o Male, Female, Unknows, etc. Es importante unificar o conciliar todos los sistemas.
+            p Es la cercanía y uniformidad de los datos con otras tablas o un conjunto de datos de referencia. Por ejemplo cuando en el campo “SEXO”, se espera hombre, mujer y desconocido, en algunas tablas aparece como M, F. o Masculino, Femenino, o #[i Male, Female, Unknows], etc. Es importante unificar o conciliar todos los sistemas.
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
@@ -158,7 +158,7 @@
 
     h5.mb-5(data-aos="zoom-in-left") Además, es necesario reconocer la importancia de las pruebas de integridad de datos:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-12
         figure
           .video
@@ -224,7 +224,7 @@
 
     p(data-aos="zoom-in-left") Esta técnica está basada en estimar los valores faltantes en relación a los datos disponibles de la misma columna, en este caso, se hace uso de la estadística inferencial (más adelante se detalla), la idea es que los datos completados no interfieran en la media ni desviación del conjunto de datos. Este tipo de completitud se aplica a datos numéricos, ya sean tipo enteros o flotantes. Hay dos maneras de aplicar la imputación o reemplazo del dato:
     
-    .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
+    .tarjeta--container.row(data-aos="zoom-in-left")
       .col-md.tarjeta.bg22.p-5.text-black
         .row.justify-content-around.align-items-center.mb-4
           .col-12
@@ -253,7 +253,7 @@
 
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-7
-        AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
+        AcordionA.mb-0(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="Conocer la organización (observación y lectura)")
             .col-md-12.mb-4
               p.mx-5 Si es un profesional que está vinculado a la empresa o una persona que le realizará un trabajo a un cliente, lo primero es conocer bien la empresa y el contexto al cual se le realizará el proyecto de BI. Incluyendo el mercado, la competencia, etc.
@@ -273,7 +273,7 @@
             .col-md-12.mb-4
               p.mx-5 Es otro elemento para garantizar la satisfacción de los usuarios finales, pues cuando las herramientas no cubren funcionalmente las expectativas, la solución BI podría ser poco efectiva.
           .row(titulo="Capacitación y cultura")
-            .col-md-12.mb-4
+            .col-md-12.mb-0
               p.mx-5 El elemento más importante en la transformación digital y la adopción con éxito de nuevas soluciones, dependen de un gran porcentaje de la capacidad y convencimiento de uso. Los usuarios deben estar comprometidos con el proyecto, las políticas corporativas deben estar enfocadas en este aspecto, es muy importante revisar las políticas, si es necesario actualizarlas hacia una nueva realidad hacerlo. Es necesario garantizar las capacitaciones y campañas hacia la cultura de los datos.
   
       .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
@@ -288,7 +288,7 @@
     p.mb-0(data-aos="zoom-in-left") Se denomina al conjunto de datos, lo que traduce una colección de información en una sola tabla. donde cada campo representa una variable particular.
     p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los <i>Dataset</i> contienen todo en una única tabla.
 
-    .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
+    .tarjeta--container.row.mb-0
       .col-sm-12.col-lg-5.mt-4
         figure
           img(src='@/assets/curso/temas/Tema2/25.png', alt='Texto que describa la imagen')

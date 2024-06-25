@@ -133,11 +133,11 @@
       
     .row.mb-5
       .col-sm-12.col-lg-8.mb-4.mb-md-0.m-auto
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://py3.codeskulptor.org" target="_blank")
           .anexo__icono
             img(src="@/assets/curso/temas/Tema7/11.svg")
           .anexo__texto
-            p #[b Para desarrollar aplicaciones y realizar minería de datos basado en inteligencia artificial puede emplear alguno de los #[i IDE ] anteriormente conocido u otros como Code Skulpor ]
+            p #[b Para desarrollar aplicaciones y realizar minería de datos basado en inteligencia artificial puede emplear alguno de los #[i IDE ] anteriormente conocido u otros como #[i Code Skulpor] ]
 
 
     Separador
@@ -162,7 +162,7 @@
                 p  #[b #[i Pandas: ] ] para la ciencia de datos es una librería muy usada, pues facilita la manipulación y consulta de datos.
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  #[b #[i Numpy: ] ] permite generar una estructura de datos universal, lo que se traduce un mejor análisis de datos, y emplea algoritmos muy poderosos para el intercambio de estos datos. Tiene bien desempeño en datos masivos (dependiendo también del hardware).
+                p  #[b #[i Numpy: ] ] permite generar una estructura de datos universal, lo que se traduce un mejor análisis de datos, y emplea algoritmos muy poderosos para el intercambio de estos datos. Tiene bien desempeño en datos masivos (dependiendo también del #[i hardware]).
               li.mb-0.pb-0 
                 i.fa.fa-check
                 p  #[b #[i Matplotlib: ] ] con esta librería se generan gráficos de calidad para publicar en línea o en archivos como PDF y sin emplear muchas líneas de código. Se pueden generar gráficos de barras, histogramas, series temporales, espectros de potencia, entre muchas más visualizaciones.

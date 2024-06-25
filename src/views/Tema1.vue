@@ -22,7 +22,7 @@
       .col-sm-12.col-lg-8
           LineaTiempoD.color-secundario-2
             p.text-content-cus(numero="1" titulo="<i>Hardware</i>") Consiste en los dispositivos y componentes electrónicos y mecánicos en los que se almacena, viaja y se conservan los datos (unidades de almacenamiento, red, procesadores, <i>RAM</i>, servidores, etc.).
-            p.text-content-cus(numero="2" titulo="<i>Software</i>") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el hardware. Para las bases de datos existen los gestores de datos, ya sea <i>SQL</i> o NoSQL y las aplicaciones que usan los datos.
+            p.text-content-cus(numero="2" titulo="<i>Software</i>") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el #[i hardware]. Para las bases de datos existen los gestores de datos, ya sea <i>SQL</i> o NoSQL y las aplicaciones que usan los datos.
                     
             p.text-content-cus(numero="3" titulo="Los datos") Son el objetivo principal, al ser información, se podría indicar que hace parte también del <i>software</i>. Su guardado lógico podría ser relacionales (<i>SQL</i>) y NO relacionales (<i>NoSQL</i>). De esto depende la manera en cómo funciona, cómo se procesa y su organización.
                     
@@ -67,7 +67,7 @@
             .text-black.p-4
               h2.text-center C (Consistencia)
               p Consiste en que una operación no dejará datos incoherentes o incompletos o con problemas que puedan dar resultados ilógicos o ambigüedades
-    .row.mb-5.justify-content-center.align-items-center
+    .row.mb-0.justify-content-center.align-items-center
       .col-sm-12.col-md-6.col-lg-5.mb-5.he-5-cus
         .tarjeta-avatar
           img(src='@/assets/curso/temas/Tema1/7.svg' alt='AvatarTop')
@@ -103,18 +103,18 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 410px;').bg-img-blue Bases de datos relacionales (OLTP)
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 410px;').bg-img-blue Bases de datos relacionales (<i>OLTP</i>)
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue 
 
     p.mb-4(data-aos="zoom-in-left") Se componen de diversas tablas que se asocian entre ellas, según las condiciones del negocio, en este sentido se determina qué entidad, mediante la definición de las cosas y actores que intervienen en el sistema, ejemplo: empleado, cliente, sede, producto, categorías, etc. Las entidades son las tablas, y cada entidad tiene atributos tales como nombre, edad, fecha de nacimiento, nombre de producto, presentación, precio, etc. Los atributos serán entonces los campos que tendrán las tablas.
-    p.mb-5(data-aos="zoom-in-left") Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de <i>software</i> donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, OLTP a lo que en español se nombra como Procesamiento de Transacciones En Línea.
+    p.mb-5(data-aos="zoom-in-left") Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de <i>software</i> donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, <i>OLTP</i> a lo que en español se nombra como Procesamiento de Transacciones En Línea.
     .row
       .col-sm-12.col-md-12.col-lg-10.m-auto 
         .row.bg20.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
           .col-sm-12.col-lg-2.p-4.d-flex.justify-content-center.align-items-center.d-none.d-lg-block
             img(src='@/assets/curso/temas/Tema1/26.svg', alt='Texto que describa la imagen')
           .col-sm-12.col-lg-10.p-4.d-flex.justify-content-center.align-items-center 
-            p.mb-0 Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas OLTP, y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
+            p.mb-0 Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas <i>OLTP</i>, y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
    
     h5.mb-5(data-aos="zoom-in-left") En el siguiente video se presenta un ejemplo de creación de un modelo entidad relación:
 
@@ -129,12 +129,12 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 430px;').bg-img-blue Bases de datos Dimensionales  (OLAP)
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 430px;').bg-img-blue Bases de datos Dimensionales  (<i> <i>OLAP</i> </i>)
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
 
     
-    p.mb-5(data-aos="zoom-in-left") Son los diseños de datos, que están enfocados a los reportes y el conocimiento que está inmerso en los datos, este diseño permite mejorar el desempeño a los motores de bases de datos para el almacenamiento de grandes cantidades de datos. Se usan principalmente para la consolidación de bodegas de datos (<i>Data Warehouse - DWH</i>), que luego serán insumo para crear aplicaciones OLAP (Procesamiento Analítico en Línea) o cubos de datos.
+    p.mb-5(data-aos="zoom-in-left") Son los diseños de datos, que están enfocados a los reportes y el conocimiento que está inmerso en los datos, este diseño permite mejorar el desempeño a los motores de bases de datos para el almacenamiento de grandes cantidades de datos. Se usan principalmente para la consolidación de bodegas de datos (<i>Data Warehouse - DWH</i>), que luego serán insumo para crear aplicaciones <i> <i>OLAP</i> </i> (Procesamiento Analítico en Línea) o cubos de datos.
     p.mb-5(data-aos="zoom-in-left") Los cubos de datos son tablas o arreglos de datos que se componen de múltiples dimensiones, están basados en hechos, dimensiones y métricas, estos conceptos se definen a continuación:
 
     .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
@@ -142,7 +142,7 @@
         .row.mx-5-cus.px-4-cus.mt-4
           .col-sm-12.col-lg-7
             h5 Tablas de hechos (Fact)
-            p Estas representan eventos que suceden en determinado contexto-tiempo, se caracterizan por permitir analizar los datos con el máximo detalle. Son tablas que no tienen medida y suelen ser las tablas más robustas con miles o millones de registros, además de ser las que más se actualizan. Por esta razón, cuando las transacciones en los sistemas OLTP son de manera masiva, se debe aplicar ingeniería de optimización de hechos, ya sea traer datos por periodo, tablas agregadas, particionadas, etc.
+            p Estas representan eventos que suceden en determinado contexto-tiempo, se caracterizan por permitir analizar los datos con el máximo detalle. Son tablas que no tienen medida y suelen ser las tablas más robustas con miles o millones de registros, además de ser las que más se actualizan. Por esta razón, cuando las transacciones en los sistemas <i>OLTP</i> son de manera masiva, se debe aplicar ingeniería de optimización de hechos, ya sea traer datos por periodo, tablas agregadas, particionadas, etc.
         
           .col-sm-12.col-lg-4
             figure
@@ -271,17 +271,17 @@
             p #[b Ordinarios:  ] son aquellos que se puedan asignar manualmente según los criterios del diseñador de la base de datos. 
           li.mb-0.pb-0.ml-4-custom  
             i.fas.fa-circle.icon-li-ul
-            p Para crear índice ordinario através de SQL se emplean estos comando:
+            p Para crear índice ordinario através de #[i SQL] se emplean estos comando:
           li.mb-0.pb-0.ml-6-custom  
             i.far.fa-circle.icon-li-ul
-            p.color-blue CREATE INDEX 
-              span.color-black nom_indice ON 
+            p.color-blue #[i CREATE INDEX ]
+              span.color-black nom_indice #[i ON ]
               span.color-green table 
               span.color-black (nom_campo);
           li.mb-0.pb-0.ml-6-custom  
             i.far.fa-circle.icon-li-ul
-            p.color-blue CREATE INDEX 
-              span.color-black idx_apellido ON 
+            p.color-blue #[i CREATE INDEX ]
+              span.color-black idx_apellido #[i ON ]
               span.color-green usuarios 
               span.color-black (apellidos);
           li.mb-0.pb-0 
@@ -292,8 +292,8 @@
             p Para crear índice compuesto a través de <i>SQL</i> se emplea estos comandos.
           li.mb-0.pb-0.ml-6-custom  
             i.far.fa-circle.icon-li-ul
-            p.color-blue CREATE INDEX 
-              span.color-black idx_nombresCompletos ON 
+            p.color-blue #[i CREATE INDEX ]
+              span.color-black idx_nombresCompletos #[i ON ]
               span.color-green usuarios 
               span.color-black (nombres,apellidos);
       
@@ -303,7 +303,7 @@
           .col-sm-12.col-lg-3.d-flex.justify-content-center.align-items-center
             img.px-4.w-75(src='@/assets/curso/temas/Tema1/17.png', alt='Texto que describa la imagen')
           .col-sm-12.col-lg-9.d-flex.justify-content-center.align-items-center
-            p #[b El comando SQL “#[i EXPLAIN ]” ], es muy usado, pues permite adelantarse a la consulta, listando las tablas en el orden que serían leídas. Es decir, presenta cómo se realizará la consulta y permite visualizar la manera en realizar la consulta, esto permite a los diseñadores de bases de datos realizar optimizaciones de ser necesario.
+            p #[b El comando #[i SQL] “#[i EXPLAIN ]” ], es muy usado, pues permite adelantarse a la consulta, listando las tablas en el orden que serían leídas. Es decir, presenta cómo se realizará la consulta y permite visualizar la manera en realizar la consulta, esto permite a los diseñadores de bases de datos realizar optimizaciones de ser necesario.
         
     h5.mb-5(data-aos="zoom-in-left") Si se desea saber la manera en cómo el motor de base de datos recupera y obtiene los datos que lista, se puede realizar el siguiente ejercicio:
 
@@ -313,9 +313,9 @@
         .row.mx-5-cus.px-4-cus.mt-4.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6.bg-white-r
             h5 Con la sentencia: 
-            .mt-2.color-blue.ml-4-custom SELECT 
+            .mt-2.color-blue.ml-4-custom #[i SELECT ]
               span.color-black * 
-              span.color-blue FROM 
+              span.color-blue #[i FROM ] 
               span.color-black productos 
             h5.mt-2 Lista todos los campos y datos de la tabla productos.
         
@@ -328,11 +328,11 @@
             h5 Además, se podría aplicar una condición; por ejemplo, que muestre los vehículos que valgan más de 300.000:
             .bg-white-r.p-3.mt-5
               h5 Con la sentencia: 
-              .mt-2.color-blue.ml-4-custom SELECT 
+              .mt-2.color-blue.ml-4-custom #[i SELECT ] 
                 span.color-black * 
-                span.color-blue FROM 
+                span.color-blue #[i FROM ] 
                 span.color-black producto 
-                span.color-blue WHERE 
+                span.color-blue #[i WHERE ] 
                 span.color-black precio 
                 span.color-black > 
                 span.color-orange  #[b  300000 ]
@@ -346,7 +346,7 @@
             h5 A la consulta anterior, al adicionarle EXPLAIN al inicio, se dará un reporte de cómo se realizará la consulta:
             .bg-white-r.p-3.mt-5
               h5.color-blue Ejecución del comando Explain: 
-              h5.mt-5 Lista que se usa un select sencillo, que no tiene particiones de tabla, la búsqueda se realizó entre 10 campos, y que usa el extratipo where.
+              h5.mt-5 Lista que se usa un #[i SELECT ] sencillo, que no tiene particiones de tabla, la búsqueda se realizó entre 10 campos, y que usa el extratipo #[i WHERE ].
           .col-sm-12.col-lg-4
             figure
               img(src='@/assets/curso/temas/Tema1/23.png', alt='Texto que describa la imagen')
@@ -354,27 +354,26 @@
         
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
-            h5 Además de consultas y condiciones, los datos pueden ordenarse a través del comando <i>SQL order by</i>, su aplicación es muy sencilla, a la consulta anterior se le puede dar un orden, en este caso se podría tomar como elemento de orden el mismo precio. Adicional se puede definir si es ascendente ASC o descendente DESC.
+            h5 Además de consultas y condiciones, los datos pueden ordenarse a través del comando <i>SQL order by</i>, su aplicación es muy sencilla, a la consulta anterior se le puede dar un orden, en este caso se podría tomar como elemento de orden el mismo precio. Adicional se puede definir si es ascendente <i>ASC</i> o descendente <i>DESC</i>.
             .bg-white-r.p-3.mt-5
               h5 Con la sentencia: 
-              .mt-2.color-blue.ml-4-custom.fw-bold SELECT 
+              .mt-2.color-blue.ml-4-custom.fw-bold #[i SELECT ] 
                 span.color-black * 
-                span.color-blue FROM 
+                span.color-blue #[i FROM ] 
                 span.color-black producto 
-                span.color-blue WHERE 
+                span.color-blue #[i WHERE ] 
                 span.color-black precio 
                 span.color-black > 
                 span.color-orange  #[b  300000 ]
-              .mt-2.color-blue.ml-4-custom.fw-bold order by 
+              .mt-2.color-blue.ml-4-custom.fw-bold #[i ORDER BY  ]
                 span.color-black precio 
-                span.color-blue desc 
+                span.color-blue #[i DESC ]
               h5.mt-3 Lista que se ordenan los datos de manera descendente.
           .col-sm-12.col-lg-4
             figure
               img(src='@/assets/curso/temas/Tema1/25.png', alt='Texto que describa la imagen')
 
-    p(data-aos="zoom-in-left") Para la manipulación y consulta de datos, es primordial conocer el lenguaje estándar de consulta de las bases de datos relacionales, se invita para que se amplíe el conocimiento sobre este tema visualizando el siguiente video:
-
+    p(data-aos="zoom-in-left") Para la manipulación y consulta de datos, es primordial conocer el lenguaje estándar de consulta de las bases de datos relacionales, se invita para que se amplíe el conocimiento sobre este tema en el siguiente video Rendimiento consultas: 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         figure

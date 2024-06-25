@@ -7,8 +7,8 @@
         span 4
       h1 Análisis exploratorio de datos
     
-    .bloque1(data-aos="zoom-in-left")
-      .bloque-texto-b.color-secundario.py-4.mb-0
+    .bloque1.mb-0(data-aos="zoom-in-left")
+      .bloque-texto-b.color-secundario.pt-4.mb-0
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
             .col-lg-10.col-12.mb-4.mg-lg-0
@@ -42,7 +42,7 @@
 
     .row.align-items-center.justify-content-start(data-aos="zoom-in-left")
       .col-sm-12.col-lg-11
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-0
           .tarjeta-avatar-b__img
             img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema4/3.svg', alt='Texto que describa la imagen')
           .tarjeta.bg26
@@ -71,7 +71,7 @@
     p.mb-5(data-aos="zoom-in-left") Este tipo de estadística se aplica cuando, la posblación o el universo objeto de estudio es muy grande e imposible de aplicar estadística descriptiva o aplicar instrumento a todo, o cuando no hay exactitud del número de población o universo. Para estos casos, se deberá aplicar la estadística inferencial donde se pueden realizar afirmaciones sobre una población basado en los resultados de una muestra.
 
     .row(data-aos="zoom-in-left") 
-      .col-sm-12.col-lg-10.bg29.p-4.mb-5.m-auto    
+      .col-sm-12.col-lg-10.bg29.p-4.mb-0.m-auto    
           .row.justify-content-center.align-items-center
             .col-md-2.d-none.d-lg-block
               figure.mx-7
@@ -97,7 +97,7 @@
             span
               |   Variables y escalas
 
-        .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-left")
+        .tabla-a.color-acento-contenido.mb-0(data-aos="zoom-in-left")
           table(alt='La tabla describe las diferentes escalas de variables y sus características. Las variables categóricas pueden ser nominales, que clasifican los elementos del conjunto para distribuirlos en grupos, u ordinales, que también clasifican elementos, pero permiten mediciones comparativas. Las variables métricas pueden ser de intervalo, que cuantifican y califican numéricamente los objetos y permiten mediciones simples con escalas continuas, y de razón, que también cuantifican y califican numéricamente pero utilizan escalas discontinuas y resuelven el problema del cero absoluto. ')
             thead
               tr
@@ -152,7 +152,7 @@
       .col-sm-12.col-lg-7
         p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del <i>Big data</i> y la inteligencia de negocios.
         p.md-3 Pero desde el enfoque propiamente, la utilidad estadística está inmersa como fundamento en el conocimiento de las áreas y en todas las decisiones incluso las decisiones no técnicas y simples, de manera implícita se trae a la mente procesos estadísticos (ejemplo: al pasar una calle, debes verificar variables como flujo de carros, velocidad, estado de la vía, distancia del punto A al punto B, etc.).
-        p #[b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (ver figura). ]
+        p #[b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (consultar figura). ]
       .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/temas/Tema4/6.png', alt='Texto que describa la imagen')
@@ -182,7 +182,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h5 Objetivo y preguntas
-            p Para empezar a hacer uso de la estadística, es fundamental definir la intencionalidad de lo que se desea saber, comprobar o medir. En otras palabras, definir con claridad las preguntas que se desean responder
+            p Para empezar a hacer uso de la estadística, es fundamental definir la intencionalidad de lo que se desea saber, comprobar o medir. En otras palabras, definir con claridad las preguntas que se desean responder.
         
           .col-md-4
             figure
@@ -200,7 +200,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h5 Procesar los datos
-            p Cuando se tengan los datos recopilados de manera sistémica, es importante tener claridad de qué hacer con ellos. Tener los datos y ya ocasionalmente no responde las preguntas requeridas si el proceso no está claro. Es fundamental interpretar y entender los datos para definir las fórmulas matemáticas y las mediciones para aplicar las operaciones a estos datos. Las operaciones estadísticas más comunes y simples son: Promedios, sumas, conteos, segmentación, porcentajes, variables, tiempo, etc
+            p Cuando se tengan los datos recopilados de manera sistémica, es importante tener claridad de qué hacer con ellos. Tener los datos y ya ocasionalmente no responde las preguntas requeridas si el proceso no está claro. Es fundamental interpretar y entender los datos para definir las fórmulas matemáticas y las mediciones para aplicar las operaciones a estos datos. Las operaciones estadísticas más comunes y simples son: Promedios, sumas, conteos, segmentación, porcentajes, variables, tiempo, etc.
         
           .col-md-4
             figure

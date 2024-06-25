@@ -15,7 +15,7 @@
               p La exploración de datos es sin duda, una de las tareas más importantes, pero también es una de las más complejas, especialmente para iniciar su exploración. La primera tarea es tener idea de la manera como están los datos, identificar las variables más importantes, la manera en cómo se relacionan o no unas con otras, tamaño de los datos, determinar si se presentan patrones, cálculos, qué calidad tienen estos datos, etc.
             .col-lg-2.col-md-5.col-8.px-5.d-none.d-lg-block
               img.mb-0(alt="" src="@/assets/curso/temas/Tema5/1.svg") 
-    h5.mb-5 Puede ser una tarea dispendiosa pero necesaria antes de emprender procesos técnicos de inteligencia de negocios.
+    h5.mb-0 Puede ser una tarea dispendiosa pero necesaria antes de emprender procesos técnicos de inteligencia de negocios.
     Separador
 
 
@@ -26,7 +26,7 @@
     
     .row.justify-content-around.align-items-center.mt-5
       .col-sm-12.col-lg-10
-        .cajon.color-acento-contenido.p-3.mb-5
+        .cajon.color-acento-contenido.p-3.mb-0
           .row.justify-content-around.align-items-center
             .col-sm-2.col-lg-1.col-md-12.d-none.d-lg-block
               img(src="@/assets/curso/temas/Tema5/2.svg", alt="Texto que describa la imagen")
@@ -45,7 +45,7 @@
 
     .row.justify-content-around.align-items-center.mt-5
       .col-sm-12.col-lg-10
-        .cajon.color-acento-contenido.p-3.mb-5
+        .cajon.color-acento-contenido.p-3.mb-0
           .row.justify-content-around.align-items-center
             .col-sm-2.col-lg-1.d-none.d-lg-block
               img(src="@/assets/curso/temas/Tema5/3.svg", alt="Texto que describa la imagen")
@@ -67,7 +67,7 @@
 
     .row.justify-content-around.align-items-center.mt-5
       .col-sm-12.col-lg-10
-        .cajon.color-acento-contenido.p-3.mb-5
+        .cajon.color-acento-contenido.p-3.mb-0
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
               img(src="@/assets/curso/temas/Tema5/4.svg", alt="Texto que describa la imagen")
@@ -87,7 +87,7 @@
 
 
 
-    .tarjeta--container.row.mb-5.bg31
+    .tarjeta--container.row.mb-0.bg31
       .col-md.tarjeta-container-siete.p-5
         .row.mb-4
           h4.mb-5 Las reglas de negocio se basan en las políticas de las organizaciones, en metodologías ágiles como el Scrum, las reglas de negocio se plasman en historias de usuarios.
@@ -121,7 +121,7 @@
                 |   Características de una muestra adecuada.
             figure
               img(src='@/assets/curso/temas/Tema5/5.svg', alt='La ilustración presenta una política de segmentación de clientes basada en sus compras anuales, clasificándolos en tres categorías: "Golden" para aquellos cuyas compras superan los $2,000,000 al año, "Premium" para compras superiores a $1,000,000, y "Plata" para compras que exceden los $500,000. ')
-        p A estas reglas de negocio, a menudo se les denomina también Lógica de negocio.
+        p.mb-0 A estas reglas de negocio, a menudo se les denomina también Lógica de negocio.
 
 
     Separador
@@ -132,7 +132,7 @@
     p.mb-4 Las restricciones limitan las acciones que el sistema o los usuarios pueden realizar. Las reglas por lo general son restrictivas, es decir, se debe o no se debe hacer algo a no ser que cumpla condiciones como roles de usuarios, valores previos, etc. Las restricciones, no deben convertirse en inconvenientes al usuario o sistema y los mensajes que se generan deben ser muy claros.
     p #[b Existen diferentes tipos, que se detallan a continuación: ]
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row.mb-0
       .col-md.tarjeta.bg22.p-5.text-black
         h4.text-center.mb-5 Validación de datos
         .row.justify-content-around.align-items-center.mb-4
@@ -164,7 +164,7 @@
 
     p.mb-5 Su característica principal en las organizaciones, son las aplicaciones que emplean bases de datos, estas pueden ser #[i SQL o NoSQL], pero indistintamente, son datos que se asocian y presentan dependencia entre sí.
 
-    .row.mb-5 
+    .row.mb-0
       .col-sm-12.col-lg-10.justify-content-center.align-items-center.m-auto
         .container-card
           .first-card 
@@ -180,7 +180,7 @@
     p En una estructura lineal, cada elemento sólo puede ir enlazado al siguiente o al anterior. A las estructuras de datos no lineales se les llama también estructuras de datos multienlazadas y tiene las siguientes características:
 
 
-    .row.mb-3.justify-content-center.align-items-center
+    .row.mb-0.justify-content-center.align-items-center
       .col-sm-12.col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/Tema5/16.svg' alt='AvatarTop')
@@ -211,7 +211,7 @@
     #t_5_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.8 Álgebra relacional
 
-    .row.mb-5
+    .row.mb-0
       .col-sm-12.col-lg-6
         p.mb-3.mt-2-cus Es el área del álgebra que usa métodos para crear nuevas relaciones a partir de unas ya existentes. Todas las operaciones sobre tablas relacionales a través de un lenguaje de manipulación de datos están bajo este esquema.
         p.mb-3 Emplea operadores y otros elementos del álgebra, existen entre otros operadores de proyección, selección, unión, diferencias intersecciones, divisiones, etc.
@@ -220,9 +220,9 @@
         figure
           img(src='@/assets/curso/temas/Tema5/11.png', alt='Texto que describa la imagen')
 
-    p.mb-3 #[b Por eso es importante tener presente las siguientes recomendaciones entregadas en el video Manipular los datos:  ]
+    p.mb-3 #[b Por eso es importante tener presente las siguientes recomendaciones entregadas en el video Manipular los datos:   ]
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg-12(data-aos="fade-left")
         figure
           .video
@@ -271,7 +271,7 @@
     p.mb-0 #[i SQL server] pertenece a la casa de Microsoft, con sus herramientas integradas que dan mucho poder para el almacenamiento y proceso de datos. 
     p.mb-4 #[b En el siguiente video se presentan los comandos de #[i SQL] para la creación de una base de datos y para la realización de consultas en esta: ]
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg-12(data-aos="fade-left")
         figure
           .video
@@ -286,7 +286,7 @@
     p.mb-3 Son un tipo de bases de datos cuyo almacenamiento de datos no se realiza en tablas propiamente dicha. Presentan una estructura particular tipo <i>SON o BSON</i>, que consiste en un arreglo de datos por jerarquías, tiene la ventaja sobre las bases de datos relacionales que su desempeño de búsquedas y cargue de datos son más veloces, además, se podría definir que son más flexibles es sus datos y cambios de estructuras que se puedan presentar. Para el manejo de <i>Big data</i> y grandes cantidades de datos son muy empleadas
     p.mb-4 #[b En siguiente video se explican las ventajas de las bases de datos no relacionales o #[i No SQL:] ]
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg-12(data-aos="fade-left")
         figure
           .video
@@ -325,7 +325,7 @@
 
     .row.justify-content-around.align-items-center.mt-5
       .col-sm-12.col-lg-8
-        .cajon.color-acento-contenido-3.py-4.px-5.mb-5
+        .cajon.color-acento-contenido-3.py-4.px-5.mb-0
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center

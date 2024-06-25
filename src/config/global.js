@@ -66,7 +66,7 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Entendimiento de la data',
+            titulo: 'Entendimiento de la <i>data</i>',
             hash: 't_2_1',
           },
           {
@@ -411,7 +411,7 @@ export default {
     {
       termino: 'Lenguaje <i>DAX</i>',
       significado:
-        'lenguaje específico para gestión de datos creado por Microsoft (Data Analysis Expressions). Se emplea en colecciones de datos en aplicaciones como Excel, <i>Analysis Services y Power BI.</i>',
+        'lenguaje específico para gestión de datos creado por <i>Microsoft (Data Analysis Expressions)</i>. Se emplea en colecciones de datos en aplicaciones como Excel, <i>Analysis Services y Power BI.</i>',
     },
     {
       termino: 'Lenguaje <i>R</i>',
@@ -431,7 +431,7 @@ export default {
     {
       termino: 'Procesamiento por lotes',
       significado:
-        'al tener muchas cargas de datos y procesamientos, es necesario reunir recursos para que se ejecuten de manera independiente optimizando recursos, de esta manera las tareas se completan periódicamente de manera repetitiva',
+        'al tener muchas cargas de datos y procesamientos, es necesario reunir recursos para que se ejecuten de manera independiente optimizando recursos, de esta manera las tareas se completan periódicamente de manera repetitiva.',
     },
     {
       termino: '<i>RAM</i>',
@@ -446,7 +446,7 @@ export default {
     {
       termino: 'Sistema operativo',
       significado:
-        'es el <i>software</i> principal de las computadoras, se emplea como plataforma para gestionar las aplicaciones, recursos del hardware y entornos gráficos y funcionales.',
+        'es el <i>software</i> principal de las computadoras, se emplea como plataforma para gestionar las aplicaciones, recursos del <i> hardware</i> y entornos gráficos y funcionales.',
     },
     {
       termino: 'Tabular',
@@ -494,13 +494,13 @@ export default {
 
     {
       referencia:
-        'Gawande, S. (2020). iCEDQ Torana INC. Obtenido de 6 Dimensions of Data Quality, Examples, and Measurement:',
+        'Gawande, S. (2020). iCEDQ Torana INC. Obtenido de 6 <i>Dimensions of Data Quality, Examples, and Measurement:</i>',
       link: 'https://icedq.com/6-data-quality-dimensions',
     },
 
     {
       referencia:
-        'Ommi, A. K. (18 de 02 de 2018). Introduction to Data and Information. Obtenido de MyCloudWiki:',
+        'Ommi, A. K. (18 de 02 de 2018). <i>Introduction to Data and Information.</i> Obtenido de <i>MyCloudWiki</i>:',
       link: 'https://www.mycloudwiki.com/san/data-and-information-basics/',
     },
 

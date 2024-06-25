@@ -30,7 +30,7 @@
           .bloque-texto-g__texto.p-5
             p.mb-0 Los avances tecnológicos y nuevas posibilidades de la cuarta revolución industrial hacen que este fenómeno se acentúe aún más y las empresas tengan dentro de sus retos la adopción de tecnologías y nuevas maneras de darle valor a los negocios a partir de recursos que generados por sí mismo y otros disponibles de manera pública, todo lo cual puede traducirse en oportunidades y posibilidades gigantes que bien estructuradas podría significar las mejores decisiones y valor a la organización que adopta la tecnología y las nuevas tendencias comerciales.
 
-    p.mb-5(data-aos="zoom-in-left") En forma simple, la inteligencia de negocios es una serie de técnicas, metodologías y herramientas que se integran para convertir los datos en información, luego en conocimiento para al final tomar las mejores decisiones.
+    p.mb-0(data-aos="zoom-in-left") En forma simple, la inteligencia de negocios es una serie de técnicas, metodologías y herramientas que se integran para convertir los datos en información, luego en conocimiento para al final tomar las mejores decisiones.
 
 
     Separador
@@ -51,7 +51,7 @@
       .col-sm-12.col-lg-5
         figure
           img(src='@/assets/curso/temas/Tema3/4.png', alt='Texto que describa la imagen')
-      .col-sm-12.col-lg-6.mb-4
+      .col-sm-12.col-lg-6.mb-0
         p.mb-4.mt-2-cus Otro concepto errado frecuente, en especial en las pymes, es que el indicador más importante y en algunos casos el único, es el dinero que ingresa a la empresa, si bien en los negocios se trata de ganar, existen muchas variables e indicadores adicionales a los ingresos que permiten a las organizaciones avanzar mejor, aumentar su valor a partir de técnicas y conocimiento, y tras todos estos indicadores claves de negocio, deberían reflejarse en el cumplimiento de metas de ingresos y crecimiento del negocio en el tiempo.
         p Los indicadores y la aplicabilidad de la analítica de datos en las organizaciones deben manejarse bajo necesidades reales, preguntas fundamentales y la identificación de qué respuestas requiere el negocio para optimizar los tiempos y asertividad de la toma de decisiones.
       
@@ -77,9 +77,9 @@
         p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. #[b El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general. ]
 
     p.mb-5(data-aos="zoom-in-left") #[b En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio: ]
-    .row
+    .row.mb-0
       .col-sm-12.col-lg-10.m-auto 
-        img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='La ilustración presenta cómo la Inteligencia de Negocios (BI) integra diversas áreas del negocio: Financiero, que abarca contabilidad y aspectos tributarios; Ventas, que incluye marketing, clientes y CRM; Compras, que cubre gastos, proveedores y nómina; Talento, enfocado en el personal; y Producción, que considera tiempos, metas y KPI. Este enfoque integral permite una gestión y análisis de datos cohesivos a través de todas las áreas mencionadas.')
+        img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='La ilustración presenta cómo la Inteligencia de Negocios (BI) integra diversas áreas del negocio: Financiero, que abarca contabilidad y aspectos tributarios; Ventas, que incluye #[i marketing], clientes y CRM; Compras, que cubre gastos, proveedores y nómina; Talento, enfocado en el personal; y Producción, que considera tiempos, metas y KPI. Este enfoque integral permite una gestión y análisis de datos cohesivos a través de todas las áreas mencionadas.')
 
 
     Separador
@@ -108,7 +108,7 @@
 
                 li.mb-0.pb-0 
                   i.fa.fa-check
-                  p  #[b  Versatilidad: ] qué soporta diversas plataformas tanto como sistemas operativos como hardware.
+                  p  #[b  Versatilidad: ] qué soporta diversas plataformas tanto como sistemas operativos como #[i hardware].
 
                 li.mb-0.pb-0 
                   i.fa.fa-check
@@ -147,7 +147,7 @@
         figure
           img(src='@/assets/curso/temas/Tema3/9.png', alt='Texto que describa la imagen')
       
-    p.mb-5(data-aos="zoom-in-left") Existen otras más, soportadas con grandes marcas como <i>IBM, Google, Teradata, SAP</i> y otras que si bien no son tan mencionadas en el mercado, son igual de poderosas y confiables.
+    p.mb-0(data-aos="zoom-in-left") Existen otras más, soportadas con grandes marcas como <i>IBM, Google, Teradata, SAP</i> y otras que si bien no son tan mencionadas en el mercado, son igual de poderosas y confiables.
 
     Separador
 
@@ -204,7 +204,7 @@
 
   
 
-    p(data-aos="zoom-in-left") La modelación de las soluciones BI, depende de las reglas de negocio y los requisitos o problemas a resolver. En los apartados siguientes se detallan las arquitecturas disponibles y el proceso del tratamiento de datos a partir de una mirada de análisis e inteligencia de negocio.                
+    p.mb-0(data-aos="zoom-in-left") La modelación de las soluciones BI, depende de las reglas de negocio y los requisitos o problemas a resolver. En los apartados siguientes se detallan las arquitecturas disponibles y el proceso del tratamiento de datos a partir de una mirada de análisis e inteligencia de negocio.                
         
     Separador
 
@@ -223,10 +223,10 @@
       .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
-            p.mb-3 La metodología para el diseño de DWH propuesta por  Ralph Kimball se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean data marts, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
+            p.mb-3 La metodología para el diseño de DWH propuesta por  <i>Ralph Kimball</i> se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean <i>data marts</i>, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
             br
             br
-            p #[b Kimball propone que estos  Data Mart  deben crearse primero para proporcionar capacidades analíticas;] en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los Data Marts se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios Data Mart. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (ver figura).
+            p #[b Kimball propone que estos  #[i Data Mart]  deben crearse primero para proporcionar capacidades analíticas;] en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los #[i Data Marts]  se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios <i>Data Mart</i>. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (consultar figura).
             
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
@@ -234,7 +234,7 @@
         span
           |   Modelo <i>Kimball</i>
       figure
-        img(src='@/assets/curso/temas/Tema3/14.png', alt='La ilustración presenta el modelo Kimball, que es un enfoque de diseño para almacenes de datos. El proceso comienza con la recopilación de datos de diferentes fuentes de datos mediante OLTP (procesamiento de transacciones en línea). Estos datos se transforman y cargan en datamarts a través del proceso ETL (extracción, transformación y carga). Los datamarts se consolidan en un almacén de datos (data warehouse), que luego se organiza en un cubo de datos OLAP (procesamiento analítico en línea). Finalmente, los datos estructurados en el cubo de datos se utilizan para generar informes en la capa de reportes. ')
+        img(src='@/assets/curso/temas/Tema3/19.svg', alt='La ilustración presenta el modelo Kimball, que es un enfoque de diseño para almacenes de datos. El proceso comienza con la recopilación de datos de diferentes fuentes de datos mediante <i>OLTP</i> (procesamiento de transacciones en línea). Estos datos se transforman y cargan en datamarts a través del proceso ETL (extracción, transformación y carga). Los datamarts se consolidan en un almacén de datos (data warehouse), que luego se organiza en un cubo de datos <i> <i>OLAP</i> </i> (procesamiento analítico en línea). Finalmente, los datos estructurados en el cubo de datos se utilizan para generar informes en la capa de reportes. ')
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
@@ -246,18 +246,18 @@
       .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
-            p.mb-5 No es muy diferente a Kimball, los principios de transformación y carga a los DWH contienen los mismos elementos en su arquitectura, sin embargo, la metodología de  Bill Inmon  plantea que los data marts deben ir después del almacenamiento de DWH.
+            p.mb-5 No es muy diferente a Kimball, los principios de transformación y carga a los DWH contienen los mismos elementos en su arquitectura, sin embargo, la metodología de  Bill Inmon  plantea que los  <i>data marts</i> deben ir después del almacenamiento de DWH.
             br
             br
-            p #[b La metodología Inmon comienza por generar un arreglo de todos los datos corporativos en el DWH], para luego identificar y dividir áreas para la generación de los Data Mart. En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los data marts y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (ver figura).
+            p #[b La metodología Inmon comienza por generar un arreglo de todos los datos corporativos en el DWH], para luego identificar y dividir áreas para la generación de los #[i Data Mart] . En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los <i>data marts</i> y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (ver figura).
     .row(data-aos="zoom-in-left")
-      .col-md-12.mx-auto.mb-5
+      .col-md-12.mx-auto.mb-0
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
           span
             |  Modelo #[i Inmon].
         figure
-          img(src='@/assets/curso/temas/Tema3/16.png', alt='La ilustración presenta el modelo Inmon, otro enfoque de diseño para almacenes de datos. En este modelo, los datos se recopilan de diferentes fuentes de datos mediante OLTP (procesamiento de transacciones en línea) y se transforman y cargan en un almacén de datos (<i>data warehouse</i>) a través del proceso ETL (extracción, transformación y carga). A partir del almacén de datos, se crean datamarts específicos para diferentes áreas de análisis. Estos datamarts se estructuran en cubos de datos OLAP (procesamiento analítico en línea), que se utilizan para generar informes en la capa de reportes. ')
+          img(src='@/assets/curso/temas/Tema3/20.svg', alt='La ilustración presenta el modelo Inmon, otro enfoque de diseño para almacenes de datos. En este modelo, los datos se recopilan de diferentes fuentes de datos mediante <i>OLTP</i> (procesamiento de transacciones en línea) y se transforman y cargan en un almacén de datos (<i>data warehouse</i>) a través del proceso ETL (extracción, transformación y carga). A partir del almacén de datos, se crean datamarts específicos para diferentes áreas de análisis. Estos datamarts se estructuran en cubos de datos <i> <i>OLAP</i> </i> (procesamiento analítico en línea), que se utilizan para generar informes en la capa de reportes. ')
 
     Separador
 
@@ -268,10 +268,10 @@
     p.mb-4(data-aos="zoom-in-left") Los valores que presentan deben ser indicadores de procesos, tareas o situaciones importantes para el negocio, su escalabilidad y visualización deben aparecer claramente. Para algunos valores podrían presentarse escalas (ejemplo, valores de ventas), para otros no (ejemplo, comparaciones porcentuales).
     p.mb-4(data-aos="zoom-in-left") #[b Entre los elementos más importantes de los cuadros de mando, su tipo de valor y escalas se pueden mencionar: ]
 
-    .row.mb-5(data-aos="zoom-in-left")
+    .row.mb-0(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-8.mb-5.mb-md-0
         LineaTiempoD.color-secundario
-          p.text-content-cus(numero="1" titulo="Tablas") se conforma de matriz, presenta múltiples datos, puede ser estática o dinámica según las reglas del negocio y características de la información que representa. Presenta datos estructurados por dimensiones (tipo OLAP) en algunos casos, y su escalabilidad se limita al redondeo de cifras configurando la cantidad de decimales de los datos numéricos flotantes.
+          p.text-content-cus(numero="1" titulo="Tablas") se conforma de matriz, presenta múltiples datos, puede ser estática o dinámica según las reglas del negocio y características de la información que representa. Presenta datos estructurados por dimensiones (tipo <i> <i>OLAP</i> </i>) en algunos casos, y su escalabilidad se limita al redondeo de cifras configurando la cantidad de decimales de los datos numéricos flotantes.
           
           p.text-content-cus(numero="2" titulo="Métricas") los valores surgen como resultado de una actividad específica y las medidas son el resultado de estas actividades en su conjunto o segmentación, siguiendo o no una serie de condiciones y operaciones. Por lo general las métricas se denominan KPI.
           
@@ -279,7 +279,7 @@
           
           p.text-content-cus(numero="4" titulo="Gráficos") el fin es mostrar datos con alto impacto visual, que sirva para obtener información acumulativa o calculada. Al igual que las tablas pueden tener múltiples dimensiones, pero se verán con mejor presentación y dimensión los datos. Se debe poner especial atención en el aspecto de la escalabilidad, pues hay datos que por su tamaño deben ser escalados para que se compare y se note las diferencias; sin embargo, ocasionalmente no es siempre recomendable, por ejemplo: un gráfico de barras si presenta la cantidad de dinero vendido, es factible escalar, para que el valor no empiece en 0 (cero), sino por ejemplo en 10 millones (según el tamaño de las cifras), pero si estas barras presentan porcentajes, es necesario que la gráfica siempre empiece desde el 0%, para que se note bien la dimensionalidad de los datos. <br> Este es el elemento más común y de mayor variabilidad, existen múltiples opciones de visualizadores gráficos en diferentes segmentos (barras, circulares, mayas, etc.).
 
-          p.text-content-cus(numero="5" titulo="Mapas") este elemento permite mostrar información geolocalizada. Aplica a los datos de ubicación, de esta manera se dimensiona la ubicación de las cifras que se estén representando
+          p.text-content-cus(numero="5" titulo="Mapas") este elemento permite mostrar información geolocalizada. Aplica a los datos de ubicación, de esta manera se dimensiona la ubicación de las cifras que se estén representando.
 
           p.text-content-cus(numero="6" titulo="Alertas visuales") por lo general, al momento de desarrollar los cuadros de mando se pueden incluir a la programación de alertas automáticas con el fin de informar un acontecimiento crítico, ya sea por fechas u otro evento que suceda.
 
@@ -304,7 +304,7 @@
 
     .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-0
           .bloque-texto-g__img.br-tl-cus(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/18.png')})`}"
           )
