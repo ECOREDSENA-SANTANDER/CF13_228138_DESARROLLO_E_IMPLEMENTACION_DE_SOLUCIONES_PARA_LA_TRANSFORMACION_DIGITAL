@@ -73,14 +73,14 @@
         p #[b Los entornos más eficientes son: ]
       .col-sm-12.col-lg-5.mb-4.mb-md-0
         figure
-          img(src='@/assets/curso/temas/Tema7/2.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema7/2.png')
     
     .tarjeta--container.row.mb-5.bg16(data-aos="zoom-in-left")
       .col-md.tarjeta-container-nueve.p-5
         .row
           .col-sm-12.col-lg-4.m-auto
             figure
-              img(src='@/assets/curso/temas/Tema7/3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema7/3.png')
           .col-sm-12.col-lg-6.m-auto
             LineaTiempoD.color-secundario-2
               .row(numero="1" titulo="<i>Google collaborate</i>")
@@ -88,35 +88,35 @@
                   p.mb-3 Entorno completo en línea de Google. Es versátil, fácil y es muy usado en contextos académicos y aprendizaje de lenguajes de programación. 
                   p Sitio: https://colab.research.google.com/
                 figure.p-4
-                  img.w-50(src='@/assets/curso/temas/Tema7/4.png', alt='Texto que describa la imagen')
+                  img.w-50(src='@/assets/curso/temas/Tema7/4.png')
 
               .row(numero="2" titulo="<i>Jupyter</i>")
                 .col-md-8.mb-4.mb-md-0
                   p.mb-3 Puede ejecutarse en <i>Google collaborate</i>, pero tiene su propio entorno llamado <i>JupyterLab</i> 
                   p Sitio: https://jupyter.org/
                 figure.p-4
-                  img.w-50(src='@/assets/curso/temas/Tema7/5.png', alt='Texto que describa la imagen')
+                  img.w-50(src='@/assets/curso/temas/Tema7/5.png')
 
               .row(numero="3" titulo="<i>PyCharm</i>")
                 .col-md-8.mb-4.mb-md-0
                   p.mb-0 Editor de código muy potente multilenguaje.  
                   p Sitio: https://www.jetbrains.com/es-es/pycharm/
                 figure.p-4
-                  img.w-50(src='@/assets/curso/temas/Tema7/6.png', alt='Texto que describa la imagen')
+                  img.w-50(src='@/assets/curso/temas/Tema7/6.png')
 
               .row(numero="4" titulo="<i>Anaconda</i>")
                 .col-md-8.mb-4.mb-md-0
                   p.mb-3 Muy empleada para desarrollar lenguaje R, <i>Python</i>. Maneja grandes volúmenes de datos y diferentes análisis.   
                   p Sitio: https://www.anaconda.com/products/distribution o https://youtu.be/xrlISRh0MZs (instructivo para instalar anaconda)
                 figure.p-4
-                  img.w-50(src='@/assets/curso/temas/Tema7/7.png', alt='Texto que describa la imagen')
+                  img.w-50(src='@/assets/curso/temas/Tema7/7.png')
 
               .row(numero="5" titulo="<i>Orange</i>")
                 .col-md-8.mb-4.mb-md-0
                   p.mb-3 Un <i>IDE</i> con recursos de <i>ML</i>, visualización de datos. Como la mayoría de código abierto.    
                   p Sitio: https://orangedatamining.com/download/
                 figure.p-4
-                  img.w-50(src='@/assets/curso/temas/Tema7/8.png', alt='Texto que describa la imagen')
+                  img.w-50(src='@/assets/curso/temas/Tema7/8.png')
               
 
               
@@ -127,7 +127,7 @@
 
     .row.mb-5.justify-content-center.align-items-center
       .col-sm-12.col-lg-2
-          img(src='@/assets/curso/temas/Tema7/9.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema7/9.png')
       .col-sm-12.col-lg-10
         p.mb-3 Actualmente, es el lenguaje de programación que lidera los desarrollos basados en gestión de datos. En relación con otros lenguajes presenta curva de aprendizaje rápido, cuenta con múltiples librerías que expanden su capacidad y muchos sistemas de manejo de datos e inteligencia artificial lo emplean para codificar sus funcionalidades.
       
@@ -169,7 +169,7 @@
             
           .col-sm-12.col-lg-3
             figure
-              img.mt-5-cus(src='@/assets/curso/temas/Tema7/10.png', alt='Texto que describa la imagen')
+              img.mt-5-cus(src='@/assets/curso/temas/Tema7/10.png')
           
 </template>
 

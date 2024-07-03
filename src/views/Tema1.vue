@@ -39,14 +39,14 @@
       .col-sm-12.col-lg-10.p-5.bg20.d-flex.align-items-center
         p.mb-0.mx-4 #[b A mediados de la década de 1970, ] se propone arquitecturas de diversos niveles para separar las capas según su funcionalidad, así que los Sistemas de Gestión de Bases de Datos (#[i DBMS Data Base Management System]) tienen sus capas según el contexto y su funcionamiento es independiente de los sistemas de gestión, de relación de datos, de la conservación de los datos, la interfaz gráfica, etc.
         figure.mx-3.d-none.d-lg-block
-          img.w-75(src='@/assets/curso/temas/Tema1/3.png', alt='Texto que describa la imagen')
+          img.w-75(src='@/assets/curso/temas/Tema1/3.png')
 
     p(data-aos="zoom-in-left") Todas las bases de datos deben tener unos atributos mínimos que garanticen que las transacciones se ejecuten de manera confiable. Entiéndase transacción como una unidad compuesta por varias tareas, cuyo resultado final debe exigir que se ejecuten todas o ninguna de ellas (Pulido Romero, Escobar Domínguez, & Núñez Pérez, 2019).
 
     .row(data-aos="zoom-in-left")
-      .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0
+      .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema1/4.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema1/4.png')
       .col-sm-12.col-md-12.col-lg-7
         p.mt-2-cus Un ejemplo frecuente es una App bancaria, la cual se usa para realizar compras, esta acción encarna una cantidad de tareas internas, de manera básica deberá restar de mi cuenta el valor del producto a pagar y a su vez se deberá sumar a la cuenta del vendedor; sería un gran problema si en la acción se debita de la cuenta del comprador y existe una falla del sistema que evita se sume al saldo del vendedor. Para que las transacciones sean confiables, en caso de presentarse fallas en medio de las tareas internas, los datos deberán quedar tal y como estaban antes de iniciar la transacción.
         p Por lo cual, las #[b Propiedades #[i ACID ]] (acrónimo en inglés de cada una de las propiedades que deben tener las bases de datos) son:
@@ -96,7 +96,7 @@
           .col-sm-12.col-lg-9.p-5.d-flex.justify-content-center.align-items-center
             p.mb- Desde el enfoque de la arquitectura y estructura de datos, se refiere a las bases de datos que se pueden diferenciar entre <i>SQL</i>, quienes están basados en tablas relacionadas y <i>NoSQL</i>, cuyo arreglo no se establece por tablas propiamente hablando.
           .col-sm-12.col-lg-3.d-none.d-lg-block.my-3
-            img.w-75(src='@/assets/curso/temas/Tema1/9.svg', alt='Texto que describa la imagen')
+            img.w-75(src='@/assets/curso/temas/Tema1/9.svg')
 
     
     p(data-aos="zoom-in-left") Desde el enfoque de la base de datos, se refiere al uso al que se le va a dar a los datos que se almacenan, en este sentido se pueden mencionar principalmente dos:
@@ -112,7 +112,7 @@
       .col-sm-12.col-md-12.col-lg-10.m-auto 
         .row.bg20.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
           .col-sm-12.col-lg-2.p-4.d-flex.justify-content-center.align-items-center.d-none.d-lg-block
-            img(src='@/assets/curso/temas/Tema1/26.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/Tema1/26.svg')
           .col-sm-12.col-lg-10.p-4.d-flex.justify-content-center.align-items-center 
             p.mb-0 Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas <i>OLTP</i>, y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
    
@@ -236,19 +236,19 @@
 
 
     .row(data-aos="zoom-in-left")
-      .col-sm-12.col-md-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema1/15.png', alt='Texto que describa la imagen')
-      .col-sm-12.col-md-7.mb-4
+          img(src='@/assets/curso/temas/Tema1/15.png')
+      .col-sm-12.col-lg-7.mb-4
         p.mt-2-cus Por eso es importante comprender el concepto de #[b “INDEXACIÓN” ]. Al imagina tomar un libro, del cual se quiere leer un tema específico, ¿cuánto se tardaría buscarlo página por página?, esto sería tedioso e ineficiente. Además se demoraría mucho tiempo, y más aún si el tema está en las últimas páginas. Lo más fácil y obvio es ir al índice, donde se relacionan los temas y se indica el número de hoja, así se llegará más rápido. El principio de indexación de bases de datos parte, más o menos, del mismo principio del índice que se acaba de ilustrar y los administradores de bases de datos pueden gestionar estos índices en las tablas.
       
-    .row 
+    .row(data-aos="zoom-in-left") 
       .col-sm-12.col-lg-10.m-auto
-        .row.justify-content-center.align-items-center.mb-5.bg20.p-4(data-aos="zoom-in-left")
+        .row.justify-content-center.align-items-center.mb-5.bg20.p-4
           .col-sm-12.col-lg-9.d-flex.justify-content-center.align-items-center
             p.mb-0 Un índice es un puntero o marca a una fila de una determinada tabla, es una referencia que relaciona el valor que se encuentra en una tabla con el valor determinado en el puntero. Los punteros se emplean para realizar búsquedas; en otras palabras, se pueden elegir qué columnas se hacen merecedoras de que sean buscadas para incluirles el puntero de indexación.
-          .col-sm-12.col-lg-3.p-4.d-flex.justify-content-center.align-items-center
-              img.px-4.w-75.d-none.d-md-block(src='@/assets/curso/temas/Tema1/16.png', alt='Texto que describa la imagen')
+          .col-sm-12.col-lg-3.p-4.d-flex.justify-content-center.align-items-center.d-none.d-lg-block
+              img.px-4.w-75.d-none.d-md-block(src='@/assets/curso/temas/Tema1/16.png')
 
       
     p.mb-4(data-aos="zoom-in-left") Esta técnica ayuda a recuperar o encontrar rápidamente los registros que se tengan de un determinado valor en alguna de las columnas. Por ejemplo, en una tabla de cliente, uno de los valores a buscar sería cédula y nombre, por lo que se le debería aplicar índices a estos campos; sino se aplican índices el valor de la cédula, por ejemplo, se le buscaría en toda la tabla, mientas si se usan los punteros se busca el registro en la columna determinada encontrando más rápidamente el valor buscado.
@@ -300,8 +300,8 @@
     .row 
       .col-sm-12.col-lg-10.m-auto
         .row.justify-content-center.align-items-center.mb-5.bg20.p-5
-          .col-sm-12.col-lg-3.d-flex.justify-content-center.align-items-center
-            img.px-4.w-75(src='@/assets/curso/temas/Tema1/17.png', alt='Texto que describa la imagen')
+          .col-sm-12.col-lg-3.d-flex.justify-content-center.align-items-center.d-none.d-lg-block
+            img.px-4.w-75(src='@/assets/curso/temas/Tema1/17.png')
           .col-sm-12.col-lg-9.d-flex.justify-content-center.align-items-center
             p #[b El comando #[i SQL] “#[i EXPLAIN ]” ], es muy usado, pues permite adelantarse a la consulta, listando las tablas en el orden que serían leídas. Es decir, presenta cómo se realizará la consulta y permite visualizar la manera en realizar la consulta, esto permite a los diseñadores de bases de datos realizar optimizaciones de ser necesario.
         
@@ -321,7 +321,7 @@
         
           .col-sm-12.col-lg-4 
             figure
-              img(src='@/assets/curso/temas/Tema1/19.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema1/19.png')
 
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
@@ -339,7 +339,7 @@
               h5.mt-2 Lista todos los campos que cumplen con la condición.
           .col-sm-12.col-lg-4
             figure
-              img(src='@/assets/curso/temas/Tema1/21.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema1/21.png')
 
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
@@ -349,7 +349,7 @@
               h5.mt-5 Lista que se usa un #[i SELECT ] sencillo, que no tiene particiones de tabla, la búsqueda se realizó entre 10 campos, y que usa el extratipo #[i WHERE ].
           .col-sm-12.col-lg-4
             figure
-              img(src='@/assets/curso/temas/Tema1/23.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema1/23.png')
 
         
         .row.justify-content-center.align-items-center.mb-5
@@ -371,7 +371,7 @@
               h5.mt-3 Lista que se ordenan los datos de manera descendente.
           .col-sm-12.col-lg-4
             figure
-              img(src='@/assets/curso/temas/Tema1/25.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema1/25.png')
 
     p(data-aos="zoom-in-left") Para la manipulación y consulta de datos, es primordial conocer el lenguaje estándar de consulta de las bases de datos relacionales, se invita para que se amplíe el conocimiento sobre este tema en el siguiente video Rendimiento consultas: 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")

@@ -43,14 +43,14 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8.p-4.bg20.d-flex.justify-content-center.align-items-center
         p Una de las condiciones iniciales más importantes son las preguntas, es decir, qué se necesita saber del negocio, qué decisiones se planea tomar y qué insumos se requieren para la toma de estas decisiones.
-        img.px-4.w-75.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/3.svg', alt='Texto que describa la imagen')
+        img.px-4.w-75.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/3.svg')
 
 
     .row.justify-content-around.align-items-center(data-aos="zoom-in-left")
 
-      .col-sm-12.col-lg-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema3/4.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema3/4.png')
       .col-sm-12.col-lg-6.mb-0
         p.mb-4.mt-2-cus Otro concepto errado frecuente, en especial en las pymes, es que el indicador más importante y en algunos casos el único, es el dinero que ingresa a la empresa, si bien en los negocios se trata de ganar, existen muchas variables e indicadores adicionales a los ingresos que permiten a las organizaciones avanzar mejor, aumentar su valor a partir de técnicas y conocimiento, y tras todos estos indicadores claves de negocio, deberían reflejarse en el cumplimiento de metas de ingresos y crecimiento del negocio en el tiempo.
         p Los indicadores y la aplicabilidad de la analítica de datos en las organizaciones deben manejarse bajo necesidades reales, preguntas fundamentales y la identificación de qué respuestas requiere el negocio para optimizar los tiempos y asertividad de la toma de decisiones.
@@ -66,13 +66,13 @@
       .col-sm-12.col-md-12.col-lg-6.tarjeta.p-5.text-black
         .row.justify-content-center.mb-4
           .col-sm-12.col-md-12.col-lg-6
-              img(src='@/assets/curso/temas/Tema3/5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema3/5.png')
         p.bg21.pt-3.pb-3.px-3 Si bien en los libros de consulta y de manera estándar, estas tres V pertenecen al <i>Big Data</i> de manera estricta, también es aplicable a la inteligencia de negocios.
       .col-sm-12.col-md-12.col-lg-6.bg24.p-5.text-black
         .row.mb-4
           .col-sm-12.col-md-12.col-lg-3
             figure
-              img.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/6.png', alt='Texto que describa la imagen')
+              img.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/6.png')
         p.mb-3 Lo primero que se debe evaluar es la integración entre las estrategias de la organización con la implementación de la inteligencia de negocio, como referencia estratégica, cada vez es más importante como apoyo a la gestión y toma de decisiones.
         p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. #[b El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general. ]
 
@@ -115,7 +115,7 @@
                   p  Tendencias y nuevas herramientas empleadas.
             .col-3.mt-5.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/Tema3/8.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/Tema3/8.svg')
 
     h5.mb-5(data-aos="zoom-in-left") A continuación, algunas alternativas disponibles para que las organizaciones puedan emplear con eficiencia proyectos de estas características:
 
@@ -143,9 +143,9 @@
               p.mx-5  Empresa especializada en analítica y procesos ETL, Herramientas especializadas de desde punto inicial al punto final.
               p.mx-5 #[b https://www.qlik.com/es-es/products ]
   
-      .col-sm-12.col-lg-5.mb-4.mb-md-0
+      .col-sm-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema3/9.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema3/9.png')
       
     p.mb-0(data-aos="zoom-in-left") Existen otras más, soportadas con grandes marcas como <i>IBM, Google, Teradata, SAP</i> y otras que si bien no son tan mencionadas en el mercado, son igual de poderosas y confiables.
 
@@ -161,7 +161,7 @@
       .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/10.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/10.svg')
           .tarjeta.bg26
             .p-4
               h5.mb-4 Definición del problema
@@ -172,7 +172,7 @@
       .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/11.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/11.svg')
           .tarjeta.bg26
             .p-4
               h5.mb-4 Resolviendo el problema
@@ -196,7 +196,7 @@
       .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/12.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/12.svg')
           .tarjeta.bg26
             .p-4
               h5.mb-4 Comunicación y actuación en función de los datos
@@ -291,7 +291,7 @@
           p.mb-0 Ejemplo de componentes de un cuadro de mando o <i>Dashboard</i>:
 
         figure
-          img(src='@/assets/curso/temas/Tema3/17.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema3/17.png')
 
 
 

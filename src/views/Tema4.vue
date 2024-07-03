@@ -30,7 +30,7 @@
       .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema4/2.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema4/2.svg')
           .tarjeta.bg26
             .p-4
               h5.md-2 Estadística descriptiva:
@@ -44,7 +44,7 @@
       .col-sm-12.col-lg-11
         .tarjeta-avatar-b.mb-0
           .tarjeta-avatar-b__img
-            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema4/3.svg', alt='Texto que describa la imagen')
+            img.w-60.d-none.d-lg-block(src='@/assets/curso/temas/Tema4/3.svg')
           .tarjeta.bg26
             .p-4
               h5.md-2 Inferencia estadística:
@@ -75,7 +75,7 @@
           .row.justify-content-center.align-items-center
             .col-md-2.d-none.d-lg-block
               figure.mx-7
-                img(src='@/assets/curso/temas/Tema4/5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/Tema4/5.png')
             .col-sm-12.col-lg-8
               p #[b Es importante ] no establecer divorcios entre la estadística descriptiva y la inferencial, ambas son necesarias, pues la inferencial usa los datos descriptivos para llevar a conclusiones generales.
 
@@ -153,9 +153,9 @@
         p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del <i>Big data</i> y la inteligencia de negocios.
         p.md-3 Pero desde el enfoque propiamente, la utilidad estadística está inmersa como fundamento en el conocimiento de las áreas y en todas las decisiones incluso las decisiones no técnicas y simples, de manera implícita se trae a la mente procesos estadísticos (ejemplo: al pasar una calle, debes verificar variables como flujo de carros, velocidad, estado de la vía, distancia del punto A al punto B, etc.).
         p #[b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (consultar figura). ]
-      .col-sm-12.col-lg-5.mb-4.mb-md-0
+      .col-sm-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema4/6.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema4/6.png')
     .row.mb-5.align-items-center.justify-content-center
       .col-sm-12.col-lg-10
         .titulo-sexto.color-acento-contenido
@@ -171,7 +171,7 @@
     .row.mb-5(data-aos="zoom-in-left")
       .col-md-2.mb-4.mb-md-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema4/8.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema4/8.png')
       .col-sm-12.col-lg-9
         p.md-3 Con esta información, el negocio podría ir tomando decisiones y estableciendo enfoques comerciales, mirar cómo está su sector en el país y de esa manera ir orientando su análisis de negocio. Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validar los datos financieros, los tiempos de procesos, comparar sedes, definir conocimiento específico y general del negocio.#[b  Por lo que la estadística toma un papel muy importante, para ello se mencionarán las principales características de la estadística: ]
 
@@ -180,49 +180,49 @@
     .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
       SlyderA
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-sm-12.col-lg-6.mb-4.mb-md-0
             h5 Objetivo y preguntas
             p Para empezar a hacer uso de la estadística, es fundamental definir la intencionalidad de lo que se desea saber, comprobar o medir. En otras palabras, definir con claridad las preguntas que se desean responder.
         
-          .col-md-4
+          .col-md-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema4/9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema4/9.png')
             
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-sm-12.col-lg-6.mb-4.mb-md-0
             h5 Recopilación de los datos
             p Según la necesidad u objetivo del ejercicio estadístico, es necesario identificar y si no existe, diseñar la herramienta o instrumento para la recopilación de los datos. Verificar si los sistemas de información tienen los datos requeridos, implementar encuestas, o métodos de observación sistemática.
         
-          .col-md-4
+          .col-md-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema4/10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema4/10.png')
 
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-sm-12.col-lg-6.mb-4.mb-md-0
             h5 Procesar los datos
             p Cuando se tengan los datos recopilados de manera sistémica, es importante tener claridad de qué hacer con ellos. Tener los datos y ya ocasionalmente no responde las preguntas requeridas si el proceso no está claro. Es fundamental interpretar y entender los datos para definir las fórmulas matemáticas y las mediciones para aplicar las operaciones a estos datos. Las operaciones estadísticas más comunes y simples son: Promedios, sumas, conteos, segmentación, porcentajes, variables, tiempo, etc.
         
-          .col-md-4
+          .col-md-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema4/11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema4/11.png')
 
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-sm-12.col-lg-6.mb-4.mb-md-0
             h5 Analizar los datos
             p Este análisis, el cual se presenta junto a la presentación de datos, está basado en la interpretación y comprensión de la información que hay en los datos presentados. Se definen también con medidas como desviaciones, comprobaciones estadísticas, proyecciones futuras, entre otras operaciones para determinar el estado de lo que se ha trazado desde los objetivos y preguntas.
         
-          .col-md-4
+          .col-md-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema4/12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema4/12.png')
 
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-sm-12.col-lg-6.mb-4.mb-md-0
             h5 Conclusión y acciones
             p Si bien la estadística no se centra en las acciones, el fin es dar un conocimiento del negocio para que se use como insumo en la toma acertada de decisiones.
         
-          .col-md-4
+          .col-md-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema4/13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema4/13.png')
 
 
     p(data-aos="zoom-in-left") La estadística es entonces, un conjunto de métodos y teorías aplicadas a la recolección, descripción y análisis de datos, los cuales constituyen evidencia numérica para la toma de decisiones en condiciones de incertidumbre.

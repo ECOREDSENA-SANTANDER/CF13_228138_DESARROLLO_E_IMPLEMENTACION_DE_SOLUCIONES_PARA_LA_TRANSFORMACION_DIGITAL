@@ -18,13 +18,13 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.p-4.bg20.d-flex.justify-content-center.align-items-center
-        img.mx-3.w-50.d-none.d-lg-block(src='@/assets/curso/temas/Tema2/2.svg', alt='Texto que describa la imagen')
+        img.mx-3.w-50.d-none.d-lg-block(src='@/assets/curso/temas/Tema2/2.svg')
         p Desde ese mismo momento, la información y la manera de configurar los datos a través del proceso comunicativo (transmisor, emisor, canal, mensaje y contexto) llevan a que aparezcan diversas formas de información y datos, incluso miles de mensajes de las primeras civilizaciones han quedado guardados por miles de años hasta nuestros días a través de pinturas, esculturas y símbolos.
 
     .row.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0
+      .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema2/3.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema2/3.png')
       .col-sm-12.col-md-12.col-lg-7
         p.mt-3-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados).
         p.fw-bold.mt-5 En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
@@ -32,11 +32,11 @@
     .row.mb-5.justify-content-center.align-items-center.vs-card.pos-fix-card
       .col-sm-12.col-lg-5.bg18.text-center.p-5
         h4.mb-5 Datos
-        img.w-50.m-auto(src='@/assets/curso/temas/Tema2/27.svg', alt='Texto que describa la imagen')
+        img.w-50.m-auto(src='@/assets/curso/temas/Tema2/27.svg')
 
       .col-sm-12.col-lg-5.bg12.text-center.p-5.ml-1-custom
         h4.mb-5 Información
-        img.w-50.m-auto(src='@/assets/curso/temas/Tema2/28.svg', alt='Texto que describa la imagen')
+        img.w-50.m-auto(src='@/assets/curso/temas/Tema2/28.svg')
 
     .row.mb-5.justify-content-center.align-items-center.m-auto
       .col-sm-12.col-lg-10.bg32.justify-content-center.align-items-center
@@ -59,16 +59,16 @@
 
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-6
-        p.md-3.mt-3-cus Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
+        p.md-3.mt-3 Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
         p Conocer su naturaleza y características es trascendental para los proyectos BI, donde la calidad de los datos #[b #[i (Data quality - DQ) ]], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
-      .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0
+      .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema2/5.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema2/5.png')
 
       
     .row.mb-5.align-items-center
-      .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0
-          img(src='@/assets/curso/temas/Tema2/6.png', alt='Texto que describa la imagen')
+      .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0.d-none.d-lg-block
+          img(src='@/assets/curso/temas/Tema2/6.png')
       .col-sm-12.col-md-12.col-lg-6
         p.my-0 El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre #[b CONFIABLES ]; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO ]); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice el registro de datos tenga aspectos como: tipo de dato según la naturaleza del registro, formato uniforme aceptado por todo el sistema, que el dato sea válido por reglas de negocio y naturaleza del proceso, entre otros.
       
@@ -86,7 +86,7 @@
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema2/7.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema2/7.png')
 
           
         .row(titulo="Complenitud").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
@@ -95,7 +95,7 @@
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema2/8.png', alt='Texto que describa la imagen') 
+              img(src='@/assets/curso/temas/Tema2/8.png') 
 
 
         .row(titulo="Consistencia").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
@@ -104,7 +104,7 @@
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema2/9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema2/9.png')
 
         .row(titulo="Unicidad").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
           .col-sm-12.col-md-12.col-lg-8.mb-4.mb-md-0
@@ -112,14 +112,14 @@
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema2/10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema2/10.png')
 
         .row(titulo="Validez").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
           .col-sm-12.col-md-12.col-lg-8.mb-4.mb-md-0
             p Se refiere a la proximidad del valor de los datos a valores predeterminados o un cálculo. Por lo general esta propiedad debe programarse o configurarse. Validez basada en reglas comerciales o cálculo (columnas o campos calculados de precios netos, total a pagar, descuentos, etc.) siguiendo las reglas de negocio.
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema2/11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema2/11.png')
 
 
         .row(titulo="Puntualidad").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
@@ -128,7 +128,7 @@
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema2/12.png', alt='Texto que describa la imagen') 
+              img(src='@/assets/curso/temas/Tema2/12.png') 
 
 
         .row(titulo="Actualizado").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
@@ -137,7 +137,7 @@
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema2/13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema2/13.png')
 
         .row(titulo="Conformidad").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
           .col-sm-12.col-md-12.col-lg-8.mb-4.mb-md-0
@@ -145,7 +145,7 @@
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema2/14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema2/14.png')
 
         .row(titulo="Integridad").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
           .col-sm-12.col-md-12.col-lg-8.mb-4.mb-md-0
@@ -153,7 +153,7 @@
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/Tema2/15.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema2/15.png')
 
 
     h5.mb-5(data-aos="zoom-in-left") Además, es necesario reconocer la importancia de las pruebas de integridad de datos:
@@ -182,12 +182,12 @@
               h5.d-flex.justify-content-end.d-block.mb-0 <br>(Velthuis, 2019). 
                   i.fas.fa-quote-right
       .col-sm-12.col-lg-2.align-items-end.d-none.d-lg-block.mr-0
-          img.w-75.mt-5(src='@/assets/curso/temas/Tema2/16.svg', alt='Texto que describa la imagen')
+          img.w-75.mt-5(src='@/assets/curso/temas/Tema2/16.svg')
       
     .row(data-aos="zoom-in-left")
-      .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0
+      .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema2/17.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema2/17.png')
       .col-sm-12.col-md-12.col-lg-7
         p.md-3.mt-2-cus Para la exploración y la determinación de datos faltantes se debe tener presente que en gran parte del tiempo que se invierte en los procesos de analítica tiene la relación con la limpieza, depuración y mejora de la calidad de los datos y las dos maneras más comunes de gestionar los datos faltantes son: la eliminación y la imputación.
         p El objetivo es que los sistemas de uso analítico tengan los datos completos independiente del tipo de faltantes, y después de los análisis realizados para determinar los faltantes, y en vista de que no existe manera de calcularlos o sacarlos de otras fuentes, los datos que faltan en medio del conjunto se pueden gestionar, principalmente con las dos siguientes opciones:
@@ -205,14 +205,14 @@
         .row.justify-content-center.mb-4
           .col-12
             figure
-              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/19.png', alt='Texto que describa la imagen')
+              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/19.png')
         h4.text-center Eliminación de la lista
         p Se remueve todo el registro de datos a los que le falta algún dato, esto tiene la desventaja que perdería otro tipo de datos, de otras columnas que sí están los datos, lo que llevaría a mayor margen de error en los reportes y dependiendo de la cantidad de datos faltantes, puede generar pérdida significativa de información.
       .col-md.tarjeta.bg5.p-5.text-black
         .row.justify-content-around.align-items-center.mb-4
           .col-12
             figure
-              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/20.png', alt='Texto que describa la imagen')
+              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/20.png')
         h4.text-center Eliminación por pares
         p A diferencia del anterior, solo pone en Nulos aquellos valores que faltan, conservando el resto de la fina, sin embargo, para modelos BI o ML podría presentar inconvenientes, pues hay medidas u operaciones que requieren la completitud de los datos.
 
@@ -229,14 +229,14 @@
         .row.justify-content-around.align-items-center.mb-4
           .col-12
             figure
-              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/22.png', alt='Texto que describa la imagen')
+              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/22.png')
         h4.text-center Imputación por media
         p Consiste simplemente en crear un cálculo entre los valores conocidos de la columna y ponerlo en el faltante. La desventaja es que se podrían reemplazar muchos valores faltantes con un único valor, lo que afecta la distribución de los datos.
       .col-md.tarjeta.bg5.p-5.text-black
         .row.justify-content-around.align-items-center.mb-4
           .col-12
             figure
-              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/23.png', alt='Texto que describa la imagen')
+              img.h-img-card-cus(src='@/assets/curso/temas/Tema2/23.png')
         h4.text-center Imputación por regresión
         p El dato que falta se reemplaza con un valor calculado a partir de modelos de regresión, los cuales calculan el dato a imputar tomando el registro completo (todos los campos) de los datos faltantes con otros registros con datos completos, de esa manera se predicen los datos desconocidos.
 
@@ -278,7 +278,7 @@
   
       .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema2/24.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema2/24.png')
 
     Separador
 
@@ -289,9 +289,9 @@
     p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los <i>Dataset</i> contienen todo en una única tabla.
 
     .tarjeta--container.row.mb-0
-      .col-sm-12.col-lg-5.mt-4
+      .col-sm-12.col-lg-5.mt-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/Tema2/25.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/Tema2/25.png')
       .col-sm-12.col-lg-7.p-4.text-black
         p.mb-4 Algunas soluciones analíticas están basadas en <i>Datasets</i>, es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
         .cajon.color-acento-contenido.p-3.mb-5
@@ -320,13 +320,7 @@
           .tarjeta.tarjeta-infografica.py-3.px-5(x="67%" y="75%" numero="3")
             p.mb-2 Datos que se almacenan en bases de datos relacionales como <i>SQL</i>, <i>Oracle</i> etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. Ejemplo: 
             p #[b - Base de datos gestión de facturación. ]
-      .col-sm-12.col-lg-6.justify-content-between.align-items-center.my-auto
-        p.p-5.tarjeta-infografica.justify-content-between.align-items-center 
-          span No presentan una estructura definida como en los datos estructurados, pero sí presentan una organización definida en sus metadatos donde describen los objetos y sus relaciones, y que en algunos casos están aceptados por convención. 
-
-          span <br><br> Ejemplos:
-          span.fw-bold <br>  Formatos <i>HTML, XML o JSON</i>. - 
-          span <br> #[b Correos electrónicos. ]
+      
     p(data-aos="zoom-in-left") La mayoría de los datos generados por todos los usuarios están clasificados como no estructurados, esto indica que se componen de información difícil de clasificar y ordenar, conformada por archivos sueltos o producidos de manera general como documentos, videos y audios.
 
 </template>

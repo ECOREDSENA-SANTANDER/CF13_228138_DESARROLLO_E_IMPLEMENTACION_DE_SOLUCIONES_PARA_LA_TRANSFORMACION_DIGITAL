@@ -40,11 +40,11 @@
             p.w-75-cus La bodega de datos es entonces una estructura diseñada y desarrollada para almacenar y procesar datos de múltiples fuentes y centralizarlas para la elaboración de reportes y datos analíticos.
       
           .second-card.d-none.d-lg-block
-            img(src='@/assets/curso/temas/Tema6/2.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/Tema6/2.png')
 
 
     .row.mb-0.justify-content-center.align-items-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-6.col-lg.mb-5.mb-lg-0
+      .col-sm-12.col-lg-6.col-lg.mb-5.mb-lg-0.d-none.d-lg-block
         img(src='@/assets/curso/temas/Tema6/3.png' alt='AvatarTop')
       .col-sm-12.col-lg-6.col-lg.mb-5.mb-lg-0
         p.mb-4.mt-4 Las bodegas de datos son el corazón de la inteligencia de negocios, allí se almacena de manera incremental toda la información producida por la organización, cuando se establecen desarrollos completos de analítica de datos, se hace necesario contar con infraestructura y gestión de almacenamiento igual de robustas que den respuesta a las exigencias de la cantidad y variedad de datos que se presentan. Para grandes empresas, es posible que se cuente con especialistas para cada proceso del flujo de datos, así mismo el almacenamiento de las bodegas de datos requiere especialistas en gestión de bases de datos y manejar muy bien las arquitecturas y disposición de la información en los diversos clústeres de datos que se puedan emplear. 
