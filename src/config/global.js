@@ -389,7 +389,7 @@ export default {
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2021). Manejo de datos con Pandas. SENA. https://youtu.be/P6LmIUMJg3U',
       tipo: 'Vídeo',
-      link: 'https://youtu.be/P6LmIUMJg3U',
+      link: 'https://www.youtube.com/watch?v=J9_xVhV_pfs',
     },
   ],
   glosario: [
@@ -469,7 +469,8 @@ export default {
     {
       referencia:
         'Conza, A. (15 de abril de 2018). ESTÁNDARES PARA DISEÑO E IMPLEMENTACIÓN DE BASES DE DATOS RELACIONALES. Obtenido de',
-      link: 'http://adrianconza.com/estandares-de-bases-de-datos/',
+      link:
+        'https://adrianconza.medium.com/estandares-de-bases-de-datos-2bee81b53447',
     },
 
     {

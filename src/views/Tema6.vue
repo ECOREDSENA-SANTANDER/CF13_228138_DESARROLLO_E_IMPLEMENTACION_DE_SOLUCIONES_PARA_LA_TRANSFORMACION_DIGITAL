@@ -60,14 +60,14 @@
 
     p.mb-4(data-aos="zoom-in-left") Es aquella que cuyas dimensiones se relacionan directamente con la tabla de hechos, se representa de la siguiente manera (ver figura): 
 
-    .row.justify-content-around.align-items-center.mb-0(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-6
+    .row.justify-content-around.align-items-center.mb-4
+      .col-sm-12.col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Figura 6.
           span
                 |   #[i DWH ] Tipo Estrella
         figure
-          img(src='@/assets/curso/temas/Tema6/4.png', alt='La imagen presenta un diagrama de un Data Warehouse (DWH) de tipo estrella, donde la tabla de hechos "FactResellerSales" está en el centro y está conectada a varias tablas de dimensiones: "DimSalesTerritory," "DimEmployee," "DimReseller," "DimDate," y "DimProduct." Este diseño en estrella facilita consultas eficientes, al permitir la fácil combinación de datos en la tabla de hechos con las dimensiones relacionadas, optimizando así el rendimiento y la simplicidad en el análisis de datos. ')
+          img(src='@/assets/curso/temas/Tema6/6.svg', alt='La imagen presenta un diagrama de un Data Warehouse (DWH) de tipo estrella, donde la tabla de hechos "FactResellerSales" está en el centro y está conectada a varias tablas de dimensiones: "DimSalesTerritory," "DimEmployee," "DimReseller," "DimDate," y "DimProduct." Este diseño en estrella facilita consultas eficientes, al permitir la fácil combinación de datos en la tabla de hechos con las dimensiones relacionadas, optimizando así el rendimiento y la simplicidad en el análisis de datos. ')
 
     p.mb-0(data-aos="zoom-in-left") Vale la pena señalar que muchas tablas giran en torno a la tabla principal, conocida como la tabla de hechos, la cual generalmente contiene las claves primarias de las dimensiones asociadas, así como las cifras o medidas obtenidas previamente en el proceso ETL. 
 
@@ -78,14 +78,14 @@
 
     p.mb-4(data-aos="zoom-in-left") La topología copo de nieve o #[i Snowflake] se presenta frecuentemente, cuando las dimensiones cuentan con otras familias o categorías que obligan a incluir subdimensiones para completar la información. Ejemplo de esto es cuando existe una dimensión Productos, es muy frecuente que exista la dimensión Categorías. Esta última se conecta a la tabla de hechos a través de Productos que está en medio. Se representa de la siguiente manera (ver figura):
 
-    .row.justify-content-around.align-items-center.mb-0(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-6
+    .row.justify-content-around.align-items-center.mb-4
+      .col-sm-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 7.
           span
                 |   #[i DWH Snowflake ]
         figure
-          img(src='@/assets/curso/temas/Tema6/5.png', alt='La imagen presenta un esquema de Data Warehouse de tipo copo de nieve. En el centro se encuentra la tabla de hechos "Hechos_ventas", que contiene las claves primarias de varias dimensiones, tales como Producto_id, Fecha_id, Almacen_id, Cliente_id y Promocion_id. Las tablas de dimensiones incluyen "Dimension_producto," "Dimension_tiempo," "Dimension_cliente," "Dimension_promocion," "Dimension_almacen," y "Dimension_categoria." Este diseño normaliza las tablas de dimensiones al dividirlas en subdimensiones, reduciendo la redundancia y mejorando la integridad de los datos.')
+          img(src='@/assets/curso/temas/Tema6/7.svg', alt='La imagen presenta un esquema de Data Warehouse de tipo copo de nieve. En el centro se encuentra la tabla de hechos "Hechos_ventas", que contiene las claves primarias de varias dimensiones, tales como Producto_id, Fecha_id, Almacen_id, Cliente_id y Promocion_id. Las tablas de dimensiones incluyen "Dimension_producto," "Dimension_tiempo," "Dimension_cliente," "Dimension_promocion," "Dimension_almacen," y "Dimension_categoria." Este diseño normaliza las tablas de dimensiones al dividirlas en subdimensiones, reduciendo la redundancia y mejorando la integridad de los datos.')
 
     p.mb-0(data-aos="zoom-in-left") En este caso, al igual que con la topología de estrella, los hechos se relacionan con las dimensiones a partir de las claves de las tablas que lo circundan, sin embargo, en este caso se pueden presentar más niveles donde una dimensión pueda contener una clave foránea de otra tabla. En ese sentido, como se ve en el ejemplo, la dimensión_categoria se asocia a los hechos a través de una tabla en medio llamada dimension_producto.
 
