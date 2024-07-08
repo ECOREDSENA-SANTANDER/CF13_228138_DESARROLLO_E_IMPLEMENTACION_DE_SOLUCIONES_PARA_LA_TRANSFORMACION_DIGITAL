@@ -22,11 +22,11 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Tabla 3.
         span
-                |   Variables y escalas
+          |   Variables y escalas
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.m-auto
         .tabla-a.color-acento-contenido.mb-5 
-          table(alt='La tabla presenta herramientas de análisis de datos y sus funciones: Microsoft Power BI ofrece vistas interactivas con acceso a múltiples fuentes; R proporciona análisis estadístico y modelado; SAS permite procesamiento avanzado y toma de decisiones; <i>Python</i> trabaja con datos estructurados y no estructurados; Excel es popular en empresas para ajustar y analizar datos; Rapid Miner realiza análisis predictivos; Apache Spark procesa grandes volúmenes de datos rápidamente; y Qlik View organiza información compleja de manera comprensible. Estas herramientas se adaptan a diversas necesidades en el análisis de datos. ')
+          table(alt='La tabla presenta herramientas de análisis de datos y sus funciones: Microsoft Power BI ofrece vistas interactivas con acceso a múltiples fuentes; R proporciona análisis estadístico y modelado; SAS permite procesamiento avanzado y toma de decisiones; #[i Python] trabaja con datos estructurados y no estructurados; Excel es popular en empresas para ajustar y analizar datos; Rapid Miner realiza análisis predictivos; Apache Spark procesa grandes volúmenes de datos rápidamente; y Qlik View organiza información compleja de manera comprensible. Estas herramientas se adaptan a diversas necesidades en el análisis de datos. ')
             thead.banner-tabla.text-white
               th(colspan='2').colorv1 Herramientas para el análisis de los datos
             thead
@@ -64,57 +64,55 @@
     Separador
 
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 7.1 Entornos de desarrollo - <i>IDE</i>
+      h2 7.1 Entornos de desarrollo - #[i IDE]
 
 
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
-        p.mt-2-cus En este apartado, se mencionan los Entornos de Desarrollo Integrado (<i>IDE</i>), los cuales ahorran mucho tiempo y esfuerzo a quienes programan en la preparación de las plataformas e instalación de complementos extras que requieren, de esa manera, solo se dedican a programar y dejar todos los recursos necesarios a que se incluyan en estos entornos. Para la gestión de datos se emplean muchos lenguajes de programación, y lenguajes de consulta, lo que implica prácticamente construir códigos enteros para los procesos de datos.
+        p.mt-2-cus En este apartado, se mencionan los Entornos de Desarrollo Integrado (#[i IDE]), los cuales ahorran mucho tiempo y esfuerzo a quienes programan en la preparación de las plataformas e instalación de complementos extras que requieren, de esa manera, solo se dedican a programar y dejar todos los recursos necesarios a que se incluyan en estos entornos. Para la gestión de datos se emplean muchos lenguajes de programación, y lenguajes de consulta, lo que implica prácticamente construir códigos enteros para los procesos de datos.
         p #[b Los entornos más eficientes son: ]
-      .col-sm-12.col-lg-5.mb-4.mb-md-0
-        figure
-          img(src='@/assets/curso/temas/Tema7/2.png')
+      .col-sm-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
+        img(src='@/assets/curso/temas/Tema7/2.png')
     
     .tarjeta--container.row.mb-5.bg16(data-aos="zoom-in-left")
-      .col-md.tarjeta-container-nueve.p-5
+      .col-md.tarjeta-container-nueve.p-md-5
         .row
-          .col-sm-12.col-lg-4.m-auto
-            figure
-              img(src='@/assets/curso/temas/Tema7/3.png')
+          .col-sm-12.col-lg-5.justify-content-end.offset-lg-1.d-none.d-lg-block
+            img(src='@/assets/curso/temas/Tema7/3.png')
           .col-sm-12.col-lg-6.m-auto
             LineaTiempoD.color-secundario-2
               .row(numero="1" titulo="<i>Google collaborate</i>")
-                .col-md-8.mb-4.mb-md-0
+                .col-sm-12.col-lg-12.mb-4.mb-md-0
                   p.mb-3 Entorno completo en línea de Google. Es versátil, fácil y es muy usado en contextos académicos y aprendizaje de lenguajes de programación. 
                   p Sitio: https://colab.research.google.com/
                 figure.p-4
                   img.w-50(src='@/assets/curso/temas/Tema7/4.png')
 
               .row(numero="2" titulo="<i>Jupyter</i>")
-                .col-md-8.mb-4.mb-md-0
-                  p.mb-3 Puede ejecutarse en <i>Google collaborate</i>, pero tiene su propio entorno llamado <i>JupyterLab</i> 
+                .col-sm-12.col-lg-12.mb-4.mb-md-0
+                  p.mb-3 Puede ejecutarse en #[i Google collaborate], pero tiene su propio entorno llamado #[i JupyterLab] 
                   p Sitio: https://jupyter.org/
                 figure.p-4
                   img.w-50(src='@/assets/curso/temas/Tema7/5.png')
 
               .row(numero="3" titulo="<i>PyCharm</i>")
-                .col-md-8.mb-4.mb-md-0
+                .col-sm-12.col-lg-12.mb-4.mb-md-0
                   p.mb-0 Editor de código muy potente multilenguaje.  
                   p Sitio: https://www.jetbrains.com/es-es/pycharm/
                 figure.p-4
                   img.w-50(src='@/assets/curso/temas/Tema7/6.png')
 
               .row(numero="4" titulo="<i>Anaconda</i>")
-                .col-md-8.mb-4.mb-md-0
-                  p.mb-3 Muy empleada para desarrollar lenguaje R, <i>Python</i>. Maneja grandes volúmenes de datos y diferentes análisis.   
-                  p Sitio: https://www.anaconda.com/products/distribution o https://youtu.be/xrlISRh0MZs (instructivo para instalar anaconda)
+                .col-sm-12.col-lg-12.mb-4.mb-md-0
+                  p.mb-3 Muy empleada para desarrollar lenguaje R, #[i Python]. Maneja grandes volúmenes de datos y diferentes análisis.   
+                  p Sitio: https://www.anaconda.com/ products/distribution o https://youtu.be/xrlISRh0MZs (instructivo para instalar anaconda)
                 figure.p-4
                   img.w-50(src='@/assets/curso/temas/Tema7/7.png')
 
               .row(numero="5" titulo="<i>Orange</i>")
-                .col-md-8.mb-4.mb-md-0
-                  p.mb-3 Un <i>IDE</i> con recursos de <i>ML</i>, visualización de datos. Como la mayoría de código abierto.    
-                  p Sitio: https://orangedatamining.com/download/
+                .col-sm-12.col-lg-12.mb-4.mb-md-0
+                  p.mb-3 Un #[i IDE] con recursos de #[i ML], visualización de datos. Como la mayoría de código abierto.    
+                  p Sitio: https://orangedatamining.com/ download/
                 figure.p-4
                   img.w-50(src='@/assets/curso/temas/Tema7/8.png')
               
@@ -123,10 +121,10 @@
     Separador
 
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 7.2 <i>Python</i>
+      h2 7.2 #[i Python]
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-sm-12.col-lg-2
+      .col-sm-6.col-lg-2.mb-3
           img(src='@/assets/curso/temas/Tema7/9.png')
       .col-sm-12.col-lg-10
         p.mb-3 Actualmente, es el lenguaje de programación que lidera los desarrollos basados en gestión de datos. En relación con otros lenguajes presenta curva de aprendizaje rápido, cuenta con múltiples librerías que expanden su capacidad y muchos sistemas de manejo de datos e inteligencia artificial lo emplean para codificar sus funcionalidades.
@@ -155,7 +153,7 @@
       .col-md.bg25.p-5
         .row.mb-4
           .col-sm-12.col-lg-7.mb-5.mb-md-0
-            h4.mb-5 En <i>Python</i>, las más comunes y útiles son:
+            h4.mb-5 En #[i Python], las más comunes y útiles son:
             ul.lista-ul--color
               li.mb-0.pb-0 
                 i.fa.fa-check
@@ -167,8 +165,7 @@
                 i.fa.fa-check
                 p  #[b #[i Matplotlib: ] ] con esta librería se generan gráficos de calidad para publicar en línea o en archivos como PDF y sin emplear muchas líneas de código. Se pueden generar gráficos de barras, histogramas, series temporales, espectros de potencia, entre muchas más visualizaciones.
             
-          .col-sm-12.col-lg-3
-            figure
+          .col-sm-12.col-lg-3.d-none.d-lg-block
               img.mt-5-cus(src='@/assets/curso/temas/Tema7/10.png')
           
 </template>

@@ -29,14 +29,13 @@
         .cajon.color-acento-contenido.p-3.mb-0
           .row.justify-content-around.align-items-center
             .col-sm-2.col-lg-1.col-md-12.d-none.d-lg-block
-              img(src="@/assets/curso/temas/Tema5/2.svg", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/Tema5/2.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 #[b Por ejemplo: ] la altura de las personas. En este caso la única variable es la altura y su análisis se centra en determinar la media, el máximo, mínimo, moda, etc.
 
     Separador
-
 
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.2 Datos bivariados
@@ -48,7 +47,7 @@
         .cajon.color-acento-contenido.p-3.mb-0
           .row.justify-content-around.align-items-center
             .col-sm-2.col-lg-1.d-none.d-lg-block
-              img(src="@/assets/curso/temas/Tema5/3.svg", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/Tema5/3.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -70,7 +69,7 @@
         .cajon.color-acento-contenido.p-3.mb-0
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
-              img(src="@/assets/curso/temas/Tema5/4.svg", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/Tema5/4.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -134,21 +133,21 @@
 
     .tarjeta--container.row.mb-0(data-aos="zoom-in-left")
       .col-md.tarjeta.bg22.p-5.text-black
-        h4.text-center.mb-5 Validación de datos
+        h3.text-center.mb-5 Validación de datos
         .row.justify-content-around.align-items-center.mb-4
           .col-8
             figure
               img.m-auto(src='@/assets/curso/temas/Tema5/6.svg')
         p.text-center Son aquellas que vienen como norma del tipo y formato de datos, esto se hace para garantizar la calidad y completitud de la información.
       .col-md.tarjeta.bg5.p-5.text-black
-        h4.text-center.mb-5  Políticas de la organización
+        h3.text-center.mb-5  Políticas de la organización
         .row.justify-content-around.align-items-center.mb-4
           .col-8
             figure
               img.w-75.m-auto(src='@/assets/curso/temas/Tema5/7.svg')
         p.text-center Son aquellas que surgen a partir de las reglas de negocio y su naturaleza surge a partir del funcionamiento de los procesos. Por lo general se programan en procedimientos o algoritmos programados que evalúan las condiciones y restricciones previas.
       .col-md.tarjeta.bg22.p-5.text-black
-        h4.text-center.mb-5  Normatividad regulatoria
+        h3.text-center.mb-5  Normatividad regulatoria
         .row.justify-content-around.align-items-center.mb-4
           .col-8
             figure
@@ -183,14 +182,14 @@
     .row.mb-0.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-sm-12.col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/Tema5/16.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/Tema5/16.svg' )
           .tarjeta.color-acento-contenido-4
             .text-black.p-4
               h4.text-center.mt-4 Enlazado
               p.he-6-cus Cada elemento puede estar enlazado a cualquier otro componente.
       .col-sm-12.col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/Tema5/9.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/Tema5/9.svg' )
           .tarjeta.color-acento-contenido-3
             .text-black.p-4
               h4.text-center.mt-4 Sucesores
@@ -198,7 +197,7 @@
 
       .col-sm-12.col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/Tema5/10.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/Tema5/10.svg' )
           .tarjeta.color-acento-contenido-4
             .text-black.p-4
               h4.text-center.mt-4 Estructura
@@ -283,7 +282,7 @@
     #t_5_10.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.10 #[i No SQL]
 
-    p.mb-3(data-aos="zoom-in-left") Son un tipo de bases de datos cuyo almacenamiento de datos no se realiza en tablas propiamente dicha. Presentan una estructura particular tipo <i>SON o BSON</i>, que consiste en un arreglo de datos por jerarquías, tiene la ventaja sobre las bases de datos relacionales que su desempeño de búsquedas y cargue de datos son más veloces, además, se podría definir que son más flexibles es sus datos y cambios de estructuras que se puedan presentar. Para el manejo de <i>Big data</i> y grandes cantidades de datos son muy empleadas
+    p.mb-3(data-aos="zoom-in-left") Son un tipo de bases de datos cuyo almacenamiento de datos no se realiza en tablas propiamente dicha. Presentan una estructura particular tipo #[i SON o BSON], que consiste en un arreglo de datos por jerarquías, tiene la ventaja sobre las bases de datos relacionales que su desempeño de búsquedas y cargue de datos son más veloces, además, se podría definir que son más flexibles es sus datos y cambios de estructuras que se puedan presentar. Para el manejo de #[i Big data] y grandes cantidades de datos son muy empleadas
     p.mb-4(data-aos="zoom-in-left") #[b En siguiente video se explican las ventajas de las bases de datos no relacionales o #[i No SQL:] ]
 
     .row.justify-content-center.align-items-center.mb-0
@@ -296,32 +295,32 @@
     Separador
 
     #t_5_11.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.11 <i>JSON, BSON y XML</i>
+      h2 5.11 #[i JSON, BSON y XML]
 
     p.mb-0(data-aos="zoom-in-left") Uno de los desafíos técnicos es la integración entre sistemas de información y la manera en cómo enviar y recibir datos de otras aplicaciones.
     p.mb-5(data-aos="zoom-in-left") Para ello se desarrollaron diversas maneras, entre las más comunes son:
 
     TabsC.color-acento-contenido(data-aos="zoom-in-left")
-      .py-3.py-md-4(titulo="<i>JSON</i>")
+      .py-3.py-md-4(titulo="<i> JSON</i>")
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-7.mb-4.mb-md-0.justify-content-center.align-items-center
             p Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web.
-            p.mt-3.fw-bold Ejemplo de estructura <i>JSON</i>:
+            p.mt-3.fw-bold Ejemplo de estructura #[i JSON]:
             p.mt-3.p-4.bg26 De esta manera, se almacenan los datos en Bases de datos #[i NoSQL] y se intercambian datos entre sistemas de información.
           .col-sm-12.col-lg-3
             figure
               img(src='@/assets/curso/temas/Tema5/14.png')
       
-      .py-3.py-md-4(titulo="<i>BSON</i>")
+      .py-3.py-md-4(titulo="<i> BSON</i>")
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-10.mb-4
-            p.mb-4 Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web. Ejemplo de estructura <i>JSON</i>:
+            p.mb-4 Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web. Ejemplo de estructura #[i JSON]:
 
 
-      .py-3.py-md-4(titulo="<i>XML</i>")
+      .py-3.py-md-4(titulo="<i> XML</i>")
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-10.mb-4.mb-md-0
-            p.mb-4 Son archivos propiamente dicho, está basado en el lenguaje <i>XML</i>, usado para guardar e intercambiar datos estructurados a través de sistemas web.
+            p.mb-4 Son archivos propiamente dicho, está basado en el lenguaje #[i XML], usado para guardar e intercambiar datos estructurados a través de sistemas web.
 
     .row.justify-content-around.align-items-center.mt-5
       .col-sm-12.col-lg-8
@@ -329,13 +328,13 @@
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.text-center Estos lenguajes y sus archivos derivados mejoran el uso de datos y la forma en que se estructura en Internet, mientras que el <i>HTML</i> se encarga del aspecto visual y estilo de la información.
+                .col.mb-3.mb-sm-0.text-center Estos lenguajes y sus archivos derivados mejoran el uso de datos y la forma en que se estructura en Internet, mientras que el #[i HTML] se encarga del aspecto visual y estilo de la información.
     
 
     Separador
 
     #t_5_12.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.12 <i>DDL, DML, DC</i>
+      h2 5.12 #[i DDL, DML, DC]
 
     p.mb-5(data-aos="zoom-in-left") Las bases de datos emplean diferentes tipos de lenguajes y también de allí se derivan archivos necesarios para que los motores de bases de datos funcionen y conserven la información física y lógicamente. Estas son:
 
@@ -343,10 +342,10 @@
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
-          .row(titulo="<i>Data Definition Language</i> (<i>DDL</i>)")
+          .row(titulo="<i>Data Definition Language (DDL)</i>")
             .col-md-12.mb-4.mb-md-0
               p.mx-5 Lenguaje de definición de datos: es el encargado de definir estructuras de datos proporcionado por los sistemas gestores de bases de datos permitiendo a los programadores de las bases de datos enfocar y definir estructuras, las más importantes son: #[i CREATE] (crear tablas o bases de datos), #[i ALTER] (cambiar o redefinir tablas o campos), #[i DROP] (Limpiar tablas, eliminar objetos, índices, etc.).
-          .row(titulo="<i>Data Manipulation Language</i> (<i>DML</i>)")
+          .row(titulo="<i>Data Manipulation Language (DML)</i>")
             .col-md-12.mb-4.mb-md-0
               .mx-5 
                 p Lenguaje de Manipulación de Datos: permite a los motores de datos instrucciones de #[i SQL], otorga a los usuarios introducir datos para luego ejecutar tareas de consultas o modificación de los datos en las tablas especificadas. Los elementos que se utilizan para manipular los datos son: 
@@ -354,7 +353,7 @@
                 p.ml-1-cus - INSERT. Permite insertar valores en una tabla.
                 p.ml-1-cus - UPDATE. Modificar los valores de uno o varios registros.
                 p.ml-1-cus - DELETE. Eliminar registros de una tabla.
-          .row(titulo="<i>Data Control Language</i> (<i>DCL</i>)")
+          .row(titulo="<i>Data Control Language] (DCL)</i>")
             .col-md-12.mb-4.mb-md-0
               .mx-5 
                 p Lenguaje de Control de Datos: permiten administrar base de datos, controlar el acceso a los objetos, es decir, podemos otorgar o denegar permisos a uno o más roles para realizar determinadas tareas. Los comandos para controlar los permisos son los siguientes: 

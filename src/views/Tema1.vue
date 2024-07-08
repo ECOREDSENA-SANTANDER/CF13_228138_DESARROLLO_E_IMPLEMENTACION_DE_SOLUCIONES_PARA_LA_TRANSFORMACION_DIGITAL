@@ -17,21 +17,21 @@
               img.mb-0(alt="" src="@/assets/curso/temas/Tema1/1.svg")
     h5.mb-5(data-aos="zoom-in-left") Los sistemas de base de datos están conformados por los siguientes elementos básicos:
     .row.align-items-center.justify-content-center.mb-4.bg1.p-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-4.p-5
-              img(src="@/assets/curso/temas/Tema1/2.png", alt="Texto que describa la imagen")
+      .col-sm-12.col-lg-4.p-5.d-none.d-lg-block
+              img(src="@/assets/curso/temas/Tema1/2.png")
       .col-sm-12.col-lg-8
           LineaTiempoD.color-secundario-2
-            p.text-content-cus(numero="1" titulo="<i>Hardware</i>") Consiste en los dispositivos y componentes electrónicos y mecánicos en los que se almacena, viaja y se conservan los datos (unidades de almacenamiento, red, procesadores, <i>RAM</i>, servidores, etc.).
-            p.text-content-cus(numero="2" titulo="<i>Software</i>") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el #[i hardware]. Para las bases de datos existen los gestores de datos, ya sea <i>SQL</i> o <i>NoSQL</i> y las aplicaciones que usan los datos.
+            p.text-content-cus(numero="1" titulo="<i>Hardware</i>") Consiste en los dispositivos y componentes electrónicos y mecánicos en los que se almacena, viaja y se conservan los datos (unidades de almacenamiento, red, procesadores, #[i RAM ], servidores, etc.).
+            p.text-content-cus(numero="2" titulo="<i>Software</i>") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el #[i hardware]. Para las bases de datos existen los gestores de datos, ya sea #[i SQL ] o #[i NoSQL ] y las aplicaciones que usan los datos.
                     
-            p.text-content-cus(numero="3" titulo="Los datos") Son el objetivo principal, al ser información, se podría indicar que hace parte también del <i>software</i>. Su guardado lógico podría ser relacionales (<i>SQL</i>) y NO relacionales (<i>NoSQL</i>). De esto depende la manera en cómo funciona, cómo se procesa y su organización.
+            p.text-content-cus(numero="3" titulo="Los datos") Son el objetivo principal, al ser información, se podría indicar que hace parte también del #[i software ]. Su guardado lógico podría ser relacionales (#[i SQL ]) y NO relacionales (#[i NoSQL ]). De esto depende la manera en cómo funciona, cómo se procesa y su organización.
                     
             p.text-content-cus(numero="4" titulo="Personal") Son los usuarios que están involucrados en el manejo y aprovechamiento de los datos, si bien hay varios niveles de usuarios, se podría dividir en dos principalmente en: no informáticos (que requieren la información para ejecutar tareas) y los Informáticos (los responsables del diseño y mantenimiento del sistema de bases de datos).        
    
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.1 Metodologías de diseño y normalización Principios de <i>ACID</i>
+      h2 1.1 Metodologías de diseño y normalización Principios de #[i ACID ]
     
     p(data-aos="zoom-in-left") Antes de existir las bases de datos como se conocen hoy, las primeras gestiones en datos se basaban en procesar archivos, es decir, los registros se traducen en archivos que eran procesados por lotes gestionados por un sistema operativo. Incluso los datos andaban mezclados con los archivos de las aplicaciones, lo que suponía un gran inconveniente pues existía dependencia funcional de los archivos de las aplicaciones, con los archivos del sistema operativo y los datos a guardar. Ello significaba que, si un dato se dañaba, era posible también que se estropeara la aplicación y viceversa.
 
@@ -52,34 +52,34 @@
         p Por lo cual, las #[b Propiedades #[i ACID ]] (acrónimo en inglés de cada una de las propiedades que deben tener las bases de datos) son:
 
     .row.mb-5.justify-content-center.align-items-center(data-aos="zoom-in-left")
-      .col-sm-12.col-md-6.col-lg-5.mb-5.he-5-cus
+      .col-sm-12.col-md-6.col-lg-5.mb-2.he-5-cus
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/Tema1/5.svg' alt='AvatarTop')
-          .tarjeta.bg18
+          img(src='@/assets/curso/temas/Tema1/5.svg')
+          .tarjeta.bg33
             .text-black.p-4
               h2.text-center A (Atomicidad)
               p Las transacciones deben considerarse atómicas, es decir, se deben considerar como una sola. Esto previene que las actualizaciones de la base de datos se hagan de manera parcial o incompleta, esto supondría grandes dificultades, por lo que si no se completa la acción, la transacción completa se rechaza.
 
-      .col-sm-12.col-md-6.col-lg-5.mb-5.he-5-cus
+      .col-sm-12.col-md-6.col-lg-5.mb-2.he-5-cus
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/Tema1/6.svg' alt='AvatarTop')
-          .tarjeta.bg18
+          img(src='@/assets/curso/temas/Tema1/6.svg')
+          .tarjeta.bg33
             .text-black.p-4
               h2.text-center C (Consistencia)
               p Consiste en que una operación no dejará datos incoherentes o incompletos o con problemas que puedan dar resultados ilógicos o ambigüedades
     .row.mb-0.justify-content-center.align-items-center
       .col-sm-12.col-md-6.col-lg-5.mb-5.he-5-cus
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/Tema1/7.svg' alt='AvatarTop')
-          .tarjeta.bg18
+          img(src='@/assets/curso/temas/Tema1/7.svg')
+          .tarjeta.bg33
             .text-black.p-4
               h2.text-center I (Aislamiento)
               p Su funcionalidad radica en aislar los datos que hacen parte de la transacción pero que no están confirmados o aún no validados. Funcionan como una especie de datos temporales mientras se ejecuta toda la transacción. Los DBMS ofrecen varios niveles de aislamiento de transacciones según sus tipos
 
       .col-sm-12.col-md-6.col-lg-5.mb-5.he-5-cus
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/Tema1/8.svg' alt='AvatarTop')
-          .tarjeta.bg18
+          img(src='@/assets/curso/temas/Tema1/8.svg')
+          .tarjeta.bg33
             .text-black.p-4
               h2.text-center D (Durabilidad)
               p Es la propiedad para garantizar que una vez se complete la transacción, los datos se actualizan y sean permanentes y confiables.
@@ -94,7 +94,7 @@
       .col-sm-12.col-md-12.col-lg-10.m-auto
         .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left").bg20
           .col-sm-12.col-lg-9.p-5.d-flex.justify-content-center.align-items-center
-            p.mb- Desde el enfoque de la arquitectura y estructura de datos, se refiere a las bases de datos que se pueden diferenciar entre <i>SQL</i>, quienes están basados en tablas relacionadas y <i>NoSQL</i>, cuyo arreglo no se establece por tablas propiamente hablando.
+            p.mb- Desde el enfoque de la arquitectura y estructura de datos, se refiere a las bases de datos que se pueden diferenciar entre #[i SQL ], quienes están basados en tablas relacionadas y #[i NoSQL ], cuyo arreglo no se establece por tablas propiamente hablando.
           .col-sm-12.col-lg-3.d-none.d-lg-block.my-3
             img.w-75(src='@/assets/curso/temas/Tema1/9.svg')
 
@@ -103,18 +103,18 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 410px;').bg-img-blue Bases de datos relacionales (<i>OLTP</i>)
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 410px;').bg-img-blue Bases de datos relacionales (#[i OLTP ])
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue 
 
     p.mb-4(data-aos="zoom-in-left") Se componen de diversas tablas que se asocian entre ellas, según las condiciones del negocio, en este sentido se determina qué entidad, mediante la definición de las cosas y actores que intervienen en el sistema, ejemplo: empleado, cliente, sede, producto, categorías, etc. Las entidades son las tablas, y cada entidad tiene atributos tales como nombre, edad, fecha de nacimiento, nombre de producto, presentación, precio, etc. Los atributos serán entonces los campos que tendrán las tablas.
-    p.mb-5(data-aos="zoom-in-left") Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de <i>software</i> donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, <i>OLTP</i> a lo que en español se nombra como Procesamiento de Transacciones En Línea.
+    p.mb-5(data-aos="zoom-in-left") Cada entidad se relaciona con otra tabla a partir de un atributo o campo en común. Este tipo de bases de datos se emplea para sistemas transaccionales o desarrollo de #[i software ] donde son aplicaciones o desarrollos que dan solución a un proceso específico del negocio, como sistema de facturación, sistema contable, sistemas de inventarios y compras, etc. Se denomina, #[i OLTP ] a lo que en español se nombra como Procesamiento de Transacciones En Línea.
     .row
       .col-sm-12.col-md-12.col-lg-10.m-auto 
         .row.bg20.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
           .col-sm-12.col-lg-2.p-4.d-flex.justify-content-center.align-items-center.d-none.d-lg-block
             img(src='@/assets/curso/temas/Tema1/26.svg')
           .col-sm-12.col-lg-10.p-4.d-flex.justify-content-center.align-items-center 
-            p.mb-0 Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas <i>OLTP</i>, y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
+            p.mb-0 Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas #[i OLTP ], y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
    
     h5.mb-5(data-aos="zoom-in-left") En el siguiente video se presenta un ejemplo de creación de un modelo entidad relación:
 
@@ -129,20 +129,20 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 430px;').bg-img-blue Bases de datos Dimensionales  (<i> <i>OLAP</i> </i>)
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 430px;').bg-img-blue Bases de datos Dimensionales  (#[i  OLAP ])
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
 
     
-    p.mb-5(data-aos="zoom-in-left") Son los diseños de datos, que están enfocados a los reportes y el conocimiento que está inmerso en los datos, este diseño permite mejorar el desempeño a los motores de bases de datos para el almacenamiento de grandes cantidades de datos. Se usan principalmente para la consolidación de bodegas de datos (<i>Data Warehouse - DWH</i>), que luego serán insumo para crear aplicaciones <i> <i>OLAP</i> </i> (Procesamiento Analítico en Línea) o cubos de datos.
+    p.mb-5(data-aos="zoom-in-left") Son los diseños de datos, que están enfocados a los reportes y el conocimiento que está inmerso en los datos, este diseño permite mejorar el desempeño a los motores de bases de datos para el almacenamiento de grandes cantidades de datos. Se usan principalmente para la consolidación de bodegas de datos (#[i Data Warehouse - DWH ]), que luego serán insumo para crear aplicaciones #[i OLAP ]  (Procesamiento Analítico en Línea) o cubos de datos.
     p.mb-5(data-aos="zoom-in-left") Los cubos de datos son tablas o arreglos de datos que se componen de múltiples dimensiones, están basados en hechos, dimensiones y métricas, estos conceptos se definen a continuación:
 
     .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
       SlyderA
         .row.mx-5-cus.px-4-cus.mt-4
           .col-sm-12.col-lg-7
-            h5 Tablas de hechos (Fact)
-            p Estas representan eventos que suceden en determinado contexto-tiempo, se caracterizan por permitir analizar los datos con el máximo detalle. Son tablas que no tienen medida y suelen ser las tablas más robustas con miles o millones de registros, además de ser las que más se actualizan. Por esta razón, cuando las transacciones en los sistemas <i>OLTP</i> son de manera masiva, se debe aplicar ingeniería de optimización de hechos, ya sea traer datos por periodo, tablas agregadas, particionadas, etc.
+            h4 Tablas de hechos (Fact)
+            p Estas representan eventos que suceden en determinado contexto-tiempo, se caracterizan por permitir analizar los datos con el máximo detalle. Son tablas que no tienen medida y suelen ser las tablas más robustas con miles o millones de registros, además de ser las que más se actualizan. Por esta razón, cuando las transacciones en los sistemas #[i OLTP ] son de manera masiva, se debe aplicar ingeniería de optimización de hechos, ya sea traer datos por periodo, tablas agregadas, particionadas, etc.
         
           .col-sm-12.col-lg-4
             figure
@@ -150,8 +150,8 @@
 
         .row.mx-5-cus.px-4-cus.mt-4
           .col-sm-12.col-lg-7
-            h5 Métricas
-            p Estas medidas pueden ser conteos, por ejemplo, la participación de una persona en un evento, también se usa en las operaciones aritméticas para sumar totales, descontar impuestos, sacar medias o promedios, etc., se utilizan para determinar contexto, es decir qué tipo de filtros aplicar o no. Suelen ser la parte más compleja, pues además de ser necesario tener el contexto de los datos y tener la modelación de lo que se desea, se debe tener manejo de lenguajes de consulta (<i>SQL, Python, R, Dax</i>, etc.).
+            h4 Métricas
+            p Estas medidas pueden ser conteos, por ejemplo, la participación de una persona en un evento, también se usa en las operaciones aritméticas para sumar totales, descontar impuestos, sacar medias o promedios, etc., se utilizan para determinar contexto, es decir qué tipo de filtros aplicar o no. Suelen ser la parte más compleja, pues además de ser necesario tener el contexto de los datos y tener la modelación de lo que se desea, se debe tener manejo de lenguajes de consulta (#[i SQL, Python, R, Dax ], etc.).
         
           .col-sm-12.col-lg-4
             figure
@@ -159,7 +159,7 @@
 
         .row.mx-5-cus.px-4-cus.mt-4
           .col-sm-12.col-lg-7
-            h5 Dimensiones
+            h4 Dimensiones
             p Igual que los hechos, son tablas; sin embargo, no suelen ser tan dinámicas como los hechos, pues las dimensiones recogen los puntos de análisis de un hecho. Por ejemplo, una venta se puede analizar respecto al día de venta, producto, cliente, vendedor, entre otros. Cada uno de estos ejemplos podrían categorizarse como dimensiones, por ejemplo: dimensión tiempo, dimensión productos, dimensión cliente, etc.
         
           .col-sm-12.col-lg-4
@@ -174,13 +174,13 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.3  Estándares técnicos
 
-    p.mb-5(data-aos="zoom-in-left") Tanto para el desarrollo de <i>software</i> como para el diseño de bases de datos, se sugieren unos estándares o convenciones que, si bien no es una norma, se recomienda seguir estas buenas prácticas, en especial porque los proyectos no deben depender de personas, lo que significa que otro profesional que llegue, pueda sentirse familiarizado con los estándares y documentación.
+    p.mb-5(data-aos="zoom-in-left") Tanto para el desarrollo de #[i software ] como para el diseño de bases de datos, se sugieren unos estándares o convenciones que, si bien no es una norma, se recomienda seguir estas buenas prácticas, en especial porque los proyectos no deben depender de personas, lo que significa que otro profesional que llegue, pueda sentirse familiarizado con los estándares y documentación.
     
     .bloque-texto-f.bg16.p-5.mb-5(data-aos="zoom-in-left")
       .bloque-texto-f__comillas
       h4.mb-5 Algunos ejemplos de estas convenciones para bases de datos son:
 
-      ul.lista-ul.mx-4
+      ul.lista-ul.mx-md-4
           li.mb-0.pb-0 
             i.fa.fa-check.ul-li-color
             p  Los nombres de las bases de datos deben contener el nombre de la empresa seguido del nombre de la aplicación.   
@@ -256,7 +256,7 @@
 
 
     .bg16.p-5.mb-5(data-aos="zoom-in-left")
-        ul.lista-ul.mx-4
+        ul.lista-ul.mx-md-4
           li.mb-0.pb-0 
             i.fa.fa-check.ul-li-color
             p #[b Llave primaria (#[i Primary key): ] ] cuando se configura un campo como campo clave, automáticamente se genera un índice. 
@@ -289,7 +289,7 @@
             p #[b Compuestos: ] Aquellos índices que referencian a dos o más campos.
           li.mb-0.pb-0.ml-4-custom  
             i.fas.fa-circle.icon-li-ul
-            p Para crear índice compuesto a través de <i>SQL</i> se emplea estos comandos.
+            p Para crear índice compuesto a través de #[i SQL ] se emplea estos comandos.
           li.mb-0.pb-0.ml-6-custom  
             i.far.fa-circle.icon-li-ul
             p.color-blue #[i CREATE INDEX ]
@@ -311,7 +311,7 @@
     .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
       SlyderA
         .row.mx-5-cus.px-4-cus.mt-4.justify-content-center.align-items-center.mb-5
-          .col-sm-12.col-md-12.col-lg-6.bg-white-r
+          .col-sm-12.col-md-12.col-lg-6.bg-white-r.p-5
             h5 Con la sentencia: 
             .mt-2.color-blue.ml-4-custom #[i SELECT ]
               span.color-black * 
@@ -326,7 +326,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
             h5 Además, se podría aplicar una condición; por ejemplo, que muestre los vehículos que valgan más de 300.000:
-            .bg-white-r.p-3.mt-5
+            .bg-white-r.p-5.mt-5
               h5 Con la sentencia: 
               .mt-2.color-blue.ml-4-custom #[i SELECT ] 
                 span.color-black * 
@@ -344,7 +344,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
             h5 A la consulta anterior, al adicionarle EXPLAIN al inicio, se dará un reporte de cómo se realizará la consulta:
-            .bg-white-r.p-3.mt-5
+            .bg-white-r.p-5.mt-5
               h5.color-blue Ejecución del comando Explain: 
               h5.mt-5 Lista que se usa un #[i SELECT ] sencillo, que no tiene particiones de tabla, la búsqueda se realizó entre 10 campos, y que usa el extratipo #[i WHERE ].
           .col-sm-12.col-lg-4
@@ -354,8 +354,8 @@
         
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
-            h5 Además de consultas y condiciones, los datos pueden ordenarse a través del comando <i>SQL order by</i>, su aplicación es muy sencilla, a la consulta anterior se le puede dar un orden, en este caso se podría tomar como elemento de orden el mismo precio. Adicional se puede definir si es ascendente <i>ASC</i> o descendente <i>DESC</i>.
-            .bg-white-r.p-3.mt-5
+            h5 Además de consultas y condiciones, los datos pueden ordenarse a través del comando #[i SQL order by ], su aplicación es muy sencilla, a la consulta anterior se le puede dar un orden, en este caso se podría tomar como elemento de orden el mismo precio. Adicional se puede definir si es ascendente #[i ASC ] o descendente #[i DESC ].
+            .bg-white-r.p-5.mt-5
               h5 Con la sentencia: 
               .mt-2.color-blue.ml-4-custom.fw-bold #[i SELECT ] 
                 span.color-black * 

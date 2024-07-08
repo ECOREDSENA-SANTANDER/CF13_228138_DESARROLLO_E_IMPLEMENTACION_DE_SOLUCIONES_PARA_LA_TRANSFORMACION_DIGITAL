@@ -127,6 +127,7 @@
   color: white
 .tabs-c.color-acento-contenido .tabs-c__tab--active 
     background-color: #FFF3EA;
+    font-weight: bold !important
 
 .bg1
   background-color: #FFF3EA
@@ -520,10 +521,23 @@
   background-image: linear-gradient(to bottom, #fff, #EEFFFA);
 .bg32
   background-color: #FFEEEB
+.bg33
+  background-color: #FFE5CF
+  border-radius: 15px;
+.bg34
+  background-color: #F3F9FF;
+.bg35
+  background-color: #FFB476
+  border-radius: 6px 6px 0 0
 .bg-img-blue
   background-color: rgb(8, 49, 66); 
   border-radius: 25px; 
   padding: 7px;
+
+.fullview
+  background: #F6F6F6
+  background-position: center
+  background-size: cover
 .icon-blue
   max-width: 55px; 
   left: -10%; 
@@ -606,6 +620,24 @@
       background-image: none !important
       background: #093A4F
 
+i.quote-cus
+  font-size: 2.5em !important
+  color: #FF6148 !important
+  margin: 0 0.5em 0 0.5em !important
+.container-card-2
+  position: relative;
+
+.second-card-2
+  position: relative;
+  z-index: -1;
+  top: -80px;
+
+.first-card-2
+  z-index: 1;
+
+.pt-cus
+    padding-top: 6rem !important;
+    padding-bottom: 3rem !important;
 
 .container-card
   position: relative;
@@ -667,7 +699,14 @@
     height: auto !important
   .pos-fix-card
     left: 0px !important
-
+  .h-img-card-cus
+    height: auto
+  .img-infografica__item, .img-infografica-b__item 
+        width: 2.5% !important
+  .bloque-texto-g.color-acento-contenido 
+    box-shadow: none !important
+  .br-tl-cus
+    border-radius: 0px 0 75px 0px;
 
 @media screen and (max-width: $bp-max-xs)
   .slyder-a__bullets__item
@@ -687,3 +726,9 @@
     transform: translate(-220%, 420%) !important
   .pos-fix-card
     left: 0px !important
+  .bloque-texto-g.color-acento-contenido 
+    box-shadow: none !important
+  .br-tl-cus
+    border-radius: 0px 0 75px 0px;
+  .ml-4-custom, .ml-6-custom 
+    margin-left: 1.5rem !important;

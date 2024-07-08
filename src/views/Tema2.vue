@@ -60,7 +60,7 @@
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-6
         p.md-3.mt-3 Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
-        p Conocer su naturaleza y características es trascendental para los proyectos <i>BI</i>, donde la calidad de los datos #[b #[i (Data quality - DQ) ]], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
+        p Conocer su naturaleza y características es trascendental para los proyectos #[i BI], donde la calidad de los datos #[b #[i (Data quality - DQ) ]], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
       .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/Tema2/5.png')
@@ -75,7 +75,7 @@
 
     p(data-aos="zoom-in-left") La calidad de los datos toma aún mayor fuerza para aplicar validaciones con regularidad, cuando se habla de ecosistemas de datos, donde convergen diversas infraestructuras de datos y se interrelacionan datos compartidos.
     p(data-aos="zoom-in-left") Se puede definir, que las bases de datos presentan calidad en los datos si cumplen seis dimensiones: exactitud, completitud, consistencia, unicidad, disponibilidad y validez. Sin embargo, esta clasificación no está universalmente aceptada, por lo cual se adicionan otras dimensiones: actualizado, conformidad, integridad y precisión, que complementan las dimensiones DQ.
-    h5.mb-5(data-aos="zoom-in-left") A continuación, se presenta la descripción de cada una de estas dimensiones, que son medibles y que definen la calidad de los datos o <i>Data Quality</i>:
+    h5.mb-5(data-aos="zoom-in-left") A continuación, se presenta la descripción de cada una de estas dimensiones, que son medibles y que definen la calidad de los datos o #[i Data Quality]:
     
 
     .tarjeta.tarjeta-linea-tiempo-c.p-4.mb-5.bg21(data-aos="zoom-in-left")
@@ -176,11 +176,11 @@
       .col-sm-12.col-lg-10.my-3
         .bloque-texto-b.color-terciario.py-4.mb-5
           .bloque-texto-b__texto.d-flex
-            i.fas.fa-quote-left
+            i.quote-cus.fas.fa-quote-left
             .flex-column
               p.mb-2.d-block Cuando los sistemas de información no son capaces de digitalizar eficaz y eficientemente la realidad del negocio, y capturan el nivel adecuado de detalle necesario, no almacenan dichos datos garantizando que no se producen pérdidas sintácticas ni semánticas, no procesan los datos de acuerdo con las reglas de negocio, o no listan los resultados de los análisis a los usuarios, entonces se producen “no-conformidades” en el ciclo de vida de los datos.
-              h5.d-flex.justify-content-end.d-block.mb-0 <br>(Velthuis, 2019). 
-                  i.fas.fa-quote-right
+              h5.d-flex.justify-content-end.d-block.mb-0 #[br](Velthuis, 2019). 
+                  i.quote-cus.fas.fa-quote-right
       .col-sm-12.col-lg-2.align-items-end.d-none.d-lg-block.mr-0
           img.w-75.mt-5(src='@/assets/curso/temas/Tema2/16.svg')
       
@@ -214,7 +214,7 @@
             figure
               img.h-img-card-cus(src='@/assets/curso/temas/Tema2/20.png')
         h4.text-center Eliminación por pares
-        p A diferencia del anterior, solo pone en Nulos aquellos valores que faltan, conservando el resto de la fina, sin embargo, para modelos <i>BI</i> o <i>ML</i> podría presentar inconvenientes, pues hay medidas u operaciones que requieren la completitud de los datos.
+        p A diferencia del anterior, solo pone en Nulos aquellos valores que faltan, conservando el resto de la fina, sin embargo, para modelos #[i BI] o #[i ML] podría presentar inconvenientes, pues hay medidas u operaciones que requieren la completitud de los datos.
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
@@ -247,7 +247,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.3 Identificación de variables importantes
 
-    p.mb-3(data-aos="zoom-in-left") Para iniciar la toma de requerimientos para proyectos <i>BI</i>, se debe tener en cuenta que la inteligencia de negocios (<i>Business Intelligence</i>) no es una tecnología; podría denominarse más como una técnica o metodología que podría emplear una o varias herramientas tecnológicas integradas.
+    p.mb-3(data-aos="zoom-in-left") Para iniciar la toma de requerimientos para proyectos #[i BI], se debe tener en cuenta que la inteligencia de negocios (#[i Business Intelligence]) no es una tecnología; podría denominarse más como una técnica o metodología que podría emplear una o varias herramientas tecnológicas integradas.
     h5.mb-5(data-aos="zoom-in-left") Por lo cual es importante, aplicar las siguientes técnicas para la identificación de las variables:
 
 
@@ -256,10 +256,10 @@
         AcordionA.mb-0(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="Conocer la organización (observación y lectura)")
             .col-md-12.mb-4
-              p.mx-5 Si es un profesional que está vinculado a la empresa o una persona que le realizará un trabajo a un cliente, lo primero es conocer bien la empresa y el contexto al cual se le realizará el proyecto de <i>BI</i>. Incluyendo el mercado, la competencia, etc.
+              p.mx-5 Si es un profesional que está vinculado a la empresa o una persona que le realizará un trabajo a un cliente, lo primero es conocer bien la empresa y el contexto al cual se le realizará el proyecto de #[i BI]. Incluyendo el mercado, la competencia, etc.
           .row(titulo="Entrevista")
             .col-md-12.mb-4
-              p.mx-5 En la fase inicial se deben centrar en aspectos estratégicos, se debe dejar a un lado, todo lo relacionado con tecnología, es por ello, que ocasionalmente las entrevistas con los responsables de <i>TI</i> podrían ser poco fructíferas; las entrevistas de requerimientos deben estar enfocadas a las áreas que definen el rumbo del negocio, tales como la financiera, la gerencia, planeación, etc. Las preguntas deben estar enfocadas hacia las necesidades, lleva casos de uso de otras experiencias y determinar si para el área entrevistada aplican y cómo se adaptan en el caso particular.
+              p.mx-5 En la fase inicial se deben centrar en aspectos estratégicos, se debe dejar a un lado, todo lo relacionado con tecnología, es por ello, que ocasionalmente las entrevistas con los responsables de #[i TI] podrían ser poco fructíferas; las entrevistas de requerimientos deben estar enfocadas a las áreas que definen el rumbo del negocio, tales como la financiera, la gerencia, planeación, etc. Las preguntas deben estar enfocadas hacia las necesidades, lleva casos de uso de otras experiencias y determinar si para el área entrevistada aplican y cómo se adaptan en el caso particular.
           .row(titulo="Encuestas")
             .col-md-12.mb-4
               p.mx-5 Actualmente las encuestas online son fáciles de crear, tienen más alcance, hay mayor control, es más cómodo para el encuestado y es más fácil de tabular. En este sentido, las preguntas, al igual que la entrevista, debe estar orientada a las variables clave y necesidad.
@@ -271,7 +271,7 @@
               p.mx-5 Se debe elegir empezar con los procesos que más impacto tienen para la organización e ir avanzando hacia las áreas y procesos menos indispensables.
           .row(titulo="Seleccionar las herramientas adecuadas")
             .col-md-12.mb-4
-              p.mx-5 Es otro elemento para garantizar la satisfacción de los usuarios finales, pues cuando las herramientas no cubren funcionalmente las expectativas, la solución <i>BI</i> podría ser poco efectiva.
+              p.mx-5 Es otro elemento para garantizar la satisfacción de los usuarios finales, pues cuando las herramientas no cubren funcionalmente las expectativas, la solución #[i BI] podría ser poco efectiva.
           .row(titulo="Capacitación y cultura")
             .col-md-12.mb-0
               p.mx-5 El elemento más importante en la transformación digital y la adopción con éxito de nuevas soluciones, dependen de un gran porcentaje de la capacidad y convencimiento de uso. Los usuarios deben estar comprometidos con el proyecto, las políticas corporativas deben estar enfocadas en este aspecto, es muy importante revisar las políticas, si es necesario actualizarlas hacia una nueva realidad hacerlo. Es necesario garantizar las capacitaciones y campañas hacia la cultura de los datos.
@@ -283,17 +283,17 @@
     Separador
 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.4 <i>Dataset</i>
+      h2 2.4 #[i Dataset]
     
     p.mb-0(data-aos="zoom-in-left") Se denomina al conjunto de datos, lo que traduce una colección de información en una sola tabla. donde cada campo representa una variable particular.
-    p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los <i>Dataset</i> contienen todo en una única tabla.
+    p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los #[i Dataset] contienen todo en una única tabla.
 
     .tarjeta--container.row.mb-0
       .col-sm-12.col-lg-5.mt-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/Tema2/25.png')
       .col-sm-12.col-lg-7.p-4.text-black
-        p.mb-4 Algunas soluciones analíticas están basadas en <i>Datasets</i>, es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
+        p.mb-4 Algunas soluciones analíticas están basadas en #[i Datasets], es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
         .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col
@@ -307,18 +307,18 @@
         ImagenInfografica.color-acento-botones.mb-5 
           template(v-slot:imagen)
             figure
-              img.imagen-punto-2(src='@/assets/curso/temas/Tema2/26.svg', alt='La imagen presenta una pirámide invertida que clasifica los tipos de datos utilizados en modelos analíticos en tres categorías: no estructurados (sin estructura definida, como textos y multimedia), semi estructurados (con una organización parcial, como <i>HTML, XML, JSON</i> y correos electrónicos), y estructurados (con una estructura clara y rígida, como en bases de datos relacionales y hojas de cálculo). Los datos estructurados se encuentran en la base por su alta organización, mientras que los no estructurados están en la cima debido a su falta de estructura, con los semi estructurados en el medio. ')
+              img.imagen-punto-2(src='@/assets/curso/temas/Tema2/26.svg', alt='La imagen presenta una pirámide invertida que clasifica los tipos de datos utilizados en modelos analíticos en tres categorías: no estructurados (sin estructura definida, como textos y multimedia), semi estructurados (con una organización parcial, como HTML, XML, JSON y correos electrónicos), y estructurados (con una estructura clara y rígida, como en bases de datos relacionales y hojas de cálculo). Los datos estructurados se encuentran en la base por su alta organización, mientras que los no estructurados están en la cima debido a su falta de estructura, con los semi estructurados en el medio. ')
 
           .tarjeta.tarjeta-infografica.py-3.px-5(x="91%" y="16%" numero="1")
             p.mb-2 No tiene un modelo de información y no está organizado en ningún formato específico. Se almacena como archivos y datos sueltos. Ejemplos: - Archivos de texto y videos. - El cuerpo del mensaje de un correo electrónico. 
             p #[b Más del 90% de la información disponible está en este tipo. ]
           .tarjeta.tarjeta-infografica.py-3.px-5(x="81%" y="42%" numero="2")
             p.mb-2 No presentan una estructura definida como en los datos estructurados, pero sí presentan una organización definida en sus metadatos donde describen los objetos y sus relaciones, y que en algunos casos están aceptados por convención. Ejemplos: - 
-            p.fw-bold Formatos <i>HTML, XML o JSON.</i> -
+            p.fw-bold Formatos #[i HTML, XML o JSON.] -
             p #[b Correos electrónicos. ]
 
           .tarjeta.tarjeta-infografica.py-3.px-5(x="67%" y="75%" numero="3")
-            p.mb-2 Datos que se almacenan en bases de datos relacionales como <i>SQL</i>, <i>Oracle</i> etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. Ejemplo: 
+            p.mb-2 Datos que se almacenan en bases de datos relacionales como #[i SQL], #[i Oracle] etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. Ejemplo: 
             p #[b - Base de datos gestión de facturación. ]
       
     p(data-aos="zoom-in-left") La mayoría de los datos generados por todos los usuarios están clasificados como no estructurados, esto indica que se componen de información difícil de clasificar y ordenar, conformada por archivos sueltos o producidos de manera general como documentos, videos y audios.
