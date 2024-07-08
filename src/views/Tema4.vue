@@ -150,7 +150,7 @@
 
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
-        p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones BI, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del <i>Big data</i> y la inteligencia de negocios.
+        p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones <i>BI</i>, es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del <i>Big data</i> y la inteligencia de negocios.
         p.md-3 Pero desde el enfoque propiamente, la utilidad estadística está inmersa como fundamento en el conocimiento de las áreas y en todas las decisiones incluso las decisiones no técnicas y simples, de manera implícita se trae a la mente procesos estadísticos (ejemplo: al pasar una calle, debes verificar variables como flujo de carros, velocidad, estado de la vía, distancia del punto A al punto B, etc.).
         p #[b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (consultar figura). ]
       .col-sm-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block

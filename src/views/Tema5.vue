@@ -83,14 +83,14 @@
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.4 Reglas de negocio
 
-    p.mb-5(data-aos="zoom-in-left") Desde el punto de vista de programación, el cual debe coincidir con el negocio, son las condiciones asociadas a las tareas que forman los procesos. Las reglas no son la normatividad de las empresas, se refiere más a los requisitos o necesidades y cómo los sistemas de información satisfacen estos requisitos bajo las reglas y condiciones técnicas necesarias.
+    p.mb-0(data-aos="zoom-in-left") Desde el punto de vista de programación, el cual debe coincidir con el negocio, son las condiciones asociadas a las tareas que forman los procesos. Las reglas no son la normatividad de las empresas, se refiere más a los requisitos o necesidades y cómo los sistemas de información satisfacen estos requisitos bajo las reglas y condiciones técnicas necesarias.
 
 
 
     .tarjeta--container.row.mb-0.bg31(data-aos="zoom-in-left")
       .col-md.tarjeta-container-siete.p-5
-        .row.mb-4
-          h4.mb-5 Las reglas de negocio se basan en las políticas de las organizaciones, en metodologías ágiles como el Scrum, las reglas de negocio se plasman en historias de usuarios.
+        .row.mb-0
+          h4.mb-3 Las reglas de negocio se basan en las políticas de las organizaciones, en metodologías ágiles como el Scrum, las reglas de negocio se plasman en historias de usuarios.
           p.mb-4 #[b Por ejemplo: ]
           ul.lista-ul--color.mx-4
             li.mb-0.pb-0 
@@ -101,7 +101,7 @@
               p  #[b Quiero] pagar los artículos del carrito de compras.
             li.mb-0.pb-0 
               i.fa.fa-check
-              p  #[b Para] recibirlos en casa
+              p  #[b Para] recibirlos en casa.
           p.mb-4 En medio de este requerimiento, es posible que existan políticas de la organización que restrinjan la acción solicitada, pues podrían existir otras reglas que indiquen (figura 5)
             ul.lista-ul--color.mx-4.mt-3
               li.mb-0.pb-0 
@@ -345,7 +345,7 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="<i>Data Definition Language</i> (<i>DDL</i>)")
             .col-md-12.mb-4.mb-md-0
-              p.mx-5 Lenguaje de definición de datos: es el encargado de definir estructuras de datos proporcionado por los sistemas gestores de bases de datos permitiendo a los programadores de las bases de datos enfocar y definir estructuras, las más importantes son: CREATE (crear tablas o bases de datos), ALTER (cambiar o redefinir tablas o campos), DROP (Limpiar tablas, eliminar objetos, índices, etc.).
+              p.mx-5 Lenguaje de definición de datos: es el encargado de definir estructuras de datos proporcionado por los sistemas gestores de bases de datos permitiendo a los programadores de las bases de datos enfocar y definir estructuras, las más importantes son: #[i CREATE] (crear tablas o bases de datos), #[i ALTER] (cambiar o redefinir tablas o campos), #[i DROP] (Limpiar tablas, eliminar objetos, índices, etc.).
           .row(titulo="<i>Data Manipulation Language</i> (<i>DML</i>)")
             .col-md-12.mb-4.mb-md-0
               .mx-5 

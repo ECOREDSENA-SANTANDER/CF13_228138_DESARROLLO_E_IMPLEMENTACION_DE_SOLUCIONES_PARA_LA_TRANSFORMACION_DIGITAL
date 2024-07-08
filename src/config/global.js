@@ -475,7 +475,7 @@ export default {
 
     {
       referencia:
-        'Curto Díaz, J. (2016). Introducción al Business Intelligence. Barcelona: Editorial UOC. Obtenido de',
+        'Curto Díaz, J. (2016). Introducción al <i>Business Intelligence</i>. Barcelona: Editorial UOC. Obtenido de',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/101030',
     },
@@ -507,7 +507,7 @@ export default {
 
     {
       referencia:
-        'Pang, A., Markovski, M., & Ristik, M. (22 de septiembre de 2022). Los 10 principales proveedores de <i>software</i> de análisis y BI, tamaño del mercado y pronóstico del mercado 2021-2026. Obtenido de Apps Run the World:',
+        'Pang, A., Markovski, M., & Ristik, M. (22 de septiembre de 2022). Los 10 principales proveedores de <i>software</i> de análisis y <i>BI</i>, tamaño del mercado y pronóstico del mercado 2021-2026. Obtenido de Apps Run the World:',
       link:
         'https://www.appsruntheworld.com/top-10-analytics-and-bi-software-vendors-and-market-forecast/',
     },

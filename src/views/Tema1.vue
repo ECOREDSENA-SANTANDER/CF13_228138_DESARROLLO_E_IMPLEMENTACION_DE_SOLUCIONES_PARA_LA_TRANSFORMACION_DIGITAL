@@ -22,7 +22,7 @@
       .col-sm-12.col-lg-8
           LineaTiempoD.color-secundario-2
             p.text-content-cus(numero="1" titulo="<i>Hardware</i>") Consiste en los dispositivos y componentes electrónicos y mecánicos en los que se almacena, viaja y se conservan los datos (unidades de almacenamiento, red, procesadores, <i>RAM</i>, servidores, etc.).
-            p.text-content-cus(numero="2" titulo="<i>Software</i>") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el #[i hardware]. Para las bases de datos existen los gestores de datos, ya sea <i>SQL</i> o NoSQL y las aplicaciones que usan los datos.
+            p.text-content-cus(numero="2" titulo="<i>Software</i>") Conjunto de programas, rutinas y comandos que permiten ejecutar tareas, tales como procesamiento de datos, lectura de datos y junto con el sistema operativo, se podrá administrar el #[i hardware]. Para las bases de datos existen los gestores de datos, ya sea <i>SQL</i> o <i>NoSQL</i> y las aplicaciones que usan los datos.
                     
             p.text-content-cus(numero="3" titulo="Los datos") Son el objetivo principal, al ser información, se podría indicar que hace parte también del <i>software</i>. Su guardado lógico podría ser relacionales (<i>SQL</i>) y NO relacionales (<i>NoSQL</i>). De esto depende la manera en cómo funciona, cómo se procesa y su organización.
                     

@@ -38,7 +38,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.1 Identificación de las preguntas básicas
 
-    p.mb-5(data-aos="zoom-in-left") En ocasiones, los proyectos de BI se inician con la motivación de entrar en una ola digital, o estar en la moda de la tecnología, incluso sin tener requisitos o necesidades visibles o al menos conscientes. En caso de que las empresas, especialmente las pymes, no tengan claridad sobre el uso del BI en el negocio, es necesario concienciar a los directivos de que muchos problemas de la organización se deben a la falta de datos instantáneos, actualizados y que reflejan una realidad.
+    p.mb-5(data-aos="zoom-in-left") En ocasiones, los proyectos de <i>BI</i> se inician con la motivación de entrar en una ola digital, o estar en la moda de la tecnología, incluso sin tener requisitos o necesidades visibles o al menos conscientes. En caso de que las empresas, especialmente las pymes, no tengan claridad sobre el uso del <i>BI</i> en el negocio, es necesario concienciar a los directivos de que muchos problemas de la organización se deben a la falta de datos instantáneos, actualizados y que reflejan una realidad.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8.p-4.bg20.d-flex.justify-content-center.align-items-center
@@ -74,9 +74,9 @@
             figure
               img.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/6.png')
         p.mb-3 Lo primero que se debe evaluar es la integración entre las estrategias de la organización con la implementación de la inteligencia de negocio, como referencia estratégica, cada vez es más importante como apoyo a la gestión y toma de decisiones.
-        p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. #[b El BI cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general. ]
+        p La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. #[b El #[i BI] cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general. ]
 
-    p.mb-5(data-aos="zoom-in-left") #[b En la siguiente ilustración se presentan los aspectos a considerar sobre como BI integra todas o varias áreas del negocio: ]
+    p.mb-5(data-aos="zoom-in-left") #[b En la siguiente ilustración se presentan los aspectos a considerar sobre como <i>BI</i> integra todas o varias áreas del negocio: ]
     .row.mb-0
       .col-sm-12.col-lg-10.m-auto 
         img(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema3/7.svg', alt='La ilustración presenta cómo la Inteligencia de Negocios (BI) integra diversas áreas del negocio: Financiero, que abarca contabilidad y aspectos tributarios; Ventas, que incluye #[i marketing], clientes y CRM; Compras, que cubre gastos, proveedores y nómina; Talento, enfocado en el personal; y Producción, que considera tiempos, metas y KPI. Este enfoque integral permite una gestión y análisis de datos cohesivos a través de todas las áreas mencionadas.')
@@ -204,14 +204,14 @@
 
   
 
-    p.mb-0(data-aos="zoom-in-left") La modelación de las soluciones BI, depende de las reglas de negocio y los requisitos o problemas a resolver. En los apartados siguientes se detallan las arquitecturas disponibles y el proceso del tratamiento de datos a partir de una mirada de análisis e inteligencia de negocio.                
+    p.mb-0(data-aos="zoom-in-left") La modelación de las soluciones <i>BI</i>, depende de las reglas de negocio y los requisitos o problemas a resolver. En los apartados siguientes se detallan las arquitecturas disponibles y el proceso del tratamiento de datos a partir de una mirada de análisis e inteligencia de negocio.                
         
     Separador
 
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.5 Metodologías de análisis (#[i Kimball, Inmon])
 
-    p(data-aos="zoom-in-left") En lo relacionado a la planeación y diseño de las bodegas de datos (DWH), se plantean dos arquitecturas:
+    p(data-aos="zoom-in-left") En lo relacionado a la planeación y diseño de las bodegas de datos (<i>DWH</i>), se plantean dos arquitecturas:
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
@@ -223,10 +223,10 @@
       .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
-            p.mb-3 La metodología para el diseño de DWH propuesta por  <i>Ralph Kimball</i> se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean <i>data marts</i>, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
+            p.mb-3 La metodología para el diseño de <i>DWH</i> propuesta por  <i>Ralph Kimball</i> se centra en copiar las bases de datos transaccionales en un modelo optimizado para consultas de analítica. Para integrar varias áreas o disciplinas del negocio se emplean <i>data marts</i>, que son bases de datos que surgen a partir del proceso de transformación del ETL por cada área o división del negocio.
             br
             br
-            p #[b Kimball propone que estos  #[i Data Mart]  deben crearse primero para proporcionar capacidades analíticas;] en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los #[i Data Marts]  se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios <i>Data Mart</i>. No obstante, es el modelo más usado en las soluciones BI, no indicando esto que sea mejor (consultar figura).
+            p #[b #[i Kimball] propone que estos  #[i Data Mart]  deben crearse primero para proporcionar capacidades analíticas;] en pasos siguientes del flujo de datos se integran en una bodega de datos empresarial de manera integral. Una desventaja de este modelo es que al cambiar los #[i Data Marts]  se podrían perder dimensiones en los reportes diseñados. Adicionalmente, se podrían presentar datos redundantes en varios <i>Data Mart</i>. No obstante, es el modelo más usado en las soluciones <i>BI</i>, no indicando esto que sea mejor (consultar figura).
             
     .col-md-12.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
@@ -246,10 +246,10 @@
       .col-md-12.bloque-2
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
-            p.mb-5 No es muy diferente a Kimball, los principios de transformación y carga a los DWH contienen los mismos elementos en su arquitectura, sin embargo, la metodología de  Bill Inmon  plantea que los  <i>data marts</i> deben ir después del almacenamiento de DWH.
+            p.mb-5 No es muy diferente a <i>Kimball</i>, los principios de transformación y carga a los <i>DWH</i> contienen los mismos elementos en su arquitectura, sin embargo, la metodología de  <i>Bill Inmon</i>  plantea que los  <i>data marts</i> deben ir después del almacenamiento de <i>DWH</i>.
             br
             br
-            p #[b La metodología Inmon comienza por generar un arreglo de todos los datos corporativos en el DWH], para luego identificar y dividir áreas para la generación de los #[i Data Mart] . En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los <i>data marts</i> y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (ver figura).
+            p #[b La metodología #[i Inmon] comienza por generar un arreglo de todos los datos corporativos en el #[i DWH]], para luego identificar y dividir áreas para la generación de los #[i Data Mart] . En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los <i>data marts</i> y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (ver figura).
     .row(data-aos="zoom-in-left")
       .col-md-12.mx-auto.mb-0
         .titulo-sexto.color-acento-contenido

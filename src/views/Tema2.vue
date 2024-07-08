@@ -60,7 +60,7 @@
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-6
         p.md-3.mt-3 Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
-        p Conocer su naturaleza y características es trascendental para los proyectos BI, donde la calidad de los datos #[b #[i (Data quality - DQ) ]], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
+        p Conocer su naturaleza y características es trascendental para los proyectos <i>BI</i>, donde la calidad de los datos #[b #[i (Data quality - DQ) ]], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
       .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/Tema2/5.png')
@@ -214,7 +214,7 @@
             figure
               img.h-img-card-cus(src='@/assets/curso/temas/Tema2/20.png')
         h4.text-center Eliminación por pares
-        p A diferencia del anterior, solo pone en Nulos aquellos valores que faltan, conservando el resto de la fina, sin embargo, para modelos BI o ML podría presentar inconvenientes, pues hay medidas u operaciones que requieren la completitud de los datos.
+        p A diferencia del anterior, solo pone en Nulos aquellos valores que faltan, conservando el resto de la fina, sin embargo, para modelos <i>BI</i> o <i>ML</i> podría presentar inconvenientes, pues hay medidas u operaciones que requieren la completitud de los datos.
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
@@ -247,7 +247,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.3 Identificación de variables importantes
 
-    p.mb-3(data-aos="zoom-in-left") Para iniciar la toma de requerimientos para proyectos BI, se debe tener en cuenta que la inteligencia de negocios (Business Intelligence) no es una tecnología; podría denominarse más como una técnica o metodología que podría emplear una o varias herramientas tecnológicas integradas.
+    p.mb-3(data-aos="zoom-in-left") Para iniciar la toma de requerimientos para proyectos <i>BI</i>, se debe tener en cuenta que la inteligencia de negocios (<i>Business Intelligence</i>) no es una tecnología; podría denominarse más como una técnica o metodología que podría emplear una o varias herramientas tecnológicas integradas.
     h5.mb-5(data-aos="zoom-in-left") Por lo cual es importante, aplicar las siguientes técnicas para la identificación de las variables:
 
 
@@ -256,10 +256,10 @@
         AcordionA.mb-0(tipo="a" clase-tarjeta="acordion__activo_bg6")
           .row(titulo="Conocer la organización (observación y lectura)")
             .col-md-12.mb-4
-              p.mx-5 Si es un profesional que está vinculado a la empresa o una persona que le realizará un trabajo a un cliente, lo primero es conocer bien la empresa y el contexto al cual se le realizará el proyecto de BI. Incluyendo el mercado, la competencia, etc.
+              p.mx-5 Si es un profesional que está vinculado a la empresa o una persona que le realizará un trabajo a un cliente, lo primero es conocer bien la empresa y el contexto al cual se le realizará el proyecto de <i>BI</i>. Incluyendo el mercado, la competencia, etc.
           .row(titulo="Entrevista")
             .col-md-12.mb-4
-              p.mx-5 En la fase inicial se deben centrar en aspectos estratégicos, se debe dejar a un lado, todo lo relacionado con tecnología, es por ello, que ocasionalmente las entrevistas con los responsables de TI podrían ser poco fructíferas; las entrevistas de requerimientos deben estar enfocadas a las áreas que definen el rumbo del negocio, tales como la financiera, la gerencia, planeación, etc. Las preguntas deben estar enfocadas hacia las necesidades, lleva casos de uso de otras experiencias y determinar si para el área entrevistada aplican y cómo se adaptan en el caso particular.
+              p.mx-5 En la fase inicial se deben centrar en aspectos estratégicos, se debe dejar a un lado, todo lo relacionado con tecnología, es por ello, que ocasionalmente las entrevistas con los responsables de <i>TI</i> podrían ser poco fructíferas; las entrevistas de requerimientos deben estar enfocadas a las áreas que definen el rumbo del negocio, tales como la financiera, la gerencia, planeación, etc. Las preguntas deben estar enfocadas hacia las necesidades, lleva casos de uso de otras experiencias y determinar si para el área entrevistada aplican y cómo se adaptan en el caso particular.
           .row(titulo="Encuestas")
             .col-md-12.mb-4
               p.mx-5 Actualmente las encuestas online son fáciles de crear, tienen más alcance, hay mayor control, es más cómodo para el encuestado y es más fácil de tabular. En este sentido, las preguntas, al igual que la entrevista, debe estar orientada a las variables clave y necesidad.
@@ -271,7 +271,7 @@
               p.mx-5 Se debe elegir empezar con los procesos que más impacto tienen para la organización e ir avanzando hacia las áreas y procesos menos indispensables.
           .row(titulo="Seleccionar las herramientas adecuadas")
             .col-md-12.mb-4
-              p.mx-5 Es otro elemento para garantizar la satisfacción de los usuarios finales, pues cuando las herramientas no cubren funcionalmente las expectativas, la solución BI podría ser poco efectiva.
+              p.mx-5 Es otro elemento para garantizar la satisfacción de los usuarios finales, pues cuando las herramientas no cubren funcionalmente las expectativas, la solución <i>BI</i> podría ser poco efectiva.
           .row(titulo="Capacitación y cultura")
             .col-md-12.mb-0
               p.mx-5 El elemento más importante en la transformación digital y la adopción con éxito de nuevas soluciones, dependen de un gran porcentaje de la capacidad y convencimiento de uso. Los usuarios deben estar comprometidos con el proyecto, las políticas corporativas deben estar enfocadas en este aspecto, es muy importante revisar las políticas, si es necesario actualizarlas hacia una nueva realidad hacerlo. Es necesario garantizar las capacitaciones y campañas hacia la cultura de los datos.
