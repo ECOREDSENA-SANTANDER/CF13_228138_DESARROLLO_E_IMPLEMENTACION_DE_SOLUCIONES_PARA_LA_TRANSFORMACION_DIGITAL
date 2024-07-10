@@ -33,7 +33,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 #[b Por ejemplo: ] la altura de las personas. En este caso la única variable es la altura y su análisis se centra en determinar la media, el máximo, mínimo, moda, etc.
+                  p.mb-0 #[b Por ejemplo:] la altura de las personas. En este caso la única variable es la altura y su análisis se centra en determinar la media, el máximo, mínimo, moda, etc.
 
     Separador
 
@@ -51,7 +51,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p #[b Un ejemplo ] de datos bivariados puede ser la temperatura del ambiente en un día y las ventas de helados.
+                  p #[b Un ejemplo] de datos bivariados puede ser la temperatura del ambiente en un día y las ventas de helados.
 
 
 
@@ -60,7 +60,7 @@
 
 
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.3 Datos multivariables.
+      h2 5.3 Datos multivariables
 
     p.mb-5(data-aos="zoom-in-left") Similar al anterior (bivariado) pero contiene más de dos variables dependientes.
 
@@ -90,7 +90,7 @@
       .col-md.tarjeta-container-siete.p-5
         .row.mb-0
           h4.mb-3 Las reglas de negocio se basan en las políticas de las organizaciones, en metodologías ágiles como el Scrum, las reglas de negocio se plasman en historias de usuarios.
-          p.mb-4 #[b Por ejemplo: ]
+          p.mb-4 #[b Por ejemplo:]
           ul.lista-ul--color.mx-4
             li.mb-0.pb-0 
               i.fa.fa-check
@@ -101,23 +101,23 @@
             li.mb-0.pb-0 
               i.fa.fa-check
               p  #[b Para] recibirlos en casa.
-          p.mb-4 En medio de este requerimiento, es posible que existan políticas de la organización que restrinjan la acción solicitada, pues podrían existir otras reglas que indiquen (figura 5)
+          p.mb-4 En medio de este requerimiento, es posible que existan políticas de la organización que restrinjan la acción solicitada, pues podrían existir otras reglas que indiquen (figura 5).
             ul.lista-ul--color.mx-4.mt-3
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  #[b Como ] propietario de la tienda online.
+                p  #[b Como] propietario de la tienda online.
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  #[b Quiero ] rechazar compras fuera de Colombia con pedidos inferiores a $300.000 pesos.
+                p  #[b Quiero] rechazar compras fuera de Colombia con pedidos inferiores a $300.000 pesos.
               li.mb-0.pb-0 
                 i.fa.fa-check
-                p  #[b Para ] evitar gastos de envío que hacen la compra no rentable.
+                p  #[b Para] evitar gastos de envío que hacen la compra no rentable.
         .row.justify-content-around.align-items-center.mb-3
           .col-sm-12.col-lg-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 5.
               span
-                |   Características de una muestra adecuada.
+                |   Características de una muestra adecuada
             figure
               img(src='@/assets/curso/temas/Tema5/5.svg', alt='La ilustración presenta una política de segmentación de clientes basada en sus compras anuales, clasificándolos en tres categorías: "Golden" para aquellos cuyas compras superan los $2,000,000 al año, "Premium" para compras superiores a $1,000,000, y "Plata" para compras que exceden los $500,000. ')
         p.mb-0 A estas reglas de negocio, a menudo se les denomina también Lógica de negocio.
@@ -129,7 +129,7 @@
       h2 5.5 Tipo de restricciones
 
     p.mb-4(data-aos="zoom-in-left") Las restricciones limitan las acciones que el sistema o los usuarios pueden realizar. Las reglas por lo general son restrictivas, es decir, se debe o no se debe hacer algo a no ser que cumpla condiciones como roles de usuarios, valores previos, etc. Las restricciones, no deben convertirse en inconvenientes al usuario o sistema y los mensajes que se generan deben ser muy claros.
-    p(data-aos="zoom-in-left") #[b Existen diferentes tipos, que se detallan a continuación: ]
+    p(data-aos="zoom-in-left") #[b Existen diferentes tipos, que se detallan a continuación:]
 
     .tarjeta--container.row.mb-0(data-aos="zoom-in-left")
       .col-md.tarjeta.bg22.p-5.text-black
@@ -214,12 +214,12 @@
       .col-sm-12.col-lg-6
         p.mb-3.mt-2-cus Es el área del álgebra que usa métodos para crear nuevas relaciones a partir de unas ya existentes. Todas las operaciones sobre tablas relacionales a través de un lenguaje de manipulación de datos están bajo este esquema.
         p.mb-3 Emplea operadores y otros elementos del álgebra, existen entre otros operadores de proyección, selección, unión, diferencias intersecciones, divisiones, etc.
-        p #[b Este tipo de operaciones son muy usadas en los procesos ETL. ]
+        p #[b Este tipo de operaciones son muy usadas en los procesos #[i ETL].]
       .col-sm-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/Tema5/11.png')
 
-    p.mb-3(data-aos="zoom-in-left") #[b Por eso es importante tener presente las siguientes recomendaciones entregadas en el siguiente video:   ]
+    p.mb-3(data-aos="zoom-in-left") #[b Por eso es importante tener presente las siguientes recomendaciones entregadas en el siguiente video:  ]
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12(data-aos="fade-left")
@@ -243,8 +243,8 @@
         figure
           img(src='@/assets/curso/temas/Tema5/12.png')
       .col-sm-12.col-lg-7
-        p.mb-3.mt-2-cus #[b #[i SQL ](por sus siglas en inglés #[i Structured Query Language; ]] en español lenguaje de consulta estructurada) es un lenguaje que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos.
-        p.mb-3 Es un lenguaje estándar consolidado por el Instituto Americano de Normas (ANSI) y por la Organización de Estándares Internacional (ISO). Está compuesto por comandos, cláusulas, operadores y funciones de agregado
+        p.mb-3.mt-2-cus #[b #[i SQL](por sus siglas en inglés #[i Structured Query Language;]] en español lenguaje de consulta estructurada) es un lenguaje que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos.
+        p.mb-3 Es un lenguaje estándar consolidado por el Instituto Americano de Normas (#[i ANSI]) y por la Organización de Estándares Internacional (#[i ISO]). Está compuesto por comandos, cláusulas, operadores y funciones de agregado.
       
 
  
@@ -258,7 +258,7 @@
             img(src='@/assets/curso/temas/Tema5/13.png')
 
 
-    p.mb-3(data-aos="zoom-in-left") Existen varios motores de bases de datos con núcleo #[i SQL], entre los más conocidos #[i MySQL] de uso libre y otra distribución licenciada por #[i Oracle]. #[b En el siguiente video se presenta las ventajas de #[i Mysql:] ]
+    p.mb-3(data-aos="zoom-in-left") Existen varios motores de bases de datos con núcleo #[i SQL], entre los más conocidos #[i MySQL] de uso libre y otra distribución licenciada por #[i Oracle]. #[b En el siguiente video se presenta las ventajas de #[i Mysql:]]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -268,7 +268,7 @@
           figcaption Video. SENA 2024.
 
     p.mb-0(data-aos="zoom-in-left") #[i SQL server] pertenece a la casa de Microsoft, con sus herramientas integradas que dan mucho poder para el almacenamiento y proceso de datos. 
-    p.mb-4(data-aos="zoom-in-left") #[b En el siguiente video se presentan los comandos de #[i SQL] para la creación de una base de datos y para la realización de consultas en esta: ]
+    p.mb-4(data-aos="zoom-in-left") #[b En el siguiente video se presentan los comandos de #[i SQL] para la creación de una base de datos y para la realización de consultas en esta:]
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12(data-aos="fade-left")
@@ -282,8 +282,8 @@
     #t_5_10.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.10 #[i No SQL]
 
-    p.mb-3(data-aos="zoom-in-left") Son un tipo de bases de datos cuyo almacenamiento de datos no se realiza en tablas propiamente dicha. Presentan una estructura particular tipo #[i SON o BSON], que consiste en un arreglo de datos por jerarquías, tiene la ventaja sobre las bases de datos relacionales que su desempeño de búsquedas y cargue de datos son más veloces, además, se podría definir que son más flexibles es sus datos y cambios de estructuras que se puedan presentar. Para el manejo de #[i Big data] y grandes cantidades de datos son muy empleadas
-    p.mb-4(data-aos="zoom-in-left") #[b En siguiente video se explican las ventajas de las bases de datos no relacionales o #[i No SQL:] ]
+    p.mb-3(data-aos="zoom-in-left") Son un tipo de bases de datos cuyo almacenamiento de datos no se realiza en tablas propiamente dicha. Presentan una estructura particular tipo #[i SON o BSON], que consiste en un arreglo de datos por jerarquías, tiene la ventaja sobre las bases de datos relacionales que su desempeño de búsquedas y cargue de datos son más veloces, además, se podría definir que son más flexibles es sus datos y cambios de estructuras que se puedan presentar. Para el manejo de #[i Big data] y grandes cantidades de datos son muy empleadas.
+    p.mb-4(data-aos="zoom-in-left") #[b En siguiente video se explican las ventajas de las bases de datos no relacionales o #[i No SQL:]]
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12(data-aos="fade-left")
@@ -314,7 +314,7 @@
       .py-3.py-md-4(titulo="<i> BSON</i>")
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-10.mb-4
-            p.mb-4 Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web. Ejemplo de estructura #[i JSON]:
+            p.mb-4 Este estándar se comunica entre sistemas con estructuras y objetos de información básica en código basado en navegador web. Ejemplo de estructura #[i JSON].
 
 
       .py-3.py-md-4(titulo="<i> XML</i>")
@@ -334,7 +334,7 @@
     Separador
 
     #t_5_12.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.12 #[i DDL, DML, DC]
+      h2 5.12 #[i DDL, DML] y #[i DC]
 
     p.mb-5(data-aos="zoom-in-left") Las bases de datos emplean diferentes tipos de lenguajes y también de allí se derivan archivos necesarios para que los motores de bases de datos funcionen y conserven la información física y lógicamente. Estas son:
 
@@ -349,16 +349,16 @@
             .col-md-12.mb-4.mb-md-0
               .mx-5 
                 p Lenguaje de Manipulación de Datos: permite a los motores de datos instrucciones de #[i SQL], otorga a los usuarios introducir datos para luego ejecutar tareas de consultas o modificación de los datos en las tablas especificadas. Los elementos que se utilizan para manipular los datos son: 
-                p.ml-1-cus - SELECT. Sentencia para realizar consultas sobre los datos.
-                p.ml-1-cus - INSERT. Permite insertar valores en una tabla.
-                p.ml-1-cus - UPDATE. Modificar los valores de uno o varios registros.
-                p.ml-1-cus - DELETE. Eliminar registros de una tabla.
+                p.ml-1-cus - #[i SELECT]. Sentencia para realizar consultas sobre los datos.
+                p.ml-1-cus - #[i INSERT]. Permite insertar valores en una tabla.
+                p.ml-1-cus - #[i UPDATE]. Modificar los valores de uno o varios registros.
+                p.ml-1-cus - #[i DELETE]. Eliminar registros de una tabla.
           .row(titulo="<i>Data Control Language] (DCL)</i>")
             .col-md-12.mb-4.mb-md-0
               .mx-5 
                 p Lenguaje de Control de Datos: permiten administrar base de datos, controlar el acceso a los objetos, es decir, podemos otorgar o denegar permisos a uno o más roles para realizar determinadas tareas. Los comandos para controlar los permisos son los siguientes: 
-                p.ml-1-cus - GRANT. Permite asignar permisos. 
-                p.ml-1-cus - REVOKE. Elimina los permisos asignados.
+                p.ml-1-cus - #[i GRANT]. Permite asignar permisos. 
+                p.ml-1-cus - #[i REVOKE]. Elimina los permisos asignados.
       .col-sm-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/Tema5/15.png')

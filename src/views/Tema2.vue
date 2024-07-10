@@ -60,7 +60,7 @@
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-6
         p.md-3.mt-3 Existen varios puntos de vista de cómo mirar y analizar los datos, para empezar, los datos corresponden a los registros de transacciones o cosas que se hacen en base a un proceso de negocio. En la analítica los datos representan mucho más que la facilidad o apoyo a los procesos, significa conocimiento, evaluación, medición y mejorar las decisiones que den valor al negocio a partir de cada proceso.
-        p Conocer su naturaleza y características es trascendental para los proyectos #[i BI], donde la calidad de los datos #[b #[i (Data quality - DQ) ]], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
+        p Conocer su naturaleza y características es trascendental para los proyectos #[i BI], donde la calidad de los datos #[b #[i (Data quality - DQ)]], se define como la facultad de los datos para el objetivo definido de un usuario u organización. Esto es subjetivo, ya que el concepto de calidad podría ser relativo a los estándares definidos por las expectativas de las organizaciones o usuarios (Gawande, 2020).
       .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/Tema2/5.png')
@@ -70,11 +70,11 @@
       .col-sm-12.col-md-12.col-lg-6.mb-4.mb-md-0.d-none.d-lg-block
           img(src='@/assets/curso/temas/Tema2/6.png')
       .col-sm-12.col-md-12.col-lg-6
-        p.my-0 El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre #[b CONFIABLES ]; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO ]); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice el registro de datos tenga aspectos como: tipo de dato según la naturaleza del registro, formato uniforme aceptado por todo el sistema, que el dato sea válido por reglas de negocio y naturaleza del proceso, entre otros.
+        p.my-0 El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre #[b CONFIABLES]; una unidad diminuta de información, equivalente a elementos microscópicos en medio de los océanos de información como un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO]); la colección de estos registros diversos debe tener, desde el momento de capturar los datos, una programación de validación que garantice el registro de datos tenga aspectos como: tipo de dato según la naturaleza del registro, formato uniforme aceptado por todo el sistema, que el dato sea válido por reglas de negocio y naturaleza del proceso, entre otros.
       
 
     p(data-aos="zoom-in-left") La calidad de los datos toma aún mayor fuerza para aplicar validaciones con regularidad, cuando se habla de ecosistemas de datos, donde convergen diversas infraestructuras de datos y se interrelacionan datos compartidos.
-    p(data-aos="zoom-in-left") Se puede definir, que las bases de datos presentan calidad en los datos si cumplen seis dimensiones: exactitud, completitud, consistencia, unicidad, disponibilidad y validez. Sin embargo, esta clasificación no está universalmente aceptada, por lo cual se adicionan otras dimensiones: actualizado, conformidad, integridad y precisión, que complementan las dimensiones DQ.
+    p(data-aos="zoom-in-left") Se puede definir, que las bases de datos presentan calidad en los datos si cumplen seis dimensiones: exactitud, completitud, consistencia, unicidad, disponibilidad y validez. Sin embargo, esta clasificación no está universalmente aceptada, por lo cual se adicionan otras dimensiones: actualizado, conformidad, integridad y precisión, que complementan las dimensiones #[i DQ].
     h5.mb-5(data-aos="zoom-in-left") A continuación, se presenta la descripción de cada una de estas dimensiones, que son medibles y que definen la calidad de los datos o #[i Data Quality]:
     
 
@@ -89,9 +89,9 @@
               img(src='@/assets/curso/temas/Tema2/7.png')
 
           
-        .row(titulo="Complenitud").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
+        .row(titulo="Completitud").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
           .col-sm-12.col-md-12.col-lg-8.mb-4.mb-md-0
-            p Se establece como el porcentaje de datos poblados frente a la posibilidad de cumplimiento del 100%. Con frecuencia, se escucha, “el dato no se encuentra”. Por ejemplo, el departamento de #[i marketing] quiere enviar email a clientes, pero el funcionario de entrada de datos no completó la dirección de correo.
+            p Se establece como el porcentaje de datos poblados frente a la posibilidad de cumplimiento del 100%. Con frecuencia, se escucha, “el dato no se encuentra”. Por ejemplo, el departamento de #[i marketing] quiere enviar #[i email] a clientes, pero el funcionario de entrada de datos no completó la dirección de correo.
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
@@ -100,7 +100,7 @@
 
         .row(titulo="Consistencia").mx-5-cus.py-3.bg-white-r.justify-content-center.align-items-center
           .col-sm-12.col-md-12.col-lg-8.mb-4.mb-md-0
-            p Es la cercanía y uniformidad de los datos con otras tablas o un conjunto de datos de referencia. Por ejemplo cuando en el campo “SEXO”, se espera hombre, mujer y desconocido, en algunas tablas aparece como M, F. o Masculino, Femenino, o #[i Male, Female, Unknows], etc. Es importante unificar o conciliar todos los sistemas.
+            p Es la cercanía y uniformidad de los datos con otras tablas o un conjunto de datos de referencia. Por ejemplo, cuando en el campo “SEXO”, se espera hombre, mujer y desconocido, en algunas tablas aparece como M, F. o Masculino, Femenino, o #[i Male, Female, Unknows], etc. Es importante unificar o conciliar todos los sistemas.
         
           .col-sm-12.col-md-12.col-lg-2.d-none.d-lg-block
             figure
@@ -285,7 +285,7 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.4 #[i Dataset]
     
-    p.mb-0(data-aos="zoom-in-left") Se denomina al conjunto de datos, lo que traduce una colección de información en una sola tabla. donde cada campo representa una variable particular.
+    p.mb-0(data-aos="zoom-in-left") Se denomina al conjunto de datos, lo que traduce una colección de información en una sola tabla; donde cada campo representa una variable particular.
     p(data-aos="zoom-in-left") A diferencia de una base de datos donde se conforma una estructura con múltiples tablas que se relacionan, los #[i Dataset] contienen todo en una única tabla.
 
     .tarjeta--container.row.mb-0
@@ -293,14 +293,14 @@
         figure
           img(src='@/assets/curso/temas/Tema2/25.png')
       .col-sm-12.col-lg-7.p-4.text-black
-        p.mb-4 Algunas soluciones analíticas están basadas en #[i Datasets], es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de Joins, donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
+        p.mb-4 Algunas soluciones analíticas están basadas en #[i Datasets], es decir, que desde los sistemas relacionales se exportan e incluyen los datos asociados de varias tablas a través de #[i Joins], donde se consolidan los datos. Esta solución no es muy recomendada en la actualidad, pues a medida que los datos se incrementan esta tabla que contiene todos los datos se hace inmanejable y poco eficiente para los motores de bases de datos.
         .cajon.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mt-4.px-3 Una de las definiciones y análisis iniciales más importantes a la hora de identificar las fuentes de datos es la manera o arquitectura en que se almacena la información. Según como se almacenan y gestionan los datos digitales, estos pueden clasificarse en términos generales como datos estructurados o semiestructurados (Ommi, 2018).
-    p.mb-5(data-aos="zoom-in-left") #[b A continuación se presentan los tipos de datos en los orígenes para los modelos analíticos: ]
+    p.mb-5(data-aos="zoom-in-left") #[b A continuación se presentan los tipos de datos en los orígenes para los modelos analíticos:]
 
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-6
@@ -311,15 +311,15 @@
 
           .tarjeta.tarjeta-infografica.py-3.px-5(x="91%" y="16%" numero="1")
             p.mb-2 No tiene un modelo de información y no está organizado en ningún formato específico. Se almacena como archivos y datos sueltos. Ejemplos: - Archivos de texto y videos. - El cuerpo del mensaje de un correo electrónico. 
-            p #[b Más del 90% de la información disponible está en este tipo. ]
+            p #[b Más del 90% de la información disponible está en este tipo.]
           .tarjeta.tarjeta-infografica.py-3.px-5(x="81%" y="42%" numero="2")
             p.mb-2 No presentan una estructura definida como en los datos estructurados, pero sí presentan una organización definida en sus metadatos donde describen los objetos y sus relaciones, y que en algunos casos están aceptados por convención. Ejemplos: - 
             p.fw-bold Formatos #[i HTML, XML o JSON.] -
-            p #[b Correos electrónicos. ]
+            p #[b Correos electrónicos.]
 
           .tarjeta.tarjeta-infografica.py-3.px-5(x="67%" y="75%" numero="3")
             p.mb-2 Datos que se almacenan en bases de datos relacionales como #[i SQL], #[i Oracle] etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. Ejemplo: 
-            p #[b - Base de datos gestión de facturación. ]
+            p #[b - Base de datos gestión de facturación.]
       
     p(data-aos="zoom-in-left") La mayoría de los datos generados por todos los usuarios están clasificados como no estructurados, esto indica que se componen de información difícil de clasificar y ordenar, conformada por archivos sueltos o producidos de manera general como documentos, videos y audios.
 

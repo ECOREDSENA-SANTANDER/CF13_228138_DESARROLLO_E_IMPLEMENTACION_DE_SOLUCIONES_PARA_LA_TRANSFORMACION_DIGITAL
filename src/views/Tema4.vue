@@ -34,7 +34,7 @@
           .tarjeta.bg26
             .p-4
               h4.md-2 Estadística descriptiva:
-              p.md-3 son los datos que se pueden representar a partir de tablas, gráficos y otros recursos. Describe fenómenos, por ejemplo cuando se pregunta la edad a un grupo de personas, se podría realizar tabla o gráfico con estos resultados y definir medidas descriptivas como edad promedio, edades más frecuentes, etc.
+              p.md-3 son los datos que se pueden representar a partir de tablas, gráficos y otros recursos. Describe fenómenos, por ejemplo, cuando se pregunta la edad a un grupo de personas, se podría realizar tabla o gráfico con estos resultados y definir medidas descriptivas como edad promedio, edades más frecuentes, etc.
               p La analítica usa principalmente este tipo de estadística, pues parte de que no se tienen conocimientos previos ni supuestos verdaderos, describe fenómenos que pasan en el negocio, además, por lo general se tienen todos los datos disponibles para los reportes, por lo que pocas veces se emplean muestras poblacionales.
 
 
@@ -62,13 +62,13 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 3.
           span
-            |  Características de una muestra adecuada.
+            |  Características de una muestra adecuada
     .row.mb-5
       .col-sm-12.col-lg-10.m-auto
         figure
           img(src='@/assets/curso/temas/Tema4/4.svg', alt='La ilustración destaca que una muestra adecuada debe ser tanto representativa, reflejando las características de la población y el tipo de muestra, como adecuada, asegurando que el tamaño de la muestra sea suficientemente significativo para el análisis.')
 
-    p.mb-5(data-aos="zoom-in-left") Este tipo de estadística se aplica cuando, la posblación o el universo objeto de estudio es muy grande e imposible de aplicar estadística descriptiva o aplicar instrumento a todo, o cuando no hay exactitud del número de población o universo. Para estos casos, se deberá aplicar la estadística inferencial donde se pueden realizar afirmaciones sobre una población basado en los resultados de una muestra.
+    p.mb-5(data-aos="zoom-in-left") Este tipo de estadística se aplica cuando, la población o el universo objeto de estudio es muy grande e imposible de aplicar estadística descriptiva o aplicar instrumento a todo, o cuando no hay exactitud del número de población o universo. Para estos casos, se deberá aplicar la estadística inferencial donde se pueden realizar afirmaciones sobre una población basado en los resultados de una muestra.
 
     .row(data-aos="zoom-in-left") 
       .col-sm-12.col-lg-10.bg29.p-4.mb-0.m-auto    
@@ -77,7 +77,7 @@
               figure.mx-7
                 img(src='@/assets/curso/temas/Tema4/5.png')
             .col-sm-12.col-lg-8
-              p #[b Es importante ] no establecer divorcios entre la estadística descriptiva y la inferencial, ambas son necesarias, pues la inferencial usa los datos descriptivos para llevar a conclusiones generales.
+              p #[b Es importante] no establecer divorcios entre la estadística descriptiva y la inferencial, ambas son necesarias, pues la inferencial usa los datos descriptivos para llevar a conclusiones generales.
 
 
     Separador
@@ -106,7 +106,7 @@
                 th.text-white.text-left-cus Descripción
             tbody
               tr.bg27
-                td Categoria
+                td Categoría
                 td Nominal 
                 td Clasifica los elementos del conjunto para distribuirlos en grupos.
               tr.bg28
@@ -114,7 +114,7 @@
                 td Ordinal
                 td También clasifica elementos, pero además permite hacer escalas de medición comparativa.
               tr.bg27
-                td Metrica
+                td Métrica
                 td Intervalo 
                 td Cuantifica y califica numéricamente los objetos de la categoría. 
                   ul.lista-ul.mx-4.mt-3 
@@ -134,7 +134,7 @@
                   ul.lista-ul.mx-4.mt-3 
                     li.mb-0.pb-0
                       i.fas.fa-circle.icon-li-ul 
-                      p Permite Permite hacer mediciones simples.  
+                      p Permite hacer mediciones simples.  
                     li.mb-0.pb-0
                       i.fas.fa-circle.icon-li-ul 
                       p Utiliza escalas discontinuas.
@@ -150,9 +150,9 @@
 
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
-        p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones #[i BI], es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del #[i Big data ]  y la inteligencia de negocios.
+        p.mt-2-cus Mencionar parte de las técnicas estadísticas sería un muy extenso y no bastaría un fragmento de un recurso de formación, sin embargo, para efectos de contexto y orientación hacia la analítica de datos y soluciones #[i BI], es fundamental señalar que el análisis estadístico se asocia con las técnicas y prácticas propias del #[i Big data]  y la inteligencia de negocios.
         p.md-3 Pero desde el enfoque propiamente, la utilidad estadística está inmersa como fundamento en el conocimiento de las áreas y en todas las decisiones incluso las decisiones no técnicas y simples, de manera implícita se trae a la mente procesos estadísticos (ejemplo: al pasar una calle, debes verificar variables como flujo de carros, velocidad, estado de la vía, distancia del punto A al punto B, etc.).
-        p #[b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (consultar figura). ]
+        p #[b Para todo negocio, es importante tener en cuenta datos financieros y de consumo (consultar figura).]
       .col-sm-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/Tema4/6.png')
@@ -173,9 +173,9 @@
         figure
           img(src='@/assets/curso/temas/Tema4/8.png')
       .col-sm-12.col-lg-9
-        p.md-3 Con esta información, el negocio podría ir tomando decisiones y estableciendo enfoques comerciales, mirar cómo está su sector en el país y de esa manera ir orientando su análisis de negocio. Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validar los datos financieros, los tiempos de procesos, comparar sedes, definir conocimiento específico y general del negocio.#[b  Por lo que la estadística toma un papel muy importante, para ello se mencionarán las principales características de la estadística: ]
+        p.md-3 Con esta información, el negocio podría ir tomando decisiones y estableciendo enfoques comerciales, mirar cómo está su sector en el país y de esa manera ir orientando su análisis de negocio. Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validar los datos financieros, los tiempos de procesos, comparar sedes, definir conocimiento específico y general del negocio.#[b  Por lo que la estadística toma un papel muy importante, para ello se mencionarán las principales características de la estadística:]
 
-    p.mb-4(data-aos="zoom-in-left") #[b Como principio fundamental la estadística contiene los siguientes componentes: ]
+    p.mb-4(data-aos="zoom-in-left") #[b Como principio fundamental la estadística contiene los siguientes componentes:]
       
     .tarjeta.bg16.p-4.mb-5(data-aos="zoom-in-left")
       SlyderA

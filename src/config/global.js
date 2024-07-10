@@ -114,7 +114,7 @@ export default {
           },
           {
             numero: '3.5',
-            titulo: 'Metodologías de análisis (<i>Kimball, Inmon</i>)',
+            titulo: 'Metodologías de análisis (Kimball, Inmon)',
             hash: 't_3_5',
           },
           {
@@ -272,7 +272,7 @@ export default {
           },
           {
             numero: '7.2',
-            titulo: '<i>Python</i>',
+            titulo: 'Python',
             hash: 't_7_2',
           },
           {
