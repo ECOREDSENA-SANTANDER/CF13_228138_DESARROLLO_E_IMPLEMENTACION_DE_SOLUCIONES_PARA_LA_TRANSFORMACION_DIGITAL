@@ -387,9 +387,9 @@ export default {
     {
       tema: '7.3 Librerías',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Manejo de datos con Pandas. SENA. https://youtu.be/P6LmIUMJg3U',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). Manejo de datos con Pandas. SENA. https://youtu.be/P6LmIUMJg3U',
       tipo: 'Vídeo',
-      link: 'https://www.youtube.com/watch?v=J9_xVhV_pfs',
+      link: 'https://www.youtube.com/watch?v=qanhqbz7pME',
     },
   ],
   glosario: [

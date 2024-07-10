@@ -219,14 +219,14 @@
         figure
           img(src='@/assets/curso/temas/Tema5/11.png')
 
-    p.mb-3(data-aos="zoom-in-left") #[b Por eso es importante tener presente las siguientes recomendaciones entregadas en el video Manipular los datos:   ]
+    p.mb-3(data-aos="zoom-in-left") #[b Por eso es importante tener presente las siguientes recomendaciones entregadas en el siguiente video:   ]
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12(data-aos="fade-left")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Description
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/zxQy-FJGkGM" title="Algebra relacional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. SENA 2024.
 
 
 
@@ -264,8 +264,8 @@
       .col-lg-12(data-aos="fade-left")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Description
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/GPPLyn5ddZc" title="SQL, ventajas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. SENA 2024.
 
     p.mb-0(data-aos="zoom-in-left") #[i SQL server] pertenece a la casa de Microsoft, con sus herramientas integradas que dan mucho poder para el almacenamiento y proceso de datos. 
     p.mb-4(data-aos="zoom-in-left") #[b En el siguiente video se presentan los comandos de #[i SQL] para la creación de una base de datos y para la realización de consultas en esta: ]
@@ -274,8 +274,8 @@
       .col-lg-12(data-aos="fade-left")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Description
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9QVKsYWXbGA" title="SQL, comandos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. SENA 2024.
 
     Separador
 
@@ -289,8 +289,8 @@
       .col-lg-12(data-aos="fade-left")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Description
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/DG7CrajrDQ0" title="No SQL , bases de datos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. SENA 2024.
 
     Separador
 
