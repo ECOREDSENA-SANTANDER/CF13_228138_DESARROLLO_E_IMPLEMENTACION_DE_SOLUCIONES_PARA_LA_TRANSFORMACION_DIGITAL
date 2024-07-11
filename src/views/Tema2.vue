@@ -309,17 +309,35 @@
             figure
               img.imagen-punto-2(src='@/assets/curso/temas/Tema2/26.svg', alt='La imagen presenta una pirámide invertida que clasifica los tipos de datos utilizados en modelos analíticos en tres categorías: no estructurados (sin estructura definida, como textos y multimedia), semi estructurados (con una organización parcial, como HTML, XML, JSON y correos electrónicos), y estructurados (con una estructura clara y rígida, como en bases de datos relacionales y hojas de cálculo). Los datos estructurados se encuentran en la base por su alta organización, mientras que los no estructurados están en la cima debido a su falta de estructura, con los semi estructurados en el medio. ')
 
-          .tarjeta.tarjeta-infografica.py-3.px-5(x="91%" y="16%" numero="1")
-            p.mb-2 No tiene un modelo de información y no está organizado en ningún formato específico. Se almacena como archivos y datos sueltos. Ejemplos: - Archivos de texto y videos. - El cuerpo del mensaje de un correo electrónico. 
+          .tarjeta.tarjeta-infografica.py-4.px-5(x="91%" y="16%" numero="1")
+            p.mb-2 No tiene un modelo de información y no está organizado en ningún formato específico. Se almacena como archivos y datos sueltos. 
+            p.mt-4.mb-2 Ejemplos: 
+            ul.lista-ul.mb-4
+              li.mb-0.pb-0 
+                i.fa.fa-check.ul-li-color
+                p.mb-0 #[b Archivos de texto y videos.] 
+              li.mb-0.pb-0 
+                i.fa.fa-check.ul-li-color
+                p.mb-0 #[b El cuerpo del mensaje de un correo electrónico.]
             p #[b Más del 90% de la información disponible está en este tipo.]
-          .tarjeta.tarjeta-infografica.py-3.px-5(x="81%" y="42%" numero="2")
-            p.mb-2 No presentan una estructura definida como en los datos estructurados, pero sí presentan una organización definida en sus metadatos donde describen los objetos y sus relaciones, y que en algunos casos están aceptados por convención. Ejemplos: - 
-            p.fw-bold Formatos #[i HTML, XML o JSON.] -
-            p #[b Correos electrónicos.]
+          .tarjeta.tarjeta-infografica.py-4.px-5(x="81%" y="42%" numero="2")
+            p.mb-2 No presentan una estructura definida como en los datos estructurados, pero sí presentan una organización definida en sus metadatos donde describen los objetos y sus relaciones, y que en algunos casos están aceptados por convención. 
+            p.mt-4.mb-2 Ejemplos: 
+            ul.lista-ul.mb-4
+              li.mb-0.pb-0 
+                i.fa.fa-check.ul-li-color
+                p.mb-0 #[b Formatos #[i HTML, XML o JSON.]]
+              li.mb-0.pb-0 
+                i.fa.fa-check.ul-li-color
+                p.mb-0 #[b Correos electrónicos.]
 
-          .tarjeta.tarjeta-infografica.py-3.px-5(x="67%" y="75%" numero="3")
-            p.mb-2 Datos que se almacenan en bases de datos relacionales como #[i SQL], #[i Oracle] etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. Ejemplo: 
-            p #[b - Base de datos gestión de facturación.]
+          .tarjeta.tarjeta-infografica.py-4.px-5(x="67%" y="75%" numero="3")
+            p.mb-2 Datos que se almacenan en bases de datos relacionales como #[i SQL], #[i Oracle] etc. Los datos se organizan en filas y columnas dentro de tablas con nombres. 
+            p.mt-4.mb-2 Ejemplo:  
+            ul.lista-ul.mb-4
+              li.mb-0.pb-0 
+                i.fa.fa-check.ul-li-color
+                p.mb-0  #[b  Base de datos gestión de facturación.]
       
     p(data-aos="zoom-in-left") La mayoría de los datos generados por todos los usuarios están clasificados como no estructurados, esto indica que se componen de información difícil de clasificar y ordenar, conformada por archivos sueltos o producidos de manera general como documentos, videos y audios.
 

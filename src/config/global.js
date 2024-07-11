@@ -401,17 +401,17 @@ export default {
     {
       termino: 'Información Predictiva',
       significado:
-        'se refiere a los hechos probables que sucederán, esto se realiza basado en datos descriptivos, es decir, datos históricos y procesos matemáticos y/o modelación de Machine Learning.',
+        'se refiere a los hechos probables que sucederán, esto se realiza basado en datos descriptivos, es decir, datos históricos y procesos matemáticos y/o modelación de <i>Machine Learning</i>.',
     },
     {
       termino: '<i>Joins</i>',
       significado:
-        'proceso de selección de datos de varias tablas y unirlos en una vista o nueva tabla. Una instrucción de “SQL JOIN” en un comando Select que combina columnas entre una o más tablas en una base de datos.',
+        'proceso de selección de datos de varias tablas y unirlos en una vista o nueva tabla. Una instrucción de “<i>SQL JOIN</i>” en un comando <i>Select</i> que combina columnas entre una o más tablas en una base de datos.',
     },
     {
       termino: 'Lenguaje <i>DAX</i>',
       significado:
-        'lenguaje específico para gestión de datos creado por <i>Microsoft (Data Analysis Expressions)</i>. Se emplea en colecciones de datos en aplicaciones como Excel, <i>Analysis Services y Power BI.</i>',
+        'lenguaje específico para gestión de datos creado por Microsoft (Data Analysis Expressions). Se emplea en colecciones de datos en aplicaciones como Excel, <i>Analysis Services</i> y Power BI.',
     },
     {
       termino: 'Lenguaje <i>R</i>',
@@ -426,7 +426,7 @@ export default {
     {
       termino: 'Procesadores',
       significado:
-        'CPU (Unidad central de proceso), es el componente del computador y otros dispositivos programables, que interpreta las instrucciones contenidas en los programas y procesa los datos.',
+        '<i>CPU</i> (Unidad central de proceso), es el componente del computador y otros dispositivos programables, que interpreta las instrucciones contenidas en los programas y procesa los datos.',
     },
     {
       termino: 'Procesamiento por lotes',

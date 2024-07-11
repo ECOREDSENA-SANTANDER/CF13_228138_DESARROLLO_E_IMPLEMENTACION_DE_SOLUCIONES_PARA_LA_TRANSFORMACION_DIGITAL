@@ -3,8 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p(data-aos="fade-down").mb-5 A continuación, se presenta el diagrama que representa el resumen de las temáticas que están desarrolladas en el componente formativo.
-
+    p(data-aos="fade-down").mb-5 En el siguiente diagrama se expone la síntesis de la complejidad de la gestión y preparación de datos, destacando componentes como #[i hardware], #[i software], datos y personas. Se abordan métodos de intercambio de datos #[i web], incluyendo JSON, BSON y XML, y principios de transacciones como atomicidad y consistencia, asimismo se detallan lenguajes #[i SQL] específicos (DDL, DML, DCL) y entornos de desarrollo #[i IDE] como Google Collaborate, Jupyter y PyCharm, resaltando las interconexiones necesarias para un análisis y preparación de datos efectivos.
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
