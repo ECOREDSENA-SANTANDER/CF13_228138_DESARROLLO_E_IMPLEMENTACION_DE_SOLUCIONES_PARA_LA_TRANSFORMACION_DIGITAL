@@ -101,8 +101,8 @@
           table(alt='La tabla describe las diferentes escalas de variables y sus características. Las variables categóricas pueden ser nominales, que clasifican los elementos del conjunto para distribuirlos en grupos, u ordinales, que también clasifican elementos, pero permiten mediciones comparativas. Las variables métricas pueden ser de intervalo, que cuantifican y califican numéricamente los objetos y permiten mediciones simples con escalas continuas, y de razón, que también cuantifican y califican numéricamente pero utilizan escalas discontinuas y resuelven el problema del cero absoluto. ')
             thead
               tr
-                th.text-white.text-left-cus Variables
-                th.text-white.text-left-cus Escala
+                th.text-white.text-left-cus.w-var Variables
+                th.text-white.text-left-cus.w-var Escala
                 th.text-white.text-left-cus Descripción
             tbody
               tr.bg27

@@ -325,7 +325,7 @@
 
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
-            h5 Además, se podría aplicar una condición; por ejemplo, que muestre los vehículos que valgan más de 300.000:
+            p Además, se podría aplicar una condición; por ejemplo, que muestre los vehículos que valgan más de 300.000:
             .bg-white-r.p-5.mt-5
               h5 Con la sentencia: 
               .mt-2.color-blue.ml-4-custom #[i SELECT] 
@@ -343,10 +343,10 @@
 
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
-            h5 A la consulta anterior, al adicionarle #[i EXPLAIN] al inicio, se dará un reporte de cómo se realizará la consulta:
+            p A la consulta anterior, al adicionarle #[i EXPLAIN] al inicio, se dará un reporte de cómo se realizará la consulta:
             .bg-white-r.p-5.mt-5
               h5.color-blue Ejecución del comando #[i Explain]: 
-              p.mt-5 Lista que se usa un #[b #[i SELECT]] sencillo, que no tiene particiones de tabla, la búsqueda se realizó entre 10 campos, y que usa el extratipo #[b #[i  WHERE]].
+              p.mt-4 Lista que se usa un #[b #[i SELECT]] sencillo, que no tiene particiones de tabla, la búsqueda se realizó entre 10 campos, y que usa el extratipo #[b #[i  WHERE]].
           .col-sm-12.col-lg-4
             figure
               img(src='@/assets/curso/temas/Tema1/23.png')
@@ -354,10 +354,10 @@
         
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-md-12.col-lg-6
-            h5 Además de consultas y condiciones, los datos pueden ordenarse a través del comando #[i SQL order by], su aplicación es muy sencilla, a la consulta anterior se le puede dar un orden, en este caso se podría tomar como elemento de orden el mismo precio. Adicional se puede definir si es ascendente #[i ASC] o descendente #[i DESC].
+            p Además de consultas y condiciones, los datos pueden ordenarse a través del comando #[i SQL order by], su aplicación es muy sencilla, a la consulta anterior se le puede dar un orden, en este caso se podría tomar como elemento de orden el mismo precio. Adicional se puede definir si es ascendente #[i ASC] o descendente #[i DESC].
             .bg-white-r.p-5.mt-5
               h5 Con la sentencia: 
-              .mt-2.color-blue.ml-4-custom.fw-bold #[i SELECT] 
+              .mt-2.color-blue.ml-4-custom #[i SELECT] 
                 span.color-black * 
                 span.color-blue #[i FROM] 
                 span.color-black  producto 
@@ -365,7 +365,7 @@
                 span.color-black  precio 
                 span.color-black > 
                 span.color-orange  #[b  300000]
-              .mt-2.color-blue.ml-4-custom.fw-bold #[i ORDER BY ]
+              .mt-2.color-blue.ml-4-custom #[i ORDER BY ]
                 span.color-black precio 
                 span.color-blue #[i DESC]
               p.mt-3 Lista que se ordenan los datos de manera descendente.

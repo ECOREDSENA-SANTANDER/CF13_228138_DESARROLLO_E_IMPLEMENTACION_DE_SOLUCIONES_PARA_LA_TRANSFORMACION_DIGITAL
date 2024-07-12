@@ -25,17 +25,17 @@
           |   Variables y escalas
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.m-auto
-        .tabla-a.color-acento-contenido.mb-5 
+        .tabla-a.t-head-cus.color-acento-contenido.mb-5 
+          .banner-tabla.text-white
+            .thead-Table-3.colorv1.py-3 Herramientas para el análisis de los datos
           table(alt='La tabla presenta herramientas de análisis de datos y sus funciones: Microsoft Power BI ofrece vistas interactivas con acceso a múltiples fuentes; R proporciona análisis estadístico y modelado; SAS permite procesamiento avanzado y toma de decisiones;  Python trabaja con datos estructurados y no estructurados; Excel es popular en empresas para ajustar y analizar datos; Rapid Miner realiza análisis predictivos; Apache Spark procesa grandes volúmenes de datos rápidamente; y Qlik View organiza información compleja de manera comprensible. Estas herramientas se adaptan a diversas necesidades en el análisis de datos. ')
-            thead.banner-tabla.text-white
-              th(colspan='2').colorv1 Herramientas para el análisis de los datos
             thead
               tr
-                th.text-white.text-left-cus Herramientas
+                th.text-white.text-left-cus.w-var Herramientas
                 th.text-white.text-left-cus Función
             tbody
               tr.bg27
-                td #[b  Microsoft Power BI]
+                td.w-var #[b  Microsoft Power BI]
                 td Es una herramienta de análisis segura que proporciona una vista interactiva de la información, dando acceso a más de 60 fuentes y compatible con otras aplicaciones.
               tr.bg28
                 td #[b  Programación en R]
