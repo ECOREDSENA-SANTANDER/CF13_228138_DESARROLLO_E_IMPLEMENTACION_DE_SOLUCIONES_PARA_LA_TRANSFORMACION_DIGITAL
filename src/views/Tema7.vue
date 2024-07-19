@@ -129,8 +129,8 @@
       .col-sm-12.col-lg-10
         p.mb-3 Actualmente, es el lenguaje de programación que lidera los desarrollos basados en gestión de datos. En relación con otros lenguajes presenta curva de aprendizaje rápido, cuenta con múltiples librerías que expanden su capacidad y muchos sistemas de manejo de datos e inteligencia artificial lo emplean para codificar sus funcionalidades.
       
-    .row.mb-5
-      .col-sm-12.col-lg-8.mb-4.mb-md-0.m-auto
+    .row
+      .col-sm-12.col-lg-8.mb-md-0.m-auto
         a.anexo.mb-4.mb-lg-0(href="https://py3.codeskulptor.org" target="_blank")
           .anexo__icono
             img(src="@/assets/curso/temas/Tema7/11.svg")
@@ -151,8 +151,8 @@
 
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-md.bg25.p-5
-        .row.mb-4
-          .col-sm-12.col-lg-7.mb-5.mb-md-0
+        .row
+          .col-sm-12.col-lg-7.mb-md-0
             h4.mb-5 En Python, las más comunes y útiles son:
             ul.lista-ul--color
               li.mb-0.pb-0 

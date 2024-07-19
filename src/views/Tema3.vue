@@ -66,21 +66,21 @@
     p.mb-4(data-aos="zoom-in-left") La inteligencia de negocios en sí es una integración de toda la información de la organización, o al menos la más relevante. Tomar diversas fuentes (variabilidad), con información acumulada (volumen) y que además se procesen de manera óptima y rápida (velocidad).
 
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-md-12.col-lg-6.tarjeta.p-5.text-black
+      .col-sm-12.col-md-12.col-lg-6.tarjeta.pt-5.px-5.text-black
         .container-card-2
           .first-card-2
             .row.justify-content-center.mb-4
               .col-sm-12.col-md-12.col-lg-8
                   img(src='@/assets/curso/temas/Tema3/21.svg')
           .second-card-2.bg34
-            h4.px-5.pt-cus Si bien en los libros de consulta y de manera estándar, estas tres V pertenecen al #[i Big Data] de manera estricta, también es aplicable a la inteligencia de negocios.
+            h4.px-5.pt-cus.mb-0 Si bien en los libros de consulta y de manera estándar, estas tres V pertenecen al #[i Big Data] de manera estricta, también es aplicable a la inteligencia de negocios.
       .col-sm-12.col-md-12.col-lg-6.bg24.p-5.text-black
         .row.mb-4
           .col-sm-12.col-md-12.col-lg-3
             figure
               img.d-none.d-lg-block(src='@/assets/curso/temas/Tema3/6.png')
         p.mb-3 Lo primero que se debe evaluar es la integración entre las estrategias de la organización con la implementación de la inteligencia de negocio, como referencia estratégica, cada vez es más importante como apoyo a la gestión y toma de decisiones.
-        p.mb-0 La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. #[b El #[i BI] cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general.]
+        p.mb-3 La analítica proporciona a las empresas capacidades, tales como ayudar a coordinar proyectos, y horarios, optimizar la asignación de personal, recursos, proporcionar la hoja de ruta para alinear con la estrategia corporativa. #[b El #[i BI] cambia datos internos y externos en un formato apropiado proporcionando conocimiento que apoya la toma de decisiones de los procesos o del negocio en general.]
 
     p.mb-5(data-aos="zoom-in-left") #[b En la siguiente ilustración se presentan los aspectos a considerar sobre como #[i BI] integra todas o varias áreas del negocio:]
     .row.mb-0
@@ -93,7 +93,7 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.3 Herramientas de administración
 
-    p.mb-4(data-aos="zoom-in-left") Las herramientas disponibles para la implementación de la inteligencia de negocio en las organizaciones, son amplias y cada vez nuevas marcas y técnicas se disputan el mercado.
+    p.mb-4(data-aos="zoom-in-left") Las herramientas disponibles para la implementación de la inteligencia de negocio en las organizaciones son amplias y cada vez nuevas marcas y técnicas se disputan el mercado.
     .tarjeta--container.mb-5
       .col-md.bg25.p-5.text-black
         h4 Elegir la herramienta adecuada es una variable crítica de éxito, existen múltiples aspectos qué evaluar al momento de decidirse por cuál herramienta emplear. Entre otras razones, se debe hacer análisis de:
@@ -210,7 +210,7 @@
 
   
 
-    p.mb-0(data-aos="zoom-in-left") La modelación de las soluciones #[i BI], depende de las reglas de negocio y los requisitos o problemas a resolver. En los apartados siguientes se detallan las arquitecturas disponibles y el proceso del tratamiento de datos a partir de una mirada de análisis e inteligencia de negocio.                
+    p.mb-0(data-aos="zoom-in-left") La modelación de las soluciones #[i BI] depende de las reglas de negocio y los requisitos o problemas a resolver. En los apartados siguientes se detallan las arquitecturas disponibles y el proceso del tratamiento de datos a partir de una mirada de análisis e inteligencia de negocio.                
         
     Separador
 
@@ -243,7 +243,7 @@
 
     .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Modelo  Inmon
+        h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 300px;').bg-img-blue Modelo Inmon
         img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/103.svg').icon-blue
 
 
@@ -252,7 +252,7 @@
         .bloque-texto-b.bloque-texto-b-izquierda.p-4.mb-4.color-der
           .bloque-texto-b__texto
             p.mb-5 No es muy diferente a Kimball, los principios de transformación y carga a los #[i DWH] contienen los mismos elementos en su arquitectura, sin embargo, la metodología de   Bill Inmon  plantea que los  #[i data marts] deben ir después del almacenamiento de #[i DWH].#[br]#[br]
-            p #[b La metodología  Inmon comienza por generar un arreglo de todos los datos corporativos en el #[i DWH]], para luego identificar y dividir áreas para la generación de los #[i Data Mart] . En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los #[i data marts] y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (consultar figura).
+            p #[b La metodología  Inmon comienza por generar un arreglo de todos los datos corporativos en el #[i DWH]], para luego identificar y dividir áreas para la generación de los #[i Data Mart]. En este modelo se normalizan más los datos, conteniendo menos redundancia; es un poco más complejo de usar a nivel comercial o abierto, sin embargo, podría ser más administrado en el sentido que se crean los #[i data marts] y cada área del negocio podría usarlos creando sus propios cubos de datos o reportes (consultar figura).
     .row(data-aos="zoom-in-left")
       .col-md-12.mx-auto.mb-0
         .titulo-sexto.color-acento-contenido

@@ -116,7 +116,7 @@
           .col-sm-12.col-lg-10.p-4.d-flex.justify-content-center.align-items-center 
             p.mb-0 Uno de los retos más importantes para el gestor y dinamizador de transformación digital en las organizaciones, es la identificación de estos sistemas #[i OLTP], y a partir de su evaluación y preguntas del negocio determinar qué datos se requieren para iniciar su proceso hacia un sistema enfocado a la analítica.
    
-    h5.mb-5(data-aos="zoom-in-left") En el siguiente video se presenta un ejemplo de creación de un modelo entidad relación:
+    h5.mb-5(data-aos="zoom-in-left") En el siguiente video se presenta un ejemplo de construcción de un modelo entidad relación:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
@@ -373,7 +373,7 @@
             figure
               img(src='@/assets/curso/temas/Tema1/25.png')
 
-    p(data-aos="zoom-in-left") Para la manipulación y consulta de datos, es primordial conocer el lenguaje estándar de consulta de las bases de datos relacionales, se invita para que se amplíe el conocimiento sobre este tema en el siguiente video Rendimiento consultas: 
+    p(data-aos="zoom-in-left") Para la manipulación y consulta de datos, es primordial conocer el lenguaje estándar de consulta de las bases de datos relacionales, se invita para que se amplíe el conocimiento sobre este tema en el siguiente video Ordenamiento de datos, indexación y recuperación: 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         figure

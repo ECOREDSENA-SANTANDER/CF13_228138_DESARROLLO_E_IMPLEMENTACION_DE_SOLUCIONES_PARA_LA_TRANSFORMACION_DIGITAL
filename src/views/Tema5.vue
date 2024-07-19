@@ -113,7 +113,7 @@
                 i.fa.fa-check
                 p  #[b Para] evitar gastos de envío que hacen la compra no rentable.
         .row.justify-content-around.align-items-center.mb-3
-          .col-sm-12.col-lg-6
+          .col-sm-12.col-lg-8
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 5.
               span
@@ -258,7 +258,7 @@
             img(src='@/assets/curso/temas/Tema5/13.png')
 
 
-    p.mb-3(data-aos="zoom-in-left") Existen varios motores de bases de datos con núcleo #[i SQL], entre los más conocidos #[i MySQL] de uso libre y otra distribución licenciada por #[i Oracle]. #[b En el siguiente video se presenta las ventajas de #[i Mysql:]]
+    p.mb-3(data-aos="zoom-in-left") Existen varios motores de bases de datos con núcleo #[i SQL], entre los más conocidos #[i MySQL] de uso libre y otra distribución licenciada por #[i Oracle]. #[b En el siguiente video se presentan las ventajas de #[i Mysql:]]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -283,7 +283,7 @@
       h2 5.10 #[i No SQL]
 
     p.mb-3(data-aos="zoom-in-left") Son un tipo de bases de datos cuyo almacenamiento de datos no se realiza en tablas propiamente dicha. Presentan una estructura particular tipo #[i SON o BSON], que consiste en un arreglo de datos por jerarquías, tiene la ventaja sobre las bases de datos relacionales que su desempeño de búsquedas y cargue de datos son más veloces, además, se podría definir que son más flexibles es sus datos y cambios de estructuras que se puedan presentar. Para el manejo de #[i Big data] y grandes cantidades de datos son muy empleadas.
-    p.mb-4(data-aos="zoom-in-left") #[b En siguiente video se explican las ventajas de las bases de datos no relacionales o #[i No SQL:]]
+    p.mb-4(data-aos="zoom-in-left") #[b En siguiente video se explican las ventajas de las #[i No SQL] - Bases de datos relacionales y no relacionales: ]
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12(data-aos="fade-left")

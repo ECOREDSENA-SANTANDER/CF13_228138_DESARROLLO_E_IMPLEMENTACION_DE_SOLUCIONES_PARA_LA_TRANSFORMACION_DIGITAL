@@ -19,15 +19,15 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.p-4.bg20.d-flex.justify-content-center.align-items-center
         img.mx-3.w-50.d-none.d-lg-block(src='@/assets/curso/temas/Tema2/2.svg')
-        p Desde ese mismo momento, la información y la manera de configurar los datos a través del proceso comunicativo (transmisor, emisor, canal, mensaje y contexto) llevan a que aparezcan diversas formas de información y datos, incluso miles de mensajes de las primeras civilizaciones han quedado guardados por miles de años hasta nuestros días a través de pinturas, esculturas y símbolos.
+        p Desde ese mismo momento, la información y la manera de configurar los datos a través del proceso comunicativo (transmisor, emisor, canal, mensaje y contexto) llevan a que aparezcan diversas formas de información y datos, incluso miles de mensajes de las primeras civilizaciones han quedado guardadas por miles de años hasta nuestros días a través de pinturas, esculturas y símbolos.
 
-    .row.mb-5(data-aos="zoom-in-left")
+    .row(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-5.mb-4.mb-md-0.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/Tema2/3.png')
       .col-sm-12.col-md-12.col-lg-7
-        p.mt-3-cus Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados).
-        p.fw-bold.mt-5 En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
+        p Bajo este contexto, es importante recordar la diferencia entre datos e información. Cuando las civilizaciones descubren mensajes de humanos antiguos, no hay manera de interpretar un mensaje, ante los ojos no entrenados esos mensajes solo son símbolos con valor artístico, a partir del conocimiento antropológico los mensajes representan cosas, pero realmente serían solo datos (símbolos) sin información (no interpretados).
+        p.fw-bold En conclusión, los datos no son un asunto nuevo que surge, a partir de la misma evolución humana se van volviendo de igual manera complejos y bastos a medida que las civilizaciones avanzan. 
   
     .row.mb-5.justify-content-center.align-items-center.vs-card.pos-fix-card
       .col-sm-12.col-lg-5.bg18.text-center.p-5
@@ -43,7 +43,7 @@
         p.p-4.fw-bold Por lo que bajo el contexto digital y tecnológico actual los datos se convierten en un asunto de estudio profundo y técnico, pues el desarrollo humano y productivo tiene como plataforma principal, el uso de los datos para volverse en información, así mismo, la información deberá convertirse en conocimiento y este conocimiento es el componente principal para tomar acciones sobre la realidad.
 
     p(data-aos="zoom-in-left") Bajo el contexto técnico, los datos en la era moderna se guardan a través de máquinas digitales a partir de la implementación de Bases de datos (BD).
-    h5.mb-5(data-aos="zoom-in-left") Para ampliar información se recomienda ir al siguiente video donde se profundiza en la diferencia entre dato e información: 
+    h5.mb-5(data-aos="zoom-in-left") Para ampliar información se recomienda ir al siguiente video donde se profundiza en la diferencia entre datos e información: 
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-12
         figure
@@ -174,7 +174,7 @@
     
     .row.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.my-3
-        .bloque-texto-b.color-terciario.py-4.mb-5
+        .bloque-texto-b.color-terciario.py-4
           .bloque-texto-b__texto.d-flex
             i.quote-cus.fas.fa-quote-left
             .flex-column

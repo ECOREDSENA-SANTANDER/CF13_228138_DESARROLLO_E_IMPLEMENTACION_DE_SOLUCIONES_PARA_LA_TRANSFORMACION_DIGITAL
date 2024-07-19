@@ -333,10 +333,10 @@ export default {
     {
       tema: '1. Modelamiento y gestión de bases de datos',
       referencia:
-        'Quintana, G. (2014). Aprende <i>SQL</i>. Universitat Jaume I. Servei de Comunicació i Publicacions. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53252',
-      tipo: 'Libro',
+        'Beaulieu, A. (2019). Aprendendo SQL: Dominando os Fundamentos de SQL. Novatec Editora. https://books.google.es/books?hl=es&lr=&id=63iYDwAAQBAJ&oi=fnd&pg=PT3&dq=Aprende SQL.&ots=6MEf0t50ig&sig=9ZtKG51sGK4VI4Y6m0CcooJUz5U',
+      tipo: 'Blog',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53252',
+        'https://books.google.es/books?hl=es&lr=&id=63iYDwAAQBAJ&oi=fnd&pg=PT3&dq=Aprende+SQL.&ots=6MEf0t50ig&sig=9ZtKG51sGK4VI4Y6m0CcooJUz5U#v=onepage&q&f=false',
     },
     {
       tema: '1.2 Técnicas de almacenamiento de datos y consultas',
@@ -349,7 +349,7 @@ export default {
       tema: '2.2 Detección de errores y datos faltantes',
       referencia:
         'Codificandobits. (s.f). Mapa paso a paso manejo datos faltantes. Blog. https://www.codificandobits.com/descargas/ dl_202100618_mapa_pasos_manejo_datos_faltantes.pdf',
-      tipo: 'Guía',
+      tipo: 'Manual de procedimiento',
       link:
         'https://www.codificandobits.com/descargas/dl_202100618_mapa_pasos_manejo_datos_faltantes.pdf',
     },
@@ -468,21 +468,14 @@ export default {
 
     {
       referencia:
-        'Conza, A. (15 de abril de 2018). ESTÁNDARES PARA DISEÑO E IMPLEMENTACIÓN DE BASES DE DATOS RELACIONALES. Obtenido de',
-      link:
-        'https://adrianconza.medium.com/estandares-de-bases-de-datos-2bee81b53447',
-    },
-
-    {
-      referencia:
-        'Curto Díaz, J. (2016). Introducción al <i>Business Intelligence</i>. Barcelona: Editorial UOC. Obtenido de',
+        'Curto Díaz, J. (2016). Introducción al Business Intelligence. Editorial UOC.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/101030',
     },
 
     {
       referencia:
-        'Díaz, J. C. (2016). Organizaciones orientadas al dato: transformando las organizaciones hacia una cultura analítica. Barcelona: Editorial UOC. Obtenido de',
+        'Curto Díaz, J. (2016). Organizaciones orientadas al dato: transformando las organizaciones hacia una cultura analítica. Editorial UOC.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/58609',
     },
@@ -495,33 +488,33 @@ export default {
 
     {
       referencia:
-        'Gawande, S. (2020). iCEDQ Torana INC. Obtenido de 6 <i>Dimensions of Data Quality, Examples, and Measurement:</i>',
+        'Gawande, S. (2020). iCEDQ Torana INC. 6 Dimensions of Data Quality, Examples, and Measurement.',
       link: 'https://icedq.com/6-data-quality-dimensions',
     },
 
     {
       referencia:
-        'Ommi, A. K. (18 de 02 de 2018). <i>Introduction to Data and Information.</i> Obtenido de <i>MyCloudWiki</i>:',
+        'Ommi, A. K. (2018). Introduction to Data and Information. MyCloudWiki.',
       link: 'https://www.mycloudwiki.com/san/data-and-information-basics/',
     },
 
     {
       referencia:
-        'Pang, A., Markovski, M., & Ristik, M. (22 de septiembre de 2022). Los 10 principales proveedores de <i>software</i> de análisis y <i>BI</i>, tamaño del mercado y pronóstico del mercado 2021-2026. Obtenido de Apps Run the World:',
+        'Pang, A., Markovski, M., & Ristik, M. (2022). Top 10 Analytics and BI Software Vendors, Market Size and Market Forecast 2023-2028. Apps Run the World.',
       link:
         'https://www.appsruntheworld.com/top-10-analytics-and-bi-software-vendors-and-market-forecast/',
     },
 
     {
       referencia:
-        'Pulido Romero, E., Escobar Dominguez, O., & Núñez Pérez, J. (2019). Bases de datos. México DF: Grupo Editorial Patria. Obtenido de',
+        'Pulido Romero, E., Escobar Dominguez, O., & Núñez Pérez, J. (2019). Bases de datos. Grupo Editorial Patria. Obtenido de',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/121283',
     },
 
     {
       referencia:
-        'Velthuis, M. P. (2019). Calidad de datos. Bogotá: Ediciones de la U. Obtenido de',
+        'Velthuis, M. P. (2019). Calidad de datos. Ediciones de la U.',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9094',
     },
   ],

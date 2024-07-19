@@ -8,8 +8,8 @@
       h1 Estructuras y componentes de analítica de datos
 
     
-    .cajon-b.color-primario-2.p-3.mb-5.arriba-izquierda(data-aos="zoom-in-left")
-      .row.mt-5.mb-5
+    .cajon-b.color-primario-2.p-3.arriba-izquierda(data-aos="zoom-in-left")
+      .row.my-cus
         .col-4.px-0.d-none.d-lg-block
             img(src="@/assets/curso/temas/Tema6/1.svg").floating
         .col-sm-12.col-lg-8
@@ -61,15 +61,15 @@
     p.mb-4(data-aos="zoom-in-left") Es aquella que cuyas dimensiones se relacionan directamente con la tabla de hechos, se representa de la siguiente manera (consultar figura): 
 
     .row.justify-content-around.align-items-center.mb-5
-      .col-sm-12.col-lg-8.mb-5
+      .col-sm-12.col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Figura 6.
           span
                 |   #[i DWH] Tipo Estrella
         figure
-          img.mb-5(src='@/assets/curso/temas/Tema6/6.svg', alt='La imagen presenta un diagrama de un Data Warehouse (DWH) de tipo estrella, donde la tabla de hechos "FactResellerSales" está en el centro y está conectada a varias tablas de dimensiones: "DimSalesTerritory," "DimEmployee," "DimReseller," "DimDate," y "DimProduct." Este diseño en estrella facilita consultas eficientes, al permitir la fácil combinación de datos en la tabla de hechos con las dimensiones relacionadas, optimizando así el rendimiento y la simplicidad en el análisis de datos. ')
+          img(src='@/assets/curso/temas/Tema6/6.svg', alt='La imagen presenta un diagrama de un Data Warehouse (DWH) de tipo estrella, donde la tabla de hechos "FactResellerSales" está en el centro y está conectada a varias tablas de dimensiones: "DimSalesTerritory," "DimEmployee," "DimReseller," "DimDate," y "DimProduct." Este diseño en estrella facilita consultas eficientes, al permitir la fácil combinación de datos en la tabla de hechos con las dimensiones relacionadas, optimizando así el rendimiento y la simplicidad en el análisis de datos. ')
 
-    p.mb-0.mt-5(data-aos="zoom-in-left") Vale la pena señalar que muchas tablas giran en torno a la tabla principal, conocida como la tabla de hechos, la cual generalmente contiene las claves primarias de las dimensiones asociadas, así como las cifras o medidas obtenidas previamente en el proceso #[i ETL]. 
+    p.mb-0(data-aos="zoom-in-left") Vale la pena señalar que muchas tablas giran en torno a la tabla principal, conocida como la tabla de hechos, la cual generalmente contiene las claves primarias de las dimensiones asociadas, así como las cifras o medidas obtenidas previamente en el proceso #[i ETL]. 
 
     Separador
 
