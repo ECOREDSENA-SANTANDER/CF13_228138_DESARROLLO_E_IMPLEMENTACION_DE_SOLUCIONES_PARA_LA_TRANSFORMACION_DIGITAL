@@ -315,7 +315,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF13_228138_DU.pdf',
+        download: 'downloads/CF13_228138_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -330,14 +330,6 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema: '1. Modelamiento y gestión de bases de datos',
-      referencia:
-        'Beaulieu, A. (2019). Aprendendo SQL: Dominando os Fundamentos de SQL. Novatec Editora. https://books.google.es/books?hl=es&lr=&id=63iYDwAAQBAJ&oi=fnd&pg=PT3&dq=Aprende SQL.&ots=6MEf0t50ig&sig=9ZtKG51sGK4VI4Y6m0CcooJUz5U',
-      tipo: 'Blog',
-      link:
-        'https://books.google.es/books?hl=es&lr=&id=63iYDwAAQBAJ&oi=fnd&pg=PT3&dq=Aprende+SQL.&ots=6MEf0t50ig&sig=9ZtKG51sGK4VI4Y6m0CcooJUz5U#v=onepage&q&f=false',
-    },
     {
       tema: '1.2 Técnicas de almacenamiento de datos y consultas',
       referencia:
